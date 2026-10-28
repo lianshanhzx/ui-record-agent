@@ -1,0 +1,136 @@
+[
+  {
+    "text": "查看客户管理团队\n新增\n删除\n\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n查看历史修改记录\n历史修改记录\n客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值\n已加载全部内容，共 0 条 / 1 页\n查看用户登记信息\n登记人名称\n登记机构\n登记日期\n更新人\n更新机构\n更新日期\n日期\n1. 查看客户管理团队\n2. 查看历史修改记录\n3. 查看用户登记信息",
+    "forms": [
+      {
+        "label": "登记人名称",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "登记机构",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": true,
+            "placeholder": ""
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "登记日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "更新人",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "更新机构",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "更新日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "2026-10-12",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      }
+    ]
+  }
+]

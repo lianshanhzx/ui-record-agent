@@ -1,0 +1,1125 @@
+{
+  "generatedAt": "2026-10-19T04:04:57.953Z",
+  "profile": "对公客户评级62功能点全新录制",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 134907,
+  "summary": {
+    "total": 7,
+    "pass": 7,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "M02-05",
+      "transaction": "创建评级业务与启动流程",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382563557,
+      "durationMs": 20392,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 8945,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M02-05_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "评级申请",
+          "action": "click",
+          "ms": 1007,
+          "status": "ok",
+          "detail": "点击「评级申请」",
+          "screenshot": "M02-05_02_评级申请.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "对公客户评级申请",
+          "action": "click",
+          "ms": 352,
+          "status": "ok",
+          "detail": "弹窗可见：对公客户评级申请",
+          "screenshot": "M02-05_03_对公客户评级申请.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "打开评级客户选择",
+          "action": "click",
+          "ms": 1018,
+          "status": "ok",
+          "detail": "点击「打开评级客户选择」",
+          "screenshot": "M02-05_04_打开评级客户选择.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "申请客户下拉选择",
+          "action": "click",
+          "ms": 353,
+          "status": "ok",
+          "detail": "弹窗可见：申请客户下拉选择",
+          "screenshot": "M02-05_05_申请客户下拉选择.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "查询评级客户",
+          "action": "input",
+          "ms": 449,
+          "status": "ok",
+          "detail": "输入「查询评级客户」= AT_1015_A3V6",
+          "screenshot": "M02-05_06_查询评级客户.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择评级客户",
+          "action": "click",
+          "ms": 980,
+          "status": "ok",
+          "detail": "点击「选择评级客户」",
+          "screenshot": "M02-05_07_选择评级客户.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "下一步风险阻断",
+          "action": "click",
+          "ms": 1061,
+          "status": "ok",
+          "detail": "点击「下一步风险阻断」",
+          "screenshot": "M02-05_08_下一步风险阻断.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "确定创建评级申请",
+          "action": "click",
+          "ms": 972,
+          "status": "ok",
+          "detail": "点击「确定创建评级申请」",
+          "screenshot": "M02-05_09_确定创建评级申请.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 2255,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&id=2112031727152771072&comTp=1&cstTp=04&bsnNo=PJ20261019020152&bsnPk=PJ20261019020152&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261019020152%22,%22cstNm%22%3A%22AT_1015_A3V6%22,%22cstNo%22%3A%22261016124912721295%22%7D&tblBlId=PJ20261019020152&cstNo=261016124912721295&cstNm=AT_1015_A3V6&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382580285",
+          "screenshot": "M02-05_10_新增对公客户评级.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1026,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M02-05_11_返回评级列表.png"
+        },
+        {
+          "id": "12",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 556,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M02-05_12_对公客户评级.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 426,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M02-05_13_业务编号.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 990,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M02-05_14_精确查询评级记录.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "fba6a0b2838b717e8a3cb9809d6972fc640ad19cc235b18f8d98aed1aef04dad"
+    },
+    {
+      "file": "M04-05",
+      "transaction": "上传用户提供征信授权书",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382584030,
+      "durationMs": 25768,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 6333,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-05_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 421,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-05_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 995,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-05_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1066,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-05_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 980,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-05_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 558,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382593379",
+          "screenshot": "M04-05_06_新增对公客户评级.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择本轮评级客户征信对象",
+          "action": "click",
+          "ms": 1065,
+          "status": "ok",
+          "detail": "选中行「选择本轮评级客户征信对象」",
+          "screenshot": "M04-05_07_选择本轮评级客户征信对象.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "打开征信授权书信息",
+          "action": "click",
+          "ms": 980,
+          "status": "ok",
+          "detail": "点击「打开征信授权书信息」",
+          "screenshot": "M04-05_08_打开征信授权书信息.png"
+        },
+        {
+          "id": "9",
+          "type": "popup",
+          "name": "上传征信授权书",
+          "action": "click",
+          "ms": 355,
+          "status": "ok",
+          "detail": "弹窗可见：上传征信授权书",
+          "screenshot": "M04-05_09_上传征信授权书.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "授权日期",
+          "action": "input",
+          "ms": 421,
+          "status": "ok",
+          "detail": "输入「授权日期」= 2026-10-14",
+          "screenshot": "M04-05_10_授权日期.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "授权日期失焦",
+          "action": "click",
+          "ms": 977,
+          "status": "ok",
+          "detail": "点击「授权日期失焦」",
+          "screenshot": "M04-05_11_授权日期失焦.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查询方式",
+          "action": "select:click",
+          "ms": 1139,
+          "status": "ok",
+          "detail": "下拉选择「查询方式」= 人行数据",
+          "screenshot": "M04-05_12_查询方式.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "上传用户提供授权书",
+          "action": "file:choose",
+          "ms": 996,
+          "status": "ok",
+          "detail": "点击「上传用户提供授权书」并选择文件 AT_征信授权书.png",
+          "screenshot": "M04-05_13_上传用户提供授权书.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "保存征信授权信息",
+          "action": "click",
+          "ms": 987,
+          "status": "ok",
+          "detail": "点击「保存征信授权信息」",
+          "screenshot": "M04-05_14_保存征信授权信息.png"
+        },
+        {
+          "id": "15",
+          "type": "popup",
+          "name": "授权信息确认",
+          "action": "click",
+          "ms": 361,
+          "status": "ok",
+          "detail": "弹窗可见：授权信息确认",
+          "screenshot": "M04-05_15_授权信息确认.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "确认授权书信息",
+          "action": "click",
+          "ms": 987,
+          "status": "ok",
+          "detail": "点击「确认授权书信息」",
+          "screenshot": "M04-05_16_确认授权书信息.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1006,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-05_17_返回评级列表.png"
+        },
+        {
+          "id": "18",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 555,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-05_18_对公客户评级.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 404,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-05_19_业务编号.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 981,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-05_20_精确查询评级记录.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1064,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-05_21_选择评级记录.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1025,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-05_22_修改.png"
+        },
+        {
+          "id": "23",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 566,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382607092",
+          "screenshot": "M04-05_23_新增对公客户评级.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1000,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-05_24_返回评级列表.png"
+        },
+        {
+          "id": "25",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 543,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-05_25_对公客户评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "6b139d949303382a9fd3cc67d11340790593045ea50f0491c71f554b28addc9f"
+    },
+    {
+      "file": "M04-06",
+      "transaction": "征信授权信息保存与反查",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382609899,
+      "durationMs": 26845,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 8239,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-06_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 404,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-06_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 974,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-06_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1062,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-06_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1048,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-06_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 607,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382621048",
+          "screenshot": "M04-06_06_新增对公客户评级.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择本轮评级客户征信对象",
+          "action": "click",
+          "ms": 1083,
+          "status": "ok",
+          "detail": "选中行「选择本轮评级客户征信对象」",
+          "screenshot": "M04-06_07_选择本轮评级客户征信对象.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "打开征信授权书信息",
+          "action": "click",
+          "ms": 971,
+          "status": "ok",
+          "detail": "点击「打开征信授权书信息」",
+          "screenshot": "M04-06_08_打开征信授权书信息.png"
+        },
+        {
+          "id": "9",
+          "type": "popup",
+          "name": "上传征信授权书",
+          "action": "click",
+          "ms": 359,
+          "status": "ok",
+          "detail": "弹窗可见：上传征信授权书",
+          "screenshot": "M04-06_09_上传征信授权书.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "授权日期",
+          "action": "input",
+          "ms": 437,
+          "status": "ok",
+          "detail": "输入「授权日期」= 2026-10-14",
+          "screenshot": "M04-06_10_授权日期.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "授权日期失焦",
+          "action": "click",
+          "ms": 969,
+          "status": "ok",
+          "detail": "点击「授权日期失焦」",
+          "screenshot": "M04-06_11_授权日期失焦.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查询方式",
+          "action": "select:click",
+          "ms": 1115,
+          "status": "ok",
+          "detail": "下拉选择「查询方式」= 人行数据",
+          "screenshot": "M04-06_12_查询方式.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "保存征信授权信息",
+          "action": "click",
+          "ms": 992,
+          "status": "ok",
+          "detail": "点击「保存征信授权信息」",
+          "screenshot": "M04-06_13_保存征信授权信息.png"
+        },
+        {
+          "id": "14",
+          "type": "popup",
+          "name": "授权信息确认",
+          "action": "click",
+          "ms": 349,
+          "status": "ok",
+          "detail": "弹窗可见：授权信息确认",
+          "screenshot": "M04-06_14_授权信息确认.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "确认授权书信息",
+          "action": "click",
+          "ms": 994,
+          "status": "ok",
+          "detail": "点击「确认授权书信息」",
+          "screenshot": "M04-06_15_确认授权书信息.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1018,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-06_16_返回评级列表.png"
+        },
+        {
+          "id": "17",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 551,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-06_17_对公客户评级.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 400,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-06_18_业务编号.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 985,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-06_19_精确查询评级记录.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1066,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-06_20_选择评级记录.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1081,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-06_21_修改.png"
+        },
+        {
+          "id": "22",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 582,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382634052",
+          "screenshot": "M04-06_22_新增对公客户评级.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1006,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-06_23_返回评级列表.png"
+        },
+        {
+          "id": "24",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 551,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-06_24_对公客户评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "5d7d1b6fb5cfac53d20dc07913170178f18d7fa44a0169f94653bfba20eb1519"
+    },
+    {
+      "file": "M04-07",
+      "transaction": "获取已授权测试客户最新征信报告",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382636869,
+      "durationMs": 17302,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 7978,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-07_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 419,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-07_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 998,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-07_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1074,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-07_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1082,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-07_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 566,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382647759",
+          "screenshot": "M04-07_06_新增对公客户评级.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择本轮评级客户征信对象",
+          "action": "click",
+          "ms": 1072,
+          "status": "ok",
+          "detail": "选中行「选择本轮评级客户征信对象」",
+          "screenshot": "M04-07_07_选择本轮评级客户征信对象.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "获取最新征信报告",
+          "action": "click",
+          "ms": 987,
+          "status": "ok",
+          "detail": "点击「获取最新征信报告」",
+          "screenshot": "M04-07_08_获取最新征信报告.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 2568,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-07_09_返回评级列表.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 556,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-07_10_对公客户评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "5498ce3e0105503aca3aef752f008f6704db44cc9553ed86b2c61f2937d38094"
+    },
+    {
+      "file": "M04-08",
+      "transaction": "征信报告重新获取及复用条件核对",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382654326,
+      "durationMs": 15275,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 7069,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-08_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 417,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-08_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 991,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-08_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1079,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-08_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 988,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-08_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 559,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382664485",
+          "screenshot": "M04-08_06_新增对公客户评级.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择已授权测试客户",
+          "action": "click",
+          "ms": 1632,
+          "status": "ok",
+          "detail": "选中行「选择已授权测试客户」",
+          "screenshot": "M04-08_07_选择已授权测试客户.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "再次获取最新征信报告",
+          "action": "click",
+          "ms": 971,
+          "status": "ok",
+          "detail": "点击「再次获取最新征信报告」",
+          "screenshot": "M04-08_08_再次获取最新征信报告.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1021,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-08_09_返回评级列表.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 547,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-08_10_对公客户评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "cd1b49d779d94296617fdf9ae339a36fb355210157d9eeeba5917bae2a0b9b4f"
+    },
+    {
+      "file": "M04-10",
+      "transaction": "查看已授权测试客户征信报告",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382669760,
+      "durationMs": 14620,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 6909,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-10_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 409,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M04-10_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 984,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M04-10_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1060,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M04-10_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1073,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "M04-10_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "新增对公客户评级",
+          "action": "click",
+          "ms": 563,
+          "status": "ok",
+          "detail": "进入页面 新增对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020152&bsnNo=PJ20261019020152&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792382679627",
+          "screenshot": "M04-10_06_新增对公客户评级.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "选择本轮评级客户征信对象",
+          "action": "click",
+          "ms": 1075,
+          "status": "ok",
+          "detail": "选中行「选择本轮评级客户征信对象」",
+          "screenshot": "M04-10_07_选择本轮评级客户征信对象.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查看征信报告",
+          "action": "click",
+          "ms": 996,
+          "status": "ok",
+          "detail": "点击「查看征信报告」",
+          "screenshot": "M04-10_08_查看征信报告.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "返回评级列表",
+          "action": "click",
+          "ms": 1005,
+          "status": "ok",
+          "detail": "点击「返回评级列表」",
+          "screenshot": "M04-10_09_返回评级列表.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 545,
+          "status": "ok",
+          "detail": "进入页面 对公客户评级 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M04-10_10_对公客户评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "6314fc4cee379285fa846e0df3d5b4e213aee7a0e10dc69d4f941780176e3cc8"
+    },
+    {
+      "file": "M01-07",
+      "transaction": "删除本轮待发起评级记录",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792382684541,
+      "durationMs": 13284,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 7135,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-07_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 413,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M01-07_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 983,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M01-07_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选择评级记录",
+          "action": "click",
+          "ms": 1071,
+          "status": "ok",
+          "detail": "选中行「选择评级记录」",
+          "screenshot": "M01-07_04_选择评级记录.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "删除本轮测试评级",
+          "action": "click",
+          "ms": 978,
+          "status": "ok",
+          "detail": "点击「删除本轮测试评级」",
+          "screenshot": "M01-07_05_删除本轮测试评级.png"
+        },
+        {
+          "id": "6",
+          "type": "popup",
+          "name": "删除确认",
+          "action": "click",
+          "ms": 347,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认",
+          "screenshot": "M01-07_06_删除确认.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "确认删除待发起评级",
+          "action": "click",
+          "ms": 969,
+          "status": "ok",
+          "detail": "点击「确认删除待发起评级」",
+          "screenshot": "M01-07_07_确认删除待发起评级.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 426,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20261019020152",
+          "screenshot": "M01-07_08_业务编号.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 960,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M01-07_09_精确查询评级记录.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [],
+      "sourceSha256": "cbfa0d695149b6257b699050c4a1e242d8599a5637125180a91c6f5916104f44"
+    }
+  ]
+}

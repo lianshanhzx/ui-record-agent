@@ -1,0 +1,62 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00098110",
+      "transcationName": "T6 黑名单管理-下载模板",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "黑名单管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "screenCapture": "http://172.19.87.169:9001/uara-step-phase-picture/screenshots/T1-01-list.png"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='下载模板']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "下载模板",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "realLabel": "下载模板",
+          "rect": "{\"x1\":0.2667,\"y1\":0.2535,\"x2\":0.3472,\"y2\":0.2891}"
+        },
+        {
+          "propertiesName": "模板下载完成（blackTemplate.xlsx；本测试环境服务端 static/files/blackTemplate.xlsx 缺失，下载文件为 0 字节，属服务端数据缺陷，接口与文件名契约正常）",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "blackTemplate.xlsx",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesID": "3",
+          "propertiesPID": "2",
+          "realLabel": "",
+          "rect": "",
+          "screenCapture": "http://172.19.87.169:9001/uara-step-phase-picture/screenshots/T1-01-list.png"
+        }
+      ]
+    }
+  ]
+}

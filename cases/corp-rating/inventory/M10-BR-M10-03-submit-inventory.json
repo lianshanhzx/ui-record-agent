@@ -1,0 +1,53 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020146&bsnNo=PJ20261019020146&cstNo=26081315592971621&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792381544321",
+  "fields": [
+    {
+      "label": "流程操作",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "意见详情",
+      "controls": [
+        {
+          "type": "TEXTAREA",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    }
+  ],
+  "components": [],
+  "buttons": [
+    {
+      "label": "上一页",
+      "disabled": false
+    },
+    {
+      "label": "返回",
+      "disabled": false
+    },
+    {
+      "label": "流程提交",
+      "disabled": false
+    },
+    {
+      "label": "流程撤销",
+      "disabled": false
+    },
+    {
+      "label": "流程轨迹",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

@@ -1,0 +1,1000 @@
+{
+  "generatedAt": "2026-09-21T12:20:55.009Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 180864,
+  "summary": {
+    "total": 8,
+    "pass": 3,
+    "warn": 5,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "T1-query",
+      "transaction": "T1 黑名单管理-名单查询",
+      "pageId": "ZJJK00098110",
+      "status": "pass",
+      "startedAt": 1789993074364,
+      "durationMs": 13052,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8751,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T1-query_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 385,
+          "status": "ok",
+          "detail": "输入「客户名称」= 厦门",
+          "screenshot": "T1-query_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1310,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T1-query_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "重置",
+          "action": "click",
+          "ms": 1297,
+          "status": "ok",
+          "detail": "点击「重置」",
+          "screenshot": "T1-query_04_重置.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查询-恢复全量",
+          "action": "click",
+          "ms": 1309,
+          "status": "ok",
+          "detail": "点击「查询-恢复全量」",
+          "screenshot": "T1-query_05_查询-恢复全量.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "T2-add",
+      "transaction": "T2 黑名单管理-新增黑名单（对私客户）",
+      "pageId": "ZJJK00105226",
+      "status": "warn",
+      "startedAt": 1789993087472,
+      "durationMs": 31434,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8274,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2-add_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 1295,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "T2-add_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "page",
+          "name": "黑名单新增 - 天阳宏业",
+          "action": "click",
+          "ms": 576,
+          "status": "ok",
+          "detail": "进入页面 黑名单新增 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/crtBlist/hostCstmgrCrtBlistInf/FS00004672HostCstmgrCrtBlistInf?newtag=false&needupdate=yes&newTag=true&avyEcd=UML00066184&fcnScnEcd=FS00004672&v=1789993096257",
+          "screenshot": "T2-add_03_黑名单新增 - 天阳宏业.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "引入",
+          "action": "click",
+          "ms": 1306,
+          "status": "ok",
+          "detail": "点击「引入」",
+          "screenshot": "T2-add_04_引入.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "客户放大镜（对私客户）",
+          "action": "click",
+          "ms": 355,
+          "status": "ok",
+          "detail": "弹窗可见：客户放大镜（对私客户）",
+          "screenshot": "T2-add_05_客户放大镜（对私客户）.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 381,
+          "status": "ok",
+          "detail": "输入「客户名称」= 王静平",
+          "screenshot": "T2-add_06_客户名称.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1297,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2-add_07_查询.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选中客户行（王静平 26080517362620420）",
+          "action": "click",
+          "ms": 1080,
+          "status": "ok",
+          "detail": "选中行「选中客户行（王静平 26080517362620420）」",
+          "screenshot": "T2-add_08_选中客户行（王静平 26080517362620420）.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "确认",
+          "action": "click",
+          "ms": 1319,
+          "status": "ok",
+          "detail": "点击「确认」",
+          "screenshot": "T2-add_09_确认.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "黑名单类型",
+          "action": "select:click",
+          "ms": 1187,
+          "status": "ok",
+          "detail": "下拉选择「黑名单类型」= 五级分类为次级/可疑/损失",
+          "screenshot": "T2-add_10_黑名单类型.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "拦截等级标识",
+          "action": "select:click",
+          "ms": 1151,
+          "status": "ok",
+          "detail": "下拉选择「拦截等级标识」= 仅预警不阻断",
+          "screenshot": "T2-add_11_拦截等级标识.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "加入原因",
+          "action": "input",
+          "ms": 363,
+          "status": "ok",
+          "detail": "输入「加入原因」= 黑名单自动化录制测试T2",
+          "screenshot": "T2-add_12_加入原因.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 1304,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "T2-add_13_保存.png"
+        },
+        {
+          "id": "14",
+          "type": "page",
+          "name": "黑名单管理列表 - 验证",
+          "action": "click",
+          "ms": 9883,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 验证（点「返回」返回）→ http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2-add_14_黑名单管理列表 - 验证.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 369,
+          "status": "ok",
+          "detail": "输入「客户名称」= 王静平",
+          "screenshot": "T2-add_15_客户名称.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1293,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2-add_16_查询.png"
+        }
+      ],
+      "warnings": [
+        "页面「黑名单管理列表 - 验证」未自然跳转（报文未录导航动作），引擎点击「返回」按钮返回"
+      ],
+      "errors": []
+    },
+    {
+      "file": "T2b-add-public",
+      "transaction": "T2b 黑名单管理-新增黑名单（对公客户）",
+      "pageId": "ZJJK00105226",
+      "status": "warn",
+      "startedAt": 1789993118964,
+      "durationMs": 32946,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8399,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2b-add-public_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 1306,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "T2b-add-public_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "page",
+          "name": "黑名单新增 - 天阳宏业",
+          "action": "click",
+          "ms": 557,
+          "status": "ok",
+          "detail": "进入页面 黑名单新增 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/crtBlist/hostCstmgrCrtBlistInf/FS00004672HostCstmgrCrtBlistInf?newtag=false&needupdate=yes&newTag=true&avyEcd=UML00066184&fcnScnEcd=FS00004672&v=1789993127938",
+          "screenshot": "T2b-add-public_03_黑名单新增 - 天阳宏业.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "引入",
+          "action": "click",
+          "ms": 1316,
+          "status": "ok",
+          "detail": "点击「引入」",
+          "screenshot": "T2b-add-public_04_引入.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "客户放大镜（对公客户）",
+          "action": "click",
+          "ms": 370,
+          "status": "ok",
+          "detail": "弹窗可见：客户放大镜（对公客户）",
+          "screenshot": "T2b-add-public_05_客户放大镜（对公客户）.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "对公客户",
+          "action": "click",
+          "ms": 1342,
+          "status": "ok",
+          "detail": "点击「对公客户」",
+          "screenshot": "T2b-add-public_06_对公客户.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 371,
+          "status": "ok",
+          "detail": "输入「客户名称」= 杭州云测九一五",
+          "screenshot": "T2b-add-public_07_客户名称.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1302,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2b-add-public_08_查询.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "选中客户行（杭州云测九一五科技有限公司 26091515250444076）",
+          "action": "click",
+          "ms": 1084,
+          "status": "ok",
+          "detail": "选中行「选中客户行（杭州云测九一五科技有限公司 26091515250444076）」",
+          "screenshot": "T2b-add-public_09_选中客户行（杭州云测九一五科技有限公司 26091515250444076）.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "确认",
+          "action": "click",
+          "ms": 1314,
+          "status": "ok",
+          "detail": "点击「确认」",
+          "screenshot": "T2b-add-public_10_确认.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "黑名单类型",
+          "action": "select:click",
+          "ms": 1170,
+          "status": "ok",
+          "detail": "下拉选择「黑名单类型」= 五级分类为次级/可疑/损失",
+          "screenshot": "T2b-add-public_11_黑名单类型.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "拦截等级标识",
+          "action": "select:click",
+          "ms": 1182,
+          "status": "ok",
+          "detail": "下拉选择「拦截等级标识」= 仅预警不阻断",
+          "screenshot": "T2b-add-public_12_拦截等级标识.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "加入原因",
+          "action": "input",
+          "ms": 381,
+          "status": "ok",
+          "detail": "输入「加入原因」= 黑名单自动化录制测试T2b",
+          "screenshot": "T2b-add-public_13_加入原因.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 1304,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "T2b-add-public_14_保存.png"
+        },
+        {
+          "id": "15",
+          "type": "page",
+          "name": "黑名单管理列表 - 验证",
+          "action": "click",
+          "ms": 9850,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 验证（点「返回」返回）→ http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2b-add-public_15_黑名单管理列表 - 验证.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 364,
+          "status": "ok",
+          "detail": "输入「客户名称」= 杭州云测九一五",
+          "screenshot": "T2b-add-public_16_客户名称.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1334,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2b-add-public_17_查询.png"
+        }
+      ],
+      "warnings": [
+        "页面「黑名单管理列表 - 验证」未自然跳转（报文未录导航动作），引擎点击「返回」按钮返回"
+      ],
+      "errors": []
+    },
+    {
+      "file": "T2c-add-smb",
+      "transaction": "T2c 黑名单管理-新增黑名单（同业客户）",
+      "pageId": "ZJJK00105226",
+      "status": "warn",
+      "startedAt": 1789993151964,
+      "durationMs": 32992,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8447,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2c-add-smb_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 1294,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "T2c-add-smb_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "page",
+          "name": "黑名单新增 - 天阳宏业",
+          "action": "click",
+          "ms": 554,
+          "status": "ok",
+          "detail": "进入页面 黑名单新增 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/crtBlist/hostCstmgrCrtBlistInf/FS00004672HostCstmgrCrtBlistInf?newtag=false&needupdate=yes&newTag=true&avyEcd=UML00066184&fcnScnEcd=FS00004672&v=1789993161080",
+          "screenshot": "T2c-add-smb_03_黑名单新增 - 天阳宏业.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "引入",
+          "action": "click",
+          "ms": 1335,
+          "status": "ok",
+          "detail": "点击「引入」",
+          "screenshot": "T2c-add-smb_04_引入.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "客户放大镜（同业客户）",
+          "action": "click",
+          "ms": 364,
+          "status": "ok",
+          "detail": "弹窗可见：客户放大镜（同业客户）",
+          "screenshot": "T2c-add-smb_05_客户放大镜（同业客户）.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "同业客户",
+          "action": "click",
+          "ms": 1366,
+          "status": "ok",
+          "detail": "点击「同业客户」",
+          "screenshot": "T2c-add-smb_06_同业客户.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 364,
+          "status": "ok",
+          "detail": "输入「客户名称」= 交通银行",
+          "screenshot": "T2c-add-smb_07_客户名称.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1302,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2c-add-smb_08_查询.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "选中客户行（交通银行股份有限公司厦门分行 26051920431217102）",
+          "action": "click",
+          "ms": 1101,
+          "status": "ok",
+          "detail": "选中行「选中客户行（交通银行股份有限公司厦门分行 26051920431217102）」",
+          "screenshot": "T2c-add-smb_09_选中客户行（交通银行股份有限公司厦门分行 26051920431217102）.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "确认",
+          "action": "click",
+          "ms": 1315,
+          "status": "ok",
+          "detail": "点击「确认」",
+          "screenshot": "T2c-add-smb_10_确认.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "黑名单类型",
+          "action": "select:click",
+          "ms": 1185,
+          "status": "ok",
+          "detail": "下拉选择「黑名单类型」= 五级分类为次级/可疑/损失",
+          "screenshot": "T2c-add-smb_11_黑名单类型.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "拦截等级标识",
+          "action": "select:click",
+          "ms": 1154,
+          "status": "ok",
+          "detail": "下拉选择「拦截等级标识」= 仅预警不阻断",
+          "screenshot": "T2c-add-smb_12_拦截等级标识.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "加入原因",
+          "action": "input",
+          "ms": 373,
+          "status": "ok",
+          "detail": "输入「加入原因」= 黑名单自动化录制测试T2c",
+          "screenshot": "T2c-add-smb_13_加入原因.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 1301,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "T2c-add-smb_14_保存.png"
+        },
+        {
+          "id": "15",
+          "type": "page",
+          "name": "黑名单管理列表 - 验证",
+          "action": "click",
+          "ms": 9858,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 验证（点「返回」返回）→ http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T2c-add-smb_15_黑名单管理列表 - 验证.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 365,
+          "status": "ok",
+          "detail": "输入「客户名称」= 交通银行",
+          "screenshot": "T2c-add-smb_16_客户名称.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1314,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T2c-add-smb_17_查询.png"
+        }
+      ],
+      "warnings": [
+        "页面「黑名单管理列表 - 验证」未自然跳转（报文未录导航动作），引擎点击「返回」按钮返回"
+      ],
+      "errors": []
+    },
+    {
+      "file": "T3-modify",
+      "transaction": "T3 黑名单管理-修改黑名单",
+      "pageId": "ZJJK00105231",
+      "status": "warn",
+      "startedAt": 1789993185008,
+      "durationMs": 27963,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8994,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T3-modify_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 374,
+          "status": "ok",
+          "detail": "输入「客户名称」= 杭州云测九一五",
+          "screenshot": "T3-modify_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1315,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T3-modify_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中记录行（杭州云测九一五科技有限公司 26091515250444076）",
+          "action": "click",
+          "ms": 1083,
+          "status": "ok",
+          "detail": "选中行「选中记录行（杭州云测九一五科技有限公司 26091515250444076）」",
+          "screenshot": "T3-modify_04_选中记录行（杭州云测九一五科技有限公司 26091515250444076）.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1295,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "T3-modify_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "黑名单修改 - 天阳宏业（客户要素锁定，仅可改黑名单类型/拦截等级标识/加入原因）",
+          "action": "click",
+          "ms": 569,
+          "status": "ok",
+          "detail": "进入页面 黑名单修改 - 天阳宏业（客户要素锁定，仅可改黑名单类型/拦截等级标识/加入原因） → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/modBlist/cstmgrModBlistInf/FS00004673CstmgrModBlistInf?newtag=false&needupdate=yes&newTag=true&crtInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&id=2101997257284603904&cstNo=26091515250444076&bsnNo=CHD20260921044029&cstCgy=60&cstNm=%E6%9D%AD%E5%B7%9E%E4%BA%91%E6%B5%8B%E4%B9%9D%E4%B8%80%E4%BA%94%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&crdtTp=20120&crdtNo=91350400563703658G&jnRsn=%E9%BB%91%E5%90%8D%E5%8D%95%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BD%95%E5%88%B6%E6%B5%8B%E8%AF%95T3%E4%BF%AE%E6%94%B9&blistTp=A004&nmlstAfmTp=2&intcptGrdId=1&chnlSrcTp=20304&createUser=%E9%BB%84%E6%9F%90%E6%9F%90&createInst=9881&createTime=2026-09-21%2019%3A29%3A27&updateUser=701994&updateInst=9881&updateTime=2026-09-21%2020%3A14%3A47&hdlUser=701994&hdlInst=9881&hdlTime=2026-09-21%2019%3A29%3A34&tenantId=9881&tsRowIndex=0&viewType=edit&avyEcd=UML00047588&fcnScnEcd=FS00004673&v=1789993196984",
+          "screenshot": "T3-modify_06_黑名单修改 - 天阳宏业（客户要素锁定，仅可改黑名单类型_拦截等级标识_加入原因.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "黑名单类型",
+          "action": "select:click",
+          "ms": 1167,
+          "status": "ok",
+          "detail": "下拉选择「黑名单类型」= 已核销贷款户",
+          "screenshot": "T3-modify_07_黑名单类型.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "加入原因",
+          "action": "input",
+          "ms": 364,
+          "status": "ok",
+          "detail": "输入「加入原因」= 黑名单自动化录制测试T3修改",
+          "screenshot": "T3-modify_08_加入原因.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 1301,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "T3-modify_09_保存.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "黑名单管理列表 - 验证修改生效",
+          "action": "click",
+          "ms": 9830,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 验证修改生效（点「返回」返回）→ http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T3-modify_10_黑名单管理列表 - 验证修改生效.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 367,
+          "status": "ok",
+          "detail": "输入「客户名称」= 杭州云测九一五",
+          "screenshot": "T3-modify_11_客户名称.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1304,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T3-modify_12_查询.png"
+        }
+      ],
+      "warnings": [
+        "页面「黑名单管理列表 - 验证修改生效」未自然跳转（报文未录导航动作），引擎点击「返回」按钮返回"
+      ],
+      "errors": []
+    },
+    {
+      "file": "T4-view",
+      "transaction": "T4 黑名单管理-查看黑名单",
+      "pageId": "ZJJK00090524",
+      "status": "pass",
+      "startedAt": 1789993213022,
+      "durationMs": 15166,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8566,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T4-view_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 374,
+          "status": "ok",
+          "detail": "输入「客户名称」= 王静平",
+          "screenshot": "T4-view_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1315,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T4-view_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中记录行（王静平 26080517362620420）",
+          "action": "click",
+          "ms": 1090,
+          "status": "ok",
+          "detail": "选中行「选中记录行（王静平 26080517362620420）」",
+          "screenshot": "T4-view_04_选中记录行（王静平 26080517362620420）.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查看",
+          "action": "click",
+          "ms": 1379,
+          "status": "ok",
+          "detail": "点击「查看」",
+          "screenshot": "T4-view_05_查看.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "黑名单查看（只读，viewType=look；断言：客户编号/名称/证件类型/证件号码/黑名单类型/拦截等级/加入理由与列表一致，认定类型显示系统认定）",
+          "action": "click",
+          "ms": 555,
+          "status": "ok",
+          "detail": "进入页面 黑名单查看（只读，viewType=look；断言：客户编号/名称/证件类型/证件号码/黑名单类型/拦截等级/加入理由与列表一致，认定类型显示系统认定） → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistInf/hpermUsrEnqrBlistInf/FS00001444HpermUsrEnqrBlistInf?newtag=false&needupdate=yes&newTag=true&crtInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&id=2101997191782158336&cstNo=26080517362620420&bsnNo=CHD20260921044028&cstCgy=10&cstNm=%E7%8E%8B%E9%9D%99%E5%B9%B3&crdtTp=100&crdtNo=620100198509067169&jnRsn=%E9%BB%91%E5%90%8D%E5%8D%95%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BD%95%E5%88%B6%E6%B5%8B%E8%AF%95T2&blistTp=A001&nmlstAfmTp=2&intcptGrdId=1&chnlSrcTp=20304&createUser=%E9%BB%84%E6%9F%90%E6%9F%90&createInst=9881&createTime=2026-09-21%2019%3A29%3A14&updateUser=701994&updateInst=9881&updateTime=2026-09-21%2019%3A29%3A18&hdlUser=701994&hdlInst=9881&hdlTime=2026-09-21%2019%3A29%3A18&tenantId=9881&tsRowIndex=0&viewType=look&avyEcd=UML00005967&fcnScnEcd=FS00001444&v=1789993225319",
+          "screenshot": "T4-view_06_黑名单查看（只读，viewType=look；断言：客户编号_名称_证件类型_证.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 1317,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "T4-view_07_返回.png"
+        },
+        {
+          "id": "8",
+          "type": "page",
+          "name": "黑名单管理列表 - 返回",
+          "action": "click",
+          "ms": 570,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 返回 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T4-view_08_黑名单管理列表 - 返回.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "T5-delete",
+      "transaction": "T5 黑名单管理-删除黑名单",
+      "pageId": "ZJJK00098110",
+      "status": "pass",
+      "startedAt": 1789993228236,
+      "durationMs": 16514,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8549,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T5-delete_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 372,
+          "status": "ok",
+          "detail": "输入「客户名称」= 交通银行",
+          "screenshot": "T5-delete_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 1311,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "T5-delete_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中记录行（交通银行股份有限公司厦门分行 26051920431217102）",
+          "action": "click",
+          "ms": 1086,
+          "status": "ok",
+          "detail": "选中行「选中记录行（交通银行股份有限公司厦门分行 26051920431217102）」",
+          "screenshot": "T5-delete_04_选中记录行（交通银行股份有限公司厦门分行 26051920431217102）.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "删除",
+          "action": "click",
+          "ms": 1309,
+          "status": "ok",
+          "detail": "点击「删除」",
+          "screenshot": "T5-delete_05_删除.png"
+        },
+        {
+          "id": "6",
+          "type": "popup",
+          "name": "删除确认框（您确定删除这条记录吗?）",
+          "action": "click",
+          "ms": 375,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认框（您确定删除这条记录吗?）",
+          "screenshot": "T5-delete_06_删除确认框（您确定删除这条记录吗_）.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "确认删除",
+          "action": "click",
+          "ms": 1302,
+          "status": "ok",
+          "detail": "点击「确认删除」",
+          "screenshot": "T5-delete_07_确认删除.png"
+        },
+        {
+          "id": "8",
+          "type": "page",
+          "name": "黑名单管理列表 - 验证已删除",
+          "action": "click",
+          "ms": 544,
+          "status": "ok",
+          "detail": "进入页面 黑名单管理列表 - 验证已删除 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T5-delete_08_黑名单管理列表 - 验证已删除.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 366,
+          "status": "ok",
+          "detail": "输入「客户名称」= 交通银行",
+          "screenshot": "T5-delete_09_客户名称.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "查询（断言结果为 0 行）",
+          "action": "click",
+          "ms": 1299,
+          "status": "ok",
+          "detail": "点击「查询（断言结果为 0 行）」",
+          "screenshot": "T5-delete_10_查询（断言结果为 0 行）.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "T6-download-template",
+      "transaction": "T6 黑名单管理-下载模板",
+      "pageId": "ZJJK00098110",
+      "status": "warn",
+      "startedAt": 1789993244806,
+      "durationMs": 10132,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "黑名单管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 8302,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+          "screenshot": "T6-download-template_01_黑名单管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "下载模板",
+          "action": "click",
+          "ms": 1770,
+          "status": "ok",
+          "detail": "点击「下载模板」并捕获下载 blackTemplate12567660921788541749.xlsx",
+          "screenshot": "T6-download-template_02_下载模板.png"
+        },
+        {
+          "id": "3",
+          "type": "page",
+          "name": "模板下载完成（blackTemplate.xlsx；本测试环境服务端 static/files/blackTemplate.xlsx 缺失，下载文件为 0 字节，属服务端数据缺陷，接口与文件名契约正常）",
+          "action": "click",
+          "ms": 60,
+          "status": "ok",
+          "detail": "下载校验通过：blackTemplate12567660921788541749.xlsx（0 字节）",
+          "screenshot": "T6-download-template_03_模板下载完成（blackTemplate.xlsx；本测试环境服务端 stati.png"
+        }
+      ],
+      "warnings": [
+        "已知服务端缺陷（模板缺失）：下载 blackTemplate12567660921788541749.xlsx 为 0 字节，接口与文件名契约正常"
+      ],
+      "errors": []
+    }
+  ]
+}

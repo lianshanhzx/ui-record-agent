@@ -1,0 +1,376 @@
+[
+  {
+    "headers": [
+      "",
+      "业务编号",
+      "客户类型",
+      "客户编号",
+      "客户名称",
+      "认定等级",
+      "系统评分",
+      "评级日期",
+      "评级到期日期",
+      "申请机构",
+      "评级状态",
+      "评级发生类型",
+      "测算次数",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--scrollable-x el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "FORM",
+        "cls": "el-form tssc-from el-form--label-top",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "\t业务编号\t客户类型\t客户编号\t客户名称\t认定等级\t系统评分\t评级日期\t评级到期日期\t申请机构\t评级状态\t评级发生类型\t测算次数\n单选\t\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "授信申请编号",
+      "授信额度（元）",
+      "授信期限（月）",
+      "授信生效日",
+      "授信到期日",
+      "经办机构",
+      "经办人",
+      "可用额度（元）",
+      "占用余额（元）",
+      "批复状态",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--scrollable-x el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "详情\n\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "详情\n\t授信申请编号\t授信额度（元）\t授信期限（月）\t授信生效日\t授信到期日\t经办机构\t经办人\t可用额度（元）\t占用余额（元）\t批复状态\n单选\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "序号",
+      "开户机构",
+      "账号",
+      "账户类型",
+      "币种",
+      "余额（元）",
+      "可用余额（元）",
+      "账户状态",
+      "存款类型",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "本行存款\n获取\n查看流水信息\n\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "本行存款\n获取\n查看流水信息\n\t序号\t开户机构\t账号\t账户类型\t币种\t余额（元）\t可用余额（元）\t账户状态\t存款类型\n单选\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "合同编号",
+      "产品名称",
+      "贷款业务类型",
+      "合同金额（元）",
+      "累计发放金额（元）",
+      "合同余额（元）",
+      "合同状态",
+      "主担保类型",
+      "合同起始日",
+      "合同到期日",
+      "五级风险分类",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--scrollable-x el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "存量业务\n详情\n\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "存量业务\n详情\n\t合同编号\t产品名称\t贷款业务类型\t合同金额（元）\t累计发放金额（元）\t合同余额（元）\t合同状态\t主担保类型\t合同起始日\t合同到期日\t五级风险分类\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "存款类型",
+      "币种",
+      "账户类型",
+      "存款期限（月）",
+      "存款余额（元）",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "他行存款信息\n新增\n修改\n查看\n删除\n\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "他行存款信息\n新增\n修改\n查看\n删除\n\t存款类型\t币种\t账户类型\t存款期限（月）\t存款余额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "账户编号",
+      "业务种类",
+      "主要担保方式",
+      "借款金额",
+      "余额",
+      "开立日期",
+      "到期日期",
+      "五级分类",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini",
+        "attrs": [],
+        "text": "\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "获取\n\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "获取\n\t账户编号\t业务种类\t主要担保方式\t借款金额\t余额\t开立日期\t到期日期\t五级分类\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  }
+]

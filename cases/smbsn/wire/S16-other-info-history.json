@@ -1,0 +1,205 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S16 同业客户管理-其他信息-查看历史修改记录(列表查询→修改→其他信息tab→历史分页2→1往返→返回)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='修改']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "修改",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "修改",
+          "rect": {
+            "x1": 0.075,
+            "y1": 0.294,
+            "x2": 0.136,
+            "y2": 0.329
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "同业客户详情-修改客户场景-其他信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-tabs__item')][normalize-space(.)='其他信息']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "其他信息tab",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "其他信息",
+          "rect": {
+            "x1": 0.3514,
+            "y1": 0.1689,
+            "x2": 0.4042,
+            "y2": 0.2222
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-collapse-item')][.//div[contains(@class,'el-collapse-item__header')][contains(.,'查看历史修改记录')]]//li[contains(@class,'number') and normalize-space(.)='2']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "历史修改记录第2页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "历史修改记录第2页",
+          "rect": {
+            "x1": 0.4634,
+            "y1": 0.5733,
+            "x2": 0.4828,
+            "y2": 0.6044
+          },
+          "propertiesID": "8"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-collapse-item')][.//div[contains(@class,'el-collapse-item__header')][contains(.,'查看历史修改记录')]]//li[contains(@class,'number') and normalize-space(.)='1']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "历史修改记录第1页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "历史修改记录第1页",
+          "rect": {
+            "x1": 0.4397,
+            "y1": 0.5733,
+            "x2": 0.4592,
+            "y2": 0.6044
+          },
+          "propertiesID": "9"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='返回']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "返回",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "返回",
+          "rect": {
+            "x1": 0.95,
+            "y1": 0.956,
+            "x2": 0.997,
+            "y2": 0.991
+          },
+          "propertiesID": "10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S22 同业客户管理-高级查询(caret展开→客户编号+证件号码+客户状态=草稿客户→查询→重置→caret收起)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[.//i[contains(@class,'el-icon-caret-bottom')]]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "高级查询展开",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "高级查询展开",
+          "rect": {
+            "x1": 0.8861,
+            "y1": 0.1958,
+            "x2": 0.9236,
+            "y2": 0.2313
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='证件号码']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "914501005QBUAEFCJ8",
+          "propertiesName": "证件号码",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "证件号码",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.2891,
+            "x2": 0.2472,
+            "y2": 0.3247
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户状态']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "草稿客户",
+          "propertiesName": "客户状态",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户状态",
+          "rect": {
+            "x1": 0.5083,
+            "y1": 0.2891,
+            "x2": 0.7361,
+            "y2": 0.3247
+          },
+          "propertiesID": "5"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='重置']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "重置",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "重置",
+          "rect": {
+            "x1": 0.8153,
+            "y1": 0.1958,
+            "x2": 0.8764,
+            "y2": 0.2313
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//button[.//i[contains(@class,'el-icon-caret-top')]]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "高级查询收起",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "高级查询收起",
+          "rect": {
+            "x1": 0.8861,
+            "y1": 0.1958,
+            "x2": 0.9236,
+            "y2": 0.2313
+          },
+          "propertiesID": "8"
+        }
+      ]
+    }
+  ]
+}

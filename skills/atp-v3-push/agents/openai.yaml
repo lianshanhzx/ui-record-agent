@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATP V3 报文推送"
+  short_description: "按指定项目和系统生成并推送录制报文，核验交易节点与字段结果"
+  default_prompt: "使用 $atp-v3-push 将录制报文转换并推送至指定平台，使用我提供的项目 ID 和系统 ID，并反查验证结果。"

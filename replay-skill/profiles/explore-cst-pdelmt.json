@@ -1,0 +1,41 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户 - 产品要素库（产品管理 > 产品要素管理）",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    {
+      "match": ["产品要素库"],
+      "urlPattern": "pdElmtMgt/elmtgroupOfIndex",
+      "route": "/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+      "readySelector": ".el-tree"
+    }
+  ],
+  "popups": [
+    { "match": ["选择要素"], "selector": ".elmt-add-dialog" },
+    { "match": ["要素组件"], "selector": ".el-dialog" },
+    { "match": ["要素类型"], "selector": ".el-dialog" },
+    { "match": ["删除确认"], "selector": ".el-message-box" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "",
+  "tableRowSelector": ".el-table__body-wrapper tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": ".el-tree",
+  "settleAfterClickMs": 2000,
+  "settleAfterInputMs": 600,
+  "downloadTriggers": ["下载"]
+}

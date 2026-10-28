@@ -1,0 +1,107 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "828",
+      "pageId": "ZJJK00070599",
+      "transcationName": "T03 评级申请-选择客户及评级模板",
+      "systemId": "1020",
+      "projectId": "13",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "对公客户评级 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "screenCapture": "http://172.19.87.169:9001/uara-step-phase-picture/screenshots/1789392952185-70bc157b-d427-4046-ad25-fde6d2b33c34.png"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='评级申请']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "评级申请",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "realLabel": "评级申请",
+          "rect": "{\"x1\":0.01,\"y1\":0.2956326987681971,\"x2\":0.085,\"y2\":0.3314669652855543}"
+        },
+        {
+          "propertiesName": "overlay",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "realLabel": "",
+          "rect": "{\"x1\":800,\"y1\":0,\"x2\":1600,\"y2\":893}",
+          "screenCapture": "http://172.19.87.169:9001/uara-step-phase-picture/screenshots/1789391603788-fdc4b365-1561-4d2c-b7de-67bd86009fea.png"
+        },
+        {
+          "options": "",
+          "elementType": "(//div[contains(@class,'el-drawer')]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称' or normalize-space(.)=concat('客户名称', ':') or normalize-space(.)=concat('客户名称', '：') or normalize-space(.)=concat('客户名称', '*') or normalize-space(.)=concat('*', '客户名称') or normalize-space(.)=concat('*', '客户名称', ':') or normalize-space(.)=concat('*', '客户名称', '：')]]//div[contains(@class,'el-select')])[1]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "客户名称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "4",
+          "propertiesPID": "3",
+          "realLabel": "客户名称",
+          "rect": "{\"x1\":0.015,\"y1\":0.22732362821948487,\"x2\":0.485,\"y2\":0.2631578947368421}"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-drawer')]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称' or normalize-space(.)=concat('客户名称', ':') or normalize-space(.)=concat('客户名称', '：') or normalize-space(.)=concat('客户名称', '*') or normalize-space(.)=concat('*', '客户名称') or normalize-space(.)=concat('*', '客户名称', ':') or normalize-space(.)=concat('*', '客户名称', '：')]]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "贯通验证企业190416有限公司",
+          "propertiesName": "客户名称2",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "5",
+          "propertiesPID": "3",
+          "realLabel": "客户名称",
+          "rect": "{\"x1\":0.015,\"y1\":0.22732362821948487,\"x2\":0.485,\"y2\":0.2631578947368421}"
+        },
+        {
+          "options": "",
+          "elementType": "//*[contains(concat(' ',normalize-space(@class),' '),' el-steps ')][.//*[(contains(@class,'is-process') or contains(@class,'is-active')) and contains(normalize-space(.),'基本信息')]]/ancestor::*[.//button[normalize-space()='下一步']][1]//button[normalize-space()='下一步']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "下一步",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "6",
+          "propertiesPID": "3",
+          "realLabel": "下一步",
+          "rect": "{\"x1\":0.395,\"y1\":0.28331466965285557,\"x2\":0.4975,\"y2\":0.3191489361702128}"
+        }
+      ]
+    }
+  ]
+}

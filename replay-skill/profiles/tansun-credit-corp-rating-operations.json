@@ -1,0 +1,30 @@
+{
+ "platform":"tansun-credit",
+ "name":"天阳信贷-对公客户评级其他功能",
+ "baseUrl":"http://test.creditv5p2.tansun.com.cn",
+ "homeRoute":"/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+ "viewport":{"width":1440,"height":900},
+ "login":{"username":"701994","password":"1","usernameSelector":"input[name='username']","passwordSelector":"input[name='password']","loginButtonText":"登录","loggedInUrlShouldNotContain":"/login"},
+ "pages":[
+  {"match":["新增对公客户评级","评级详情-"],"urlPattern":"FS00005854Host","readySelector":"//button[normalize-space()='返回']"},
+  {"match":["对公客户评级"],"urlPattern":"cpctRtgAplyMgtPg","route":"/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg","readySelector":"//button[normalize-space()='评级申请']"}
+ ],
+ "popups":[
+  {"match":["新增征信查询客户"],"selector":".el-dialog[aria-label='新增征信查询客户']"},
+  {"match":["征信客户选择"],"selector":".el-dialog[aria-label='客户选择']"},
+  {"match":["精确下拉选择"],"selector":".el-select-dropdown:visible"},
+  {"match":["申请客户下拉选择"],"selector":".el-select-dropdown.tssc-select-dropdown"},
+  {"match":["对公客户评级申请"],"selector":".el-drawer[aria-label='对公客户评级申请']"},
+  {"match":["评级重评"],"selector":".el-drawer[aria-label='评级重评']"},
+  {"match":["流程轨迹"],"selector":".el-dialog[aria-label='流程轨迹']"},
+  {"match":["删除确认"],"selector":".el-message-box"}
+ ],
+ "popupFallbackSelector":".el-dialog, .el-drawer, .el-message-box, .tssc-select-dropdown",
+ "backButtonText":"返回",
+ "tableRowSelector":".el-table__body-wrapper .el-table__body tbody tr",
+ "tableReadySelector":"//button[normalize-space()='评级申请']",
+ "selectDropdownItemSelector":".el-select-dropdown__item",
+ "errorToastSelector":".el-message--error, .el-notification--error, .el-notification.exception-message",
+ "settleAfterClickMs":900,
+ "settleAfterInputMs":350
+}

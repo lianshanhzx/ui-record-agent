@@ -1,0 +1,265 @@
+[
+  {
+    "text": "新增\n 投资性质类型\n 被投资人客户编号\n引入\n 证件类型\n 被投资人证件号码\n 登记注册号\n 统一社会信用代码\n 被投资企业名称\n 币种\n 投资金额\n出资方式\n 投资金额占比\n 投资日期\n 投资说明\n备注\n确定\n取消",
+    "forms": [
+      {
+        "label": "投资性质类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "被投资人客户编号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "引入"
+        ]
+      },
+      {
+        "label": "证件类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "被投资人证件号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "登记注册号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "统一社会信用代码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "被投资企业名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "币种",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "人民币",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投资金额",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "出资方式",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投资金额占比",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投资日期",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "投资说明",
+        "required": true,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "备注",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "引入",
+        "disabled": false
+      },
+      {
+        "text": "确定",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

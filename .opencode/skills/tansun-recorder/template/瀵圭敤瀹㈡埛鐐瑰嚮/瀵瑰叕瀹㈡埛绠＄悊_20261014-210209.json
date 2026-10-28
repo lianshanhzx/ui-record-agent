@@ -1,0 +1,97 @@
+{
+  "id": "c5b9c70b-c7a0-4b69-bec1-9e3711340177",
+  "name": "collect",
+  "url": "http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?part=cstMgtcsinfMntcpctMgtcpctMgtPg&newtag=false&needupdate=yes&newTag=true&crdtNo=91330100RK0020001X&uscc=91330100RK0020001X&cstNm=RK001%E6%8B%85%E4%BF%9D%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&cstCgy=60&cstNo=261012233214120232&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109668472086286336&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=8&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791979839502",
+  "sessionId": "4c938ec6-2d6d-4676-98f0-212f590aee68",
+  "extensionVersion": "1.1",
+  "mode": "collect",
+  "result": "fail",
+  "startedAt": 1791982922057,
+  "endedAt": 1791982929730,
+  "targetTab": {
+    "tabId": 18600095,
+    "url": "http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?part=cstMgtcsinfMntcpctMgtcpctMgtPg&newtag=false&needupdate=yes&newTag=true&crdtNo=91330100RK0020001X&uscc=91330100RK0020001X&cstNm=RK001%E6%8B%85%E4%BF%9D%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&cstCgy=60&cstNo=261012233214120232&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109668472086286336&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=8&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791979839502",
+    "title": "天阳宏业"
+  },
+  "pagetagName": "对公客户管理",
+  "pageConfig": {},
+  "transcationProperties": [
+    {
+      "propertiesID": "08243f3c-ae8b-46f0-a55c-caa76dfacf59",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "主页面",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FcstMgt%2FcsinfMntSubDmn%2FcpctMgt%2FcrtCpctInf%2FhostCstmgrCrtCpctInf%2FFS00005510HostCstmgrCrtCpctInf",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?part=cstMgtcsinfMntcpctMgtcpctMgtPg&newtag=false&needupdate=yes&newTag=true&crdtNo=91330100RK0020001X&uscc=91330100RK0020001X&cstNm=RK001%E6%8B%85%E4%BF%9D%E6%B5%8B%E8%AF%95%E5%85%AC%E5%8F%B8&cstCgy=60&cstNo=261012233214120232&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109668472086286336&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=8&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791979839502"
+    },
+    {
+      "propertiesID": "8cb13042-4235-4a38-b916-2b9b41a7465a",
+      "propertiesPID": "08243f3c-ae8b-46f0-a55c-caa76dfacf59",
+      "type": "tab",
+      "propertiesName": "客户基本信息",
+      "key": "//*[@id='173466860434016']",
+      "url": ""
+    },
+    {
+      "propertiesID": "003e9fff-ced4-45dc-9049-9603f9a94025",
+      "propertiesPID": "8cb13042-4235-4a38-b916-2b9b41a7465a",
+      "type": "collapse",
+      "propertiesName": "对公客户概况",
+      "key": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-collapse-item ')][1]",
+      "url": ""
+    },
+    {
+      "clientId": "493343d3-3b15-4431-916a-75e4d673f338",
+      "timestamp": 1791982926997,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='上年度资产总额（元）']/parent::*//input[@placeholder='请输入']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "上年度资产总额元",
+      "realLabel": "上年度资产总额（元）",
+      "objectValue": "11111111111",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请输入",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 1,
+      "networkCalls": [],
+      "propertiesID": "34fe8aa2-0dad-43c4-8ab1-9321c364e2a9",
+      "propertiesPID": "003e9fff-ced4-45dc-9049-9603f9a94025",
+      "type": "ele"
+    },
+    {
+      "clientId": "cc836ac7-4151-49b9-be13-afaf6b65ad13",
+      "timestamp": 1791982927066,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='合作状态']/parent::*//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "合作状态",
+      "realLabel": "合作状态",
+      "objectValue": "未生效",
+      "options": [
+        "未生效",
+        "已生效"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 2,
+      "networkCalls": [],
+      "propertiesID": "31a77878-7dbf-46ca-9b8c-8f541fad78b6",
+      "propertiesPID": "003e9fff-ced4-45dc-9049-9603f9a94025",
+      "type": "ele"
+    }
+  ]
+}

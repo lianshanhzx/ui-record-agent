@@ -1,0 +1,40 @@
+// probe61: 量取关联人表首行 radio rect
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const CUST_NO = '260924144929974126';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const auth = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', '..', 'auth.json'), 'utf8'));
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: auth, viewport: { width: 1440, height: 900 } });
+  const page = await ctx.newPage();
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg', { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr', { timeout: 90000 });
+  await sleep(2000);
+  await page.locator('.el-form-item').filter({ has: page.locator('label', { hasText: '客户编号' }) }).first().locator('input').first().fill(CUST_NO);
+  const q = page.waitForResponse((r) => r.url().includes('findCustTradeList') && r.request().method() === 'POST', { timeout: 30000 });
+  await page.getByRole('button').filter({ hasText: /查\s*询/ }).first().click();
+  await q; await sleep(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type="radio"]').first().evaluate((el) => el.click());
+  await sleep(800);
+  await page.getByRole('button').filter({ hasText: /修\s*改/ }).first().click();
+  await page.waitForURL(/mdfSmbsnCst/, { timeout: 30000 });
+  await page.waitForSelector('.el-form-item:visible', { timeout: 60000 });
+  await sleep(4000);
+  await page.locator('.el-tabs__item').filter({ hasText: /关联人/ }).first().click();
+  await sleep(3000);
+  const pane = page.locator('.el-tab-pane:visible').last();
+  const radio = pane.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type="radio"]').first();
+  const rect = await radio.evaluate((el) => {
+    const r = el.getBoundingClientRect();
+    return JSON.stringify({ x1: (r.x / 1440).toFixed(4), y1: (r.y / 900).toFixed(4), x2: ((r.x + r.width) / 1440).toFixed(4), y2: ((r.y + r.height) / 900).toFixed(4) });
+  });
+  console.log('P61_ROW_RADIO_RECT=', rect);
+  const rpRadioRect = JSON.parse(rect);
+  const v = JSON.parse(fs.readFileSync(path.join(__dirname, 's9-values.json'), 'utf8'));
+  v.rpRadioRect = rpRadioRect;
+  fs.writeFileSync(path.join(__dirname, 's9-values.json'), JSON.stringify(v, null, 2), 'utf8');
+  console.log('P61_SAVED to s9-values.json');
+  await browser.close();
+})().catch((e) => { console.error('P61_ERROR', e.message); process.exit(1); });

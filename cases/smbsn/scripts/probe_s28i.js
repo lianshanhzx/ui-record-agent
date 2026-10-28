@@ -1,0 +1,43 @@
+const { chromium } = require('playwright');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..', '..');
+const CUST='260930092649839164';
+const X_JC="//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户简称']]//input";
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: path.join(ROOT,'auth.json'), viewport:{width:1440,height:900} });
+  const page = await ctx.newPage();
+  page.on('close', ()=>console.log('PAGE_CLOSED_EVENT'));
+  const reqs=[]; page.on('request', r=>{ if(r.method()==='POST') reqs.push(r.url().split('/').pop()); });
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg',{waitUntil:'domcontentloaded'});
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr',{timeout:60000});
+  await page.waitForTimeout(2000);
+  await page.locator(".el-form-item:has(label:has-text('客户编号')) input").first().fill(CUST);
+  await page.getByRole('button').filter({hasText:/查\s*询/}).first().click();
+  await page.waitForResponse(r=>r.url().includes('findCustTradeList')&&r.request().method()==='POST',{timeout:30000});
+  await page.waitForTimeout(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type=radio]').first().evaluate(el=>el.click());
+  const gcP = page.waitForResponse(r=>r.url().includes('getCustTrade')&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
+  await page.getByRole('button').filter({hasText:/修\s*改/}).first().click();
+  await page.waitForURL(/mdfSmbsnCst/,{timeout:30000});
+  await page.waitForSelector('.el-form-item:visible',{timeout:60000});
+  if(gcP) await gcP.catch(()=>{});
+  await page.waitForTimeout(5000);
+  const st = async ()=>JSON.stringify(await page.evaluate(()=>{ const b=t=>[...document.querySelectorAll('button')].find(x=>x.textContent.trim()===t&&x.getBoundingClientRect().width>0); return ['保存','暂存','返回'].map(t=>({t, db:b(t)?/disableBtn/.test(b(t).className):null})); }));
+  console.log('BTNS_CLEAN='+await st());
+  const jc = page.locator('xpath='+X_JC).first();
+  const v0 = await jc.inputValue();
+  await jc.click(); await jc.fill(v0+'Z'); await page.waitForTimeout(2000);
+  console.log('BTNS_DIRTY='+await st());
+  // 点 暂存（S2 证明可用，保持草稿，安全）
+  reqs.length=0;
+  const saveP = page.waitForResponse(r=>r.url().includes('saveCustTrade')&&r.request().method()==='POST',{timeout:30000}).catch(()=>null);
+  await page.getByRole('button').filter({hasText:/暂\s*存/}).first().click({timeout:8000});
+  await page.waitForTimeout(4000);
+  console.log('TOAST='+JSON.stringify(await page.evaluate(()=>[...document.querySelectorAll('.el-message')].map(m=>m.textContent.trim()).filter(Boolean)).catch(()=>'PAGE_GONE')));
+  console.log('REQS='+JSON.stringify([...new Set(reqs)]));
+  const sr = await saveP;
+  if (sr){ console.log('SAVECUST_TRADE status='+sr.status()+' resp='+(await sr.text()).slice(0,150)); }
+  else console.log('NO_SAVECUST_TRADE');
+  await browser.close();
+})().catch(e=>{console.error('ERR '+(e.message||e).toString().slice(0,400));process.exit(1);});

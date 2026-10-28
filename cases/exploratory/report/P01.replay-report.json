@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-09-24T02:59:43.877Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-集群客户管理",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 60306,
+  "summary": {
+    "total": 1,
+    "pass": 0,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "P01-集群客户管理-搜索查看删除模板新增",
+      "transaction": "P01 集群客户管理-搜索/重置/更多查询/查看详情(成员选择+查看关系)/删除取消/导入成员模板/新增取消",
+      "pageId": "TBD",
+      "status": "warn",
+      "startedAt": 1790218724049,
+      "durationMs": 59758,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "集群客户管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 11311,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/coloCstMgt/clstrCstMgtPg",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_01_集群客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "集群名称",
+          "action": "input",
+          "ms": 586,
+          "status": "ok",
+          "detail": "输入「集群名称」= 新云集群",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_02_集群名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 2616,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "重置",
+          "action": "click",
+          "ms": 2612,
+          "status": "ok",
+          "detail": "点击「重置」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_04_重置.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "更多查询（展开成员客户名称/创建人/创建方式）",
+          "action": "click",
+          "ms": 2641,
+          "status": "ok",
+          "detail": "点击「更多查询（展开成员客户名称/创建人/创建方式）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_05_更多查询（展开成员客户名称_创建人_创建方式）.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "成员客户名称",
+          "action": "input",
+          "ms": 584,
+          "status": "ok",
+          "detail": "输入「成员客户名称」= 交通银行",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_06_成员客户名称.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "查询（按成员客户名称过滤）",
+          "action": "click",
+          "ms": 2613,
+          "status": "ok",
+          "detail": "点击「查询（按成员客户名称过滤）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_07_查询（按成员客户名称过滤）.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "重置（收起前清空）",
+          "action": "click",
+          "ms": 2597,
+          "status": "ok",
+          "detail": "点击「重置（收起前清空）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_08_重置（收起前清空）.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "集群名称",
+          "action": "input",
+          "ms": 570,
+          "status": "ok",
+          "detail": "输入「集群名称」= 新云集群",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_09_集群名称.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 2588,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_10_查询.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "记录选择（固定列单选，新云集群 26051920413351001）",
+          "action": "click",
+          "ms": 1091,
+          "status": "ok",
+          "detail": "选中行「记录选择（固定列单选，新云集群 26051920413351001）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_11_记录选择（固定列单选，新云集群 26051920413351001）.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查看",
+          "action": "click",
+          "ms": 2636,
+          "status": "ok",
+          "detail": "点击「查看」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_12_查看.png"
+        },
+        {
+          "id": "13",
+          "type": "page",
+          "name": "集群客户详情-查看模式（viewType=look，基本信息+成员信息）",
+          "action": "click",
+          "ms": 559,
+          "status": "ok",
+          "detail": "进入页面 集群客户详情-查看模式（viewType=look，基本信息+成员信息） → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/colCstMgt/mdfColCsinf/hostCstmgrMdfColCsinf/FS00004648HostCstmgrMdfColCsinf?newtag=false&needupdate=yes&newTag=true&id=2056716891376525312&clstrNo=26051920413351001&clstrNm=%E6%96%B0%E4%BA%91%E9%9B%86%E7%BE%A4&mbrNum=1&crtTp=2&createUser=701994&createTime=2026-05-19%2020%3A41%3A34&createInst=9881&updateUser=701994&updateTime=2026-05-19%2020%3A46%3A05&updateInst=9881&hdlUser=701994&hdlTime=2026-05-19%2020%3A41%3A34&hdlInst=9881&delInd=0&version=0&tenantId=9881&tsRowIndex=0&viewType=look&avyEcd=UML00066029&fcnScnEcd=FS00004648&v=1790218755697",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_13_集群客户详情-查看模式（viewType=look，基本信息+成员信息）.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "成员客户编号（成员信息搜索）",
+          "action": "input",
+          "ms": 568,
+          "status": "ok",
+          "detail": "输入「成员客户编号（成员信息搜索）」= 26051920431217102",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_14_成员客户编号（成员信息搜索）.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "查询（成员信息搜索）",
+          "action": "click",
+          "ms": 2617,
+          "status": "ok",
+          "detail": "点击「查询（成员信息搜索）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_15_查询（成员信息搜索）.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "成员记录选择（固定列单选，26051920431217102 交通银行厦门分行；未选时查看关系报「请选择有效数据」）",
+          "action": "click",
+          "ms": 1081,
+          "status": "ok",
+          "detail": "选中行「成员记录选择（固定列单选，26051920431217102 交通银行厦门分行；未选时查看关系报「请选择有效数据」）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_16_成员记录选择（固定列单选，26051920431217102 交通银行厦门分行；.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "查看关系",
+          "action": "click",
+          "ms": 2652,
+          "status": "ok",
+          "detail": "点击「查看关系」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_17_查看关系.png"
+        },
+        {
+          "id": "18",
+          "type": "popup",
+          "name": "查看关系（成员关系弹窗：成员客户编号/名称/管户机构/管户客户经理/证件类型/证件号码）",
+          "action": "click",
+          "ms": 348,
+          "status": "ok",
+          "detail": "弹窗可见：查看关系（成员关系弹窗：成员客户编号/名称/管户机构/管户客户经理/证件类型/证件号码）",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_18_查看关系（成员关系弹窗：成员客户编号_名称_管户机构_管户客户经理_证件类型_证.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "取消（关闭查看关系弹窗）",
+          "action": "click",
+          "ms": 2615,
+          "status": "ok",
+          "detail": "点击「取消（关闭查看关系弹窗）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_19_取消（关闭查看关系弹窗）.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "返回（回集群列表）",
+          "action": "click",
+          "ms": 2615,
+          "status": "ok",
+          "detail": "点击「返回（回集群列表）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_20_返回（回集群列表）.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "删除（选中新云集群）",
+          "action": "click",
+          "ms": 2623,
+          "status": "ok",
+          "detail": "点击「删除（选中新云集群）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_21_删除（选中新云集群）.png"
+        },
+        {
+          "id": "22",
+          "type": "popup",
+          "name": "删除确认（消息框：确定要删除该条记录吗?）",
+          "action": "click",
+          "ms": 345,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认（消息框：确定要删除该条记录吗?）",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_22_删除确认（消息框：确定要删除该条记录吗_）.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "取消（放弃删除）",
+          "action": "click",
+          "ms": 2589,
+          "status": "ok",
+          "detail": "点击「取消（放弃删除）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_23_取消（放弃删除）.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "导入成员模板",
+          "action": "click",
+          "ms": 3047,
+          "status": "ok",
+          "detail": "点击「导入成员模板」并捕获下载 colonyTemplate17549925634926417332.xlsx",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_24_导入成员模板.png"
+        },
+        {
+          "id": "25",
+          "type": "page",
+          "name": "模板下载完成（colonyTemplate.xlsx，平台文件名带随机后缀，前缀匹配）",
+          "action": "click",
+          "ms": 75,
+          "status": "ok",
+          "detail": "下载校验通过：colonyTemplate17549925634926417332.xlsx（0 字节）",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_25_模板下载完成（colonyTemplate.xlsx，平台文件名带随机后缀，前缀.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 2606,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_26_新增.png"
+        },
+        {
+          "id": "27",
+          "type": "popup",
+          "name": "新增集群（右侧抽屉「集群新增向导页」：集群名称 1 个必填输入框，保存/取消）",
+          "action": "click",
+          "ms": 348,
+          "status": "ok",
+          "detail": "弹窗可见：新增集群（右侧抽屉「集群新增向导页」：集群名称 1 个必填输入框，保存/取消）",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_27_新增集群（右侧抽屉「集群新增向导页」：集群名称 1 个必填输入框，保存_取消）.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "取消（放弃新增，限抽屉内按钮，避免命中已关闭弹窗残留的隐藏按钮）",
+          "action": "click",
+          "ms": 2624,
+          "status": "ok",
+          "detail": "点击「取消（放弃新增，限抽屉内按钮，避免命中已关闭弹窗残留的隐藏按钮）」",
+          "screenshot": "P01-集群客户管理-搜索查看删除模板新增_28_取消（放弃新增，限抽屉内按钮，避免命中已关闭弹窗残留的隐藏按钮）.png"
+        }
+      ],
+      "warnings": [
+        "已知服务端缺陷（模板缺失）：下载 colonyTemplate17549925634926417332.xlsx 为 0 字节，接口与文件名契约正常"
+      ],
+      "errors": []
+    }
+  ]
+}

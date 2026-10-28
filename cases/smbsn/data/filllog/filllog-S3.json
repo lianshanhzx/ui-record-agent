@@ -1,0 +1,139 @@
+{
+  "tag": "S3",
+  "total": 12,
+  "ok": 12,
+  "items": [
+    {
+      "seq": 1,
+      "group": "股东信息新增",
+      "label": "股东类型",
+      "req": true,
+      "type": "select",
+      "action": "select",
+      "value": "法人或其他组织",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.23,\"x2\":0.365,\"y2\":0.266}"
+    },
+    {
+      "seq": 2,
+      "group": "股东信息新增",
+      "label": "股东名称",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "AT_SMB股东_20260928144411",
+      "ok": true,
+      "rect": "{\"x1\":0.382,\"y1\":0.23,\"x2\":0.433,\"y2\":0.266}"
+    },
+    {
+      "seq": 3,
+      "group": "股东信息新增",
+      "label": "股东客户编号",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "36586225485968224000",
+      "ok": true,
+      "rect": "{\"x1\":0.506,\"y1\":0.23,\"x2\":0.613,\"y2\":0.266}"
+    },
+    {
+      "seq": 4,
+      "group": "股东信息新增",
+      "label": "证件类型",
+      "req": true,
+      "type": "select",
+      "action": "select",
+      "value": "营业执照",
+      "ok": true,
+      "rect": "{\"x1\":0.629,\"y1\":0.23,\"x2\":0.736,\"y2\":0.266}"
+    },
+    {
+      "seq": 5,
+      "group": "股东信息新增",
+      "label": "证件号码",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "91450100KQNXTXR4RY",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.321,\"x2\":0.365,\"y2\":0.357}"
+    },
+    {
+      "seq": 6,
+      "group": "股东信息新增",
+      "label": "币种",
+      "req": true,
+      "type": "select",
+      "action": "select",
+      "value": "人民币",
+      "ok": true,
+      "rect": "{\"x1\":0.382,\"y1\":0.321,\"x2\":0.489,\"y2\":0.357}"
+    },
+    {
+      "seq": 7,
+      "group": "股东信息新增",
+      "label": "持股比例",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "10",
+      "ok": true,
+      "rect": "{\"x1\":0.506,\"y1\":0.321,\"x2\":0.613,\"y2\":0.357}"
+    },
+    {
+      "seq": 8,
+      "group": "股东信息新增",
+      "label": "出资方式",
+      "req": true,
+      "type": "select",
+      "action": "select",
+      "value": "货币",
+      "ok": true,
+      "rect": "{\"x1\":0.629,\"y1\":0.321,\"x2\":0.736,\"y2\":0.357}"
+    },
+    {
+      "seq": 9,
+      "group": "股东信息新增",
+      "label": "出资时间",
+      "req": true,
+      "type": "date",
+      "action": "date",
+      "value": "2026-09-01",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.412,\"x2\":0.365,\"y2\":0.448}"
+    },
+    {
+      "seq": 10,
+      "group": "股东信息新增",
+      "label": "认缴出资额(元)",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "1000000",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.503,\"x2\":0.44,\"y2\":0.539}"
+    },
+    {
+      "seq": 11,
+      "group": "股东信息新增",
+      "label": "实缴出资额（元）",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "1000000",
+      "ok": true,
+      "rect": "{\"x1\":0.506,\"y1\":0.503,\"x2\":0.688,\"y2\":0.539}"
+    },
+    {
+      "seq": 12,
+      "group": "股东信息新增",
+      "label": "备注",
+      "req": true,
+      "type": "textarea",
+      "action": "textarea",
+      "value": "AT_SMB股东测试备注_144411",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.594,\"x2\":0.736,\"y2\":0.651}"
+    }
+  ]
+}

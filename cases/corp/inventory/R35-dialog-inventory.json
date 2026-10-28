@@ -1,0 +1,259 @@
+[
+  {
+    "text": "修改客户持有保险信息\n 购买保险名称\n 保险公司名称\n 保险种类\n 投保人姓名\n 受益人\n 已缴保费金额\n 应缴保费总额\n 保险金额（元）\n 投保日期\n 到期日\n抵押状况\n保险标的\n保单现有价值（元）\n备注\n确定\n取消",
+    "forms": [
+      {
+        "label": "购买保险名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR1012_购买保险名称",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "保险公司名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR1012_保险公司名称",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "保险种类",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "履约保证保险",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投保人姓名",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR1012_投保人姓名",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "受益人",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR1012_受益人",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "已缴保费金额",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "1,000,000.00",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "应缴保费总额",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "1000000",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "保险金额（元）",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "1,000,000.00",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投保日期",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "2024-06-01",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "到期日",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "2030-10-09",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "抵押状况",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "否",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "保险标的",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR1012_保险标的",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "保单现有价值（元）",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "1,000,000.00",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "备注",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "RR1012_备注",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "确定",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

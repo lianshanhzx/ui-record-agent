@@ -1,0 +1,103 @@
+[
+  {
+    "headers": [
+      "",
+      "管理类型",
+      "管理人员编号",
+      "管理人员名称",
+      "管理人员所属机构",
+      "单选",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--enable-row-transition el-table--mini",
+        "attrs": [],
+        "text": "\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t\n已加载全部内容，共 1 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t\n已加载全部内容，共 1 条 / 1 页"
+      },
+      {
+        "tag": "FORM",
+        "cls": "el-form tssc-from el-form--label-top",
+        "attrs": [],
+        "text": "新增\n删除\n\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t\n已加载全部内容，共 1 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "新增\n删除\n\t管理类型\t管理人员编号\t管理人员名称\t管理人员所属机构\n\t\n管户权\n\t\n701994\n\t\n黄某某\n\t\n9881**银行股份有限公司\n单选\t\t\t\t\n\t\t\t\t\n已加载全部内容，共 1 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "客户编号",
+      "被修改信息项",
+      "修改人名称",
+      "修改人编号",
+      "修改日期",
+      "修改前值",
+      "修改后值"
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--enable-row-hover el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "历史修改记录\n客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "历史修改记录\n客户编号\t被修改信息项\t修改人名称\t修改人编号\t修改日期\t修改前值\t修改后值\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "text": "客户联系人信息修改\n 地址类型\n 通讯地址\n获取地址\n邮政编码\n 联系电话\n传真号码\n备注\n9/200\n确定\n取消",
+    "forms": [
+      {
+        "label": "地址类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "经营地址",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "通讯地址",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "福建省宁德市",
+            "disabled": true,
+            "readonly": true,
+            "placeholder": ""
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": [
+          "获取地址"
+        ]
+      },
+      {
+        "label": "邮政编码",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "355200",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "联系电话",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "13900001012",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "传真号码",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "01088881012",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "备注",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "RR1012_备注",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "获取地址",
+        "disabled": false
+      },
+      {
+        "text": "确定",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

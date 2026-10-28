@@ -1,0 +1,1944 @@
+{
+  "generatedAt": "2026-09-23T11:19:04.315Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 对私客户管理",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 544566,
+  "summary": {
+    "total": 9,
+    "pass": 8,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "P1-list-query",
+      "transaction": "P1 对私客户管理-列表查询",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1790161800859,
+      "durationMs": 46580,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 7750,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P1-list-query_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "更多",
+          "action": "click",
+          "ms": 6234,
+          "status": "ok",
+          "detail": "点击「更多」",
+          "screenshot": "P1-list-query_02_更多.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 1100,
+          "status": "ok",
+          "detail": "输入「客户编号」= 26091814070327893",
+          "screenshot": "P1-list-query_03_客户编号.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1084,
+          "status": "ok",
+          "detail": "输入「客户名称」= 合约湿测P-20260918-1530C",
+          "screenshot": "P1-list-query_04_客户名称.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对私客户细分类型",
+          "action": "select:click",
+          "ms": 1274,
+          "status": "ok",
+          "detail": "下拉选择「对私客户细分类型」= 一般城镇居民",
+          "screenshot": "P1-list-query_05_对私客户细分类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1225,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 居民身份证",
+          "screenshot": "P1-list-query_06_证件类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1091,
+          "status": "ok",
+          "detail": "输入「证件号码」= 330106198811040011",
+          "screenshot": "P1-list-query_07_证件号码.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1242,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 草稿客户",
+          "screenshot": "P1-list-query_08_客户状态.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "管户客户经理名称-展开",
+          "action": "click",
+          "ms": 6116,
+          "status": "ok",
+          "detail": "点击「管户客户经理名称-展开」",
+          "screenshot": "P1-list-query_09_管户客户经理名称-展开.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "管户客户经理名称-搜索",
+          "action": "input",
+          "ms": 1108,
+          "status": "ok",
+          "detail": "输入「管户客户经理名称-搜索」= 黄某某",
+          "screenshot": "P1-list-query_10_管户客户经理名称-搜索.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "管户客户经理名称-选择",
+          "action": "click",
+          "ms": 6143,
+          "status": "ok",
+          "detail": "点击「管户客户经理名称-选择」",
+          "screenshot": "P1-list-query_11_管户客户经理名称-选择.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "创建时间排序",
+          "action": "click",
+          "ms": 6106,
+          "status": "ok",
+          "detail": "点击「创建时间排序」",
+          "screenshot": "P1-list-query_12_创建时间排序.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6105,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P1-list-query_13_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P2-list-reset",
+      "transaction": "P2 对私客户管理-列表重置",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1790161847657,
+      "durationMs": 45774,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 6940,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P2-list-reset_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "更多",
+          "action": "click",
+          "ms": 6224,
+          "status": "ok",
+          "detail": "点击「更多」",
+          "screenshot": "P2-list-reset_02_更多.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 1098,
+          "status": "ok",
+          "detail": "输入「客户编号」= 26091814070327893",
+          "screenshot": "P2-list-reset_03_客户编号.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1088,
+          "status": "ok",
+          "detail": "输入「客户名称」= 合约湿测P-20260918-1530C",
+          "screenshot": "P2-list-reset_04_客户名称.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对私客户细分类型",
+          "action": "select:click",
+          "ms": 1277,
+          "status": "ok",
+          "detail": "下拉选择「对私客户细分类型」= 一般城镇居民",
+          "screenshot": "P2-list-reset_05_对私客户细分类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1184,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 居民身份证",
+          "screenshot": "P2-list-reset_06_证件类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1096,
+          "status": "ok",
+          "detail": "输入「证件号码」= 330106198811040011",
+          "screenshot": "P2-list-reset_07_证件号码.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1294,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 草稿客户",
+          "screenshot": "P2-list-reset_08_客户状态.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "管户客户经理名称-展开",
+          "action": "click",
+          "ms": 6115,
+          "status": "ok",
+          "detail": "点击「管户客户经理名称-展开」",
+          "screenshot": "P2-list-reset_09_管户客户经理名称-展开.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "管户客户经理名称-搜索",
+          "action": "input",
+          "ms": 1085,
+          "status": "ok",
+          "detail": "输入「管户客户经理名称-搜索」= 黄某某",
+          "screenshot": "P2-list-reset_10_管户客户经理名称-搜索.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "管户客户经理名称-选择",
+          "action": "click",
+          "ms": 6139,
+          "status": "ok",
+          "detail": "点击「管户客户经理名称-选择」",
+          "screenshot": "P2-list-reset_11_管户客户经理名称-选择.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "创建时间排序",
+          "action": "click",
+          "ms": 6113,
+          "status": "ok",
+          "detail": "点击「创建时间排序」",
+          "screenshot": "P2-list-reset_12_创建时间排序.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "重置",
+          "action": "click",
+          "ms": 6120,
+          "status": "ok",
+          "detail": "点击「重置」",
+          "screenshot": "P2-list-reset_13_重置.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P3-new-save-validate",
+      "transaction": "P3 对私客户管理-新增保存校验",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1790161893644,
+      "durationMs": 39919,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 7196,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P3-new-save-validate_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 6178,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "P3-new-save-validate_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户",
+          "action": "click",
+          "ms": 359,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户",
+          "screenshot": "P3-new-save-validate_03_新增客户.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "保存-规则1必输项为空",
+          "action": "click",
+          "ms": 6117,
+          "status": "ok",
+          "detail": "点击「保存-规则1必输项为空」",
+          "screenshot": "P3-new-save-validate_04_保存-规则1必输项为空.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1174,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 信贷预客户",
+          "screenshot": "P3-new-save-validate_05_客户状态.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "对私客户类型",
+          "action": "select:click",
+          "ms": 1172,
+          "status": "ok",
+          "detail": "下拉选择「对私客户类型」= 其他自然人",
+          "screenshot": "P3-new-save-validate_06_对私客户类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "对私客户细分类型",
+          "action": "select:click",
+          "ms": 1166,
+          "status": "ok",
+          "detail": "下拉选择「对私客户细分类型」= 城镇个体工商户",
+          "screenshot": "P3-new-save-validate_07_对私客户细分类型.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1069,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_18位校验_1790153468895",
+          "screenshot": "P3-new-save-validate_08_客户名称.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1092,
+          "status": "ok",
+          "detail": "输入「证件号码」= 12345678901234567",
+          "screenshot": "P3-new-save-validate_09_证件号码.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "保存-规则2非18位",
+          "action": "click",
+          "ms": 6114,
+          "status": "ok",
+          "detail": "点击「保存-规则2非18位」",
+          "screenshot": "P3-new-save-validate_10_保存-规则2非18位.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1088,
+          "status": "ok",
+          "detail": "输入「客户名称」= 蒲秀英",
+          "screenshot": "P3-new-save-validate_11_客户名称.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1082,
+          "status": "ok",
+          "detail": "输入「证件号码」= 120108197911134241",
+          "screenshot": "P3-new-save-validate_12_证件号码.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "保存-规则3已存在",
+          "action": "click",
+          "ms": 6111,
+          "status": "ok",
+          "detail": "点击「保存-规则3已存在」",
+          "screenshot": "P3-new-save-validate_13_保存-规则3已存在.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P4-new-potential",
+      "transaction": "P4-new-potential",
+      "pageId": "P4-new-potential",
+      "status": "pass",
+      "startedAt": 1790161933804,
+      "durationMs": 73061,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 6896,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P4-new-potential_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 6205,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "P4-new-potential_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户",
+          "action": "",
+          "ms": 387,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户",
+          "screenshot": "P4-new-potential_03_新增客户.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1180,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 信贷预客户",
+          "screenshot": "P4-new-potential_04_客户状态.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对私客户类型",
+          "action": "select:click",
+          "ms": 1168,
+          "status": "ok",
+          "detail": "下拉选择「对私客户类型」= 其他自然人",
+          "screenshot": "P4-new-potential_05_对私客户类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "对私客户细分类型",
+          "action": "select:click",
+          "ms": 1265,
+          "status": "ok",
+          "detail": "下拉选择「对私客户细分类型」= 城镇个体工商户",
+          "screenshot": "P4-new-potential_06_对私客户细分类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1086,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923110953",
+          "screenshot": "P4-new-potential_07_客户名称.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1087,
+          "status": "ok",
+          "detail": "输入「证件号码」= 110101198507136286",
+          "screenshot": "P4-new-potential_08_证件号码.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 6108,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "P4-new-potential_09_保存.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对私客户基本信息-潜在客户场景 - 天阳宏业",
+          "action": "",
+          "ms": 559,
+          "status": "ok",
+          "detail": "进入页面 对私客户基本信息-潜在客户场景 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/idcstMgt/mdfIdcstInf/hostCstmgrMdfIdcstInf/FS00005727HostCstmgrMdfIdcstInf?newtag=false&needupdate=yes&newTag=true&cstSt=2&prvtCstLrgclssTp=102&prvtCstSbdvsnTp=1023&crdtTp=100&crdtNo=110101198507136286&cstNm=AT_%E6%BD%9C%E5%AE%A2_20260923110953&ntwrkgInspSt=&avyEcd=UML00005659&viewType=add&id=2102717760261541888&rgulztnInd=0&bsnRltvNo=260923191235308113&bsnNumb=260923191235308113&cstNo=260923191235308113&fcnScnEcd=FS00005727&v=1790161953477",
+          "screenshot": "P4-new-potential_10_对私客户基本信息-潜在客户场景 - 天阳宏业.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "签发日期",
+          "action": "input",
+          "ms": 1092,
+          "status": "ok",
+          "detail": "输入「签发日期」= 2028-12-31",
+          "screenshot": "P4-new-potential_11_签发日期.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 6120,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P4-new-potential_12_关闭日期面板.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "证件到期日",
+          "action": "input",
+          "ms": 1112,
+          "status": "ok",
+          "detail": "输入「证件到期日」= 2038-12-31",
+          "screenshot": "P4-new-potential_13_证件到期日.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "长期",
+          "action": "click",
+          "ms": 6114,
+          "status": "ok",
+          "detail": "点击「长期」",
+          "screenshot": "P4-new-potential_14_长期.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "性别",
+          "action": "select:click",
+          "ms": 1246,
+          "status": "ok",
+          "detail": "下拉选择「性别」= 男性",
+          "screenshot": "P4-new-potential_15_性别.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "出生日期",
+          "action": "input",
+          "ms": 1088,
+          "status": "ok",
+          "detail": "输入「出生日期」= 1988-12-12",
+          "screenshot": "P4-new-potential_16_出生日期.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 6138,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P4-new-potential_17_关闭日期面板.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "户籍地址",
+          "action": "input",
+          "ms": 1080,
+          "status": "ok",
+          "detail": "输入「户籍地址」= AT测试户籍地址P4",
+          "screenshot": "P4-new-potential_18_户籍地址.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "职业",
+          "action": "select:click",
+          "ms": 1246,
+          "status": "ok",
+          "detail": "下拉选择「职业」= 未知",
+          "screenshot": "P4-new-potential_19_职业.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "手机与机主关系类型",
+          "action": "select:click",
+          "ms": 1306,
+          "status": "ok",
+          "detail": "下拉选择「手机与机主关系类型」= 本人",
+          "screenshot": "P4-new-potential_20_手机与机主关系类型.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "手机号码",
+          "action": "input",
+          "ms": 1071,
+          "status": "ok",
+          "detail": "输入「手机号码」= 18780013335",
+          "screenshot": "P4-new-potential_21_手机号码.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "暂存",
+          "action": "click",
+          "ms": 6111,
+          "status": "ok",
+          "detail": "点击「暂存」",
+          "screenshot": "P4-new-potential_22_暂存.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 6146,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "P4-new-potential_23_返回.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1107,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923110953",
+          "screenshot": "P4-new-potential_24_客户名称.png"
+        },
+        {
+          "id": "25",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6142,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P4-new-potential_25_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P5-new-formal",
+      "transaction": "P5-new-formal",
+      "pageId": "P5-new-formal",
+      "status": "warn",
+      "startedAt": 1790162007120,
+      "durationMs": 135164,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 13529,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P5-new-formal_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 6181,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "P5-new-formal_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户",
+          "action": "",
+          "ms": 384,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户",
+          "screenshot": "P5-new-formal_03_新增客户.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1337,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 信贷正式客户",
+          "screenshot": "P5-new-formal_04_客户状态.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对私客户类型",
+          "action": "select:click",
+          "ms": 1301,
+          "status": "ok",
+          "detail": "下拉选择「对私客户类型」= 其他自然人",
+          "screenshot": "P5-new-formal_05_对私客户类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "对私客户细分类型",
+          "action": "select:click",
+          "ms": 1273,
+          "status": "ok",
+          "detail": "下拉选择「对私客户细分类型」= 城镇个体工商户",
+          "screenshot": "P5-new-formal_06_对私客户细分类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1104,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_正式_20260923110954",
+          "screenshot": "P5-new-formal_07_客户名称.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 1105,
+          "status": "ok",
+          "detail": "输入「证件号码」= 110101198501239591",
+          "screenshot": "P5-new-formal_08_证件号码.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "保存",
+          "action": "click",
+          "ms": 6126,
+          "status": "ok",
+          "detail": "点击「保存」",
+          "screenshot": "P5-new-formal_09_保存.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对私客户基本信息-正式客户场景 - 天阳宏业",
+          "action": "",
+          "ms": 591,
+          "status": "ok",
+          "detail": "进入页面 对私客户基本信息-正式客户场景 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/idcstMgt/mdfIdcstInf/hostCstmgrMdfIdcstInf/FS00001360HostCstmgrMdfIdcstInf?newtag=false&needupdate=yes&newTag=true&cstSt=1&prvtCstLrgclssTp=102&prvtCstSbdvsnTp=1023&crdtTp=100&crdtNo=110101198501239591&cstNm=AT_%E6%AD%A3%E5%BC%8F_20260923110954&ntwrkgInspSt=&avyEcd=UML00005659&viewType=add&id=2102718096971878400&rgulztnInd=1&bsnRltvNo=260923191355585114&bsnNumb=260923191355585114&cstNo=260923191355585114&fcnScnEcd=FS00001360&v=1790162033837",
+          "screenshot": "P5-new-formal_10_对私客户基本信息-正式客户场景 - 天阳宏业.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "国籍",
+          "action": "select:click",
+          "ms": 1314,
+          "status": "ok",
+          "detail": "下拉选择「国籍」= 中华人民共和国",
+          "screenshot": "P5-new-formal_11_国籍.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "外文名称",
+          "action": "input",
+          "ms": 1100,
+          "status": "ok",
+          "detail": "输入「外文名称」= AT测试外文名称P5",
+          "screenshot": "P5-new-formal_12_外文名称.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "民族",
+          "action": "select:click",
+          "ms": 1265,
+          "status": "ok",
+          "detail": "下拉选择「民族」= 汉族",
+          "screenshot": "P5-new-formal_13_民族.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "年龄",
+          "action": "input",
+          "ms": 1119,
+          "status": "ok",
+          "detail": "输入「年龄」= AT测试年龄P5",
+          "screenshot": "P5-new-formal_14_年龄.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "签发日期",
+          "action": "input",
+          "ms": 1151,
+          "status": "ok",
+          "detail": "输入「签发日期」= 2028-12-31",
+          "screenshot": "P5-new-formal_15_签发日期.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 7078,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P5-new-formal_16_关闭日期面板.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "证件到期日",
+          "action": "input",
+          "ms": 1116,
+          "status": "ok",
+          "detail": "输入「证件到期日」= 2038-12-31",
+          "screenshot": "P5-new-formal_17_证件到期日.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 7037,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P5-new-formal_18_关闭日期面板.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "长期",
+          "action": "click",
+          "ms": 6140,
+          "status": "ok",
+          "detail": "点击「长期」",
+          "screenshot": "P5-new-formal_19_长期.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "签发机关",
+          "action": "input",
+          "ms": 1127,
+          "status": "ok",
+          "detail": "输入「签发机关」= AT测试签发机关P5",
+          "screenshot": "P5-new-formal_20_签发机关.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "是否家庭户主",
+          "action": "select:click",
+          "ms": 1228,
+          "status": "ok",
+          "detail": "下拉选择「是否家庭户主」= 否",
+          "screenshot": "P5-new-formal_21_是否家庭户主.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "微信号",
+          "action": "input",
+          "ms": 1110,
+          "status": "ok",
+          "detail": "输入「微信号」= AT测试微信号P5",
+          "screenshot": "P5-new-formal_22_微信号.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "电子邮箱",
+          "action": "input",
+          "ms": 1129,
+          "status": "ok",
+          "detail": "输入「电子邮箱」= AT测试电子邮箱P5",
+          "screenshot": "P5-new-formal_23_电子邮箱.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "户籍地",
+          "action": "input",
+          "ms": 1127,
+          "status": "ok",
+          "detail": "输入「户籍地」= AT测试户籍地P5",
+          "screenshot": "P5-new-formal_24_户籍地.png"
+        },
+        {
+          "id": "25",
+          "type": "ele",
+          "name": "经度",
+          "action": "input",
+          "ms": 1113,
+          "status": "ok",
+          "detail": "输入「经度」= AT测试经度P5",
+          "screenshot": "P5-new-formal_25_经度.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "纬度",
+          "action": "input",
+          "ms": 1112,
+          "status": "ok",
+          "detail": "输入「纬度」= AT测试纬度P5",
+          "screenshot": "P5-new-formal_26_纬度.png"
+        },
+        {
+          "id": "27",
+          "type": "ele",
+          "name": "最高学位",
+          "action": "select:click",
+          "ms": 1306,
+          "status": "ok",
+          "detail": "下拉选择「最高学位」= 名誉博士",
+          "screenshot": "P5-new-formal_27_最高学位.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "最高学历",
+          "action": "select:click",
+          "ms": 1326,
+          "status": "ok",
+          "detail": "下拉选择「最高学历」= 研究生教育",
+          "screenshot": "P5-new-formal_28_最高学历.png"
+        },
+        {
+          "id": "29",
+          "type": "ele",
+          "name": "主要从事工作",
+          "action": "input",
+          "ms": 1120,
+          "status": "ok",
+          "detail": "输入「主要从事工作」= AT测试主要从事P5",
+          "screenshot": "P5-new-formal_29_主要从事工作.png"
+        },
+        {
+          "id": "30",
+          "type": "ele",
+          "name": "婚姻状况",
+          "action": "select:click",
+          "ms": 1283,
+          "status": "ok",
+          "detail": "下拉选择「婚姻状况」= 未婚",
+          "screenshot": "P5-new-formal_30_婚姻状况.png"
+        },
+        {
+          "id": "31",
+          "type": "ele",
+          "name": "健康状况",
+          "action": "select:click",
+          "ms": 1312,
+          "status": "ok",
+          "detail": "下拉选择「健康状况」= 健康",
+          "screenshot": "P5-new-formal_31_健康状况.png"
+        },
+        {
+          "id": "32",
+          "type": "ele",
+          "name": "主要收入来源",
+          "action": "input",
+          "ms": 1123,
+          "status": "ok",
+          "detail": "输入「主要收入来源」= AT测试主要收入P5",
+          "screenshot": "P5-new-formal_32_主要收入来源.png"
+        },
+        {
+          "id": "33",
+          "type": "ele",
+          "name": "居住地",
+          "action": "input",
+          "ms": 1104,
+          "status": "ok",
+          "detail": "输入「居住地」= AT测试居住地P5",
+          "screenshot": "P5-new-formal_33_居住地.png"
+        },
+        {
+          "id": "34",
+          "type": "ele",
+          "name": "居住地邮政编码",
+          "action": "input",
+          "ms": 1122,
+          "status": "ok",
+          "detail": "输入「居住地邮政编码」= AT测试居住地邮P5",
+          "screenshot": "P5-new-formal_34_居住地邮政编码.png"
+        },
+        {
+          "id": "35",
+          "type": "ele",
+          "name": "通讯地邮政编码",
+          "action": "input",
+          "ms": 1161,
+          "status": "ok",
+          "detail": "输入「通讯地邮政编码」= AT测试通讯地邮P5",
+          "screenshot": "P5-new-formal_35_通讯地邮政编码.png"
+        },
+        {
+          "id": "36",
+          "type": "ele",
+          "name": "居住状况",
+          "action": "select:click",
+          "ms": 1291,
+          "status": "ok",
+          "detail": "下拉选择「居住状况」= 自置",
+          "screenshot": "P5-new-formal_36_居住状况.png"
+        },
+        {
+          "id": "37",
+          "type": "ele",
+          "name": "通讯地址",
+          "action": "input",
+          "ms": 1131,
+          "status": "ok",
+          "detail": "输入「通讯地址」= AT测试通讯地址P5",
+          "screenshot": "P5-new-formal_37_通讯地址.png"
+        },
+        {
+          "id": "38",
+          "type": "ele",
+          "name": "手机号码（短信通知）",
+          "action": "input",
+          "ms": 1109,
+          "status": "ok",
+          "detail": "输入「手机号码（短信通知）」= 15205050015",
+          "screenshot": "P5-new-formal_38_手机号码（短信通知）.png"
+        },
+        {
+          "id": "39",
+          "type": "ele",
+          "name": "非本人手机与机主关系类型",
+          "action": "select:click",
+          "ms": 1296,
+          "status": "ok",
+          "detail": "下拉选择「非本人手机与机主关系类型」= 本人",
+          "screenshot": "P5-new-formal_39_非本人手机与机主关系类型.png"
+        },
+        {
+          "id": "40",
+          "type": "ele",
+          "name": "最新手机号码",
+          "action": "input",
+          "ms": 1136,
+          "status": "ok",
+          "detail": "输入「最新手机号码」= 15205050015",
+          "screenshot": "P5-new-formal_40_最新手机号码.png"
+        },
+        {
+          "id": "41",
+          "type": "ele",
+          "name": "预留手机号码",
+          "action": "input",
+          "ms": 1131,
+          "status": "ok",
+          "detail": "输入「预留手机号码」= 15205050015",
+          "screenshot": "P5-new-formal_41_预留手机号码.png"
+        },
+        {
+          "id": "42",
+          "type": "ele",
+          "name": "住宅电话",
+          "action": "input",
+          "ms": 1088,
+          "status": "ok",
+          "detail": "输入「住宅电话」= 15205050015",
+          "screenshot": "P5-new-formal_42_住宅电话.png"
+        },
+        {
+          "id": "43",
+          "type": "ele",
+          "name": "行政区划编码",
+          "action": "input",
+          "ms": 1123,
+          "status": "ok",
+          "detail": "输入「行政区划编码」= AT测试行政区划P5",
+          "screenshot": "P5-new-formal_43_行政区划编码.png"
+        },
+        {
+          "id": "44",
+          "type": "ele",
+          "name": "是否有工作单位",
+          "action": "select:click",
+          "ms": 1361,
+          "status": "ok",
+          "detail": "下拉选择「是否有工作单位」= 是",
+          "screenshot": "P5-new-formal_44_是否有工作单位.png"
+        },
+        {
+          "id": "45",
+          "type": "ele",
+          "name": "从业类型",
+          "action": "select:click",
+          "ms": 1331,
+          "status": "ok",
+          "detail": "下拉选择「从业类型」= 工薪供职类",
+          "screenshot": "P5-new-formal_45_从业类型.png"
+        },
+        {
+          "id": "46",
+          "type": "ele",
+          "name": "本行正式员工标志",
+          "action": "select:click",
+          "ms": 1346,
+          "status": "ok",
+          "detail": "下拉选择「本行正式员工标志」= 否",
+          "screenshot": "P5-new-formal_46_本行正式员工标志.png"
+        },
+        {
+          "id": "47",
+          "type": "ele",
+          "name": "单位电话",
+          "action": "input",
+          "ms": 1106,
+          "status": "ok",
+          "detail": "输入「单位电话」= 15205050015",
+          "screenshot": "P5-new-formal_47_单位电话.png"
+        },
+        {
+          "id": "48",
+          "type": "ele",
+          "name": "单位地址",
+          "action": "input",
+          "ms": 1109,
+          "status": "ok",
+          "detail": "输入「单位地址」= AT测试单位地址P5",
+          "screenshot": "P5-new-formal_48_单位地址.png"
+        },
+        {
+          "id": "49",
+          "type": "ele",
+          "name": "单位性质",
+          "action": "select:click",
+          "ms": 1348,
+          "status": "ok",
+          "detail": "下拉选择「单位性质」= 实施公务员法的机关",
+          "screenshot": "P5-new-formal_49_单位性质.png"
+        },
+        {
+          "id": "50",
+          "type": "ele",
+          "name": "职务",
+          "action": "select:click",
+          "ms": 1237,
+          "status": "ok",
+          "detail": "下拉选择「职务」= 高级",
+          "screenshot": "P5-new-formal_50_职务.png"
+        },
+        {
+          "id": "51",
+          "type": "ele",
+          "name": "职称",
+          "action": "select:click",
+          "ms": 1303,
+          "status": "ok",
+          "detail": "下拉选择「职称」= 高级职称",
+          "screenshot": "P5-new-formal_51_职称.png"
+        },
+        {
+          "id": "52",
+          "type": "ele",
+          "name": "是否小微企业主",
+          "action": "select:click",
+          "ms": 1259,
+          "status": "ok",
+          "detail": "下拉选择「是否小微企业主」= 否",
+          "screenshot": "P5-new-formal_52_是否小微企业主.png"
+        },
+        {
+          "id": "53",
+          "type": "ele",
+          "name": "与本行关系",
+          "action": "select:click",
+          "ms": 1302,
+          "status": "ok",
+          "detail": "下拉选择「与本行关系」= 普通客户",
+          "screenshot": "P5-new-formal_53_与本行关系.png"
+        },
+        {
+          "id": "54",
+          "type": "ele",
+          "name": "与内部员工关联关系类型",
+          "action": "select:click",
+          "ms": 1245,
+          "status": "ok",
+          "detail": "下拉选择「与内部员工关联关系类型」= 直系血亲",
+          "screenshot": "P5-new-formal_54_与内部员工关联关系类型.png"
+        },
+        {
+          "id": "55",
+          "type": "ele",
+          "name": "是否新型农业经营主体",
+          "action": "select:click",
+          "ms": 1269,
+          "status": "ok",
+          "detail": "下拉选择「是否新型农业经营主体」= 否",
+          "screenshot": "P5-new-formal_55_是否新型农业经营主体.png"
+        },
+        {
+          "id": "56",
+          "type": "ele",
+          "name": "企业名称",
+          "action": "input",
+          "ms": 1099,
+          "status": "ok",
+          "detail": "输入「企业名称」= AT测试企业名称P5",
+          "screenshot": "P5-new-formal_56_企业名称.png"
+        },
+        {
+          "id": "57",
+          "type": "ele",
+          "name": "登记注册号类型",
+          "action": "select:click",
+          "ms": 1301,
+          "status": "ok",
+          "detail": "下拉选择「登记注册号类型」= 工商注册号",
+          "screenshot": "P5-new-formal_57_登记注册号类型.png"
+        },
+        {
+          "id": "58",
+          "type": "ele",
+          "name": "工商登记注册号",
+          "action": "input",
+          "ms": 1091,
+          "status": "ok",
+          "detail": "输入「工商登记注册号」= AT测试工商登记P5",
+          "screenshot": "P5-new-formal_58_工商登记注册号.png"
+        },
+        {
+          "id": "59",
+          "type": "ele",
+          "name": "注册地行政区划名称",
+          "action": "input",
+          "ms": 1098,
+          "status": "ok",
+          "detail": "输入「注册地行政区划名称」= AT测试注册地行P5",
+          "screenshot": "P5-new-formal_59_注册地行政区划名称.png"
+        },
+        {
+          "id": "60",
+          "type": "ele",
+          "name": "登记注册地址",
+          "action": "input",
+          "ms": 1117,
+          "status": "ok",
+          "detail": "输入「登记注册地址」= AT测试登记注册P5",
+          "screenshot": "P5-new-formal_60_登记注册地址.png"
+        },
+        {
+          "id": "61",
+          "type": "ele",
+          "name": "实际经营地址",
+          "action": "input",
+          "ms": 1129,
+          "status": "ok",
+          "detail": "输入「实际经营地址」= AT测试实际经营P5",
+          "screenshot": "P5-new-formal_61_实际经营地址.png"
+        },
+        {
+          "id": "62",
+          "type": "ele",
+          "name": "经营场所性质类型",
+          "action": "select:click",
+          "ms": 1309,
+          "status": "ok",
+          "detail": "下拉选择「经营场所性质类型」= 自有",
+          "screenshot": "P5-new-formal_62_经营场所性质类型.png"
+        },
+        {
+          "id": "63",
+          "type": "ele",
+          "name": "暂存",
+          "action": "click",
+          "ms": 6106,
+          "status": "ok",
+          "detail": "点击「暂存」",
+          "screenshot": "P5-new-formal_63_暂存.png"
+        },
+        {
+          "id": "64",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 10119,
+          "status": "ok",
+          "detail": "进入页面 对私客户管理列表 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P5-new-formal_64_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "65",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1083,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_正式_20260923110954",
+          "screenshot": "P5-new-formal_65_客户名称.png"
+        },
+        {
+          "id": "66",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6132,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P5-new-formal_66_查询.png"
+        }
+      ],
+      "warnings": [
+        "页面「对私客户管理列表 - 天阳宏业」未自然跳转，引擎自愈直达路由"
+      ],
+      "errors": []
+    },
+    {
+      "file": "P6-modify-potential",
+      "transaction": "P6-modify-potential",
+      "pageId": "P6-modify-potential",
+      "status": "pass",
+      "startedAt": 1790162142545,
+      "durationMs": 73782,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 6821,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P6-modify-potential_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1085,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客",
+          "screenshot": "P6-modify-potential_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6150,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P6-modify-potential_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "行选择",
+          "action": "click",
+          "ms": 1096,
+          "status": "ok",
+          "detail": "选中行「行选择」",
+          "screenshot": "P6-modify-potential_04_行选择.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 6112,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "P6-modify-potential_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "对私客户基本信息-潜在客户场景 - 天阳宏业",
+          "action": "",
+          "ms": 576,
+          "status": "ok",
+          "detail": "进入页面 对私客户基本信息-潜在客户场景 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/idcstMgt/mdfIdcstInf/hostCstmgrMdfIdcstInf/FS00005727HostCstmgrMdfIdcstInf?newtag=false&needupdate=yes&newTag=true&id=2102717760261541888&cstCgy=10&cstNo=260923191235308113&cstNm=AT_%E6%BD%9C%E5%AE%A2_20260923110953&prvtCstLrgclssTp=102&prvtCstSbdvsnTp=1023&gnd=1&brthDt=1988-12-12%2000%3A00%3A00&crdtTp=100&crdtNo=110101198507136286&sgisDt=2028-12-31%2000%3A00%3A00&crdtExdt=2046-09-23%2000%3A00%3A00&mblphNo=18780013335&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cstSt=2&rgulztnInd=0&createInst=9881&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&tsRowIndex=0&viewType=edit&editAll=1&avyEcd=UML00005659&fcnScnEcd=FS00005727&v=1790162158726",
+          "screenshot": "P6-modify-potential_06_对私客户基本信息-潜在客户场景 - 天阳宏业.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "签发日期",
+          "action": "input",
+          "ms": 1097,
+          "status": "ok",
+          "detail": "输入「签发日期」= 2028-12-31",
+          "screenshot": "P6-modify-potential_07_签发日期.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 6134,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P6-modify-potential_08_关闭日期面板.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "证件到期日",
+          "action": "input",
+          "ms": 1178,
+          "status": "ok",
+          "detail": "输入「证件到期日」= 2038-12-31",
+          "screenshot": "P6-modify-potential_09_证件到期日.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 6127,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P6-modify-potential_10_关闭日期面板.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "长期",
+          "action": "click",
+          "ms": 6123,
+          "status": "ok",
+          "detail": "点击「长期」",
+          "screenshot": "P6-modify-potential_11_长期.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "出生日期",
+          "action": "input",
+          "ms": 1073,
+          "status": "ok",
+          "detail": "输入「出生日期」= 1988-12-12",
+          "screenshot": "P6-modify-potential_12_出生日期.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "关闭日期面板",
+          "action": "click",
+          "ms": 6125,
+          "status": "ok",
+          "detail": "点击「关闭日期面板」",
+          "screenshot": "P6-modify-potential_13_关闭日期面板.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "户籍地址",
+          "action": "input",
+          "ms": 1092,
+          "status": "ok",
+          "detail": "输入「户籍地址」= AT测试户籍地址P620260923100145",
+          "screenshot": "P6-modify-potential_14_户籍地址.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "职业",
+          "action": "select:click",
+          "ms": 1193,
+          "status": "ok",
+          "detail": "下拉选择「职业」= 未知",
+          "screenshot": "P6-modify-potential_15_职业.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "手机与机主关系类型",
+          "action": "select:click",
+          "ms": 1237,
+          "status": "ok",
+          "detail": "下拉选择「手机与机主关系类型」= 本人",
+          "screenshot": "P6-modify-potential_16_手机与机主关系类型.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "手机号码",
+          "action": "input",
+          "ms": 1077,
+          "status": "ok",
+          "detail": "输入「手机号码」= 13957705787",
+          "screenshot": "P6-modify-potential_17_手机号码.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "暂存",
+          "action": "click",
+          "ms": 6113,
+          "status": "ok",
+          "detail": "点击「暂存」",
+          "screenshot": "P6-modify-potential_18_暂存.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 6164,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "P6-modify-potential_19_返回.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1086,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923095948",
+          "screenshot": "P6-modify-potential_20_客户名称.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6121,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P6-modify-potential_21_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P7-view-readonly",
+      "transaction": "P7-view-readonly",
+      "pageId": "P7-view-readonly",
+      "status": "pass",
+      "startedAt": 1790162216610,
+      "durationMs": 36175,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 7724,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P7-view-readonly_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1090,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客",
+          "screenshot": "P7-view-readonly_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6138,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P7-view-readonly_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "行选择",
+          "action": "click",
+          "ms": 1131,
+          "status": "ok",
+          "detail": "选中行「行选择」",
+          "screenshot": "P7-view-readonly_04_行选择.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查看",
+          "action": "click",
+          "ms": 6115,
+          "status": "ok",
+          "detail": "点击「查看」",
+          "screenshot": "P7-view-readonly_05_查看.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "客户概况-详情只读 - 天阳宏业",
+          "action": "",
+          "ms": 585,
+          "status": "ok",
+          "detail": "进入页面 客户概况-详情只读 - 天阳宏业 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/idcstMgt/mdfIdcstInf/hostCstmgrMdfIdcstInf/FS00005727HostCstmgrMdfIdcstInf?newtag=false&needupdate=yes&newTag=true&id=2102717760261541888&cstCgy=10&cstNo=260923191235308113&cstNm=AT_%E6%BD%9C%E5%AE%A2_20260923110953&prvtCstLrgclssTp=102&prvtCstSbdvsnTp=1023&gnd=2&brthDt=1988-12-12%2000%3A00%3A00&crdtTp=100&crdtNo=110101198507136286&sgisDt=2028-12-31%2000%3A00%3A00&crdtExdt=2046-09-23%2000%3A00%3A00&mblphNo=13957705787&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cstSt=2&rgulztnInd=0&createInst=9881&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&tsRowIndex=0&viewType=look&avyEcd=UML00005659&fcnScnEcd=FS00005727&v=1790162233211",
+          "screenshot": "P7-view-readonly_06_客户概况-详情只读 - 天阳宏业.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 6152,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "P7-view-readonly_07_返回.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1109,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923095948",
+          "screenshot": "P7-view-readonly_08_客户名称.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6130,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P7-view-readonly_09_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P8-court-info",
+      "transaction": "P8-court-info",
+      "pageId": "P8-court-info",
+      "status": "pass",
+      "startedAt": 1790162253001,
+      "durationMs": 49094,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 7129,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P8-court-info_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1119,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客",
+          "screenshot": "P8-court-info_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6152,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P8-court-info_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "行选择",
+          "action": "click",
+          "ms": 1137,
+          "status": "ok",
+          "detail": "选中行「行选择」",
+          "screenshot": "P8-court-info_04_行选择.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "法院信息",
+          "action": "click",
+          "ms": 6201,
+          "status": "ok",
+          "detail": "点击「法院信息」",
+          "screenshot": "P8-court-info_05_法院信息.png"
+        },
+        {
+          "id": "6",
+          "type": "popup",
+          "name": "法院信息查询",
+          "action": "",
+          "ms": 396,
+          "status": "ok",
+          "detail": "弹窗可见：法院信息查询",
+          "screenshot": "P8-court-info_06_法院信息查询.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "法院信息类型",
+          "action": "select:click",
+          "ms": 1269,
+          "status": "ok",
+          "detail": "下拉选择「法院信息类型」= 涉诉",
+          "screenshot": "P8-court-info_07_法院信息类型.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6141,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P8-court-info_08_查询.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "重置",
+          "action": "click",
+          "ms": 6163,
+          "status": "ok",
+          "detail": "点击「重置」",
+          "screenshot": "P8-court-info_09_重置.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 6138,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "P8-court-info_10_返回.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1114,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923095948",
+          "screenshot": "P8-court-info_11_客户名称.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6134,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P8-court-info_12_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "P9-image-materials",
+      "transaction": "P9-image-materials",
+      "pageId": "P9-image-materials",
+      "status": "pass",
+      "startedAt": 1790162302361,
+      "durationMs": 41628,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对私客户管理列表 - 天阳宏业",
+          "action": "",
+          "ms": 7136,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/prvtCstMgt/idcstMgtPg",
+          "screenshot": "P9-image-materials_01_对私客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1114,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客",
+          "screenshot": "P9-image-materials_02_客户名称.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6136,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P9-image-materials_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "行选择",
+          "action": "click",
+          "ms": 1129,
+          "status": "ok",
+          "detail": "选中行「行选择」",
+          "screenshot": "P9-image-materials_04_行选择.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "影像资料",
+          "action": "click",
+          "ms": 6212,
+          "status": "ok",
+          "detail": "点击「影像资料」",
+          "screenshot": "P9-image-materials_05_影像资料.png"
+        },
+        {
+          "id": "6",
+          "type": "popup",
+          "name": "影像资料",
+          "action": "",
+          "ms": 375,
+          "status": "ok",
+          "detail": "弹窗可见：影像资料",
+          "screenshot": "P9-image-materials_06_影像资料.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户管理目录节点",
+          "action": "click",
+          "ms": 6158,
+          "status": "ok",
+          "detail": "点击「客户管理目录节点」",
+          "screenshot": "P9-image-materials_07_客户管理目录节点.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "返回",
+          "action": "click",
+          "ms": 6148,
+          "status": "ok",
+          "detail": "点击「返回」",
+          "screenshot": "P9-image-materials_08_返回.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 1100,
+          "status": "ok",
+          "detail": "输入「客户名称」= AT_潜客_20260923095948",
+          "screenshot": "P9-image-materials_09_客户名称.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 6117,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "P9-image-materials_10_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

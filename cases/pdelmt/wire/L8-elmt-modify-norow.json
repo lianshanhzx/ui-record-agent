@@ -1,0 +1,111 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "L8 产品要素修改未选行",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "产品要素库",
+          "eventTypeValue": "click",
+          "eventTypeName": "",
+          "mothed": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "产品要素库",
+          "rect": "",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "work/pdelmt/atp/shots/page.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "输入树搜索关键字",
+          "eventTypeValue": "input",
+          "eventTypeName": "输入",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'shrink-search-input')]//input[@placeholder='搜索关键字']",
+          "objectValue": "渠道",
+          "realLabel": "输入树搜索关键字",
+          "rect": "{\"x1\":0.008,\"y1\":0.257,\"x2\":0.197,\"y2\":0.286}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": ""
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "点击树搜索",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'shrink-search-input')]//i[contains(@class,'el-icon-search')]",
+          "objectValue": "",
+          "realLabel": "点击树搜索",
+          "rect": "{\"x1\":0.183,\"y1\":0.263,\"x2\":0.194,\"y2\":0.281}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": ""
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "选中树节点",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-tree')][count(.//div[@role='treeitem'][not(contains(@style,'display: none'))]/div[contains(@class,'el-tree-node__content')][.//span[contains(@class,'is-leaf')]])=1]//div[@role='treeitem'][not(contains(@style,'display: none'))]/div[contains(@class,'el-tree-node__content')][.//span[contains(@class,'is-leaf')]]",
+          "objectValue": "",
+          "realLabel": "选中树节点",
+          "rect": "{\"x1\":0,\"y1\":0.322,\"x2\":0.199,\"y2\":0.356}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": ""
+        },
+        {
+          "propertiesID": "5",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "切换产品要素页签",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-tabs__item')][normalize-space()='产品要素']",
+          "objectValue": "",
+          "realLabel": "切换产品要素页签",
+          "rect": "{\"x1\":0.3,\"y1\":0.25,\"x2\":0.353,\"y2\":0.304}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": ""
+        },
+        {
+          "propertiesID": "6",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "点击修改",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[@id='pane-second']//button[translate(normalize-space(.),' ','')='修改']",
+          "objectValue": "",
+          "realLabel": "点击修改",
+          "rect": "{\"x1\":0.301,\"y1\":0.445,\"x2\":0.334,\"y2\":0.471}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "custNo": "260924144929974126",
+  "rowsBefore": 7,
+  "ncBtnRect": "{\"x1\":0.25,\"y1\":0.2878,\"x2\":0.3361,\"y2\":0.3233}",
+  "confirmText": "Message 您确定发起[实时]联网核查吗? CancelOK",
+  "okRect": "{\"x1\":0.5901,\"y1\":0.5056,\"x2\":0.6319,\"y2\":0.5411}",
+  "elapsedMs": 5101,
+  "ncReqBody": {
+    "cstNo": "260924144929974126",
+    "cstNm": "AT_SMB_20260924144917",
+    "uscc": "914501005QBUAEFCJ8",
+    "crdtTp": "20111",
+    "crdtNo": "914501005QBUAEFCJ8",
+    "ntwrkgInsp": "1",
+    "id": null,
+    "chkTp": "1"
+  },
+  "ncResp": {
+    "status": 200,
+    "description": "操作成功",
+    "data": {
+      "rslt": "1",
+      "inspRstinf": "要素核查匹配正确"
+    },
+    "errorCode": "000000000000"
+  },
+  "rowsAfter": 8,
+  "newRow": "2026-09-29 14:59:20 260924144929974126 AT_SMB_20260924144917 营业执照 914501005QBUAEFCJ8 核查通过 要素核查匹配正确"
+}

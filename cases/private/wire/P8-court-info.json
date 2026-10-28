@@ -1,0 +1,166 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "P8",
+      "pageId": "P8-court-info",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transactionType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对私客户管理列表 - 天阳宏业",
+          "eventTypeValue": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "",
+          "rect": ""
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "客户名称",
+          "eventTypeValue": "input",
+          "mohed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input",
+          "objectValue": "AT_潜客",
+          "realLabel": "客户名称",
+          "rect": "{\"x1\":0.264,\"y1\":0.236,\"x2\":0.492,\"y2\":0.271}",
+          "eventTypeName": "输入框"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//button[normalize-space()='查询']",
+          "objectValue": "",
+          "realLabel": "查询",
+          "rect": "{\"x1\":0.744,\"y1\":0.236,\"x2\":0.806,\"y2\":0.271}",
+          "eventTypeName": "按钮"
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "行选择",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-table__fixed')]//tbody//tr[1]//label[contains(@class,'el-radio')]",
+          "objectValue": "",
+          "realLabel": "行选择",
+          "rect": "{\"x1\":0.01,\"y1\":0.431,\"x2\":0.031,\"y2\":0.458}",
+          "eventTypeName": "单选"
+        },
+        {
+          "propertiesID": "5",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "法院信息",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//button[normalize-space()='法院信息']",
+          "objectValue": "",
+          "realLabel": "法院信息",
+          "rect": "{\"x1\":0.29,\"y1\":0.294,\"x2\":0.383,\"y2\":0.329}",
+          "eventTypeName": "按钮"
+        },
+        {
+          "propertiesID": "6",
+          "propertiesPID": "5",
+          "type": "popup",
+          "propertiesName": "法院信息查询",
+          "eventTypeValue": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "",
+          "rect": "{\"x1\":360,\"y1\":135,\"x2\":1080,\"y2\":765}"
+        },
+        {
+          "propertiesID": "7",
+          "propertiesPID": "6",
+          "type": "ele",
+          "propertiesName": "法院信息类型",
+          "eventTypeValue": "select:click",
+          "mohed": "By.XPATH",
+          "elementType": "//div[@aria-label='法院信息查询']//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='法院信息类型']]//div[contains(@class,'el-select')]",
+          "objectValue": "涉诉",
+          "realLabel": "法院信息类型",
+          "rect": "{\"x1\":0.264,\"y1\":0.226,\"x2\":0.403,\"y2\":0.263}",
+          "eventTypeName": "下拉选择"
+        },
+        {
+          "propertiesID": "8",
+          "propertiesPID": "6",
+          "type": "ele",
+          "propertiesName": "查询",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//div[@aria-label='法院信息查询']//button[normalize-space()='查询']",
+          "objectValue": "",
+          "realLabel": "查询",
+          "rect": "{\"x1\":0.588,\"y1\":0.227,\"x2\":0.635,\"y2\":0.262}",
+          "eventTypeName": "按钮"
+        },
+        {
+          "propertiesID": "9",
+          "propertiesPID": "6",
+          "type": "ele",
+          "propertiesName": "重置",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//div[@aria-label='法院信息查询']//button[normalize-space()='重置']",
+          "objectValue": "",
+          "realLabel": "重置",
+          "rect": "{\"x1\":0.636,\"y1\":0.227,\"x2\":0.683,\"y2\":0.262}",
+          "eventTypeName": "按钮"
+        },
+        {
+          "propertiesID": "10",
+          "propertiesPID": "6",
+          "type": "ele",
+          "propertiesName": "返回",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//div[@aria-label='法院信息查询']//button[normalize-space()='返回']",
+          "objectValue": "",
+          "realLabel": "返回",
+          "rect": "{\"x1\":0.476,\"y1\":0.693,\"x2\":0.524,\"y2\":0.729}",
+          "eventTypeName": "按钮"
+        },
+        {
+          "propertiesID": "11",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "客户名称",
+          "eventTypeValue": "input",
+          "mohed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input",
+          "objectValue": "AT_潜客_20260923095948",
+          "realLabel": "客户名称",
+          "rect": "{\"x1\":0.264,\"y1\":0.236,\"x2\":0.492,\"y2\":0.271}",
+          "eventTypeName": "输入框"
+        },
+        {
+          "propertiesID": "12",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询",
+          "eventTypeValue": "click",
+          "mohed": "By.XPATH",
+          "elementType": "//button[normalize-space()='查询']",
+          "objectValue": "",
+          "realLabel": "查询",
+          "rect": "{\"x1\":0.744,\"y1\":0.236,\"x2\":0.806,\"y2\":0.271}",
+          "eventTypeName": "按钮"
+        }
+      ]
+    }
+  ]
+}

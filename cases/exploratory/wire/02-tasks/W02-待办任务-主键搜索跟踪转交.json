@@ -1,0 +1,23 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcationName": "待办任务-业务主键搜索+流程跟踪+树过滤+转交",
+      "pageId": "wfPendTask",
+      "transcationProperties": [
+        { "propertiesID": 1, "propertiesPID": 0, "type": "page", "propertiesName": "待办任务", "realLabel": "我的任务/待办任务" },
+        { "propertiesID": 2, "propertiesPID": 1, "type": "ele", "propertiesName": "搜索-业务主键", "realLabel": "业务主键", "eventType": "By.XPATH", "eventTypeValue": "input", "objectValue": "PJ20260921016027", "elementType": "//input[@placeholder='请输入业务主键']" },
+        { "propertiesID": 3, "propertiesPID": 1, "type": "ele", "propertiesName": "搜索-查询", "realLabel": "查询", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//button[normalize-space()='查询'][1]" },
+        { "propertiesID": 4, "propertiesPID": 1, "type": "ele", "propertiesName": "行1-流程跟踪", "realLabel": "流程跟踪", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "(//div[contains(@class,'todo-item')][1]//div[contains(@class,'todo-item-action') and not(contains(@class,'--collapse'))][normalize-space()='流程跟踪'])[1]" },
+        { "propertiesID": 5, "propertiesPID": 1, "type": "popup", "propertiesName": "审批历史弹窗", "realLabel": "审批历史" },
+        { "propertiesID": 6, "propertiesPID": 5, "type": "ele", "propertiesName": "审批历史-关闭", "realLabel": "关闭", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//div[contains(@class,'el-dialog') and contains(.,'审批历史')]//button[contains(@class,'el-dialog__headerbtn')][1]" },
+        { "propertiesID": 7, "propertiesPID": 1, "type": "ele", "propertiesName": "搜索-重置", "realLabel": "重置", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//button[normalize-space()='重置'][1]" },
+        { "propertiesID": 8, "propertiesPID": 1, "type": "ele", "propertiesName": "搜索-查询还原全量", "realLabel": "查询", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//button[normalize-space()='查询'][1]" },
+        { "propertiesID": 9, "propertiesPID": 1, "type": "ele", "propertiesName": "树-额度管理", "realLabel": "额度管理", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//div[contains(@class,'el-tree-node__content')][contains(.,'额度管理')][1]" },
+        { "propertiesID": 10, "propertiesPID": 1, "type": "ele", "propertiesName": "树-额度冻结", "realLabel": "额度冻结", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//div[contains(@class,'el-tree-node__content')][contains(.,'额度冻结')][1]" },
+        { "propertiesID": 11, "propertiesPID": 1, "type": "ele", "propertiesName": "行1-转交", "realLabel": "转交", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "(//div[contains(@class,'todo-item')][1]//div[contains(@class,'todo-item-action') and not(contains(@class,'--collapse'))][normalize-space()='转交'])[1]" },
+        { "propertiesID": 12, "propertiesPID": 1, "type": "popup", "propertiesName": "选择用户弹窗", "realLabel": "选择用户" },
+        { "propertiesID": 13, "propertiesPID": 12, "type": "ele", "propertiesName": "选择用户-取消", "realLabel": "取消", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//div[contains(@class,'el-dialog') and contains(.,'选择用户')]//button[normalize-space()='取消'][1]" }
+      ]
+    }
+  ]
+}

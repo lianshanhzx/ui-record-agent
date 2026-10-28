@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>scan-fixture</title>
+<style>
+  body { font: 13px/1.5 system-ui, sans-serif; margin: 16px; }
+  .el-form-item { display: flex; align-items: center; gap: 8px; padding: 3px 0; }
+  .el-form-item__label { width: 110px; }
+  .el-form-item.is-required .el-form-item__label::before { content: "*"; color: #f56c6c; }
+  .el-input, .el-select { width: 200px; }
+  .el-select-dropdown { display: none; }
+  .el-switch { width: 40px; height: 18px; background: #ccc; display: inline-block; }
+  .el-table table { border-collapse: collapse; }
+  .el-table td, .el-table th { border: 1px solid #ccc; padding: 2px 8px; }
+  table { border-collapse: collapse; }
+  td { border: 1px solid #ddd; padding: 2px 8px; }
+</style>
+</head>
+<body>
+<h3>客户信息</h3>
+
+<form class="el-form">
+  <div class="el-form-item is-required">
+    <label class="el-form-item__label">客户名称</label>
+    <div class="el-form-item__content"><div class="el-input"><input class="el-input__inner" placeholder="请输入"></div></div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">客户等级</label>
+    <div class="el-form-item__content">
+      <div class="el-radio-group">
+        <label class="el-radio"><input type="radio" name="lvl"><span>一级</span></label>
+        <label class="el-radio"><input type="radio" name="lvl"><span>二级</span></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">是否有效</label>
+    <div class="el-form-item__content"><div class="el-switch"><input type="checkbox"></div></div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">所属机构</label>
+    <div class="el-form-item__content">
+      <div class="el-select" aria-controls="dd-org"><input class="el-input__inner" placeholder="请选择" readonly></div>
+    </div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">行业代码</label>
+    <div class="el-form-item__content"><span>请选择行业</span><button type="button">选择</button></div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">客户类型</label>
+    <div class="el-form-item__content"><span>信贷预客户</span></div>
+  </div>
+
+  <div class="el-form-item">
+    <label class="el-form-item__label">是否禁用</label>
+    <div class="el-form-item__content"><div class="el-input is-disabled"><input class="el-input__inner" disabled></div></div>
+  </div>
+</form>
+
+<!-- 下拉面板（默认隐藏，供 options 提取） -->
+<div class="el-select-dropdown" id="dd-org">
+  <div class="el-select-dropdown__item"><span>总行</span></div>
+  <div class="el-select-dropdown__item"><span>分行</span></div>
+  <div class="el-select-dropdown__item"><span>支行</span></div>
+</div>
+
+<!-- 表格：表体元素不应进 fields，只出 tables[] -->
+<div class="el-table">
+  <div class="el-table__header-wrapper"><table><thead><tr>
+    <th><div class="cell">客户编号</div></th>
+    <th><div class="cell">客户名称</div></th>
+    <th><div class="cell">操作</div></th>
+  </tr></thead></table></div>
+  <div class="el-table__body-wrapper"><table><tbody>
+    <tr>
+      <td><div class="cell">C0001</div></td>
+      <td><div class="cell">甲公司</div></td>
+      <td><div class="cell"><label class="el-radio"><input type="radio"></label><button>查看</button><button>修改</button></div></td>
+    </tr>
+    <tr>
+      <td><div class="cell">C0002</div></td>
+      <td><div class="cell">乙公司</div></td>
+      <td><div class="cell"><label class="el-radio"><input type="radio"></label><button>查看</button><button>修改</button></div></td>
+    </tr>
+  </tbody></table></div>
+</div>
+
+<!-- 表格内控件（应被跳过） -->
+<table><tr><td>表格内输入框</td><td><input placeholder="表格内输入"></td></tr></table>
+
+<!-- open shadow root 表单（应标 SHADOW_UNSUPPORTED，但仍要出现在清单里） -->
+<div id="shadow-host"></div>
+
+<!-- 第三方固定悬浮窗（open shadow，应被整体排除） -->
+<div id="ext-overlay" style="position: fixed; top: 8px; right: 8px; z-index: 2147483647;"></div>
+
+<script>
+  var host = document.getElementById('shadow-host')
+  var sr = host.attachShadow({ mode: 'open' })
+  sr.innerHTML = '<div class="el-form-item"><label class="el-form-item__label">阴影输入</label>' +
+    '<div class="el-form-item__content"><div class="el-input"><input class="el-input__inner"></div></div></div>'
+
+  var ov = document.getElementById('ext-overlay')
+  var osr = ov.attachShadow({ mode: 'open' })
+  osr.innerHTML = '<button id="ext-btn">扩展按钮</button>'
+</script>
+</body>
+</html>

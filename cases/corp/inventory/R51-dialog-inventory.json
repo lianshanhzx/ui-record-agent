@@ -1,0 +1,174 @@
+[
+  {
+    "text": "新增\n 资质类型\n 资质证书编号\n 资质名称\n 资质等级\n 发证/登记机构\n 发证/登记日期\n 到期日\n 资质说明\n备注\n0/200\n确定\n取消",
+    "forms": [
+      {
+        "label": "资质类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "资质证书编号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "资质名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "资质等级",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "发证/登记机构",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "发证/登记日期",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "到期日",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "资质说明",
+        "required": true,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "备注",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "确定",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

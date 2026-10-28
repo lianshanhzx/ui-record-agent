@@ -1,0 +1,56 @@
+[
+  {
+    "headers": [
+      "报表截止日期",
+      "报表年份",
+      "报表口径",
+      "报表周期",
+      "报表币种",
+      "是否经过审计",
+      "操作"
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--enable-row-hover el-table--mini",
+        "attrs": [],
+        "text": "报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "component el-row",
+        "attrs": [
+          [
+            "cmpt-ecd",
+            "ZJJK00107480"
+          ]
+        ],
+        "text": "新增\n报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "step el-col el-col-24",
+        "attrs": [],
+        "text": "新增\n报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "新增\n报表截止日期\t报表年份\t报表口径\t报表周期\t报表币种\t是否经过审计\t操作\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  }
+]

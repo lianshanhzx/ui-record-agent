@@ -1,0 +1,38 @@
+{
+  "platform": "tansun-credit-corp-watch",
+  "name": "天阳信贷一站式门户（test.creditv5p2）- 对公客户管理（演示慢速）",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    { "match": ["对公客户管理列表", "对公客户管理"], "urlPattern": "cpctMgtPg", "route": "/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg", "readySelector": "//button[normalize-space()='查询']" },
+    { "match": ["对公客户概况"], "urlPattern": "crtCpctInf", "readySelector": "//button[normalize-space()='返回']" }
+  ],
+  "popups": [
+    { "match": ["新增客户校验"], "selector": ".el-drawer" },
+    { "match": ["放大镜", "对私客户查询"], "selector": ".el-dialog" },
+    { "match": ["客户地址", "行政区划"], "selector": ".el-dialog" },
+    { "match": ["影像资料"], "selector": ".el-dialog" },
+    { "match": ["法院信息查询"], "selector": ".el-dialog" },
+    { "match": ["行业代码"], "selector": ".el-popover" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": ".el-table__header",
+  "settleAfterClickMs": 2800,
+  "settleAfterInputMs": 1000
+}

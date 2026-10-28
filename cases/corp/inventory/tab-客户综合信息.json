@@ -1,0 +1,148 @@
+[
+  {
+    "text": "维护客户综合概况\n资产信息\n新增\n修改\n查看\n删除\n\t客户持有资产类别\t评估价值（元）\n单选\t\t\n已加载全部内容，共 0 条 / 1 页\n客户联系信息\n新增\n修改\n查看\n删除\n\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n税费缴纳情况\n新增\n修改\n查看\n删除\n\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n持有保险信息\n新增\n修改\n查看\n删除\n\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n维护关联关系图谱\n全屏\n导出\nRR_20261012_担保_1791773295984(261012104815283216)\n查看征信报告\n查询日期\n查询理由\n查询结果类型\n 查询\n重置\n征信授权书\n征信报告\n\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n1. 维护客户综合概况\n2. 维护关联关系图谱\n3. 查看征信报告",
+    "forms": [
+      {
+        "label": "",
+        "required": false,
+        "inputs": [],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "查询日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "查询理由",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "查询结果类型",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "查询",
+        "disabled": false
+      },
+      {
+        "text": "重置",
+        "disabled": false
+      },
+      {
+        "text": "征信授权书",
+        "disabled": false
+      },
+      {
+        "text": "征信报告",
+        "disabled": false
+      }
+    ]
+  }
+]

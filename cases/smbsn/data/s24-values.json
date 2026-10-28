@@ -1,0 +1,13 @@
+{
+  "custNo": "260924144929974126",
+  "fileName": "AT_test_image_upload.png",
+  "downloadRect": {
+    "x1": 0.8083,
+    "y1": 0.3467,
+    "x2": 0.8278,
+    "y2": 0.3639
+  },
+  "downloadFileName": "AT_test_image_upload.png",
+  "downloadBytes": 134017,
+  "steps": "清理→上传→断言首行→hover→下载(断言download+文件名)→清理"
+}

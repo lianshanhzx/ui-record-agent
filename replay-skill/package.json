@@ -1,0 +1,13 @@
+{
+  "name": "wire-replay",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "确定性回放引擎：按录制的伙伴报文（wire JSON, transcationEventTypeList 格式）从头到尾驱动浏览器，无需重写脚本",
+  "bin": {
+    "wire-replay": "./replay.mjs"
+  },
+  "scripts": {
+    "setup": "npm i playwright && npx playwright install chromium"
+  }
+}

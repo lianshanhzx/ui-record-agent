@@ -1,0 +1,41 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcationName": "P04-同业客户管理-搜索查看核查法院新增",
+      "pageId": "p04smbsn",
+      "transcationProperties": [
+        { "propertiesID": "1", "propertiesPID": "0", "type": "page", "propertiesName": "同业客户管理-列表", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "2", "propertiesPID": "1", "type": "ele", "propertiesName": "客户名称输入框-模糊", "eventType": "By.XPATH", "eventTypeValue": "input", "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input", "objectValue": "交通" },
+        { "propertiesID": "3", "propertiesPID": "1", "type": "ele", "propertiesName": "查询按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']", "objectValue": "" },
+        { "propertiesID": "4", "propertiesPID": "1", "type": "ele", "propertiesName": "重置按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='重置']", "objectValue": "" },
+        { "propertiesID": "5", "propertiesPID": "1", "type": "ele", "propertiesName": "查询按钮-重置后恢复", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']", "objectValue": "" },
+        { "propertiesID": "6", "propertiesPID": "1", "type": "ele", "propertiesName": "证件类型下拉-营业执照", "eventType": "By.XPATH", "eventTypeValue": "select:click", "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='证件类型']]//input", "objectValue": "营业执照" },
+        { "propertiesID": "7", "propertiesPID": "1", "type": "ele", "propertiesName": "查询按钮-按证件类型", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']", "objectValue": "" },
+        { "propertiesID": "8", "propertiesPID": "1", "type": "ele", "propertiesName": "重置按钮-清证件类型", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='重置']", "objectValue": "" },
+        { "propertiesID": "9", "propertiesPID": "1", "type": "ele", "propertiesName": "查询按钮-恢复全量", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']", "objectValue": "" },
+        { "propertiesID": "10", "propertiesPID": "1", "type": "ele", "propertiesName": "客户名称输入框-定位交通银行", "eventType": "By.XPATH", "eventTypeValue": "input", "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input", "objectValue": "交通银行股份有限公司厦门分行" },
+        { "propertiesID": "11", "propertiesPID": "1", "type": "ele", "propertiesName": "查询按钮-定位交通银行", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']", "objectValue": "" },
+        { "propertiesID": "12", "propertiesPID": "1", "type": "ele", "propertiesName": "表格行单选-交通银行厦门分行", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-table__fixed')]//label[contains(@class,'el-radio')]", "objectValue": "" },
+        { "propertiesID": "13", "propertiesPID": "1", "type": "ele", "propertiesName": "联网核查信息按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='联网核查信息']", "objectValue": "" },
+        { "propertiesID": "14", "propertiesPID": "13", "type": "popup", "propertiesName": "联网核查信息-弹窗", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "15", "propertiesPID": "14", "type": "ele", "propertiesName": "核查表行单选", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-dialog')]//label[contains(@class,'el-radio')]", "objectValue": "" },
+        { "propertiesID": "16", "propertiesPID": "14", "type": "ele", "propertiesName": "查看详情按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//button[normalize-space()='查看详情']", "objectValue": "" },
+        { "propertiesID": "17", "propertiesPID": "16", "type": "popup", "propertiesName": "联网核查详情-弹窗", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "18", "propertiesPID": "17", "type": "ele", "propertiesName": "联网核查详情-返回", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-dialog')][.//*[normalize-space()='企业信息']]//button[normalize-space()='返回']", "objectValue": "" },
+        { "propertiesID": "19", "propertiesPID": "14", "type": "ele", "propertiesName": "联网核查-取消关闭", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//button[normalize-space()='取消']", "objectValue": "" },
+        { "propertiesID": "20", "propertiesPID": "1", "type": "ele", "propertiesName": "法院信息按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='法院信息']", "objectValue": "" },
+        { "propertiesID": "21", "propertiesPID": "20", "type": "popup", "propertiesName": "法院信息-弹窗", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "22", "propertiesPID": "21", "type": "ele", "propertiesName": "法院信息-取消关闭", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space(.)='法院信息类型']]//button[normalize-space()='取消']", "objectValue": "" },
+        { "propertiesID": "23", "propertiesPID": "1", "type": "ele", "propertiesName": "查看按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='查看']", "objectValue": "" },
+        { "propertiesID": "24", "propertiesPID": "23", "type": "page", "propertiesName": "同业客户详情-查看模式", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "25", "propertiesPID": "24", "type": "ele", "propertiesName": "返回按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='返回']", "objectValue": "" },
+        { "propertiesID": "26", "propertiesPID": "1", "type": "ele", "propertiesName": "修改按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='修改']", "objectValue": "" },
+        { "propertiesID": "27", "propertiesPID": "26", "type": "page", "propertiesName": "同业客户详情-修改模式", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "28", "propertiesPID": "27", "type": "ele", "propertiesName": "返回按钮-修改页", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='返回']", "objectValue": "" },
+        { "propertiesID": "29", "propertiesPID": "1", "type": "ele", "propertiesName": "新增按钮", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//button[normalize-space()='新增']", "objectValue": "" },
+        { "propertiesID": "30", "propertiesPID": "29", "type": "popup", "propertiesName": "新增同业客户-抽屉", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "", "objectValue": "" },
+        { "propertiesID": "31", "propertiesPID": "30", "type": "ele", "propertiesName": "新增同业客户-取消", "eventType": "By.XPATH", "eventTypeValue": "click", "elementType": "//div[contains(@class,'el-drawer')]//button[normalize-space()='取消']", "objectValue": "" }
+      ]
+    }
+  ]
+}

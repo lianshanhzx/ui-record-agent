@@ -1,0 +1,93 @@
+[
+  {
+    "text": "客户编号\n客户名称\n证件类型\n证件号码\n查询\n重置\n\t客户编号\t客户名称\t证件类型\t证件号码\t客户类型\t客户类型细分\t客户状态\t管户客户经理\t管户机构\n单选\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n取消确认",
+    "forms": [
+      {
+        "label": "客户编号",
+        "required": false,
+        "inputs": [
+          {
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "客户名称",
+        "required": false,
+        "inputs": [
+          {
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件类型",
+        "required": false,
+        "inputs": [
+          {
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件号码",
+        "required": false,
+        "inputs": [
+          {
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "查询",
+        "disabled": false
+      },
+      {
+        "text": "重置",
+        "disabled": false
+      },
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      },
+      {
+        "text": "确认",
+        "disabled": false
+      }
+    ]
+  }
+]

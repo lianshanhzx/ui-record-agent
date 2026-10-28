@@ -1,0 +1,55 @@
+const { chromium } = require('playwright');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..', '..');
+const CUST='260924144929974126';
+const X_NO="//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input";
+const X_TAB="//div[contains(@class,'el-tabs__item')][normalize-space(.)='影像资料']";
+const X_TREE="//div[contains(@class,'el-tree-node__content')][normalize-space(.)='客户管理']";
+const X_HCB="//div[contains(@class,'el-tab-pane')]//div[contains(@class,'el-table__header-wrapper')]//label[contains(@class,'el-checkbox')]";
+const X_BIND="//button[normalize-space()='装订成册']";
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: path.join(ROOT,'auth.json'), viewport:{width:1440,height:900}, acceptDownloads:true });
+  const page = await ctx.newPage();
+  const acts=[];
+  page.on('request', r=>{ const u=r.url().split('/').pop(); if(!/png|jpg|jpeg|gif|css|js|woff|ico|svg/.test(u)) acts.push('REQ '+r.method()+' '+u); });
+  page.on('response', r=>{ const u=r.url().split('/').pop(); if(r.request().method()==='POST' && !/png|jpg|css|js/.test(u)) acts.push('RES '+r.status()+' '+u); });
+  page.on('download', d=>acts.push('DOWNLOAD '+d.suggestedFilename()));
+  page.on('console', m=>{ const t=m.text(); if(/装订|册|bind|error|Error|失败|成功/.test(t)) acts.push('CONSOLE '+m.type()+' '+t.slice(0,120)); });
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg',{waitUntil:'domcontentloaded'});
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr',{timeout:60000});
+  await page.waitForTimeout(2000);
+  await page.locator('xpath='+X_NO).first().fill(CUST);
+  await page.getByRole('button').filter({hasText:/查\s*询/}).first().click();
+  await page.waitForResponse(r=>r.url().includes('findCustTradeList')&&r.request().method()==='POST',{timeout:30000});
+  await page.waitForTimeout(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type=radio]').first().evaluate(el=>el.click());
+  const gcP = page.waitForResponse(r=>r.url().includes('getCustTrade')&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
+  await page.getByRole('button').filter({hasText:/修\s*改/}).first().click();
+  await page.waitForURL(/mdfSmbsnCst/,{timeout:30000});
+  await page.waitForSelector('.el-form-item:visible',{timeout:60000});
+  if(gcP) await gcP.catch(()=>{});
+  await page.waitForTimeout(4000);
+  await page.locator('xpath='+X_TAB).first().click();
+  await page.waitForTimeout(2500);
+  await page.locator('xpath='+X_TREE).first().click();
+  await page.waitForTimeout(2500);
+  await page.locator('xpath='+X_HCB).first().click({timeout:8000});
+  await page.waitForTimeout(1000);
+  acts.length=0;
+  await page.locator('xpath='+X_BIND).first().click({timeout:8000});
+  console.log('CLICKED 装订成册, monitoring 18s...');
+  for(let i=0;i<9;i++){
+    await page.waitForTimeout(2000);
+    const dlg = await page.evaluate(()=>{
+      const d=[...document.querySelectorAll('.el-dialog,.el-message-box,.el-drawer')].filter(x=>x.getBoundingClientRect().width>0);
+      const load=[...document.querySelectorAll('.el-loading-mask,.is-loading')].filter(x=>x.getBoundingClientRect().width>0).length;
+      const toast=[...document.querySelectorAll('.el-message,.el-notification')].map(m=>m.textContent.trim()).filter(Boolean);
+      return {dlg:d.map(x=>((x.querySelector('.el-dialog__title,.el-message-box__title')||{}).textContent||'').trim().slice(0,30)), load, toast};
+    }).catch(()=>'GONE');
+    if(i%2===0) console.log('t+'+(2*(i+1))+'s dlg='+JSON.stringify(dlg));
+  }
+  console.log('ACTS='+JSON.stringify([...new Set(acts)]));
+  await page.screenshot({path:path.join(__dirname,'probe_s29c_after.png')});
+  await browser.close();
+})().catch(e=>{console.error('ERR '+(e.message||e).toString().slice(0,500));process.exit(1);});

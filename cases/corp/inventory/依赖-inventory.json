@@ -1,0 +1,1233 @@
+[
+  {
+    "text": "剩余登录时间：\n50分00秒\n营业时间：\n2026-10-9\n701994\n工作台\n任务事项\n客户管理\n评级管理\n授信管理\n额度管控\n用信管理\n合同管理\n放还款管理\n押品管理\n贷后管理\n催收管理\n数字信贷\n风险预警\n档案管理\n系统管理\n产品管理\n电子文档\n工作流\n智能控制\n智能问答\n资产保全\n智能财报\n综合查询\n对公客户管理\nno-name\nno-name\nno-name\n客户基本信息客户综合信息财务信息业务信息影像资料其他信息\n对公客户概况\n基本信息\n 客户编号\n 客户名称\n 对公客户类型\n 证件类型\n 证件号码\n证件有效日期\n证件是否长期\n 统一社会信用代码\n 法定代表人/负责人姓名\n引入\n 法定代表人/负责人证件类型\n 法定代表人/负责人证件号码\n法定代表人证件起始日期\n法定代表人证件到期日期\n 联网核查状态\n联网核查\n 实际控制人手机号码\n 单位电话\n 上年度从业人数\n 上年度资产总额（元）\n合作状态\n 投资主体\n 控股经济类型\n 行业代码\n 财务部联系人\n 财务部联系人身份证号码\n 财务部联系人手机号码（短信通知）\n验证\n验证清单\n 财务部联系人手机号归属人关系类型\n 财务部联系人手机号归属人名称\n 财务部联系人手机号码归属人身份证号码\n 财务部联系人固定电话\n单位地址邮政编码\n单位地址\n获取地址\n电子邮箱\n国别\n企业登记信息\n 登记注册号\n 登记注册号类型\n 行政区划名称\n获取行政区划\n 登记注册地址\n获取地址\n经度\n纬度\n实际经营地址\n获取地址\n 注册资本币种\n 注册资本金额\n 经营范围\n 注册登记日期\n 登记注册失效日期\n 注册登记机关\n年检到期日期\n保存\n暂存\n返回\n客户标签\n股东及关联人信息\n股东信息\n新增\n修改\n查看\n删除\n获取股东信息\n\t股东类型\t股东客户编号\t股东名称\t证件类型\t证件号码\t币种\t认缴出资额（元）\t实缴出资额（元）\t持股比例（%）\t出资方式\t出资时间\t备注\n单选\t\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n关联人信息\n新增\n修改\n查看\n删除\n\t关联方客户编号\t关联客户名称\t关联人类型\t证件类型\t证件号码\t职务名称\n单选\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n与其他客户关联信息\n新增\n修改\n查看\n删除\n\t证件类型\t证件号码\t关联客户名称\t关联关系\t注册资本币种\t登记机构\t工商登记注册号\t法定代表人名称\t注册资本金额\t主营业务范围描述\n单选\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n受益人信息\n新增\n修改\n查看\n删除\n\t受益人客户编号\t受益人名称\t受益人证件类型\t受益人证件号码\t受益人证件生效日期\t受益人证件失效日期\t受益人地址\n单选\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n经营情况\n保存\n客户经营概况\n经营场所面积\n 经营场所所有权类型\n主要产品情况\n0/200\n主要生产设备\n实际生产能力\n0/200\n 地区重点企业\n 优势企业\n 高环境风险高污染企业\n 宏观调控限控行业标志\n 特种经营标识\n租金（元/年）\n土地面积（㎡）\n建筑面积（㎡）\n客户资质信息\n新增\n修改\n查看\n删除\n\t证书编号\t发证/登记日期\t登记机构\t资质到期日期\t资质等级\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n参与项目情况\n新增\n修改\n查看\n删除\n\t项目类型\t项目名称\t项目编号\t项目资金来源估算（元）\t项目总投资估算（元）\t登记机构\t登记人\t登记日期\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n企业债券发行情况\n新增\n修改\n查看\n删除\n\t债券名称\t债券类型\t发行金额(元）\t发行币种\t发行日期\t债券期限(月）\t创建机构\t创建人\n单选\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n对外投资信息\n新增\n修改\n查看\n删除\n\t被投资单位名称（全称）\t投资性质\t组织机构代码\t出资方式\t投资金额（元）\t所占比例\n单选\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页\n1. 对公客户概况\n2. 客户标签\n3. 股东及关联人信息\n4. 经营情况",
+    "forms": [
+      {
+        "label": "客户编号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "261012113800351219",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "客户名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR_20261012_依赖_1791776281015",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "对公客户类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "担保公司",
+            "disabled": true,
+            "readonly": true,
+            "placeholder": ""
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "营业执照",
+            "disabled": true,
+            "readonly": true,
+            "placeholder": ""
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "913502LHNC1H4DMWXP",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件有效日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "证件是否长期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "checkbox",
+            "tag": "INPUT",
+            "value": "on",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "统一社会信用代码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "913502LHNC1H4DMWXP",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "法定代表人/负责人姓名",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "引入"
+        ]
+      },
+      {
+        "label": "法定代表人/负责人证件类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "法定代表人/负责人证件号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "法定代表人证件起始日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "法定代表人证件到期日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "联网核查状态",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": [
+          "联网核查"
+        ]
+      },
+      {
+        "label": "实际控制人手机号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "单位电话",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "上年度从业人数",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "上年度资产总额（元）",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "合作状态",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "投资主体",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "控股经济类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "行业代码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          },
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "查询"
+        ]
+      },
+      {
+        "label": "财务部联系人",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "财务部联系人身份证号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "财务部联系人手机号码（短信通知）",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "验证"
+        ]
+      },
+      {
+        "label": "财务部联系人手机号归属人关系类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "财务部联系人手机号归属人名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "财务部联系人手机号码归属人身份证号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "财务部联系人固定电话",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "单位地址邮政编码",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "单位地址",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "获取地址"
+        ]
+      },
+      {
+        "label": "电子邮箱",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "国别",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "中华人民共和国",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "登记注册号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "登记注册号类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "行政区划名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "获取行政区划"
+        ]
+      },
+      {
+        "label": "登记注册地址",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "获取地址"
+        ]
+      },
+      {
+        "label": "经度",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "纬度",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "实际经营地址",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "获取地址"
+        ]
+      },
+      {
+        "label": "注册资本币种",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "人民币",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "注册资本金额",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "经营范围",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "注册登记日期",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "登记注册失效日期",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "注册登记机关",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "年检到期日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "经营场所面积",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "经营场所所有权类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "主要产品情况",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "主要生产设备",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "实际生产能力",
+        "required": false,
+        "inputs": [
+          {
+            "type": "textarea",
+            "tag": "TEXTAREA",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "地区重点企业",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "优势企业",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "高环境风险高污染企业",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "宏观调控限控行业标志",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "特种经营标识",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "租金（元/年）",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "土地面积（㎡）",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "建筑面积（㎡）",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      }
+    ],
+    "buttons": [
+      {
+        "text": "引入",
+        "disabled": false
+      },
+      {
+        "text": "联网核查",
+        "disabled": false
+      },
+      {
+        "text": "验证",
+        "disabled": false
+      },
+      {
+        "text": "验证清单",
+        "disabled": false
+      },
+      {
+        "text": "获取地址",
+        "disabled": false
+      },
+      {
+        "text": "获取行政区划",
+        "disabled": false
+      },
+      {
+        "text": "获取地址",
+        "disabled": false
+      },
+      {
+        "text": "获取地址",
+        "disabled": false
+      },
+      {
+        "text": "保存",
+        "disabled": false
+      },
+      {
+        "text": "暂存",
+        "disabled": false
+      },
+      {
+        "text": "返回",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "获取股东信息",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "保存",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      },
+      {
+        "text": "新增",
+        "disabled": false
+      },
+      {
+        "text": "修改",
+        "disabled": false
+      },
+      {
+        "text": "查看",
+        "disabled": false
+      },
+      {
+        "text": "删除",
+        "disabled": false
+      }
+    ]
+  }
+]

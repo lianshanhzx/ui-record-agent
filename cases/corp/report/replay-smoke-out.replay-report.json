@@ -1,0 +1,2209 @@
+{
+  "generatedAt": "2026-10-12T06:42:59.475Z",
+  "profile": "对公客户管理全新录制 2026-10-12",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 221433,
+  "summary": {
+    "total": 11,
+    "pass": 10,
+    "warn": 0,
+    "fail": 1
+  },
+  "results": [
+    {
+      "file": "R01",
+      "transaction": "R01 对公客户管理-列表八条件查询",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787160473,
+      "durationMs": 14522,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 7514,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R01_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "展开更多查询条件",
+          "action": "click",
+          "ms": 639,
+          "status": "ok",
+          "detail": "点击「展开更多查询条件」",
+          "screenshot": "R01_02_展开更多查询条件.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 284,
+          "status": "ok",
+          "detail": "输入「客户编号」= 261011085150898194",
+          "screenshot": "R01_03_客户编号.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户分类",
+          "action": "select:click",
+          "ms": 1176,
+          "status": "ok",
+          "detail": "下拉选择「客户分类」= 发展巩固类",
+          "screenshot": "R01_04_客户分类.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 267,
+          "status": "ok",
+          "detail": "输入「客户名称」= RK001测试公司",
+          "screenshot": "R01_05_客户名称.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1166,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 营业执照",
+          "screenshot": "R01_06_证件类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 269,
+          "status": "ok",
+          "detail": "输入「证件号码」= 91330100RK0010001X",
+          "screenshot": "R01_07_证件号码.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "对公客户类型",
+          "action": "select:click",
+          "ms": 1148,
+          "status": "ok",
+          "detail": "下拉选择「对公客户类型」= 企业类",
+          "screenshot": "R01_08_对公客户类型.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "客户状态",
+          "action": "select:click",
+          "ms": 1167,
+          "status": "ok",
+          "detail": "下拉选择「客户状态」= 信贷预客户",
+          "screenshot": "R01_09_客户状态.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "管户客户经理",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「管户客户经理」= 黄某某",
+          "screenshot": "R01_10_管户客户经理.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 609,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "R01_11_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R02",
+      "transaction": "R02 对公客户管理-列表无结果查询",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787175031,
+      "durationMs": 8744,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 7214,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R02_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "重置",
+          "action": "click",
+          "ms": 657,
+          "status": "ok",
+          "detail": "点击「重置」",
+          "screenshot": "R02_02_重置.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 268,
+          "status": "ok",
+          "detail": "输入「客户名称」= RR_NO_MATCH_20261012_1791772153367",
+          "screenshot": "R02_03_客户名称.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 605,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "R02_04_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R03",
+      "transaction": "R03 对公客户管理-列表八条件重置",
+      "pageId": "TBD",
+      "status": "fail",
+      "startedAt": 1791787183824,
+      "durationMs": 28406,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6638,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R03_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 275,
+          "status": "ok",
+          "detail": "输入「客户编号」= 261011085150898194",
+          "screenshot": "R03_02_客户编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "客户分类",
+          "action": "select:click",
+          "ms": 1189,
+          "status": "ok",
+          "detail": "下拉选择「客户分类」= 发展巩固类",
+          "screenshot": "R03_03_客户分类.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 259,
+          "status": "ok",
+          "detail": "输入「客户名称」= RK001测试公司",
+          "screenshot": "R03_04_客户名称.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 0,
+          "status": "fail",
+          "detail": "",
+          "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[contains(concat(\\' \\',normalize-space(@class),\\' \\'),\\' el-form-item \\')][.//label[translate(normalize-space(.),\\' *：:\\',\\'\\')=\\'证件类型\\']]//div[contains(concat(\" \",normalize-space(@class),\" \"),\" el-select \")]').first() to be visible\u001b[22m\n",
+          "screenshot": "R03_05_FAIL.png"
+        }
+      ],
+      "warnings": [],
+      "errors": [
+        "步骤(5) 证件类型: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[contains(concat(\\' \\',normalize-space(@class),\\' \\'),\\' el-form-item \\')][.//label[translate(normalize-space(.),\\' *：:\\',\\'\\')=\\'证件类型\\']]//div[contains(concat(\" \",normalize-space(@class),\" \"),\" el-select \")]').first() to be visible\u001b[22m\n"
+      ]
+    },
+    {
+      "file": "R04",
+      "transaction": "R04 对公客户管理-列表分页",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787212270,
+      "durationMs": 8970,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6496,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R04_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "下一页",
+          "action": "click",
+          "ms": 634,
+          "status": "ok",
+          "detail": "点击「下一页」",
+          "screenshot": "R04_02_下一页.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "第一页",
+          "action": "click",
+          "ms": 676,
+          "status": "ok",
+          "detail": "点击「第一页」",
+          "screenshot": "R04_03_第一页.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "每页条数",
+          "action": "select:click",
+          "ms": 1164,
+          "status": "ok",
+          "detail": "下拉选择「每页条数」= 20条/页",
+          "screenshot": "R04_04_每页条数.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R05",
+      "transaction": "R05 对公客户管理-未选记录入口校验",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787221280,
+      "durationMs": 9787,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6735,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R05_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 651,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "R05_02_修改.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查看",
+          "action": "click",
+          "ms": 602,
+          "status": "ok",
+          "detail": "点击「查看」",
+          "screenshot": "R05_03_查看.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "联网核查",
+          "action": "click",
+          "ms": 606,
+          "status": "ok",
+          "detail": "点击「联网核查」",
+          "screenshot": "R05_04_联网核查.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "法院信息",
+          "action": "click",
+          "ms": 602,
+          "status": "ok",
+          "detail": "点击「法院信息」",
+          "screenshot": "R05_05_法院信息.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "影像资料",
+          "action": "click",
+          "ms": 591,
+          "status": "ok",
+          "detail": "点击「影像资料」",
+          "screenshot": "R05_06_影像资料.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R06",
+      "transaction": "R06 对公客户管理-新增抽屉初始化与取消",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787231116,
+      "durationMs": 8219,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6588,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R06_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 628,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "R06_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户校验",
+          "action": "click",
+          "ms": 367,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户校验",
+          "screenshot": "R06_03_新增客户校验.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "取消",
+          "action": "click",
+          "ms": 636,
+          "status": "ok",
+          "detail": "点击「取消」",
+          "screenshot": "R06_04_取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R07",
+      "transaction": "R07 对公客户管理-新增保存校验",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787239377,
+      "durationMs": 13996,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6939,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R07_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 752,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "R07_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户校验",
+          "action": "click",
+          "ms": 368,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户校验",
+          "screenshot": "R07_03_新增客户校验.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "空表单保存",
+          "action": "click",
+          "ms": 601,
+          "status": "ok",
+          "detail": "点击「空表单保存」",
+          "screenshot": "R07_04_空表单保存.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对公客户类型",
+          "action": "select:click",
+          "ms": 1184,
+          "status": "ok",
+          "detail": "下拉选择「对公客户类型」= 企业类",
+          "screenshot": "R07_05_对公客户类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1183,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 营业执照",
+          "screenshot": "R07_06_证件类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 289,
+          "status": "ok",
+          "detail": "输入「客户名称」= RR_位数校验_20261012",
+          "screenshot": "R07_07_客户名称.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 275,
+          "status": "ok",
+          "detail": "输入「证件号码」= 12345678901234567",
+          "screenshot": "R07_08_证件号码.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "位数校验保存",
+          "action": "click",
+          "ms": 607,
+          "status": "ok",
+          "detail": "点击「位数校验保存」",
+          "screenshot": "R07_09_位数校验保存.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 263,
+          "status": "ok",
+          "detail": "输入「客户名称」= RK001测试公司",
+          "screenshot": "R07_10_客户名称.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 283,
+          "status": "ok",
+          "detail": "输入「证件号码」= 91330100RK0010001X",
+          "screenshot": "R07_11_证件号码.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "重复证件保存",
+          "action": "click",
+          "ms": 609,
+          "status": "ok",
+          "detail": "点击「重复证件保存」",
+          "screenshot": "R07_12_重复证件保存.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "取消",
+          "action": "click",
+          "ms": 643,
+          "status": "ok",
+          "detail": "点击「取消」",
+          "screenshot": "R07_13_取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R08",
+      "transaction": "R08 对公客户管理-OCR入口与前置校验",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787253416,
+      "durationMs": 18847,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 12159,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R08_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 623,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "R08_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户校验",
+          "action": "click",
+          "ms": 368,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户校验",
+          "screenshot": "R08_03_新增客户校验.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "未选择证件OCR识别",
+          "action": "click",
+          "ms": 598,
+          "status": "ok",
+          "detail": "点击「未选择证件OCR识别」",
+          "screenshot": "R08_04_未选择证件OCR识别.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "对公客户类型",
+          "action": "select:click",
+          "ms": 1185,
+          "status": "ok",
+          "detail": "下拉选择「对公客户类型」= 企业类",
+          "screenshot": "R08_05_对公客户类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1164,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 营业执照",
+          "screenshot": "R08_06_证件类型.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "OCR识别",
+          "action": "click",
+          "ms": 606,
+          "status": "ok",
+          "detail": "点击「OCR识别」",
+          "screenshot": "R08_07_OCR识别.png"
+        },
+        {
+          "id": "8",
+          "type": "popup",
+          "name": "对公客户OCR导入",
+          "action": "click",
+          "ms": 358,
+          "status": "ok",
+          "detail": "弹窗可见：对公客户OCR导入",
+          "screenshot": "R08_08_对公客户OCR导入.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "未上传营业执照确认",
+          "action": "click",
+          "ms": 586,
+          "status": "ok",
+          "detail": "点击「未上传营业执照确认」",
+          "screenshot": "R08_09_未上传营业执照确认.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "OCR取消",
+          "action": "click",
+          "ms": 601,
+          "status": "ok",
+          "detail": "点击「OCR取消」",
+          "screenshot": "R08_10_OCR取消.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "新增取消",
+          "action": "click",
+          "ms": 599,
+          "status": "ok",
+          "detail": "点击「新增取消」",
+          "screenshot": "R08_11_新增取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R09",
+      "transaction": "R09 对公客户管理-新增潜客客户",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787272305,
+      "durationMs": 31837,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 7239,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R09_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 709,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "R09_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户校验",
+          "action": "click",
+          "ms": 362,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户校验",
+          "screenshot": "R09_03_新增客户校验.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "对公客户类型",
+          "action": "select:click",
+          "ms": 1168,
+          "status": "ok",
+          "detail": "下拉选择「对公客户类型」= 企业类",
+          "screenshot": "R09_04_对公客户类型.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1175,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 营业执照",
+          "screenshot": "R09_05_证件类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 273,
+          "status": "ok",
+          "detail": "输入「客户名称」= RP_20261012_潜客_1791781603477",
+          "screenshot": "R09_06_客户名称.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 251,
+          "status": "ok",
+          "detail": "输入「证件号码」= 91350PBGA6F2YG8D3R",
+          "screenshot": "R09_07_证件号码.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "保存新增客户",
+          "action": "click",
+          "ms": 584,
+          "status": "ok",
+          "detail": "点击「保存新增客户」",
+          "screenshot": "R09_08_保存新增客户.png"
+        },
+        {
+          "id": "9",
+          "type": "page",
+          "name": "维护对公客户概况",
+          "action": "click",
+          "ms": 860,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005518HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&cstSt=2&cpctTp=601&crdtTp=20111&cstNm=RP_20261012_%E6%BD%9C%E5%AE%A2_1791781603477&crdtNo=91350PBGA6F2YG8D3R&avyEcd=UML00005557&id=2109534869507493888&cstNo=261012144120781222&rgulztnInd=0&operoratFlag=add&viewType=add&fcnScnEcd=FS00005518&v=1791787284242",
+          "screenshot": "R09_09_维护对公客户概况.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "登记注册地址选择",
+          "action": "click",
+          "ms": 639,
+          "status": "ok",
+          "detail": "点击「登记注册地址选择」",
+          "screenshot": "R09_10_登记注册地址选择.png"
+        },
+        {
+          "id": "11",
+          "type": "popup",
+          "name": "客户地址选择器",
+          "action": "click",
+          "ms": 364,
+          "status": "ok",
+          "detail": "弹窗可见：客户地址选择器",
+          "screenshot": "R09_11_客户地址选择器.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "城市",
+          "action": "select:click",
+          "ms": 1217,
+          "status": "ok",
+          "detail": "下拉选择「城市」= 宁德市",
+          "screenshot": "R09_12_城市.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "区/县",
+          "action": "select:click",
+          "ms": 1212,
+          "status": "ok",
+          "detail": "下拉选择「区/县」= 福鼎市",
+          "screenshot": "R09_13_区_县.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "详细地址",
+          "action": "input",
+          "ms": 275,
+          "status": "ok",
+          "detail": "输入「详细地址」= RR测试地址1012号",
+          "screenshot": "R09_14_详细地址.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "地址确认",
+          "action": "click",
+          "ms": 607,
+          "status": "ok",
+          "detail": "点击「地址确认」",
+          "screenshot": "R09_15_地址确认.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "国别",
+          "action": "select:click",
+          "ms": 1135,
+          "status": "ok",
+          "detail": "下拉选择「国别」= 中华人民共和国",
+          "screenshot": "R09_16_国别.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "外文名称",
+          "action": "input",
+          "ms": 266,
+          "status": "ok",
+          "detail": "输入「外文名称」= RR1012_外文名称",
+          "screenshot": "R09_17_外文名称.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "经度",
+          "action": "input",
+          "ms": 250,
+          "status": "ok",
+          "detail": "输入「经度」= 119.6",
+          "screenshot": "R09_18_经度.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "纬度",
+          "action": "input",
+          "ms": 267,
+          "status": "ok",
+          "detail": "输入「纬度」= 26.4",
+          "screenshot": "R09_19_纬度.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "财务部联系人名称",
+          "action": "input",
+          "ms": 268,
+          "status": "ok",
+          "detail": "输入「财务部联系人名称」= RR1012_财务部联系人名称",
+          "screenshot": "R09_20_财务部联系人名称.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "财务部联系人手机号码（短信通知）",
+          "action": "input",
+          "ms": 264,
+          "status": "ok",
+          "detail": "输入「财务部联系人手机号码（短信通知）」= 13900001012",
+          "screenshot": "R09_21_财务部联系人手机号码（短信通知）.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "投资主体类型",
+          "action": "select:click",
+          "ms": 1184,
+          "status": "ok",
+          "detail": "下拉选择「投资主体类型」= 法人投资",
+          "screenshot": "R09_22_投资主体类型.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "成立日期",
+          "action": "input",
+          "ms": 287,
+          "status": "ok",
+          "detail": "输入「成立日期」= 2024-01-01",
+          "screenshot": "R09_23_成立日期.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "关闭成立日期日期面板",
+          "action": "click",
+          "ms": 613,
+          "status": "ok",
+          "detail": "点击「关闭成立日期日期面板」",
+          "screenshot": "R09_24_关闭成立日期日期面板.png"
+        },
+        {
+          "id": "25",
+          "type": "ele",
+          "name": "注册登记日期",
+          "action": "input",
+          "ms": 273,
+          "status": "ok",
+          "detail": "输入「注册登记日期」= 2024-01-15",
+          "screenshot": "R09_25_注册登记日期.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "关闭注册登记日期日期面板",
+          "action": "click",
+          "ms": 594,
+          "status": "ok",
+          "detail": "点击「关闭注册登记日期日期面板」",
+          "screenshot": "R09_26_关闭注册登记日期日期面板.png"
+        },
+        {
+          "id": "27",
+          "type": "ele",
+          "name": "登记注册失效日期",
+          "action": "input",
+          "ms": 271,
+          "status": "ok",
+          "detail": "输入「登记注册失效日期」= 2030-10-09",
+          "screenshot": "R09_27_登记注册失效日期.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "关闭登记注册失效日期日期面板",
+          "action": "click",
+          "ms": 594,
+          "status": "ok",
+          "detail": "点击「关闭登记注册失效日期日期面板」",
+          "screenshot": "R09_28_关闭登记注册失效日期日期面板.png"
+        },
+        {
+          "id": "29",
+          "type": "ele",
+          "name": "统一社会信用代码",
+          "action": "input",
+          "ms": 252,
+          "status": "ok",
+          "detail": "输入「统一社会信用代码」= 91350PBGA6F2YG8D3R",
+          "screenshot": "R09_29_统一社会信用代码.png"
+        },
+        {
+          "id": "30",
+          "type": "ele",
+          "name": "主营业务范围描述",
+          "action": "input",
+          "ms": 250,
+          "status": "ok",
+          "detail": "输入「主营业务范围描述」= RR1012_主营业务范围描述",
+          "screenshot": "R09_30_主营业务范围描述.png"
+        },
+        {
+          "id": "31",
+          "type": "ele",
+          "name": "经营范围",
+          "action": "input",
+          "ms": 269,
+          "status": "ok",
+          "detail": "输入「经营范围」= RR1012_经营范围",
+          "screenshot": "R09_31_经营范围.png"
+        },
+        {
+          "id": "32",
+          "type": "ele",
+          "name": "法定代表人引入",
+          "action": "click",
+          "ms": 611,
+          "status": "ok",
+          "detail": "点击「法定代表人引入」",
+          "screenshot": "R09_32_法定代表人引入.png"
+        },
+        {
+          "id": "33",
+          "type": "popup",
+          "name": "对私客户查询放大镜",
+          "action": "click",
+          "ms": 353,
+          "status": "ok",
+          "detail": "弹窗可见：对私客户查询放大镜",
+          "screenshot": "R09_33_对私客户查询放大镜.png"
+        },
+        {
+          "id": "34",
+          "type": "ele",
+          "name": "放大镜客户名称",
+          "action": "input",
+          "ms": 255,
+          "status": "ok",
+          "detail": "输入「放大镜客户名称」= AT",
+          "screenshot": "R09_34_放大镜客户名称.png"
+        },
+        {
+          "id": "35",
+          "type": "ele",
+          "name": "放大镜查询",
+          "action": "click",
+          "ms": 587,
+          "status": "ok",
+          "detail": "点击「放大镜查询」",
+          "screenshot": "R09_35_放大镜查询.png"
+        },
+        {
+          "id": "36",
+          "type": "ele",
+          "name": "放大镜客户名称",
+          "action": "input",
+          "ms": 265,
+          "status": "ok",
+          "detail": "输入「放大镜客户名称」= AT",
+          "screenshot": "R09_36_放大镜客户名称.png"
+        },
+        {
+          "id": "37",
+          "type": "ele",
+          "name": "放大镜查询",
+          "action": "click",
+          "ms": 598,
+          "status": "ok",
+          "detail": "点击「放大镜查询」",
+          "screenshot": "R09_37_放大镜查询.png"
+        },
+        {
+          "id": "38",
+          "type": "ele",
+          "name": "选择测试自然人",
+          "action": "click",
+          "ms": 1083,
+          "status": "ok",
+          "detail": "选中行「选择测试自然人」",
+          "screenshot": "R09_38_选择测试自然人.png"
+        },
+        {
+          "id": "39",
+          "type": "ele",
+          "name": "引入确认",
+          "action": "click",
+          "ms": 632,
+          "status": "ok",
+          "detail": "点击「引入确认」",
+          "screenshot": "R09_39_引入确认.png"
+        },
+        {
+          "id": "40",
+          "type": "ele",
+          "name": "概况暂存",
+          "action": "click",
+          "ms": 606,
+          "status": "ok",
+          "detail": "点击「概况暂存」",
+          "screenshot": "R09_40_概况暂存.png"
+        },
+        {
+          "id": "41",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 838,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R09_41_返回列表.png"
+        },
+        {
+          "id": "42",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 557,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R09_42_对公客户管理列表.png"
+        },
+        {
+          "id": "43",
+          "type": "ele",
+          "name": "清空查询",
+          "action": "click",
+          "ms": 600,
+          "status": "ok",
+          "detail": "点击「清空查询」",
+          "screenshot": "R09_43_清空查询.png"
+        },
+        {
+          "id": "44",
+          "type": "ele",
+          "name": "新建客户反查",
+          "action": "input",
+          "ms": 267,
+          "status": "ok",
+          "detail": "输入「新建客户反查」= RP_20261012_潜客_1791781603477",
+          "screenshot": "R09_44_新建客户反查.png"
+        },
+        {
+          "id": "45",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 611,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "R09_45_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R10",
+      "transaction": "R10 对公客户管理-潜在客户正式保存",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787304180,
+      "durationMs": 13740,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6747,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R10_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 621,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R10_02_重置查询.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "测试客户编号",
+          "action": "input",
+          "ms": 266,
+          "status": "ok",
+          "detail": "输入「测试客户编号」= RP_20261012_潜客_1791781603477",
+          "screenshot": "R10_03_测试客户编号.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "查询测试客户",
+          "action": "click",
+          "ms": 591,
+          "status": "ok",
+          "detail": "点击「查询测试客户」",
+          "screenshot": "R10_04_查询测试客户.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "选择本轮测试客户",
+          "action": "click",
+          "ms": 1075,
+          "status": "ok",
+          "detail": "选中行「选择本轮测试客户」",
+          "screenshot": "R10_05_选择本轮测试客户.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 578,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "R10_06_修改.png"
+        },
+        {
+          "id": "7",
+          "type": "page",
+          "name": "维护对公客户概况-潜客-修改",
+          "action": "click",
+          "ms": 656,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况-潜客-修改 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005518HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&crdtNo=91350PBGA6F2YG8D3R&uscc=91350PBGA6F2YG8D3R&cstNm=RP_20261012_%E6%BD%9C%E5%AE%A2_1791781603477&cstCgy=60&cstNo=261012144120781222&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=601&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109534869507493888&rgulztnInd=0&crdtTp=20111&createInst=9881&tsRowIndex=0&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005518&v=1791787314029",
+          "screenshot": "R10_07_维护对公客户概况-潜客-修改.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "概况保存",
+          "action": "click",
+          "ms": 608,
+          "status": "ok",
+          "detail": "点击「概况保存」",
+          "screenshot": "R10_08_概况保存.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 649,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R10_09_返回列表.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 550,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R10_10_对公客户管理列表.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 565,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R10_11_重置查询.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "测试客户反查",
+          "action": "input",
+          "ms": 251,
+          "status": "ok",
+          "detail": "输入「测试客户反查」= RP_20261012_潜客_1791781603477",
+          "screenshot": "R10_12_测试客户反查.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 582,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "R10_13_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R11",
+      "transaction": "R11 对公客户管理-新增担保客户",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791787317959,
+      "durationMs": 61479,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6753,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R11_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "新增",
+          "action": "click",
+          "ms": 684,
+          "status": "ok",
+          "detail": "点击「新增」",
+          "screenshot": "R11_02_新增.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "新增客户校验",
+          "action": "click",
+          "ms": 367,
+          "status": "ok",
+          "detail": "弹窗可见：新增客户校验",
+          "screenshot": "R11_03_新增客户校验.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "对公客户类型",
+          "action": "select:click",
+          "ms": 1167,
+          "status": "ok",
+          "detail": "下拉选择「对公客户类型」= 担保公司",
+          "screenshot": "R11_04_对公客户类型.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "证件类型",
+          "action": "select:click",
+          "ms": 1215,
+          "status": "ok",
+          "detail": "下拉选择「证件类型」= 营业执照",
+          "screenshot": "R11_05_证件类型.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "客户名称",
+          "action": "input",
+          "ms": 267,
+          "status": "ok",
+          "detail": "输入「客户名称」= RP_20261012_担保_1791781603477",
+          "screenshot": "R11_06_客户名称.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "证件号码",
+          "action": "input",
+          "ms": 253,
+          "status": "ok",
+          "detail": "输入「证件号码」= 913501XRLR122AXYFJ",
+          "screenshot": "R11_07_证件号码.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "保存新增客户",
+          "action": "click",
+          "ms": 629,
+          "status": "ok",
+          "detail": "点击「保存新增客户」",
+          "screenshot": "R11_08_保存新增客户.png"
+        },
+        {
+          "id": "9",
+          "type": "page",
+          "name": "维护对公客户概况",
+          "action": "click",
+          "ms": 773,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&cstSt=1&cpctTp=607&crdtTp=20111&cstNm=RP_20261012_%E6%8B%85%E4%BF%9D_1791781603477&crdtNo=913501XRLR122AXYFJ&avyEcd=UML00005557&id=2109535058972594176&cstNo=261012144205957223&rgulztnInd=1&operoratFlag=add&viewType=add&fcnScnEcd=FS00005510&v=1791787329222",
+          "screenshot": "R11_09_维护对公客户概况.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "证件有效日期",
+          "action": "input",
+          "ms": 331,
+          "status": "ok",
+          "detail": "输入「证件有效日期」= 2024-06-01",
+          "screenshot": "R11_10_证件有效日期.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "关闭证件有效日期日期面板",
+          "action": "click",
+          "ms": 628,
+          "status": "ok",
+          "detail": "点击「关闭证件有效日期日期面板」",
+          "screenshot": "R11_11_关闭证件有效日期日期面板.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "统一社会信用代码清空",
+          "action": "input",
+          "ms": 288,
+          "status": "ok",
+          "detail": "输入「统一社会信用代码清空」= ",
+          "screenshot": "R11_12_统一社会信用代码清空.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "统一社会信用代码",
+          "action": "input",
+          "ms": 274,
+          "status": "ok",
+          "detail": "输入「统一社会信用代码」= 913501XRLR122AXYFJ",
+          "screenshot": "R11_13_统一社会信用代码.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "法定代表人/负责人证件类型",
+          "action": "select:click",
+          "ms": 1293,
+          "status": "ok",
+          "detail": "下拉选择「法定代表人/负责人证件类型」= 营业执照",
+          "screenshot": "R11_14_法定代表人_负责人证件类型.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "法定代表人/负责人证件号码",
+          "action": "input",
+          "ms": 283,
+          "status": "ok",
+          "detail": "输入「法定代表人/负责人证件号码」= 110101199001011234",
+          "screenshot": "R11_15_法定代表人_负责人证件号码.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "法定代表人证件起始日期",
+          "action": "input",
+          "ms": 301,
+          "status": "ok",
+          "detail": "输入「法定代表人证件起始日期」= 2024-06-01",
+          "screenshot": "R11_16_法定代表人证件起始日期.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "关闭法定代表人证件起始日期日期面板",
+          "action": "click",
+          "ms": 613,
+          "status": "ok",
+          "detail": "点击「关闭法定代表人证件起始日期日期面板」",
+          "screenshot": "R11_17_关闭法定代表人证件起始日期日期面板.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "法定代表人证件到期日期",
+          "action": "input",
+          "ms": 286,
+          "status": "ok",
+          "detail": "输入「法定代表人证件到期日期」= 2030-10-09",
+          "screenshot": "R11_18_法定代表人证件到期日期.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "关闭法定代表人证件到期日期日期面板",
+          "action": "click",
+          "ms": 1500,
+          "status": "ok",
+          "detail": "点击「关闭法定代表人证件到期日期日期面板」",
+          "screenshot": "R11_19_关闭法定代表人证件到期日期日期面板.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "实际控制人手机号码",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「实际控制人手机号码」= 13900001012",
+          "screenshot": "R11_20_实际控制人手机号码.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "单位电话",
+          "action": "input",
+          "ms": 284,
+          "status": "ok",
+          "detail": "输入「单位电话」= 0593-88881012",
+          "screenshot": "R11_21_单位电话.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "上年度从业人数",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「上年度从业人数」= 100",
+          "screenshot": "R11_22_上年度从业人数.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "上年度资产总额（元）",
+          "action": "input",
+          "ms": 284,
+          "status": "ok",
+          "detail": "输入「上年度资产总额（元）」= 1000000",
+          "screenshot": "R11_23_上年度资产总额（元）.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "合作状态",
+          "action": "select:click",
+          "ms": 1300,
+          "status": "ok",
+          "detail": "下拉选择「合作状态」= 未生效",
+          "screenshot": "R11_24_合作状态.png"
+        },
+        {
+          "id": "25",
+          "type": "ele",
+          "name": "投资主体",
+          "action": "select:click",
+          "ms": 1284,
+          "status": "ok",
+          "detail": "下拉选择「投资主体」= 法人投资",
+          "screenshot": "R11_25_投资主体.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "控股经济类型",
+          "action": "select:click",
+          "ms": 1384,
+          "status": "ok",
+          "detail": "下拉选择「控股经济类型」= 国有绝对控股",
+          "screenshot": "R11_26_控股经济类型.png"
+        },
+        {
+          "id": "27",
+          "type": "ele",
+          "name": "财务部联系人",
+          "action": "input",
+          "ms": 289,
+          "status": "ok",
+          "detail": "输入「财务部联系人」= RR1012_财务部联系人",
+          "screenshot": "R11_27_财务部联系人.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "财务部联系人身份证号码",
+          "action": "input",
+          "ms": 294,
+          "status": "ok",
+          "detail": "输入「财务部联系人身份证号码」= 110101199001011234",
+          "screenshot": "R11_28_财务部联系人身份证号码.png"
+        },
+        {
+          "id": "29",
+          "type": "ele",
+          "name": "财务部联系人手机号归属人关系类型",
+          "action": "select:click",
+          "ms": 1297,
+          "status": "ok",
+          "detail": "下拉选择「财务部联系人手机号归属人关系类型」= 本人",
+          "screenshot": "R11_29_财务部联系人手机号归属人关系类型.png"
+        },
+        {
+          "id": "30",
+          "type": "ele",
+          "name": "财务部联系人固定电话清空",
+          "action": "input",
+          "ms": 286,
+          "status": "ok",
+          "detail": "输入「财务部联系人固定电话清空」= ",
+          "screenshot": "R11_30_财务部联系人固定电话清空.png"
+        },
+        {
+          "id": "31",
+          "type": "ele",
+          "name": "财务部联系人固定电话",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「财务部联系人固定电话」= 0593-88881012",
+          "screenshot": "R11_31_财务部联系人固定电话.png"
+        },
+        {
+          "id": "32",
+          "type": "ele",
+          "name": "单位地址邮政编码",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「单位地址邮政编码」= 355200",
+          "screenshot": "R11_32_单位地址邮政编码.png"
+        },
+        {
+          "id": "33",
+          "type": "ele",
+          "name": "电子邮箱",
+          "action": "input",
+          "ms": 270,
+          "status": "ok",
+          "detail": "输入「电子邮箱」= rr1012@example.com",
+          "screenshot": "R11_33_电子邮箱.png"
+        },
+        {
+          "id": "34",
+          "type": "ele",
+          "name": "国别",
+          "action": "select:click",
+          "ms": 1280,
+          "status": "ok",
+          "detail": "下拉选择「国别」= 中华人民共和国",
+          "screenshot": "R11_34_国别.png"
+        },
+        {
+          "id": "35",
+          "type": "ele",
+          "name": "登记注册号",
+          "action": "input",
+          "ms": 283,
+          "status": "ok",
+          "detail": "输入「登记注册号」= RR1012_登记注册号",
+          "screenshot": "R11_35_登记注册号.png"
+        },
+        {
+          "id": "36",
+          "type": "ele",
+          "name": "登记注册号类型",
+          "action": "select:click",
+          "ms": 1272,
+          "status": "ok",
+          "detail": "下拉选择「登记注册号类型」= 工商注册号",
+          "screenshot": "R11_36_登记注册号类型.png"
+        },
+        {
+          "id": "37",
+          "type": "ele",
+          "name": "经度",
+          "action": "input",
+          "ms": 281,
+          "status": "ok",
+          "detail": "输入「经度」= 119.6",
+          "screenshot": "R11_37_经度.png"
+        },
+        {
+          "id": "38",
+          "type": "ele",
+          "name": "纬度",
+          "action": "input",
+          "ms": 282,
+          "status": "ok",
+          "detail": "输入「纬度」= 26.4",
+          "screenshot": "R11_38_纬度.png"
+        },
+        {
+          "id": "39",
+          "type": "ele",
+          "name": "注册资本币种",
+          "action": "select:click",
+          "ms": 1266,
+          "status": "ok",
+          "detail": "下拉选择「注册资本币种」= 人民币",
+          "screenshot": "R11_39_注册资本币种.png"
+        },
+        {
+          "id": "40",
+          "type": "ele",
+          "name": "注册资本金额",
+          "action": "input",
+          "ms": 299,
+          "status": "ok",
+          "detail": "输入「注册资本金额」= 1000000",
+          "screenshot": "R11_40_注册资本金额.png"
+        },
+        {
+          "id": "41",
+          "type": "ele",
+          "name": "经营范围",
+          "action": "input",
+          "ms": 287,
+          "status": "ok",
+          "detail": "输入「经营范围」= RR1012_经营范围",
+          "screenshot": "R11_41_经营范围.png"
+        },
+        {
+          "id": "42",
+          "type": "ele",
+          "name": "注册登记日期",
+          "action": "input",
+          "ms": 297,
+          "status": "ok",
+          "detail": "输入「注册登记日期」= 2024-01-15",
+          "screenshot": "R11_42_注册登记日期.png"
+        },
+        {
+          "id": "43",
+          "type": "ele",
+          "name": "关闭注册登记日期日期面板",
+          "action": "click",
+          "ms": 637,
+          "status": "ok",
+          "detail": "点击「关闭注册登记日期日期面板」",
+          "screenshot": "R11_43_关闭注册登记日期日期面板.png"
+        },
+        {
+          "id": "44",
+          "type": "ele",
+          "name": "登记注册失效日期",
+          "action": "input",
+          "ms": 313,
+          "status": "ok",
+          "detail": "输入「登记注册失效日期」= 2030-10-09",
+          "screenshot": "R11_44_登记注册失效日期.png"
+        },
+        {
+          "id": "45",
+          "type": "ele",
+          "name": "关闭登记注册失效日期日期面板",
+          "action": "click",
+          "ms": 615,
+          "status": "ok",
+          "detail": "点击「关闭登记注册失效日期日期面板」",
+          "screenshot": "R11_45_关闭登记注册失效日期日期面板.png"
+        },
+        {
+          "id": "46",
+          "type": "ele",
+          "name": "注册登记机关",
+          "action": "input",
+          "ms": 286,
+          "status": "ok",
+          "detail": "输入「注册登记机关」= RR1012_注册登记机关",
+          "screenshot": "R11_46_注册登记机关.png"
+        },
+        {
+          "id": "47",
+          "type": "ele",
+          "name": "年检到期日期",
+          "action": "input",
+          "ms": 297,
+          "status": "ok",
+          "detail": "输入「年检到期日期」= 2030-10-09",
+          "screenshot": "R11_47_年检到期日期.png"
+        },
+        {
+          "id": "48",
+          "type": "ele",
+          "name": "关闭年检到期日期日期面板",
+          "action": "click",
+          "ms": 619,
+          "status": "ok",
+          "detail": "点击「关闭年检到期日期日期面板」",
+          "screenshot": "R11_48_关闭年检到期日期日期面板.png"
+        },
+        {
+          "id": "49",
+          "type": "ele",
+          "name": "单位地址-获取地址",
+          "action": "click",
+          "ms": 675,
+          "status": "ok",
+          "detail": "点击「单位地址-获取地址」",
+          "screenshot": "R11_49_单位地址-获取地址.png"
+        },
+        {
+          "id": "50",
+          "type": "popup",
+          "name": "客户地址选择器-单位地址",
+          "action": "click",
+          "ms": 366,
+          "status": "ok",
+          "detail": "弹窗可见：客户地址选择器-单位地址",
+          "screenshot": "R11_50_客户地址选择器-单位地址.png"
+        },
+        {
+          "id": "51",
+          "type": "ele",
+          "name": "城市",
+          "action": "select:click",
+          "ms": 1220,
+          "status": "ok",
+          "detail": "下拉选择「城市」= 宁德市",
+          "screenshot": "R11_51_城市.png"
+        },
+        {
+          "id": "52",
+          "type": "ele",
+          "name": "区/县",
+          "action": "select:click",
+          "ms": 1213,
+          "status": "ok",
+          "detail": "下拉选择「区/县」= 福鼎市",
+          "screenshot": "R11_52_区_县.png"
+        },
+        {
+          "id": "53",
+          "type": "ele",
+          "name": "详细地址",
+          "action": "input",
+          "ms": 274,
+          "status": "ok",
+          "detail": "输入「详细地址」= RR测试地址1012号",
+          "screenshot": "R11_53_详细地址.png"
+        },
+        {
+          "id": "54",
+          "type": "ele",
+          "name": "地址确认",
+          "action": "click",
+          "ms": 650,
+          "status": "ok",
+          "detail": "点击「地址确认」",
+          "screenshot": "R11_54_地址确认.png"
+        },
+        {
+          "id": "55",
+          "type": "ele",
+          "name": "行政区划名称-获取行政区划",
+          "action": "click",
+          "ms": 683,
+          "status": "ok",
+          "detail": "点击「行政区划名称-获取行政区划」",
+          "screenshot": "R11_55_行政区划名称-获取行政区划.png"
+        },
+        {
+          "id": "56",
+          "type": "popup",
+          "name": "客户地址选择器-行政区划名称",
+          "action": "click",
+          "ms": 377,
+          "status": "ok",
+          "detail": "弹窗可见：客户地址选择器-行政区划名称",
+          "screenshot": "R11_56_客户地址选择器-行政区划名称.png"
+        },
+        {
+          "id": "57",
+          "type": "ele",
+          "name": "城市",
+          "action": "select:click",
+          "ms": 1150,
+          "status": "ok",
+          "detail": "下拉选择「城市」= 宁德市",
+          "screenshot": "R11_57_城市.png"
+        },
+        {
+          "id": "58",
+          "type": "ele",
+          "name": "区/县",
+          "action": "select:click",
+          "ms": 1232,
+          "status": "ok",
+          "detail": "下拉选择「区/县」= 福鼎市",
+          "screenshot": "R11_58_区_县.png"
+        },
+        {
+          "id": "59",
+          "type": "ele",
+          "name": "详细地址",
+          "action": "input",
+          "ms": 273,
+          "status": "ok",
+          "detail": "输入「详细地址」= RR测试地址1012号",
+          "screenshot": "R11_59_详细地址.png"
+        },
+        {
+          "id": "60",
+          "type": "ele",
+          "name": "地址确认",
+          "action": "click",
+          "ms": 652,
+          "status": "ok",
+          "detail": "点击「地址确认」",
+          "screenshot": "R11_60_地址确认.png"
+        },
+        {
+          "id": "61",
+          "type": "ele",
+          "name": "登记注册地址-获取地址",
+          "action": "click",
+          "ms": 682,
+          "status": "ok",
+          "detail": "点击「登记注册地址-获取地址」",
+          "screenshot": "R11_61_登记注册地址-获取地址.png"
+        },
+        {
+          "id": "62",
+          "type": "popup",
+          "name": "客户地址选择器-登记注册地址",
+          "action": "click",
+          "ms": 388,
+          "status": "ok",
+          "detail": "弹窗可见：客户地址选择器-登记注册地址",
+          "screenshot": "R11_62_客户地址选择器-登记注册地址.png"
+        },
+        {
+          "id": "63",
+          "type": "ele",
+          "name": "城市",
+          "action": "select:click",
+          "ms": 1144,
+          "status": "ok",
+          "detail": "下拉选择「城市」= 宁德市",
+          "screenshot": "R11_63_城市.png"
+        },
+        {
+          "id": "64",
+          "type": "ele",
+          "name": "区/县",
+          "action": "select:click",
+          "ms": 1160,
+          "status": "ok",
+          "detail": "下拉选择「区/县」= 福鼎市",
+          "screenshot": "R11_64_区_县.png"
+        },
+        {
+          "id": "65",
+          "type": "ele",
+          "name": "详细地址",
+          "action": "input",
+          "ms": 275,
+          "status": "ok",
+          "detail": "输入「详细地址」= RR测试地址1012号",
+          "screenshot": "R11_65_详细地址.png"
+        },
+        {
+          "id": "66",
+          "type": "ele",
+          "name": "地址确认",
+          "action": "click",
+          "ms": 667,
+          "status": "ok",
+          "detail": "点击「地址确认」",
+          "screenshot": "R11_66_地址确认.png"
+        },
+        {
+          "id": "67",
+          "type": "ele",
+          "name": "实际经营地址-获取地址",
+          "action": "click",
+          "ms": 651,
+          "status": "ok",
+          "detail": "点击「实际经营地址-获取地址」",
+          "screenshot": "R11_67_实际经营地址-获取地址.png"
+        },
+        {
+          "id": "68",
+          "type": "popup",
+          "name": "客户地址选择器-实际经营地址",
+          "action": "click",
+          "ms": 363,
+          "status": "ok",
+          "detail": "弹窗可见：客户地址选择器-实际经营地址",
+          "screenshot": "R11_68_客户地址选择器-实际经营地址.png"
+        },
+        {
+          "id": "69",
+          "type": "ele",
+          "name": "城市",
+          "action": "select:click",
+          "ms": 1162,
+          "status": "ok",
+          "detail": "下拉选择「城市」= 宁德市",
+          "screenshot": "R11_69_城市.png"
+        },
+        {
+          "id": "70",
+          "type": "ele",
+          "name": "区/县",
+          "action": "select:click",
+          "ms": 1172,
+          "status": "ok",
+          "detail": "下拉选择「区/县」= 福鼎市",
+          "screenshot": "R11_70_区_县.png"
+        },
+        {
+          "id": "71",
+          "type": "ele",
+          "name": "详细地址",
+          "action": "input",
+          "ms": 269,
+          "status": "ok",
+          "detail": "输入「详细地址」= RR测试地址1012号",
+          "screenshot": "R11_71_详细地址.png"
+        },
+        {
+          "id": "72",
+          "type": "ele",
+          "name": "地址确认",
+          "action": "click",
+          "ms": 649,
+          "status": "ok",
+          "detail": "点击「地址确认」",
+          "screenshot": "R11_72_地址确认.png"
+        },
+        {
+          "id": "73",
+          "type": "ele",
+          "name": "财务部联系人手机号码（短信通知）",
+          "action": "input",
+          "ms": 284,
+          "status": "ok",
+          "detail": "输入「财务部联系人手机号码（短信通知）」= 13900001012",
+          "screenshot": "R11_73_财务部联系人手机号码（短信通知）.png"
+        },
+        {
+          "id": "74",
+          "type": "ele",
+          "name": "打开行业代码树",
+          "action": "click",
+          "ms": 632,
+          "status": "ok",
+          "detail": "点击「打开行业代码树」",
+          "screenshot": "R11_74_打开行业代码树.png"
+        },
+        {
+          "id": "75",
+          "type": "popup",
+          "name": "行业代码树查询",
+          "action": "click",
+          "ms": 366,
+          "status": "ok",
+          "detail": "弹窗可见：行业代码树查询",
+          "screenshot": "R11_75_行业代码树查询.png"
+        },
+        {
+          "id": "76",
+          "type": "ele",
+          "name": "行业搜索",
+          "action": "input",
+          "ms": 268,
+          "status": "ok",
+          "detail": "输入「行业搜索」= 银行",
+          "screenshot": "R11_76_行业搜索.png"
+        },
+        {
+          "id": "77",
+          "type": "ele",
+          "name": "行业查询",
+          "action": "click",
+          "ms": 632,
+          "status": "ok",
+          "detail": "点击「行业查询」",
+          "screenshot": "R11_77_行业查询.png"
+        },
+        {
+          "id": "78",
+          "type": "ele",
+          "name": "行业叶子中央银行服务",
+          "action": "click",
+          "ms": 638,
+          "status": "ok",
+          "detail": "点击「行业叶子中央银行服务」",
+          "screenshot": "R11_78_行业叶子中央银行服务.png"
+        },
+        {
+          "id": "79",
+          "type": "ele",
+          "name": "法定代表人/负责人姓名引入",
+          "action": "click",
+          "ms": 662,
+          "status": "ok",
+          "detail": "点击「法定代表人/负责人姓名引入」",
+          "screenshot": "R11_79_法定代表人_负责人姓名引入.png"
+        },
+        {
+          "id": "80",
+          "type": "popup",
+          "name": "对私客户查询放大镜",
+          "action": "click",
+          "ms": 366,
+          "status": "ok",
+          "detail": "弹窗可见：对私客户查询放大镜",
+          "screenshot": "R11_80_对私客户查询放大镜.png"
+        },
+        {
+          "id": "81",
+          "type": "ele",
+          "name": "放大镜客户名称",
+          "action": "input",
+          "ms": 270,
+          "status": "ok",
+          "detail": "输入「放大镜客户名称」= AT_转正A_20260928",
+          "screenshot": "R11_81_放大镜客户名称.png"
+        },
+        {
+          "id": "82",
+          "type": "ele",
+          "name": "查询自然人",
+          "action": "click",
+          "ms": 596,
+          "status": "ok",
+          "detail": "点击「查询自然人」",
+          "screenshot": "R11_82_查询自然人.png"
+        },
+        {
+          "id": "83",
+          "type": "ele",
+          "name": "选择测试自然人",
+          "action": "click",
+          "ms": 1082,
+          "status": "ok",
+          "detail": "选中行「选择测试自然人」",
+          "screenshot": "R11_83_选择测试自然人.png"
+        },
+        {
+          "id": "84",
+          "type": "ele",
+          "name": "确认引入",
+          "action": "click",
+          "ms": 653,
+          "status": "ok",
+          "detail": "点击「确认引入」",
+          "screenshot": "R11_84_确认引入.png"
+        },
+        {
+          "id": "85",
+          "type": "ele",
+          "name": "概况暂存",
+          "action": "click",
+          "ms": 637,
+          "status": "ok",
+          "detail": "点击「概况暂存」",
+          "screenshot": "R11_85_概况暂存.png"
+        },
+        {
+          "id": "86",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 695,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R11_86_返回列表.png"
+        },
+        {
+          "id": "87",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 568,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg?newtag=false&needupdate=yes&newTag=true&v=1791787376751",
+          "screenshot": "R11_87_对公客户管理列表.png"
+        },
+        {
+          "id": "88",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 596,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R11_88_重置查询.png"
+        },
+        {
+          "id": "89",
+          "type": "ele",
+          "name": "测试客户反查",
+          "action": "input",
+          "ms": 268,
+          "status": "ok",
+          "detail": "输入「测试客户反查」= RP_20261012_担保_1791781603477",
+          "screenshot": "R11_89_测试客户反查.png"
+        },
+        {
+          "id": "90",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 591,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "R11_90_查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

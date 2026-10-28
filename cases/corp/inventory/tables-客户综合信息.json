@@ -1,0 +1,274 @@
+[
+  {
+    "headers": [
+      "",
+      "客户持有资产类别",
+      "评估价值（元）",
+      "单选",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t客户持有资产类别\t评估价值（元）\n单选\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t客户持有资产类别\t评估价值（元）\n单选\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t客户持有资产类别\t评估价值（元）\n单选\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t客户持有资产类别\t评估价值（元）\n单选\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "资产信息\n新增\n修改\n查看\n删除\n\t客户持有资产类别\t评估价值（元）\n单选\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "资产信息\n新增\n修改\n查看\n删除\n\t客户持有资产类别\t评估价值（元）\n单选\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "地址类型",
+      "通讯地址",
+      "联系电话",
+      "邮政编码",
+      "单选",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "客户联系信息\n新增\n修改\n查看\n删除\n\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "客户联系信息\n新增\n修改\n查看\n删除\n\t地址类型\t通讯地址\t联系电话\t邮政编码\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "税费种类",
+      "应缴纳/支付金额（元）",
+      "缴纳/支付日期",
+      "是否正常缴纳/支付",
+      "单选",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "税费缴纳情况\n新增\n修改\n查看\n删除\n\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "税费缴纳情况\n新增\n修改\n查看\n删除\n\t税费种类\t应缴纳/支付金额（元）\t缴纳/支付日期\t是否正常缴纳/支付\n单选\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "客户编号",
+      "保险名称",
+      "保险公司",
+      "应缴保费总额（元）",
+      "保险金额（元）",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "持有保险信息\n新增\n修改\n查看\n删除\n\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "持有保险信息\n新增\n修改\n查看\n删除\n\t客户编号\t保险名称\t保险公司\t应缴保费总额（元）\t保险金额（元）\n单选\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  },
+  {
+    "headers": [
+      "",
+      "流水号",
+      "客户编号",
+      "授权人名称",
+      "证件号码",
+      "查询日期",
+      "查询原因",
+      "查询结果",
+      "登记人",
+      "登记机构",
+      "征信查询人",
+      "征信查询机构",
+      "单选",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table el-table--fit el-table--border el-table--fluid-height el-table--scrollable-x el-table--mini el-loading-parent--relative",
+        "attrs": [],
+        "text": "\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "tssc-multiple-table-content",
+        "attrs": [],
+        "text": "\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "tag": "DIV",
+        "cls": "myTable fourheight",
+        "attrs": [],
+        "text": "\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "FORM",
+        "cls": "el-form tssc-from el-form--label-top",
+        "attrs": [],
+        "text": "查询日期\n查询理由\n查询结果类型\n 查询\n重置\n征信授权书\n征信报告\n\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "查询日期\n查询理由\n查询结果类型\n 查询\n重置\n征信授权书\n征信报告\n\t流水号\t客户编号\t授权人名称\t证件号码\t查询日期\t查询原因\t查询结果\t登记人\t登记机构\t征信查询人\t征信查询机构\n单选\t\t\t\t\t\t\t\t\t\t\t\n已加载全部内容，共 0 条 / 1 页"
+      }
+    ]
+  }
+]

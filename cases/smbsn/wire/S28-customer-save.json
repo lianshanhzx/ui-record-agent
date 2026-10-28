@@ -1,0 +1,240 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S28 同业客户管理-客户保存(暂存口径: 改客户简称→暂存 saveCustTrade→返回→反查 total=1)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='修改']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "修改",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "修改",
+          "rect": {
+            "x1": 0.075,
+            "y1": 0.294,
+            "x2": 0.136,
+            "y2": 0.329
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "同业客户详情-修改客户场景(客户保存-暂存口径)",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户简称']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "AT_S28暂存",
+          "propertiesName": "客户简称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "客户简称",
+          "rect": {
+            "x1": 0.2353,
+            "y1": 0.4767,
+            "x2": 0.4116,
+            "y2": 0.5122
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='暂存']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "暂存",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "暂存",
+          "rect": {
+            "x1": 0.4778,
+            "y1": 0.7344,
+            "x2": 0.525,
+            "y2": 0.77
+          },
+          "propertiesID": "8"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='返回']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "返回",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "返回",
+          "rect": {
+            "x1": 0.8389,
+            "y1": 0.7489,
+            "x2": 0.8861,
+            "y2": 0.7844
+          },
+          "propertiesID": "9"
+        },
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业(反查)",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "9",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "10"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "10",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "11"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "10",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "12"
+        }
+      ]
+    }
+  ]
+}

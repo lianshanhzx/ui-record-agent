@@ -1,0 +1,229 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/cstMgt/cst360Vw/cpct360Vw/exmCst360Vw/cstmgrExmCst360Vw/FS00008308CstmgrExmCst360Vw?part=cstMgtcst360Vwcpct360VwexmCst360VwcstmgrExmCst360VwFS00008308CstmgrExmCst360Vw&newtag=newtag&needupdate=yes&openMode=addTag&url=%2FcprsvCrDmn%2FcstMgt%2Fcst360Vw%2Fcpct360Vw%2FexmCst360Vw%2FcstmgrExmCst360Vw%2FFS00008308CstmgrExmCst360Vw&tagName=%E5%AF%B9%E5%85%AC%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85&param=%5Bobject%20Object%5D&contentSrc=scnAvy&resource=UML00091259&data=%5Bobject%20Object%5D&fcnScnEcd=FS00008308&cstNo=261016124912721295&viewType=look&type=risk&id=261016124912721295&rgulztnInd=1&cpctTp=603&disabled=true&avyEcd=UML00091259&v=1792378560476",
+  "fields": [
+    {
+      "label": "集群名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "实际控制方名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集群有贷款客户数量",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集群用信余额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集群欠息总额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集群不良贷款余额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集群贷款不良率",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00%"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团实际控制方名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团有贷户数",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团用信余额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团欠息总额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团不良贷款余额",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "集团贷款不良率",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "0.00%"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "规则名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "风控措施",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "风险解除状态",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": [
+        "有条件解除",
+        "不可解除"
+      ]
+    },
+    {
+      "label": "",
+      "controls": [],
+      "options": []
+    }
+  ],
+  "components": [],
+  "buttons": [
+    {
+      "label": "查询",
+      "disabled": false
+    },
+    {
+      "label": "重置",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "text": "查看受益人信息\n 受益人名称\n引入\n 受益人客户编号\n 证件类型\n 证件号码\n受益人证件起始日期\n受益人证件失效日期\n受益人地址\n引入\n确定\n取消",
+    "forms": [
+      {
+        "label": "受益人名称",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "AT_转正A_20260928",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "引入"
+        ]
+      },
+      {
+        "label": "受益人客户编号",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "260928235403114161",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件类型",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "居民身份证",
+            "disabled": true,
+            "readonly": true,
+            "placeholder": ""
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "证件号码",
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "110101199203154770",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": ""
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "label": "受益人证件起始日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "2023-06-01",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "受益人证件失效日期",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "2030-10-09",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": "请选择"
+          }
+        ],
+        "select": false,
+        "date": true,
+        "buttons": []
+      },
+      {
+        "label": "受益人地址",
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "RR测试受益人地址1012号",
+            "disabled": true,
+            "readonly": false,
+            "placeholder": "请输入"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "引入"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "引入",
+        "disabled": false
+      },
+      {
+        "text": "引入",
+        "disabled": false
+      },
+      {
+        "text": "确定",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

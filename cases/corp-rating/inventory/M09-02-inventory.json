@@ -1,0 +1,44 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379390354",
+  "fields": [
+    {
+      "label": "总校验结果",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "通过"
+        }
+      ],
+      "options": [
+        "通过",
+        "不通过"
+      ]
+    }
+  ],
+  "components": [],
+  "buttons": [
+    {
+      "label": "重试",
+      "disabled": false
+    },
+    {
+      "label": "刷新",
+      "disabled": false
+    },
+    {
+      "label": "上一步",
+      "disabled": false
+    },
+    {
+      "label": "下一步",
+      "disabled": false
+    },
+    {
+      "label": "返回",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

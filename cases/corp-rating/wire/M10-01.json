@@ -1,0 +1,92 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00070599",
+      "transcationName": "当前账号审查岗任务页面",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "待办任务",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M10-01-001-待办任务.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "业务主键",
+          "eventTypeName": "文本框输入",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='业务主键']]//input",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "PJ20261019020143",
+          "realLabel": "业务主键",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.29375,\"y1\":0.21465277777777778,\"x2\":0.47030164930555557,\"y2\":0.2479861111111111}"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询本轮评级审批待办",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//button[translate(normalize-space(.),' ','')='查询']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "查询本轮评级审批待办",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.7194444444444444,\"y1\":0.21354166666666666,\"x2\":0.7805555555555556,\"y2\":0.24909722222222222}"
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "处理本轮对公评级审批任务",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(concat(' ',normalize-space(@class),' '),' todo-item ')][.//span[normalize-space(.)='PJ20261019020143']]//div[contains(@class,'todo-item-action') and normalize-space(.)='处理']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "处理本轮对公评级审批任务",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.7980143229166666,\"y1\":0.27576388888888886,\"x2\":0.8341254340277777,\"y2\":0.3290972222222222}"
+        },
+        {
+          "propertiesID": "5",
+          "propertiesPID": "4",
+          "type": "page",
+          "propertiesName": "对公评级审批任务",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M10-01-005-对公评级审批任务.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "tag": "S9",
+  "total": 6,
+  "ok": 6,
+  "items": [
+    {
+      "seq": 1,
+      "group": "关联人信息修改",
+      "label": "联系电话",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "13988158429",
+      "ok": true,
+      "rect": "{\"x1\":0.382,\"y1\":0.321,\"x2\":0.489,\"y2\":0.357}"
+    },
+    {
+      "seq": 2,
+      "group": "关联人信息修改",
+      "label": "居住地址",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "广西壮族自治区南宁市西乡塘区测试路2号",
+      "ok": true,
+      "rect": "{\"x1\":0.382,\"y1\":0.503,\"x2\":0.433,\"y2\":0.539}"
+    },
+    {
+      "seq": 3,
+      "group": "关联人信息修改",
+      "label": "职称",
+      "req": true,
+      "type": "select",
+      "action": "select",
+      "value": "一般员工",
+      "ok": true,
+      "rect": "{\"x1\":0.506,\"y1\":0.412,\"x2\":0.613,\"y2\":0.448}"
+    },
+    {
+      "seq": 4,
+      "group": "关联人信息修改",
+      "label": "单位电话",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "0771-1234569",
+      "ok": true,
+      "rect": "{\"x1\":0.506,\"y1\":0.503,\"x2\":0.613,\"y2\":0.539}"
+    },
+    {
+      "seq": 5,
+      "group": "关联人信息修改",
+      "label": "工作单位",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "AT测试商业银行股份有限公司",
+      "ok": true,
+      "rect": "{\"x1\":0.629,\"y1\":0.503,\"x2\":0.736,\"y2\":0.539}"
+    },
+    {
+      "seq": 6,
+      "group": "关联人信息修改",
+      "label": "工作简历描述",
+      "req": true,
+      "type": "input",
+      "action": "input",
+      "value": "AT测试关联人修改后工作简历描述",
+      "ok": true,
+      "rect": "{\"x1\":0.258,\"y1\":0.594,\"x2\":0.365,\"y2\":0.63}"
+    }
+  ]
+}

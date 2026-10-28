@@ -1,0 +1,38 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户（test.creditv5p2）",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    { "match": ["黑名单新增"], "urlPattern": "crtBlist", "readySelector": "//button[normalize-space()='保存']" },
+    { "match": ["黑名单修改"], "urlPattern": "modBlist", "readySelector": "//button[normalize-space()='保存']" },
+    { "match": ["黑名单查看"], "urlPattern": "blistInf" },
+    { "match": ["黑名单管理列表", "黑名单管理"], "urlPattern": "blistMgtPg", "route": "/#/cstMgt/nmlstMgt/blistMgt/blistMgtPg" }
+  ],
+  "popups": [
+    { "match": ["放大镜"], "selector": ".el-dialog" },
+    { "match": ["确认框"], "selector": ".el-message-box" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": ".el-table__header",
+  "downloadTriggers": ["下载模板"],
+  "downloads": { "knownEmptyFiles": ["blackTemplate"] },
+  "settleAfterClickMs": 1200,
+  "settleAfterInputMs": 300
+}

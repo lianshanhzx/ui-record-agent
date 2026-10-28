@@ -1,0 +1,905 @@
+[
+  {
+    "id": "R05",
+    "name": "未选记录入口校验",
+    "status": "recorded",
+    "reason": "",
+    "steps": 6
+  },
+  {
+    "id": "R06",
+    "name": "新增抽屉初始化与取消",
+    "status": "recorded",
+    "reason": "",
+    "steps": 4
+  },
+  {
+    "id": "R07",
+    "name": "新增保存校验",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R08",
+    "name": "OCR入口与前置校验",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R09",
+    "name": "新增潜客客户",
+    "status": "recorded",
+    "reason": "",
+    "steps": 45
+  },
+  {
+    "id": "R11",
+    "name": "新增担保客户",
+    "status": "recorded",
+    "reason": "",
+    "steps": 90
+  },
+  {
+    "id": "R10",
+    "name": "潜在客户正式保存",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R13",
+    "name": "正式客户概况修改暂存",
+    "status": "blocked",
+    "reason": "正式客户修改概况暂存无成功响应",
+    "steps": 9
+  },
+  {
+    "id": "R20",
+    "name": "客户综合信息页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 8
+  },
+  {
+    "id": "R21",
+    "name": "财务信息页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 8
+  },
+  {
+    "id": "R22",
+    "name": "业务信息页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 8
+  },
+  {
+    "id": "R23",
+    "name": "影像资料页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 8
+  },
+  {
+    "id": "R24",
+    "name": "其他信息页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 8
+  },
+  {
+    "id": "R30",
+    "name": "资产信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 30
+  },
+  {
+    "id": "R31",
+    "name": "资产信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R32",
+    "name": "资产信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R33",
+    "name": "资产信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R34",
+    "name": "保险信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 38
+  },
+  {
+    "id": "R35",
+    "name": "保险信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R36",
+    "name": "保险信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R37",
+    "name": "保险信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R38",
+    "name": "税费信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 24
+  },
+  {
+    "id": "R39",
+    "name": "税费信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R40",
+    "name": "税费信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R41",
+    "name": "税费信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R42",
+    "name": "联系信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 31
+  },
+  {
+    "id": "R43",
+    "name": "联系信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R44",
+    "name": "联系信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R45",
+    "name": "联系信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R18",
+    "name": "新增依赖客户",
+    "status": "recorded",
+    "reason": "",
+    "steps": 117
+  },
+  {
+    "id": "R50",
+    "name": "经营情况维护",
+    "status": "recorded",
+    "reason": "",
+    "steps": 23
+  },
+  {
+    "id": "R51",
+    "name": "客户资质信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 33
+  },
+  {
+    "id": "R52",
+    "name": "客户资质信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R53",
+    "name": "客户资质信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R54",
+    "name": "客户资质信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R59",
+    "name": "企业债券发行情况新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 30
+  },
+  {
+    "id": "R60",
+    "name": "企业债券发行情况修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R61",
+    "name": "企业债券发行情况查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R62",
+    "name": "企业债券发行情况删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R16",
+    "name": "正式客户查看与只读校验",
+    "status": "recorded",
+    "reason": "",
+    "steps": 6
+  },
+  {
+    "id": "R70",
+    "name": "股东信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 35
+  },
+  {
+    "id": "R71",
+    "name": "股东信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R72",
+    "name": "股东信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R73",
+    "name": "股东信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R55",
+    "name": "参与项目情况新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 76
+  },
+  {
+    "id": "R56",
+    "name": "参与项目情况修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R57",
+    "name": "参与项目情况查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R58",
+    "name": "参与项目情况删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R78",
+    "name": "关联人信息新增-高管",
+    "status": "recorded",
+    "reason": "",
+    "steps": 45
+  },
+  {
+    "id": "R79",
+    "name": "关联人信息-高管修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R80",
+    "name": "关联人信息-高管查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R81",
+    "name": "关联人信息-高管删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R82",
+    "name": "关联人信息新增-法定代表人家族成员",
+    "status": "recorded",
+    "reason": "",
+    "steps": 37
+  },
+  {
+    "id": "R83",
+    "name": "关联人信息-家族成员修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R84",
+    "name": "关联人信息-家族成员查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R85",
+    "name": "关联人信息-家族成员删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R63",
+    "name": "对外投资信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 40
+  },
+  {
+    "id": "R64",
+    "name": "对外投资信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R65",
+    "name": "对外投资信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R66",
+    "name": "对外投资信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R86",
+    "name": "与其他客户关联信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 30
+  },
+  {
+    "id": "R87",
+    "name": "与其他客户关联信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R88",
+    "name": "与其他客户关联信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R89",
+    "name": "与其他客户关联信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R100",
+    "name": "财务信息新增入口",
+    "status": "recorded",
+    "reason": "",
+    "steps": 25
+  },
+  {
+    "id": "R110",
+    "name": "他行存款新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 19
+  },
+  {
+    "id": "R111",
+    "name": "他行存款修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R112",
+    "name": "他行存款查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R113",
+    "name": "他行存款删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R01",
+    "name": "列表八条件查询",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R02",
+    "name": "列表无结果查询",
+    "status": "recorded",
+    "reason": "",
+    "steps": 4
+  },
+  {
+    "id": "R03",
+    "name": "列表八条件重置",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R04",
+    "name": "列表分页",
+    "status": "recorded",
+    "reason": "",
+    "steps": 4
+  },
+  {
+    "id": "R120",
+    "name": "管理团队新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 29
+  },
+  {
+    "id": "R121",
+    "name": "管理团队删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R90",
+    "name": "关联人信息新增-实际控制人家族成员",
+    "status": "recorded",
+    "reason": "",
+    "steps": 37
+  },
+  {
+    "id": "R91",
+    "name": "实际控制人家族成员删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R92",
+    "name": "关联人信息新增-个人股东家族成员",
+    "status": "recorded",
+    "reason": "",
+    "steps": 37
+  },
+  {
+    "id": "R93",
+    "name": "个人股东家族成员删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R140",
+    "name": "法院信息条件查询",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R141",
+    "name": "法院条件重置",
+    "status": "recorded",
+    "reason": "",
+    "steps": 10
+  },
+  {
+    "id": "R130",
+    "name": "联网核查窗口与历史查询",
+    "status": "recorded",
+    "reason": "",
+    "steps": 17
+  },
+  {
+    "id": "R131",
+    "name": "联网核查历史条件重置",
+    "status": "recorded",
+    "reason": "",
+    "steps": 10
+  },
+  {
+    "id": "R160",
+    "name": "影像资料目录和文件查询",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R161",
+    "name": "上传本轮测试影像",
+    "status": "blocked",
+    "reason": "营业执照目录上传小型测试PNG返回超过可上传的文件大小，未生成影像记录",
+    "steps": 11
+  },
+  {
+    "id": "R162",
+    "name": "财务目录上传本轮测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R163",
+    "name": "测试影像预览",
+    "status": "blocked",
+    "reason": "测试PNG已上传成功，但预览页面显示加载失败，图像未呈现",
+    "steps": 11
+  },
+  {
+    "id": "R164",
+    "name": "下载本轮测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R165",
+    "name": "移动本轮测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R166",
+    "name": "批量下载本轮测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R167",
+    "name": "本轮测试影像图册查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R168",
+    "name": "测试影像装订成册",
+    "status": "blocked",
+    "reason": "装订按钮点击后未生成书册或打开可填写页面，保留所选测试文件和接口证据",
+    "steps": 12
+  },
+  {
+    "id": "R179",
+    "name": "删除本轮测试影像",
+    "status": "blocked",
+    "reason": "文件移动到评级报告目录后界面不提供移动或删除；不绕过目录权限",
+    "steps": 8
+  },
+  {
+    "id": "R176",
+    "name": "上传用于删除验证的财务测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R177",
+    "name": "删除本轮财务测试影像",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R14",
+    "name": "潜客客户查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 9
+  },
+  {
+    "id": "R15",
+    "name": "担保客户查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 9
+  },
+  {
+    "id": "R150",
+    "name": "客户标签当前界面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 9
+  },
+  {
+    "id": "R114",
+    "name": "业务空列表入口校验",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R115",
+    "name": "本行账户信息获取",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R122",
+    "name": "历史修改记录查询及登记信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R12",
+    "name": "新增正式客户",
+    "status": "blocked",
+    "reason": "实际控制企业已真实引入，正式客户概况暂存仍无请求；未伪造联网核查结果",
+    "steps": 220
+  },
+  {
+    "id": "R74",
+    "name": "受益人信息新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 34
+  },
+  {
+    "id": "R75",
+    "name": "受益人信息日期修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 20
+  },
+  {
+    "id": "R76",
+    "name": "受益人信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R77",
+    "name": "受益人信息删除与重新查询验证",
+    "status": "recorded",
+    "reason": "",
+    "steps": 22
+  },
+  {
+    "id": "R17",
+    "name": "股票场景企业草稿初始化",
+    "status": "recorded",
+    "reason": "",
+    "steps": 12
+  },
+  {
+    "id": "R151",
+    "name": "上市标志联动与股票发行新增",
+    "status": "recorded",
+    "reason": "",
+    "steps": 31
+  },
+  {
+    "id": "R152",
+    "name": "股票发行信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R153",
+    "name": "股票发行信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R154",
+    "name": "股票发行信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R116",
+    "name": "他行贷款信息页面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 10
+  },
+  {
+    "id": "R117",
+    "name": "他行担保信息当前界面检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 10
+  },
+  {
+    "id": "R101",
+    "name": "财务报表头信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R102",
+    "name": "财报四表指标编辑、校验及保存",
+    "status": "recorded",
+    "reason": "",
+    "steps": 233
+  },
+  {
+    "id": "R105",
+    "name": "财报数值模板导入",
+    "status": "blocked",
+    "reason": "下载原始XLS与补齐207行数值的XLSX导入均返回parseDecimal error, field : idxNval；四表手工保存成功，导入接口失败",
+    "steps": 15
+  },
+  {
+    "id": "R106",
+    "name": "财报OCR入口与取消",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R181",
+    "name": "客户关系图谱全屏与导出",
+    "status": "recorded",
+    "reason": "",
+    "steps": 11
+  },
+  {
+    "id": "R182",
+    "name": "征信历史条件查询与重置",
+    "status": "recorded",
+    "reason": "",
+    "steps": 22
+  },
+  {
+    "id": "R183",
+    "name": "手机号验证历史清单检查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R184",
+    "name": "新增对私潜客子入口与取消",
+    "status": "recorded",
+    "reason": "",
+    "steps": 12
+  },
+  {
+    "id": "R19",
+    "name": "担保客户正式保存校验",
+    "status": "blocked",
+    "reason": "正式保存依赖联网核查状态；仅提供核查通过/不通过，不伪造结果或执行实时核查",
+    "steps": 21
+  },
+  {
+    "id": "R94",
+    "name": "股东信息新增-自然人",
+    "status": "recorded",
+    "reason": "",
+    "steps": 32
+  },
+  {
+    "id": "R95",
+    "name": "自然人股东信息修改",
+    "status": "recorded",
+    "reason": "",
+    "steps": 16
+  },
+  {
+    "id": "R96",
+    "name": "自然人股东信息查看",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R97",
+    "name": "自然人股东信息删除",
+    "status": "recorded",
+    "reason": "",
+    "steps": 14
+  },
+  {
+    "id": "R104",
+    "name": "财报模板选择与下载",
+    "status": "recorded",
+    "reason": "",
+    "steps": 15
+  },
+  {
+    "id": "R109",
+    "name": "删除本轮财务报表",
+    "status": "recorded",
+    "reason": "",
+    "steps": 13
+  },
+  {
+    "id": "R185",
+    "name": "潜客概况修改与持久化反查",
+    "status": "recorded",
+    "reason": "",
+    "steps": 20
+  }
+]

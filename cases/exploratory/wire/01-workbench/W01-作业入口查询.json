@@ -1,0 +1,18 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcationName": "工作台-作业入口三要素查询",
+      "pageId": "home",
+      "transcationProperties": [
+        { "propertiesID": 1, "propertiesPID": 0, "type": "page", "propertiesName": "工作台", "realLabel": "智能信贷工作台" },
+        { "propertiesID": 2, "propertiesPID": 1, "type": "ele", "propertiesName": "作业入口-重置", "realLabel": "重置", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//button[normalize-space()='重置'][1]" },
+        { "propertiesID": 3, "propertiesPID": 1, "type": "ele", "propertiesName": "作业入口-客户名称", "realLabel": "客户名称", "eventType": "By.XPATH", "eventTypeValue": "input", "objectValue": "AT_潜客_20260923110953", "elementType": "//div[contains(@class,'el-form-item')][.//label[contains(.,'客户名称')]]//input" },
+        { "propertiesID": 4, "propertiesPID": 1, "type": "ele", "propertiesName": "作业入口-证件号码", "realLabel": "证件号码", "eventType": "By.XPATH", "eventTypeValue": "input", "objectValue": "110101198507136286", "elementType": "//div[contains(@class,'el-form-item')][.//label[contains(.,'证件号码')]]//input" },
+        { "propertiesID": 5, "propertiesPID": 1, "type": "ele", "propertiesName": "作业入口-证件类型-居民身份证", "realLabel": "证件类型", "eventType": "By.XPATH", "eventTypeValue": "select:click", "objectValue": "居民身份证", "elementType": "//div[contains(@class,'el-form-item')][.//label[contains(.,'证件类型')]]//div[contains(@class,'el-select')]" },
+        { "propertiesID": 6, "propertiesPID": 1, "type": "ele", "propertiesName": "作业入口-查询", "realLabel": "查询", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//button[normalize-space()='查询'][1]" },
+        { "propertiesID": 7, "propertiesPID": 1, "type": "popup", "propertiesName": "非正式客户提示", "realLabel": "非正式客户" },
+        { "propertiesID": 8, "propertiesPID": 7, "type": "ele", "propertiesName": "提示-取消", "realLabel": "取消", "eventType": "By.XPATH", "eventTypeValue": "click", "objectValue": "", "elementType": "//div[contains(@class,'el-message-box')]//button[1]" }
+      ]
+    }
+  ]
+}

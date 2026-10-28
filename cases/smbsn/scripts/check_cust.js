@@ -1,0 +1,21 @@
+const { chromium } = require('playwright');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..', '..');
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: path.join(ROOT,'auth.json'), viewport:{width:1440,height:900} });
+  const page = await ctx.newPage();
+  let cap=null;
+  page.on('response', async r=>{ if(r.url().includes('findCustTradeList')&&r.request().method()==='POST'){ try{cap=await r.json();}catch(e){} } });
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg',{waitUntil:'domcontentloaded'});
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr',{timeout:60000});
+  await page.waitForTimeout(1500);
+  await page.locator(".el-form-item:has(label:has-text('客户编号')) input").first().fill('260924144929974126');
+  await page.getByRole('button').filter({hasText:/查\s*询/}).first().click();
+  await page.waitForTimeout(3000);
+  if(cap){ const d=cap.data||{}; const rows=(d.list||[]).filter(x=>x.cstNo==='260924144929974126');
+    console.log('EXISTS='+(rows.length>0)+' total='+d.total);
+    if(rows[0]) console.log('cstNm='+rows[0].cstNm+' cstSt='+rows[0].cstSt+' crdtNo='+rows[0].crdtNo);
+  } else console.log('NOT_CAPTURED');
+  await browser.close();
+})().catch(e=>{console.error('ERR '+(e.message||e).toString().slice(0,200));process.exit(1);});

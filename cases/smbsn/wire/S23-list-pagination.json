@@ -1,0 +1,150 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S23 同业客户管理-列表分页(点页码2→页码1→每页条数20/页→10/页→下一页→上一页)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-pagination')]//li[contains(@class,'number')][normalize-space(.)='2']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "翻页-第2页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "翻页-第2页",
+          "rect": {
+            "x1": 0.5884,
+            "y1": 0.7924,
+            "x2": 0.6078,
+            "y2": 0.8236
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-pagination')]//li[contains(@class,'number')][normalize-space(.)='1']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "翻页-第1页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "翻页-第1页",
+          "rect": {
+            "x1": 0.5648,
+            "y1": 0.7924,
+            "x2": 0.5842,
+            "y2": 0.8236
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//span[contains(@class,'el-pagination__sizes')]//div[contains(@class,'el-select--mini')]",
+          "eventTypeName": "下拉选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "20条/页",
+          "propertiesName": "每页条数",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "每页条数",
+          "rect": {
+            "x1": 0.4558,
+            "y1": 0.793,
+            "x2": 0.5321,
+            "y2": 0.8286
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//span[contains(@class,'el-pagination__sizes')]//div[contains(@class,'el-select--mini')]",
+          "eventTypeName": "下拉选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "10条/页",
+          "propertiesName": "每页条数恢复",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "每页条数恢复",
+          "rect": {
+            "x1": 0.4558,
+            "y1": 0.793,
+            "x2": 0.5321,
+            "y2": 0.8286
+          },
+          "propertiesID": "5"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-pagination')]//button[contains(@class,'btn-next')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "下一页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "下一页",
+          "rect": {
+            "x1": 0.612,
+            "y1": 0.7924,
+            "x2": 0.6315,
+            "y2": 0.8236
+          },
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-pagination')]//button[contains(@class,'btn-prev')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "上一页",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "上一页",
+          "rect": {
+            "x1": 0.5412,
+            "y1": 0.7924,
+            "x2": 0.5606,
+            "y2": 0.8236
+          },
+          "propertiesID": "7"
+        }
+      ]
+    }
+  ]
+}

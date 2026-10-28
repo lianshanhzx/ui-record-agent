@@ -1,0 +1,20 @@
+[
+  {
+    "text": "营业执照\n确认取消",
+    "forms": [],
+    "buttons": [
+      {
+        "text": "",
+        "disabled": false
+      },
+      {
+        "text": "确认",
+        "disabled": false
+      },
+      {
+        "text": "取消",
+        "disabled": false
+      }
+    ]
+  }
+]

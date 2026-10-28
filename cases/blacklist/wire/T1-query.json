@@ -1,0 +1,91 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00098110",
+      "transcationName": "T1 黑名单管理-名单查询",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "黑名单管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "screenCapture": "http://172.19.87.169:9001/uara-step-phase-picture/screenshots/T1-01-list.png"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "厦门",
+          "propertiesName": "客户名称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "realLabel": "客户名称",
+          "rect": "{\"x1\":0.2639,\"y1\":0.1958,\"x2\":0.4917,\"y2\":0.2313}"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": "{\"x1\":0.7444,\"y1\":0.1958,\"x2\":0.8056,\"y2\":0.2313}"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='重置']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "重置",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "realLabel": "重置",
+          "rect": "{\"x1\":0.8153,\"y1\":0.1958,\"x2\":0.8764,\"y2\":0.2313}"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询-恢复全量",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesID": "5",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": "{\"x1\":0.7444,\"y1\":0.1958,\"x2\":0.8056,\"y2\":0.2313}"
+        }
+      ]
+    }
+  ]
+}

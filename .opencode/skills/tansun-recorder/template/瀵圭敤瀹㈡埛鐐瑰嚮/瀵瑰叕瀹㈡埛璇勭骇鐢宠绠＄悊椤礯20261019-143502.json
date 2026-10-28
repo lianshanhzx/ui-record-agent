@@ -1,0 +1,236 @@
+{
+  "id": "ad35a00b-6af3-41a4-ad4a-53bc2bd5e0e0",
+  "name": "collect",
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&id=2112069944518356992&comTp=1&cstTp=04&bsnNo=PJ20261019020155&bsnPk=PJ20261019020155&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261019020155%22,%22cstNm%22%3A%22KB%E6%B5%8B%E5%AE%A2%E6%88%B7-V21J-0900%22,%22cstNo%22%3A%22260927090722408137%22%7D&tblBlId=PJ20261019020155&cstNo=260927090722408137&cstNm=KB%E6%B5%8B%E5%AE%A2%E6%88%B7-V21J-0900&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792391696734",
+  "sessionId": "b11e4228-066a-4ecf-8eaf-799a0e7d84d3",
+  "extensionVersion": "1.1",
+  "mode": "collect",
+  "result": "pass",
+  "startedAt": 1792391675213,
+  "endedAt": 1792391702554,
+  "targetTab": {
+    "tabId": 18600609,
+    "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&id=2112069944518356992&comTp=1&cstTp=04&bsnNo=PJ20261019020155&bsnPk=PJ20261019020155&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261019020155%22,%22cstNm%22%3A%22KB%E6%B5%8B%E5%AE%A2%E6%88%B7-V21J-0900%22,%22cstNo%22%3A%22260927090722408137%22%7D&tblBlId=PJ20261019020155&cstNo=260927090722408137&cstNm=KB%E6%B5%8B%E5%AE%A2%E6%88%B7-V21J-0900&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792391696734",
+    "title": "对公客户评级 - 天阳宏业"
+  },
+  "transcationProperties": [
+    {
+      "propertiesID": "453b0fa0-0697-413b-af12-de3ec75467c0",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "评级管理-对公客户评级-对公客户评级",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FrtgMgt%2FcpctRtg%2FcpctRtgAplyMgtPg",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg?needupdate=yes&part=rtgMgtcpctRtgcpctRtgAplyMgtPg",
+      "tianyuanPageConfig": {
+        "活动名称": "选择同业客户(ZJJK00109101),选择集团客户(ZJJK00109101),客户经理发起对公客户评级(ZJJK00109175),选择对公客户(ZJJK00109101)",
+        "页面名称": "对公客户评级申请管理页",
+        "页面路径": "/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+        "组件编号": "ZJJK00070599"
+      },
+      "pagetagName": "对公客户评级"
+    },
+    {
+      "clientId": "b7365285-2735-41e5-bdfd-d9c8dfdfb6bc",
+      "timestamp": 1792391677621,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='评级申请']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "评级申请",
+      "realLabel": "评级申请",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 1,
+      "networkCalls": [
+        {
+          "requestId": "6174",
+          "timestamp": 1792391677705.588,
+          "frameId": 0,
+          "method": "GET",
+          "url": "http://172.19.87.162:9527/static/js/async/433302.6b0d9d87.js",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        },
+        {
+          "requestId": "6175",
+          "timestamp": 1792391677746.919,
+          "frameId": 0,
+          "method": "GET",
+          "url": "http://172.19.87.162:9527/static/js/async/847058.38f0e153.js",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        },
+        {
+          "requestId": "6176",
+          "timestamp": 1792391677903.71,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/queryCorporat",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "0c5509c9-b10b-4431-ac56-3d3890a57e00",
+      "propertiesPID": "453b0fa0-0697-413b-af12-de3ec75467c0",
+      "type": "ele"
+    },
+    {
+      "propertiesID": "21b4526c-1528-41ea-8a63-4eb667a12d37",
+      "propertiesPID": "453b0fa0-0697-413b-af12-de3ec75467c0",
+      "type": "dialog",
+      "propertiesName": "对公客户评级申请",
+      "key": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-drawer__wrapper ')][not(@hidden)][not(@aria-hidden='true')][not(contains(translate(@style, ' ', ''), 'display:none'))][.//*[normalize-space(.)='对公客户评级申请']]//div[@aria-label='对公客户评级申请']",
+      "url": ""
+    },
+    {
+      "clientId": "71847e05-25c7-43b9-96e0-101b96e6d2c4",
+      "timestamp": 1792391678987,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//div[2]/div[contains(concat(' ', normalize-space(@class), ' '), ' tssc-form-item ')]/div/div[contains(concat(' ', normalize-space(@class), ' '), ' tssc-multi-select ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' el-select ')]/div[1]/input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "客户名称",
+      "realLabel": "客户名称",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 2,
+      "networkCalls": [],
+      "propertiesID": "4a9a7ae9-1290-4fb3-af2d-0d5a0a6fb98d",
+      "propertiesPID": "21b4526c-1528-41ea-8a63-4eb667a12d37",
+      "type": "ele"
+    },
+    {
+      "clientId": "8e517e51-87de-46fd-9af9-6b65136ab73a",
+      "timestamp": 1792391682121,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//tr[contains(concat(' ', normalize-space(@class), ' '), ' el-table__row ')][10]/td[contains(concat(' ', normalize-space(@class), ' '), ' el-table_35_column_285 ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' cell ')]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "div",
+      "propertiesName": "KB测客户V21J0900",
+      "realLabel": "KB测客户-V21J-0900",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "class": "cell"
+      },
+      "frameId": 0,
+      "seq": 3,
+      "networkCalls": [
+        {
+          "requestId": "6177",
+          "timestamp": 1792391682443.858,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/matchingRatingModel",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "a5b599f4-16fb-4b11-865c-c15ec495d7f2",
+      "propertiesPID": "453b0fa0-0697-413b-af12-de3ec75467c0",
+      "type": "ele"
+    },
+    {
+      "propertiesID": "d863d28f-6859-4629-950a-001b18c58c72",
+      "propertiesPID": "453b0fa0-0697-413b-af12-de3ec75467c0",
+      "type": "dialog",
+      "propertiesName": "对公客户评级申请_1",
+      "key": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-drawer__wrapper ')][not(@hidden)][not(@aria-hidden='true')][not(contains(translate(@style, ' ', ''), 'display:none'))][.//*[normalize-space(.)='对公客户评级申请']]//div[@aria-label='对公客户评级申请']",
+      "url": ""
+    },
+    {
+      "clientId": "8bd7261b-e86d-4974-ae51-2f132f5d9a86",
+      "timestamp": 1792391684021,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='下一步']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "下一步",
+      "realLabel": "下一步",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 4,
+      "networkCalls": [
+        {
+          "requestId": "6178",
+          "timestamp": 1792391684196.695,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-intlgctrl/ipcIntlgCtrl/scmExec",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "f64a1e80-df3e-4550-9900-f3ff5038c46c",
+      "propertiesPID": "d863d28f-6859-4629-950a-001b18c58c72",
+      "type": "ele"
+    },
+    {
+      "clientId": "2054b605-05b2-484c-a779-3296d701cfa2",
+      "timestamp": 1792391691795,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='确定']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "确定",
+      "realLabel": "确定",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 5,
+      "networkCalls": [
+        {
+          "requestId": "6182",
+          "timestamp": 1792391692689.017,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/createRating",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "a25f0dc3-4d49-4ab7-befe-e180d42c5874",
+      "propertiesPID": "d863d28f-6859-4629-950a-001b18c58c72",
+      "type": "ele"
+    }
+  ]
+}

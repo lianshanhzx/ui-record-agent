@@ -1,0 +1,12 @@
+{
+  "custNo": "260924144929974126",
+  "listNoRect": "{\"x1\":0.0194,\"y1\":0.1958,\"x2\":0.2472,\"y2\":0.2313}",
+  "otherTabRect": "{\"x1\":0.3514,\"y1\":0.1689,\"x2\":0.4042,\"y2\":0.2222}",
+  "histTotal": 297,
+  "histRowsPerPage": 10,
+  "page1First": "260924144929974126 平均总资产金额 2026-09-28 14:24:34 2000000004.00 2000000005.00 70199",
+  "histPagerX2": "//div[contains(@class,'el-collapse-item')][.//div[contains(@class,'el-collapse-item__header')][contains(.,'查看历史修改记录')]]//li[contains(@class,'number') and normalize-space(.)='2']",
+  "page2Rect": "{\"x1\":0.4634,\"y1\":0.5733,\"x2\":0.4828,\"y2\":0.6044}",
+  "histPagerX1": "//div[contains(@class,'el-collapse-item')][.//div[contains(@class,'el-collapse-item__header')][contains(.,'查看历史修改记录')]]//li[contains(@class,'number') and normalize-space(.)='1']",
+  "page1Rect": "{\"x1\":0.4397,\"y1\":0.5733,\"x2\":0.4592,\"y2\":0.6044}"
+}

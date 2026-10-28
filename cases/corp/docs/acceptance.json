@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13T02:38:19.826Z",
+  "recorded": 121,
+  "blocked": 8,
+  "latestReplay": {
+    "pass": 120,
+    "warn": 1
+  },
+  "expectedValidationWarnings": [
+    {
+      "id": "R106",
+      "warnings": [
+        "步骤(11) 空财报OCR必填校验 出现错误提示: 请选择需要识别的内容",
+        "步骤(12) 返回财报OCR 出现错误提示: 请选择需要识别的内容",
+        "步骤(13) 返回列表 出现错误提示: 请选择需要识别的内容"
+      ]
+    }
+  ],
+  "failures": [],
+  "structuralErrors": [],
+  "specDiscovery": 121,
+  "oldActiveCFiles": 0
+}

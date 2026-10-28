@@ -1,0 +1,33 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户（test.creditv5p2）- 探索/任务事项-待办任务",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/portal/wfPendTask",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [],
+  "popups": [
+    { "match": ["审批历史"], "selector": ".el-dialog" },
+    { "match": ["选择用户"], "selector": ".el-dialog" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": "//button[normalize-space()='查询']",
+  "downloadTriggers": [],
+  "downloads": { "knownEmptyFiles": [] },
+  "settleAfterClickMs": 2500,
+  "settleAfterInputMs": 500
+}

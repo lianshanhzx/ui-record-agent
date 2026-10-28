@@ -1,0 +1,37 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-集群客户管理",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/csinfMnt/coloCstMgt/clstrCstMgtPg",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    { "match": ["集群客户管理"], "urlPattern": "clstrCstMgtPg", "route": "/#/cstMgt/csinfMnt/coloCstMgt/clstrCstMgtPg", "readySelector": "//button[normalize-space()='查询']" },
+    { "match": ["集群客户详情"], "urlPattern": "mdfColCsinf", "route": "/#/cstMgt/csinfMntSubDmn/colCstMgt/mdfColCsinf/hostCstmgrMdfColCsinf/FS00004648HostCstmgrMdfColCsinf?newtag=false&needupdate=yes&newTag=true&id=2056716891376525312&clstrNo=26051920413351001&clstrNm=%E6%96%B0%E4%BA%91%E9%9B%86%E7%BE%A4&mbrNum=1&crtTp=2&createUser=701994&createTime=2026-05-19%2020%3A41%3A34&createInst=9881&updateUser=701994&updateTime=2026-05-19%2020%3A46%3A05&updateInst=9881&hdlUser=701994&hdlTime=2026-05-19%2020%3A41%3A34&hdlInst=9881&delInd=0&version=0&tenantId=9881&tsRowIndex=0&viewType=look&avyEcd=UML00066029&fcnScnEcd=FS00004648", "readySelector": "//button[normalize-space()='返回']" }
+  ],
+  "popups": [
+    { "match": ["删除确认"], "selector": ".el-message-box" },
+    { "match": ["查看关系"], "selector": ".el-dialog" },
+    { "match": ["新增集群"], "selector": ".el-drawer" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "downloadTriggers": ["导入成员模板"],
+  "downloads": { "knownEmptyFiles": ["colonyTemplate"] },
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": "//button[normalize-space()='查询']",
+  "settleAfterClickMs": 2500,
+  "settleAfterInputMs": 500
+}

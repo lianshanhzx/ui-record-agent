@@ -1,0 +1,107 @@
+[
+  {
+    "text": "发送验证码\n登 录\n用户转授权编码灰度版本",
+    "forms": [
+      {
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": true,
+            "placeholder": "请选择法人"
+          }
+        ],
+        "select": true,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "required": true,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入您的用户名"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "required": true,
+        "inputs": [
+          {
+            "type": "password",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入您的密码"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入图形中的字符"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": []
+      },
+      {
+        "required": false,
+        "inputs": [
+          {
+            "type": "text",
+            "tag": "INPUT",
+            "value": "",
+            "disabled": false,
+            "readonly": false,
+            "placeholder": "请输入手机验证码"
+          }
+        ],
+        "select": false,
+        "date": false,
+        "buttons": [
+          "发送验证码"
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "发送验证码",
+        "disabled": false
+      },
+      {
+        "text": "登 录",
+        "disabled": false
+      },
+      {
+        "text": "用户转授权编码",
+        "disabled": false
+      },
+      {
+        "text": "灰度版本",
+        "disabled": false
+      }
+    ]
+  }
+]

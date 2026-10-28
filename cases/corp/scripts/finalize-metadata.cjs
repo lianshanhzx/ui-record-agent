@@ -1,0 +1,22 @@
+const fs=require('node:fs'),path=require('node:path');const run=__dirname;
+let coverage=fs.readFileSync(path.join(run,'build-coverage.cjs'),'utf8');
+if(!coverage.includes('groups.unshift'))coverage=coverage.replace('function mapPage(p)',"groups.unshift([/联网核查/,['R130','R131'],'仅界面、历史查询及无选择详情校验；不执行实时核查，空历史不能验证详情'],[/法院/,['R140','R141'],'法院查询和重置；有效性下拉无选项，当前无详情入口']);\nfunction mapPage(p)");
+coverage=coverage.replace('function mapPage(p){const matched=','function mapPage(p){let matched=');
+coverage=coverage.replace('const ids=(matched?.[1]||[])',"if(/维护对公客户概况/.test(p.title)&&p.number.includes('.3.4.'))matched=[null,['R11','R15','R18','R19'],'担保概况暂存和查看已录；正式保存单独校验'];const ids=(matched?.[1]||[])");
+coverage=coverage.replace('if(/标签|他行贷款','if(ids.length&&/标签|他行贷款');
+if(!coverage.includes('buttonRules'))coverage=coverage.replace('const pages=requirements.pages.map(mapPage);',"const buttonRules={'3.2.1.3.1':['R06','R07','R08','R09','R11','R12'],'3.2.1.4.1':['R05','R13','R185'],'3.2.1.5.1':['R05','R14','R15','R16'],'3.2.1.6.1':['R05','R130','R131'],'3.2.1.7.1':['R05','R140','R141'],'3.2.1.8.1':['R05','R160']};\nconst pages=requirements.pages.map(mapPage);");
+coverage=coverage.replace('return {...r,status,transactions:page?.transactions||[],',"if(!page&&buttonRules[r.number]){const ids=buttonRules[r.number];status=ids.some(id=>cases.get(id)?.status!=='recorded')?'按钮分支部分实录，含业务前置阻塞':'按钮入口及选择校验已实录';return {...r,status,transactions:ids,note:'列表工具栏规则显式映射；不等于所有客户状态穷举'};}return {...r,status,transactions:page?.transactions||[],");
+fs.writeFileSync(path.join(run,'build-coverage.cjs'),coverage);
+const manifest=JSON.parse(fs.readFileSync(path.join(run,'recording-manifest.json')));
+for(const item of manifest){const record=JSON.parse(fs.readFileSync(path.join(run,item.id+'-recording.json')));item.name=record.name;if(item.status!=='recorded'){const wire=path.resolve(run,'../../partner-wire/corp',item.id+'.json');if(fs.existsSync(wire))fs.unlinkSync(wire);}}
+fs.writeFileSync(path.join(run,'recording-manifest.json'),JSON.stringify(manifest,null,2));
+const profile=JSON.parse(fs.readFileSync(path.join(run,'profile.json')));
+if(!profile.popups.some(p=>p.match.includes('新增对私潜客抽屉')))profile.popups.unshift({match:['新增对私潜客抽屉'],selector:'.el-drawer'});
+const ocrPage=profile.pages.find(p=>p.match.includes('财报OCR上传页面'));
+if(ocrPage)ocrPage.readySelector="//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='财报名称']]//input";
+fs.writeFileSync(path.join(run,'profile.json'),JSON.stringify(profile,null,2));
+console.log(JSON.stringify({metadataNormalized:true}));
+let builder=fs.readFileSync(path.join(run,'build-delivery.cjs'),'utf8');
+if(!builder.includes('replay-final-out/replay-report.json'))builder=builder.replace("'replay-repair-out/replay-report.json'","'replay-repair-out/replay-report.json','replay-final-out/replay-report.json'");
+if(!builder.includes('replay-ocr-repair-out/replay-report.json'))builder=builder.replace("'replay-final-out/replay-report.json'","'replay-final-out/replay-report.json','replay-ocr-repair-out/replay-report.json'");
+fs.writeFileSync(path.join(run,'build-delivery.cjs'),builder);

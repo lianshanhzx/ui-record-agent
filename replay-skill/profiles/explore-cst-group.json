@@ -1,0 +1,34 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-集团客户管理",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/csinfMnt/grpcstMgt/grpcstMgtPg",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    { "match": ["集团客户管理"], "urlPattern": "grpcstMgtPg", "route": "/#/cstMgt/csinfMnt/grpcstMgt/grpcstMgtPg", "readySelector": "//button[contains(@class,'disableBtn')][normalize-space()='查询']" },
+    { "match": ["集团客户详情"], "urlPattern": "enqrGrpcstInf", "route": "/#/cstMgt/csinfMntSubDmn/grpcstMgt/enqrGrpcstInf/hpermUsrEnqrGrpcstInf/FS00003077HpermUsrEnqrGrpcstInf?newtag=false&needupdate=yes&newTag=true&id=2100121978857463808&totGrpNo=26091614251703488&grpNo=26091615175279589&grpNm=%E6%95%B0%E5%AD%97%E9%9B%86%E5%9B%A2&acEntyCstNo=&acEntyCstNm=%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&acEntyCstCrdtTp=20111&acEntyCstCrdtNo=91110228887439996K&primOprIdyTp=I&grpRptClbrTp=0&grpParcoCstNo=26091416425983768&mbrNum=1&createUser=NN0001&createTime=2026-09-16%2015%3A17%3A53&createInst=1913&updateUser=NN0001&updateTime=2026-09-17%2017%3A59%3A32&updateInst=1913&hdlUser=NN0001&hdlTime=2026-09-16%2015%3A17%3A53&hdlInst=1913&delInd=0&version=0&tenantId=1900&tsRowIndex=0&viewType=look&avyEcd=UML00005720&fcnScnEcd=FS00003077", "readySelector": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input" }
+  ],
+  "popups": [
+    { "match": ["查看关系"], "selector": ".el-dialog" },
+    { "match": ["新增集团"], "selector": ".el-drawer" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+  "settleAfterClickMs": 2500,
+  "settleAfterInputMs": 500
+}

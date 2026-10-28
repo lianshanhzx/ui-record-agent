@@ -1,0 +1,164 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+  "fields": [
+    {
+      "label": "业务编号",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "客户编号",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "客户名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "审批状态",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": [
+        "待发起",
+        "审批中",
+        "已撤销",
+        "退回",
+        "通过",
+        "否决"
+      ]
+    },
+    {
+      "label": "评级发生类型",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": [
+        "新增",
+        "重新评级",
+        "自动评级"
+      ]
+    },
+    {
+      "label": "申请日期",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        },
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "评级到期日期",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        },
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    }
+  ],
+  "components": [],
+  "buttons": [
+    {
+      "label": "选择客户",
+      "disabled": false
+    },
+    {
+      "label": "查询",
+      "disabled": false
+    },
+    {
+      "label": "重置",
+      "disabled": false
+    },
+    {
+      "label": "",
+      "disabled": false
+    },
+    {
+      "label": "评级申请",
+      "disabled": false
+    },
+    {
+      "label": "修改",
+      "disabled": false
+    },
+    {
+      "label": "删除",
+      "disabled": false
+    },
+    {
+      "label": "查看详情",
+      "disabled": false
+    },
+    {
+      "label": "流程轨迹",
+      "disabled": false
+    },
+    {
+      "label": "评级重评",
+      "disabled": false
+    },
+    {
+      "label": "",
+      "disabled": true
+    },
+    {
+      "label": "",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

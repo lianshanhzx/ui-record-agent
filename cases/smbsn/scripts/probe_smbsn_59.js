@@ -1,0 +1,32 @@
+// probe59: 只读核实 S8 回放的关联人行
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const CUST_NO = '260924144929974126';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const auth = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', '..', 'auth.json'), 'utf8'));
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: auth, viewport: { width: 1440, height: 900 } });
+  const page = await ctx.newPage();
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg', { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr', { timeout: 90000 });
+  await sleep(2000);
+  await page.locator('.el-form-item').filter({ has: page.locator('label', { hasText: '客户编号' }) }).first().locator('input').first().fill(CUST_NO);
+  const q = page.waitForResponse((r) => r.url().includes('findCustTradeList') && r.request().method() === 'POST', { timeout: 30000 });
+  await page.getByRole('button').filter({ hasText: /查\s*询/ }).first().click();
+  await q; await sleep(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type="radio"]').first().evaluate((el) => el.click());
+  await sleep(800);
+  await page.getByRole('button').filter({ hasText: /修\s*改/ }).first().click();
+  await page.waitForURL(/mdfSmbsnCst/, { timeout: 30000 });
+  await page.waitForSelector('.el-form-item:visible', { timeout: 60000 });
+  await sleep(4000);
+  await page.locator('.el-tabs__item').filter({ hasText: /关联人/ }).first().click();
+  await sleep(3000);
+  const rows = page.locator('.el-tab-pane:visible').last().locator('.el-table__body-wrapper .el-table__body tbody tr');
+  const n = await rows.count();
+  console.log('P59_ROWS=', n);
+  for (let i = 0; i < n; i++) console.log('P59_ROW', i, '=', JSON.stringify(await rows.nth(i).locator('td .cell').allInnerTexts().then((a) => a.map((s) => s.trim()))));
+  await browser.close();
+})().catch((e) => { console.error('P59_ERROR', e.message); process.exit(1); });

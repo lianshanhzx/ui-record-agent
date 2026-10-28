@@ -1,0 +1,582 @@
+{
+  "name": "AT_SMB_20260924144917",
+  "uscc": "914501005QBUAEFCJ8",
+  "cstNo": "260924144929974126",
+  "total": 71,
+  "items": [
+    {
+      "seq": 1,
+      "group": "基本信息",
+      "label": "客户编号",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 2,
+      "group": "基本信息",
+      "label": "客户名称",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 3,
+      "group": "基本信息",
+      "label": "证件类型",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 4,
+      "group": "基本信息",
+      "label": "证件号码",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 5,
+      "group": "基本信息",
+      "label": "客户类别",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 6,
+      "group": "基本信息",
+      "label": "客户简称",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 7,
+      "group": "基本信息",
+      "label": "登记注册日期",
+      "req": false,
+      "type": "date",
+      "btns": []
+    },
+    {
+      "seq": 8,
+      "group": "基本信息",
+      "label": "所在地区行政区划",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 9,
+      "group": "基本信息",
+      "label": "同业客户类型",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 10,
+      "group": "基本信息",
+      "label": "机构类别",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 11,
+      "group": "基本信息",
+      "label": "是否为XXX法人行",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 12,
+      "group": "基本信息",
+      "label": "组织形式",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 13,
+      "group": "基本信息",
+      "label": "平均资产总额",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 14,
+      "group": "基本信息",
+      "label": "企业规模",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 15,
+      "group": "基本信息",
+      "label": "总行客户编号",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 16,
+      "group": "基本信息",
+      "label": "调查机构",
+      "req": false,
+      "type": "import",
+      "btns": [
+        "引入"
+      ]
+    },
+    {
+      "seq": 17,
+      "group": "基本信息",
+      "label": "调查机构地址",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 18,
+      "group": "基本信息",
+      "label": "机构电话号码",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 19,
+      "group": "基本信息",
+      "label": "机构统一社会信用代码",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 20,
+      "group": "基本信息",
+      "label": "中征码",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 21,
+      "group": "基本信息",
+      "label": "中征码状态",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 22,
+      "group": "基本信息",
+      "label": "中征码年检到期日期",
+      "req": false,
+      "type": "date",
+      "btns": []
+    },
+    {
+      "seq": 23,
+      "group": "法定代表人信息",
+      "label": "法定代表人/负责人姓名",
+      "req": false,
+      "type": "import",
+      "btns": [
+        "引入"
+      ]
+    },
+    {
+      "seq": 24,
+      "group": "法定代表人信息",
+      "label": "法定代表人客户编号",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 25,
+      "group": "法定代表人信息",
+      "label": "法定代表人名称",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 26,
+      "group": "法定代表人信息",
+      "label": "法定代表人证件号码",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 27,
+      "group": "组织机构信息",
+      "label": "金融许可证号",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 28,
+      "group": "组织机构信息",
+      "label": "地税登记证号码",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 29,
+      "group": "组织机构信息",
+      "label": "国税登记证号码",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 30,
+      "group": "组织机构信息",
+      "label": "营业执照",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 31,
+      "group": "组织机构信息",
+      "label": "注册资本金额",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 32,
+      "group": "组织机构信息",
+      "label": "登记注册地址",
+      "req": false,
+      "type": "import",
+      "btns": [
+        "引入"
+      ]
+    },
+    {
+      "seq": 33,
+      "group": "组织机构信息",
+      "label": "经营范围",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 34,
+      "group": "组织机构信息",
+      "label": "主营范围",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 35,
+      "group": "组织机构信息",
+      "label": "登记注册有效期",
+      "req": false,
+      "type": "date",
+      "btns": []
+    },
+    {
+      "seq": 36,
+      "group": "组织机构信息",
+      "label": "成立日期",
+      "req": false,
+      "type": "date",
+      "btns": []
+    },
+    {
+      "seq": 37,
+      "group": "经营信息",
+      "label": "上市公司标志",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 38,
+      "group": "经营信息",
+      "label": "联系人姓名",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 39,
+      "group": "经营信息",
+      "label": "联系电话",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 40,
+      "group": "经营信息",
+      "label": "认定等级",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 41,
+      "group": "经营信息",
+      "label": "认定评分",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 42,
+      "group": "经营信息",
+      "label": "评级认定日期",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 43,
+      "group": "经营信息",
+      "label": "评级到期日期",
+      "req": false,
+      "type": "skip",
+      "btns": []
+    },
+    {
+      "seq": 44,
+      "group": "经营信息",
+      "label": "评级等级（外部）",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 45,
+      "group": "经营信息",
+      "label": "评级申请日期（外部）",
+      "req": false,
+      "type": "date",
+      "btns": []
+    },
+    {
+      "seq": 46,
+      "group": "经营信息",
+      "label": "评定机构（外部）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 47,
+      "group": "财务信息",
+      "label": "控股经济成分类型",
+      "req": false,
+      "type": "select",
+      "btns": []
+    },
+    {
+      "seq": 48,
+      "group": "财务信息",
+      "label": "投资总额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 49,
+      "group": "财务信息",
+      "label": "负债总额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 50,
+      "group": "财务信息",
+      "label": "所有者权益（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 51,
+      "group": "财务信息",
+      "label": "加权风险资产总额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 52,
+      "group": "财务信息",
+      "label": "资本充足率（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 53,
+      "group": "财务信息",
+      "label": "风险资产比率（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 54,
+      "group": "财务信息",
+      "label": "不良资产比率（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 55,
+      "group": "财务信息",
+      "label": "贷款损失准备比率",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 56,
+      "group": "财务信息",
+      "label": "贷款增长率（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 57,
+      "group": "财务信息",
+      "label": "贷款总额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 58,
+      "group": "财务信息",
+      "label": "存款总额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 59,
+      "group": "财务信息",
+      "label": "流动资产（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 60,
+      "group": "财务信息",
+      "label": "流动负债合计金额",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 61,
+      "group": "财务信息",
+      "label": "同业借款（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 62,
+      "group": "财务信息",
+      "label": "税后利润（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 63,
+      "group": "财务信息",
+      "label": "平均所有者权益（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 64,
+      "group": "财务信息",
+      "label": "平均总资产金额",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 65,
+      "group": "财务信息",
+      "label": "营业费用（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 66,
+      "group": "财务信息",
+      "label": "营业收入（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 67,
+      "group": "财务信息",
+      "label": "资产回报率（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 68,
+      "group": "财务信息",
+      "label": "存货比例（%）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 69,
+      "group": "财务信息",
+      "label": "成本（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 70,
+      "group": "财务信息",
+      "label": "流动性资金比例",
+      "req": false,
+      "type": "input",
+      "btns": []
+    },
+    {
+      "seq": 71,
+      "group": "财务信息",
+      "label": "实收资本金额（元）",
+      "req": false,
+      "type": "input",
+      "btns": []
+    }
+  ]
+}

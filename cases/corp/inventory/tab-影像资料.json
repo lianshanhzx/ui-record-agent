@@ -1,0 +1,40 @@
+[
+  {
+    "text": "资料目录\n搜索\n暂无数据\n全选\n电子验印\n扫描仪\n高拍仪\n批量下载\n装订成册\n图册查看\n搜索\n\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据",
+    "forms": [],
+    "buttons": [
+      {
+        "text": "搜索",
+        "disabled": false
+      },
+      {
+        "text": "电子验印",
+        "disabled": false
+      },
+      {
+        "text": "扫描仪",
+        "disabled": false
+      },
+      {
+        "text": "高拍仪",
+        "disabled": false
+      },
+      {
+        "text": "批量下载",
+        "disabled": false
+      },
+      {
+        "text": "装订成册",
+        "disabled": false
+      },
+      {
+        "text": "图册查看",
+        "disabled": false
+      },
+      {
+        "text": "搜索",
+        "disabled": false
+      }
+    ]
+  }
+]

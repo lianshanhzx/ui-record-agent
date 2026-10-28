@@ -1,0 +1,79 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "R04 对公客户管理-列表分页",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对公客户管理列表",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "对公客户管理列表",
+          "rect": "",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R04_001.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "下一页",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-pagination')]//button[contains(@class,'btn-next')]",
+          "objectValue": "",
+          "realLabel": "下一页",
+          "rect": "{\"x1\":0.7052951388888888,\"y1\":0.9190972222222222,\"x2\":0.7247395833333333,\"y2\":0.9502083333333333}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R04_002.png"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "第一页",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//ul[contains(@class,'el-pager')]//li[normalize-space(.)='1']",
+          "objectValue": "",
+          "realLabel": "1",
+          "rect": "{\"x1\":0.51640625,\"y1\":0.9190972222222222,\"x2\":0.5358506944444444,\"y2\":0.9502083333333333}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R04_003.png"
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "每页条数",
+          "eventTypeValue": "select:click",
+          "eventTypeName": "下拉框点击选择",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(@class,'el-pagination')]//div[contains(@class,'el-select')]",
+          "objectValue": "20条/页",
+          "realLabel": "每页条数",
+          "rect": "{\"x1\":0.40737847222222223,\"y1\":0.9190972222222222,\"x2\":0.4837673611111111,\"y2\":0.9546527777777778}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R04_004.png"
+        }
+      ]
+    }
+  ]
+}

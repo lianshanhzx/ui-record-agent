@@ -1,0 +1,220 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S11 同业客户管理-关联人信息删除(列表查询→修改→关联人信息tab→选行→删除→确认OK→行-1)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='修改']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "修改",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "修改",
+          "rect": {
+            "x1": 0.075,
+            "y1": 0.294,
+            "x2": 0.136,
+            "y2": 0.329
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "同业客户详情-修改客户场景-关联人信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-tabs__item')][normalize-space(.)='关联人信息']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "关联人信息tab",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "关联人信息",
+          "rect": {
+            "x1": 0.1417,
+            "y1": 0.1689,
+            "x2": 0.2181,
+            "y2": 0.2222
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "关联人表首行单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "关联人表首行单选",
+          "rect": {
+            "x1": 0.0215,
+            "y1": 0.3401,
+            "x2": 0.0382,
+            "y2": 0.3585
+          },
+          "propertiesID": "8"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='删除']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "删除",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "删除",
+          "rect": {
+            "x1": 0.2028,
+            "y1": 0.2378,
+            "x2": 0.2639,
+            "y2": 0.2733
+          },
+          "propertiesID": "9"
+        },
+        {
+          "propertiesName": "删除确认",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesPID": "9",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "10"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-message-box')]//button[normalize-space()='OK' or normalize-space()='确定']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "OK",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "10",
+          "realLabel": "OK",
+          "rect": {
+            "x1": 0.5901,
+            "y1": 0.5278,
+            "x2": 0.6319,
+            "y2": 0.5633
+          },
+          "propertiesID": "11"
+        }
+      ]
+    }
+  ]
+}

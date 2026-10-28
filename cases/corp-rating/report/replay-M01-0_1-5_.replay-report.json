@@ -1,0 +1,484 @@
+{
+  "generatedAt": "2026-10-19T02:59:32.887Z",
+  "profile": "对公客户评级62功能点全新录制",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 69177,
+  "summary": {
+    "total": 5,
+    "pass": 5,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "M01-01",
+      "transaction": "评级业务列表展示",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792378703771,
+      "durationMs": 9397,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 8396,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-01_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "查询当前经办评级",
+          "action": "click",
+          "ms": 1001,
+          "status": "ok",
+          "detail": "点击「查询当前经办评级」",
+          "screenshot": "M01-01_02_查询当前经办评级.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "M01-02",
+      "transaction": "查询客户引入",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792378713280,
+      "durationMs": 12019,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 7158,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-02_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "引入查询客户",
+          "action": "click",
+          "ms": 1040,
+          "status": "ok",
+          "detail": "点击「引入查询客户」",
+          "screenshot": "M01-02_02_引入查询客户.png"
+        },
+        {
+          "id": "3",
+          "type": "popup",
+          "name": "客户选择",
+          "action": "click",
+          "ms": 349,
+          "status": "ok",
+          "detail": "弹窗可见：客户选择",
+          "screenshot": "M01-02_03_客户选择.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 411,
+          "status": "ok",
+          "detail": "输入「客户编号」= 26090119045027429",
+          "screenshot": "M01-02_04_客户编号.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查询引入客户",
+          "action": "click",
+          "ms": 967,
+          "status": "ok",
+          "detail": "点击「查询引入客户」",
+          "screenshot": "M01-02_05_查询引入客户.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "选择查询客户记录",
+          "action": "click",
+          "ms": 1083,
+          "status": "ok",
+          "detail": "选中行「选择查询客户记录」",
+          "screenshot": "M01-02_06_选择查询客户记录.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "确认查询客户",
+          "action": "click",
+          "ms": 1009,
+          "status": "ok",
+          "detail": "点击「确认查询客户」",
+          "screenshot": "M01-02_07_确认查询客户.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "M01-03",
+      "transaction": "更多查询条件展开",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792378725414,
+      "durationMs": 9458,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 8453,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-03_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "展开更多查询条件",
+          "action": "click",
+          "ms": 1005,
+          "status": "ok",
+          "detail": "点击「展开更多查询条件」",
+          "screenshot": "M01-03_02_展开更多查询条件.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "M01-04",
+      "transaction": "评级业务全部条件查询",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792378735008,
+      "durationMs": 22397,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 7540,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-04_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 413,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20260907016009",
+          "screenshot": "M01-04_02_业务编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "精确查询评级记录",
+          "action": "click",
+          "ms": 966,
+          "status": "ok",
+          "detail": "点击「精确查询评级记录」",
+          "screenshot": "M01-04_03_精确查询评级记录.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "引入查询客户",
+          "action": "click",
+          "ms": 980,
+          "status": "ok",
+          "detail": "点击「引入查询客户」",
+          "screenshot": "M01-04_04_引入查询客户.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "客户选择",
+          "action": "click",
+          "ms": 345,
+          "status": "ok",
+          "detail": "弹窗可见：客户选择",
+          "screenshot": "M01-04_05_客户选择.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 406,
+          "status": "ok",
+          "detail": "输入「客户编号」= 26090119045027429",
+          "screenshot": "M01-04_06_客户编号.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "查询引入客户",
+          "action": "click",
+          "ms": 964,
+          "status": "ok",
+          "detail": "点击「查询引入客户」",
+          "screenshot": "M01-04_07_查询引入客户.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选择查询客户记录",
+          "action": "click",
+          "ms": 1066,
+          "status": "ok",
+          "detail": "选中行「选择查询客户记录」",
+          "screenshot": "M01-04_08_选择查询客户记录.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "确认查询客户",
+          "action": "click",
+          "ms": 969,
+          "status": "ok",
+          "detail": "点击「确认查询客户」",
+          "screenshot": "M01-04_09_确认查询客户.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "展开更多查询条件",
+          "action": "click",
+          "ms": 974,
+          "status": "ok",
+          "detail": "点击「展开更多查询条件」",
+          "screenshot": "M01-04_10_展开更多查询条件.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "审批状态",
+          "action": "select:click",
+          "ms": 1579,
+          "status": "ok",
+          "detail": "下拉选择「审批状态」= 通过",
+          "screenshot": "M01-04_11_审批状态.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "评级发生类型",
+          "action": "select:click",
+          "ms": 1608,
+          "status": "ok",
+          "detail": "下拉选择「评级发生类型」= 重新评级",
+          "screenshot": "M01-04_12_评级发生类型.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "申请日期开始",
+          "action": "input",
+          "ms": 431,
+          "status": "ok",
+          "detail": "输入「申请日期开始」= 2026-09-07",
+          "screenshot": "M01-04_13_申请日期开始.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "申请日期结束",
+          "action": "input",
+          "ms": 414,
+          "status": "ok",
+          "detail": "输入「申请日期结束」= 2026-09-07",
+          "screenshot": "M01-04_14_申请日期结束.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "关闭申请日期日期面板",
+          "action": "click",
+          "ms": 969,
+          "status": "ok",
+          "detail": "点击「关闭申请日期日期面板」",
+          "screenshot": "M01-04_15_关闭申请日期日期面板.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "评级到期日期开始",
+          "action": "input",
+          "ms": 424,
+          "status": "ok",
+          "detail": "输入「评级到期日期开始」= 2027-08-19",
+          "screenshot": "M01-04_16_评级到期日期开始.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "评级到期日期结束",
+          "action": "input",
+          "ms": 408,
+          "status": "ok",
+          "detail": "输入「评级到期日期结束」= 2027-08-19",
+          "screenshot": "M01-04_17_评级到期日期结束.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "关闭评级到期日期日期面板",
+          "action": "click",
+          "ms": 967,
+          "status": "ok",
+          "detail": "点击「关闭评级到期日期日期面板」",
+          "screenshot": "M01-04_18_关闭评级到期日期日期面板.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "全部条件查询",
+          "action": "click",
+          "ms": 973,
+          "status": "ok",
+          "detail": "点击「全部条件查询」",
+          "screenshot": "M01-04_19_全部条件查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "M01-05",
+      "transaction": "评级查询条件重置",
+      "pageId": "ZJJK00070599",
+      "status": "pass",
+      "startedAt": 1792378757557,
+      "durationMs": 15112,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户评级",
+          "action": "click",
+          "ms": 6851,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+          "screenshot": "M01-05_01_对公客户评级.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "展开更多查询条件",
+          "action": "click",
+          "ms": 1035,
+          "status": "ok",
+          "detail": "点击「展开更多查询条件」",
+          "screenshot": "M01-05_02_展开更多查询条件.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "业务编号",
+          "action": "input",
+          "ms": 408,
+          "status": "ok",
+          "detail": "输入「业务编号」= PJ20260907016009",
+          "screenshot": "M01-05_03_业务编号.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "引入查询客户",
+          "action": "click",
+          "ms": 1073,
+          "status": "ok",
+          "detail": "点击「引入查询客户」",
+          "screenshot": "M01-05_04_引入查询客户.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "客户选择",
+          "action": "click",
+          "ms": 344,
+          "status": "ok",
+          "detail": "弹窗可见：客户选择",
+          "screenshot": "M01-05_05_客户选择.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 407,
+          "status": "ok",
+          "detail": "输入「客户编号」= 26090119045027429",
+          "screenshot": "M01-05_06_客户编号.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "查询引入客户",
+          "action": "click",
+          "ms": 964,
+          "status": "ok",
+          "detail": "点击「查询引入客户」",
+          "screenshot": "M01-05_07_查询引入客户.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选择查询客户记录",
+          "action": "click",
+          "ms": 1074,
+          "status": "ok",
+          "detail": "选中行「选择查询客户记录」",
+          "screenshot": "M01-05_08_选择查询客户记录.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "确认查询客户",
+          "action": "click",
+          "ms": 1007,
+          "status": "ok",
+          "detail": "点击「确认查询客户」",
+          "screenshot": "M01-05_09_确认查询客户.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "重置全部条件",
+          "action": "click",
+          "ms": 970,
+          "status": "ok",
+          "detail": "点击「重置全部条件」",
+          "screenshot": "M01-05_10_重置全部条件.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "重置后查询",
+          "action": "click",
+          "ms": 979,
+          "status": "ok",
+          "detail": "点击「重置后查询」",
+          "screenshot": "M01-05_11_重置后查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "headers": [
+      "",
+      "文件名称",
+      "文件类型",
+      "上传人",
+      "上传时间",
+      "操作"
+    ],
+    "parents": [
+      {
+        "tag": "DIV",
+        "cls": "el-table tableList el-table--fit el-table--striped el-table--border el-table--enable-row-hover el-table--small",
+        "attrs": [],
+        "text": "\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "attrs": [],
+        "text": "\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-24",
+        "attrs": [],
+        "text": "全选\n电子验印\n扫描仪\n高拍仪\n批量下载\n装订成册\n图册查看\n搜索\n\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "attrs": [],
+        "text": "全选\n电子验印\n扫描仪\n高拍仪\n批量下载\n装订成册\n图册查看\n搜索\n\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      },
+      {
+        "tag": "DIV",
+        "cls": "content",
+        "attrs": [],
+        "text": "全选\n电子验印\n扫描仪\n高拍仪\n批量下载\n装订成册\n图册查看\n搜索\n\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "attrs": [],
+        "text": "全选\n电子验印\n扫描仪\n高拍仪\n批量下载\n装订成册\n图册查看\n搜索\n\t文件名称\t文件类型\t上传人\t上传时间\t操作\n暂无数据"
+      }
+    ]
+  }
+]

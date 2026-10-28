@@ -1,0 +1,46 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00070599",
+      "transcationName": "评级业务列表展示",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对公客户评级",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M01-01-001-对公客户评级.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询当前经办评级",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//button[translate(normalize-space(.),' ','')='查询']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "查询当前经办评级",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.7444444444444445,\"y1\":0.23576388888888888,\"x2\":0.7916666666666666,\"y2\":0.27131944444444445}"
+        }
+      ]
+    }
+  ]
+}

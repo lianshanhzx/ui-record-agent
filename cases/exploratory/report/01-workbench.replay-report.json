@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-09-24T00:29:59.133Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/工作台",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 32101,
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "W01-作业入口查询",
+      "transaction": "工作台-作业入口三要素查询",
+      "pageId": "home",
+      "status": "pass",
+      "startedAt": 1790209767412,
+      "durationMs": 31649,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "工作台",
+          "action": "",
+          "ms": 20549,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/home",
+          "screenshot": "W01-作业入口查询_01_工作台.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "作业入口-重置",
+          "action": "click",
+          "ms": 2671,
+          "status": "ok",
+          "detail": "点击「作业入口-重置」",
+          "screenshot": "W01-作业入口查询_02_作业入口-重置.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "作业入口-客户名称",
+          "action": "input",
+          "ms": 595,
+          "status": "ok",
+          "detail": "输入「作业入口-客户名称」= AT_潜客_20260923110953",
+          "screenshot": "W01-作业入口查询_03_作业入口-客户名称.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "作业入口-证件号码",
+          "action": "input",
+          "ms": 662,
+          "status": "ok",
+          "detail": "输入「作业入口-证件号码」= 110101198507136286",
+          "screenshot": "W01-作业入口查询_04_作业入口-证件号码.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "作业入口-证件类型-居民身份证",
+          "action": "select:click",
+          "ms": 1340,
+          "status": "ok",
+          "detail": "下拉选择「作业入口-证件类型-居民身份证」= 居民身份证",
+          "screenshot": "W01-作业入口查询_05_作业入口-证件类型-居民身份证.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "作业入口-查询",
+          "action": "click",
+          "ms": 2681,
+          "status": "ok",
+          "detail": "点击「作业入口-查询」",
+          "screenshot": "W01-作业入口查询_06_作业入口-查询.png"
+        },
+        {
+          "id": "7",
+          "type": "popup",
+          "name": "非正式客户提示",
+          "action": "",
+          "ms": 494,
+          "status": "ok",
+          "detail": "弹窗可见：非正式客户提示",
+          "screenshot": "W01-作业入口查询_07_非正式客户提示.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "提示-取消",
+          "action": "click",
+          "ms": 2656,
+          "status": "ok",
+          "detail": "点击「提示-取消」",
+          "screenshot": "W01-作业入口查询_08_提示-取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

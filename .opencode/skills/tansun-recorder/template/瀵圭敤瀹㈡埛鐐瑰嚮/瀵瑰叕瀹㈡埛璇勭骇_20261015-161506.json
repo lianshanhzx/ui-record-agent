@@ -1,0 +1,118 @@
+{
+  "id": "1774dac1-74d8-49b7-b947-43ce8ab74885",
+  "name": "collect",
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&id=2110618226211401728&comTp=1&cstTp=04&bsnNo=PJ20261015020088&bsnPk=PJ20261015020088&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261015020088%22,%22cstNm%22%3A%22%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%22,%22cstNo%22%3A%22261015140349747241%22%7D&tblBlId=PJ20261015020088&cstNo=261015140349747241&cstNm=%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792045574852",
+  "sessionId": "91b5b1f4-4644-470f-ad96-7e0c8eb3a676",
+  "extensionVersion": "1.1",
+  "mode": "collect",
+  "result": "fail",
+  "startedAt": 1792052084546,
+  "endedAt": 1792052106382,
+  "targetTab": {
+    "tabId": 18600211,
+    "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&id=2110618226211401728&comTp=1&cstTp=04&bsnNo=PJ20261015020088&bsnPk=PJ20261015020088&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261015020088%22,%22cstNm%22%3A%22%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%22,%22cstNo%22%3A%22261015140349747241%22%7D&tblBlId=PJ20261015020088&cstNo=261015140349747241&cstNm=%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792045574852",
+    "title": "天阳宏业"
+  },
+  "pagetagName": "对公客户评级",
+  "pageConfig": {},
+  "transcationProperties": [
+    {
+      "propertiesID": "c0dd04aa-da3f-4791-a0e8-0ffcaf51d6c5",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "主页面",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FrtgMgt%2FcpctRtg%2FnewCpctRtg%2FcstmgrIttCpctRtg%2FFS00005854HostCstmgrIttCpctRtgAply",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&id=2110618226211401728&comTp=1&cstTp=04&bsnNo=PJ20261015020088&bsnPk=PJ20261015020088&pcsEcd=wf_rating_003&expdFldData=%7B%22bsnNo%22%3A%22PJ20261015020088%22,%22cstNm%22%3A%22%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%22,%22cstNo%22%3A%22261015140349747241%22%7D&tblBlId=PJ20261015020088&cstNo=261015140349747241&cstNm=%E6%98%9F%E7%80%9A%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&startUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FstartProcess&submitUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FsubmitProcess&cancelUrl=%2Ftansun-tcp-app-pc%2Ftansun-tcp-rtg%2FIRtgCorpFlowApi%2Fworkflow%2FterminateProcess&beanName=creditRatingFlowService&beanNm=rtgCorpFlowService&_businessKey=bsnNo&disabled=false&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792045574852"
+    },
+    {
+      "propertiesID": "b24cbbb3-3424-4d3a-8b4c-ff91313f7d40",
+      "propertiesPID": "c0dd04aa-da3f-4791-a0e8-0ffcaf51d6c5",
+      "type": "collapse",
+      "propertiesName": "评级等级测算",
+      "key": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-collapse-item ')][3]",
+      "url": ""
+    },
+    {
+      "clientId": "5922cbb2-72a1-4312-a606-905ba63f95aa",
+      "timestamp": 1792052094312,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='自主收入占比']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "自主收入占比",
+      "realLabel": "自主收入占比",
+      "objectValue": "1111",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 1,
+      "networkCalls": [],
+      "propertiesID": "12e9a148-163c-4402-beaa-db99964edec5",
+      "propertiesPID": "b24cbbb3-3424-4d3a-8b4c-ff91313f7d40",
+      "type": "ele"
+    },
+    {
+      "clientId": "33bc6a99-70c8-4eeb-a301-a6875719fb81",
+      "timestamp": 1792052094387,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='业务往来及使用']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "业务往来及使用",
+      "realLabel": "业务往来及使用",
+      "objectValue": "与我社关系一般或暂无业务往来",
+      "options": [
+        "与我社关系一般或暂无业务往来",
+        "与我社业务合作关系不良",
+        "与我社保持长期较好的业务往来关系_使用我社部分金融产品和服务"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 2,
+      "networkCalls": [],
+      "propertiesID": "1c2eff30-23ec-44d1-b491-0741c2b70fed",
+      "propertiesPID": "b24cbbb3-3424-4d3a-8b4c-ff91313f7d40",
+      "type": "ele"
+    },
+    {
+      "clientId": "2fd30fb1-c505-4fae-b62a-385cc9709dcf",
+      "timestamp": 1792052096314,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='资金归社行情况']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "资金归社行情况",
+      "realLabel": "资金归社行情况",
+      "objectValue": "结算量和留存资金比较少",
+      "options": [
+        "结算量和留存资金比较少",
+        "大部分资金在我行结算归集",
+        "结算量和留存资金很少或没有"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 3,
+      "networkCalls": [],
+      "propertiesID": "4517c0cb-f62d-41d2-beb4-4f67936a6672",
+      "propertiesPID": "b24cbbb3-3424-4d3a-8b4c-ff91313f7d40",
+      "type": "ele"
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S8 同业客户管理-关联人信息新增(列表查询→修改→关联人tab→新增→高管类别→引入对私客户→按格式填13项→确定→返回反查)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": "0.0194",
+            "y1": "0.1958",
+            "x2": "0.2472",
+            "y2": "0.2313"
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='修改']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "修改",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "修改",
+          "rect": {
+            "x1": 0.075,
+            "y1": 0.294,
+            "x2": 0.136,
+            "y2": 0.329
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "同业客户详情-修改客户场景-关联人信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-tabs__item')][normalize-space(.)='关联人信息']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "关联人信息tab",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "关联人信息",
+          "rect": {
+            "x1": "0.1417",
+            "y1": "0.1689",
+            "x2": "0.2181",
+            "y2": "0.2222"
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='新增']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "新增",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "新增",
+          "rect": {
+            "x1": "0.0111",
+            "y1": "0.2378",
+            "x2": "0.0722",
+            "y2": "0.2733"
+          },
+          "propertiesID": "8"
+        },
+        {
+          "propertiesName": "新增关联人信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesPID": "8",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "9"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='高管类别']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "董事长",
+          "propertiesName": "高管类别",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "高管类别",
+          "rect": {
+            "x1": 0.258,
+            "y1": 0.23,
+            "x2": 0.365,
+            "y2": 0.266
+          },
+          "propertiesID": "10"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='关联客户名称']]//button[normalize-space()='引入']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "引入关联客户",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "引入关联客户",
+          "rect": {
+            "x1": "0.4389",
+            "y1": "0.2300",
+            "x2": "0.4861",
+            "y2": "0.2656"
+          },
+          "propertiesID": "11"
+        },
+        {
+          "propertiesName": "引入客户",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesPID": "11",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "12"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='客户编号']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "AT_正式_20260923110954",
+          "propertiesName": "客户名称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "12",
+          "realLabel": "客户名称",
+          "rect": {
+            "x1": "0.3819",
+            "y1": "0.2478",
+            "x2": "0.4889",
+            "y2": "0.2833"
+          },
+          "propertiesID": "13"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='客户编号']]//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "12",
+          "realLabel": "查询",
+          "rect": {
+            "x1": "0.2500",
+            "y1": "0.3389",
+            "x2": "0.3111",
+            "y2": "0.3744"
+          },
+          "propertiesID": "14"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='客户编号']]//tr[.//td[contains(normalize-space(.),'260923191355585114')]]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "目标客户行单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "12",
+          "realLabel": "目标客户行单选",
+          "rect": {
+            "x1": "0.2632",
+            "y1": "0.4551",
+            "x2": "0.2729",
+            "y2": "0.4735"
+          },
+          "propertiesID": "15"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='客户编号']]//button[normalize-space()='确认']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "确认",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "12",
+          "realLabel": "确认",
+          "rect": {
+            "x1": "0.6792",
+            "y1": "0.8567",
+            "x2": "0.7264",
+            "y2": "0.8922"
+          },
+          "propertiesID": "16"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='联系电话']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "13988158428",
+          "propertiesName": "联系电话",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "联系电话",
+          "rect": {
+            "x1": 0.382,
+            "y1": 0.321,
+            "x2": 0.489,
+            "y2": 0.357
+          },
+          "propertiesID": "17"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='性别']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "男性",
+          "propertiesName": "性别",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "性别",
+          "rect": {
+            "x1": 0.506,
+            "y1": 0.321,
+            "x2": 0.613,
+            "y2": 0.357
+          },
+          "propertiesID": "18"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='出生日期']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "1985-01-23",
+          "propertiesName": "出生日期",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "出生日期",
+          "rect": {
+            "x1": 0.629,
+            "y1": 0.321,
+            "x2": 0.736,
+            "y2": 0.357
+          },
+          "propertiesID": "19"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='联系电话']]//input",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "关闭日期面板（点联系电话栏）",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "关闭日期面板（点联系电话栏）",
+          "rect": {
+            "x1": 0.382,
+            "y1": 0.321,
+            "x2": 0.489,
+            "y2": 0.357
+          },
+          "propertiesID": "20"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='职业']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "专业技术人员",
+          "propertiesName": "职业",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "职业",
+          "rect": {
+            "x1": 0.258,
+            "y1": 0.412,
+            "x2": 0.365,
+            "y2": 0.448
+          },
+          "propertiesID": "21"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='职务名称']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "其他",
+          "propertiesName": "职务名称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "职务名称",
+          "rect": {
+            "x1": 0.382,
+            "y1": 0.412,
+            "x2": 0.489,
+            "y2": 0.448
+          },
+          "propertiesID": "22"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='职称']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "中级",
+          "propertiesName": "职称",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "职称",
+          "rect": {
+            "x1": 0.506,
+            "y1": 0.412,
+            "x2": 0.613,
+            "y2": 0.448
+          },
+          "propertiesID": "23"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='最高学历']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "大学本科毕业",
+          "propertiesName": "最高学历",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "最高学历",
+          "rect": {
+            "x1": 0.629,
+            "y1": 0.412,
+            "x2": 0.736,
+            "y2": 0.448
+          },
+          "propertiesID": "24"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='最高学位']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉框点击选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "学士",
+          "propertiesName": "最高学位",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "最高学位",
+          "rect": {
+            "x1": 0.258,
+            "y1": 0.503,
+            "x2": 0.365,
+            "y2": 0.539
+          },
+          "propertiesID": "25"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='居住地址']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "广西壮族自治区南宁市青秀区测试路1号",
+          "propertiesName": "居住地址",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "居住地址",
+          "rect": {
+            "x1": 0.382,
+            "y1": 0.503,
+            "x2": 0.433,
+            "y2": 0.539
+          },
+          "propertiesID": "26"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='单位电话']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "0771-1234568",
+          "propertiesName": "单位电话",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "单位电话",
+          "rect": {
+            "x1": 0.506,
+            "y1": 0.503,
+            "x2": 0.613,
+            "y2": 0.539
+          },
+          "propertiesID": "27"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='工作单位']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "AT测试银行有限责任公司",
+          "propertiesName": "工作单位",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "工作单位",
+          "rect": {
+            "x1": 0.629,
+            "y1": 0.503,
+            "x2": 0.736,
+            "y2": 0.539
+          },
+          "propertiesID": "28"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='工作简历描述']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "AT测试关联人工作简历描述",
+          "propertiesName": "工作简历描述",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "工作简历描述",
+          "rect": {
+            "x1": 0.258,
+            "y1": 0.594,
+            "x2": 0.365,
+            "y2": 0.63
+          },
+          "propertiesID": "29"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='高管类别']]//button[normalize-space()='确定']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "确定",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "9",
+          "realLabel": "确定",
+          "rect": {
+            "x1": 0.444,
+            "y1": 0.65,
+            "x2": 0.491,
+            "y2": 0.686
+          },
+          "propertiesID": "30"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='返回']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "返回",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "返回",
+          "rect": {
+            "x1": 0.95,
+            "y1": 0.956,
+            "x2": 0.997,
+            "y2": 0.991
+          },
+          "propertiesID": "31"
+        },
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "31",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "32"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "32",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": "0.0194",
+            "y1": "0.1958",
+            "x2": "0.2472",
+            "y2": "0.2313"
+          },
+          "propertiesID": "33"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "32",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "34"
+        }
+      ]
+    }
+  ]
+}

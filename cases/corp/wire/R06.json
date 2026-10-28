@@ -1,0 +1,79 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "R06 对公客户管理-新增抽屉初始化与取消",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对公客户管理列表",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "对公客户管理列表",
+          "rect": "",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R06_001.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "新增",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//button[translate(normalize-space(.),' ','')='新增']",
+          "objectValue": "",
+          "realLabel": "新增",
+          "rect": "{\"x1\":0.011111111111111112,\"y1\":0.41354166666666664,\"x2\":0.07222222222222222,\"y2\":0.4490972222222222}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R06_002.png"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "2",
+          "type": "popup",
+          "propertiesName": "新增客户校验",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "",
+          "elementType": "",
+          "objectValue": "",
+          "realLabel": "新增客户校验",
+          "rect": "",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R06_003.png"
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "3",
+          "type": "ele",
+          "propertiesName": "取消",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "mothed": "By.XPATH",
+          "elementType": "//div[contains(concat(' ',normalize-space(@class),' '),' el-drawer ')]//button[translate(normalize-space(.),' ','')='取消']",
+          "objectValue": "",
+          "realLabel": "取消",
+          "rect": "{\"x1\":0.7534722222222222,\"y1\":0.9555555555555556,\"x2\":0.8006944444444445,\"y2\":0.9911111111111112}",
+          "transcationType": "playwright",
+          "options": "",
+          "screenCapture": "C:\\Users\\longpeng\\Documents\\tansun\\ui-agent1\\work\\corp-rerecord-20261012/shots/R06_004.png"
+        }
+      ]
+    }
+  ]
+}

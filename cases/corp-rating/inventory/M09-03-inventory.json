@@ -1,0 +1,430 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379400544",
+  "fields": [
+    {
+      "label": "业务编号",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "PJ20261019020143"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "评级发生类型",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "新增"
+        }
+      ],
+      "options": [
+        "新增",
+        "重新评级",
+        "自动评级"
+      ]
+    },
+    {
+      "label": "客户名称",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "AT_1015_A3V6"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "客户编号",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "261016124912721295"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "注册日期",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "2020-01-01"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "币种",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "人民币"
+        }
+      ],
+      "options": [
+        "人民币",
+        "阿联酋迪拉姆UAE Dirham",
+        "阿富汗尼Afghani",
+        "列克Lek",
+        "亚美尼亚达姆Armenian Dram",
+        "荷属安的列斯盾Netherlands Antillean Guilder",
+        "宽扎Kwanza",
+        "阿根廷比索Argentine Peso",
+        "澳大利亚元Australian Dollar",
+        "阿鲁巴弗罗林Aruban Florin",
+        "阿塞拜疆马纳特Azerbaijan Manat",
+        "可自由兑换马克Convertible Mark",
+        "巴巴多斯元Barbados Dollar",
+        "塔卡Taka",
+        "保加利亚列弗Bulgarian Lev",
+        "巴林第纳尔Bahraini Dinar",
+        "布隆迪法郎Burundi Franc",
+        "百慕大元Bermudian Dollar",
+        "文莱元Brunei Dollar",
+        "玻利维亚诺",
+        "与美元价值挂钩的玻利维亚诺Mvdol"
+      ]
+    },
+    {
+      "label": "注册资本（元）",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "32,795,321"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "客户规模",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "小型企业"
+        }
+      ],
+      "options": [
+        "大型企业",
+        "中型企业",
+        "小型企业",
+        "微型企业",
+        "未知",
+        "其他（非企业）"
+      ]
+    },
+    {
+      "label": "员工人数",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "120"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "主营业务所属行业",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "应用软件开发"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "申请日期",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "2026-10-19"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "申请机构",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "9881**银行股份有限公司"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "经办人",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "黄某某"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "征信首贷客户标志",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": ""
+        }
+      ],
+      "options": [
+        "否",
+        "是"
+      ]
+    },
+    {
+      "label": "申请日期",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "2026-10-19"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "系统评级等级",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "A-"
+        }
+      ],
+      "options": [
+        "未评级",
+        "AAA",
+        "AAA-",
+        "AA+",
+        "AA",
+        "AA-",
+        "A+",
+        "A",
+        "A-",
+        "BBB+",
+        "BBB",
+        "BBB-",
+        "BB+",
+        "BB",
+        "BB-",
+        "B+",
+        "B",
+        "B-",
+        "CCC+",
+        "CCC"
+      ]
+    },
+    {
+      "label": "系统评级评分",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "66.7"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "此次评级建议等级",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": true,
+          "value": "A-"
+        }
+      ],
+      "options": [
+        "未评级",
+        "AAA",
+        "AAA-",
+        "AA+",
+        "AA",
+        "AA-",
+        "A+",
+        "A",
+        "A-",
+        "BBB+",
+        "BBB",
+        "BBB-",
+        "BB+",
+        "BB",
+        "BB-",
+        "B+",
+        "B",
+        "B-",
+        "CCC+",
+        "CCC"
+      ]
+    },
+    {
+      "label": "经办人",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "黄某某"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "期限",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": false,
+          "value": "12"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "期限单位",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": true,
+          "readOnly": true,
+          "value": "月"
+        }
+      ],
+      "options": [
+        "年",
+        "月",
+        "日"
+      ]
+    },
+    {
+      "label": "理由说明",
+      "controls": [
+        {
+          "type": "TEXTAREA",
+          "disabled": false,
+          "readOnly": false,
+          "value": "AT_FULL_RATING_20261019_PJ20261019020143"
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "综合评价",
+      "controls": [
+        {
+          "type": "TEXTAREA",
+          "disabled": false,
+          "readOnly": false,
+          "value": "AT_全新录制综合评价_PJ20261019020143"
+        }
+      ],
+      "options": []
+    }
+  ],
+  "components": [
+    "评级基本情况",
+    "征信信息",
+    "评级等级测算",
+    "系统评级结论",
+    "历年评级情况",
+    "客户综合评价"
+  ],
+  "buttons": [
+    {
+      "label": "客户详情",
+      "disabled": false
+    },
+    {
+      "label": "一键添加征信查询对象",
+      "disabled": false
+    },
+    {
+      "label": "上传授权书",
+      "disabled": false
+    },
+    {
+      "label": "获取最新征信报告",
+      "disabled": false
+    },
+    {
+      "label": "查看征信报告",
+      "disabled": false
+    },
+    {
+      "label": "新增征信查询客户",
+      "disabled": false
+    },
+    {
+      "label": "删除",
+      "disabled": false
+    },
+    {
+      "label": "模拟",
+      "disabled": false
+    },
+    {
+      "label": "测算",
+      "disabled": false
+    },
+    {
+      "label": "暂存",
+      "disabled": false
+    },
+    {
+      "label": "保存",
+      "disabled": false
+    },
+    {
+      "label": "保存",
+      "disabled": false
+    },
+    {
+      "label": "下一步",
+      "disabled": false
+    },
+    {
+      "label": "返回",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

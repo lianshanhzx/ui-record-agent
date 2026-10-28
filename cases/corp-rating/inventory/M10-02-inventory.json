@@ -1,0 +1,16 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/workflow/detail?newtag=false&needupdate=yes&bsnPk=PJ20261019020143&viewType=look&fcnScnEcd=FS00005854&nodeCode=wf_rating_003_002&flowDisabled=true&tagName=%E6%96%B0%E5%A2%9E%E5%AF%B9%E5%85%AC%E5%AE%A2%E6%88%B7%E8%AF%84%E7%BA%A7%E5%AE%A1%E6%89%B9&aplyPsnInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&aplyPsnInstNo=9881&aplyPsnRlEcd=X0001&aplyPsnRlNm=%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98&aplyPsnUsrNm=%E9%BB%84%E6%9F%90%E6%9F%90&aprvPsnInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&aprvPsnInstNo=9881&aprvPsnRlEcd=X0018&aprvPsnRlNm=%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86&aprvPsnUsrNm=%E9%BB%84%E6%9F%90%E6%9F%90&exmTm=2026-10-19%2011%3A29%3A04&expdFld02=AT_1015_A3V6&expdFld12=261016124912721295&expdFld17=PJ20261019020143&expdFldData=%7B%22bsnNo%22%3A%22PJ20261019020143%22,%22cstNm%22%3A%22AT_1015_A3V6%22,%22cstNo%22%3A%22261016124912721295%22%7D&pcsClId=c8c85e64650e496cadbaa7146f3be9e8&pcsClNm=%E8%AF%84%E7%BA%A7%E7%94%B3%E8%AF%B7&pcsClNo=rateApl&pcsDefId=wf_rating_003%3A29%3A2008846256867254272&pcsEcd=wf_rating_003&pcsExmpId=2112014433265639424&pcsSt=approving&pcsTtl=%E5%AF%B9%E5%85%AC%E5%AE%A2%E6%88%B7%E8%AF%84%E7%BA%A7&prevNodeAprvPsnInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&prevNodeAprvPsnInstNo=9881&prevNodeAprvPsnRlEcd=X0001&prevNodeAprvPsnRlNm=%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98&prevNodeAprvPsnUsrNm=%E9%BB%84%E6%9F%90%E6%9F%90&prevNodeAprvPsnUsrNo=701994&prevNodeId=wf_rating_003_001&prevNodeNm=%E4%BF%A1%E8%B4%B7%E8%B0%83%E6%9F%A5&scnHitData=%5Bobject%20Object%5D&tskId=2112021073238941696&tskNodeId=wf_rating_003_002&tskNodeNm=%E5%9B%9B%2F%E4%BA%94%E7%BA%A7%E6%9C%BA%E6%9E%84%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86%E4%BA%8C%E6%AC%A1%E8%B0%83%E6%9F%A5&wthrFirstNode=false&wthrMtngSigNode=false&agnScdyDlvInf=%7B%22tskNodeId%22%3A%22wf_rating_003_001%22,%22aprvPsnInstNm%22%3A%229881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%22,%22aprvPsnRlNm%22%3A%22%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98%22,%22aprvPsnInstNo%22%3A%229881%22,%22tskNodeNm%22%3A%22%E4%BF%A1%E8%B4%B7%E8%B0%83%E6%9F%A5%22,%22aprvPsnRlEcd%22%3A%22X0001%22,%22tenantId%22%3A%229881%22,%22aprvPsnUsrNm%22%3A%22%E9%BB%84%E6%9F%90%E6%9F%90%22,%22aprvPsnUsrNo%22%3A%22701994%22%7D&exdt=2026-10-22%2011%3A20%3A38&ovtmSt=notTimeOut&avyEcd=UML00130183PDCP&bsnNo=PJ20261019020143&cstNm=AT_1015_A3V6&cstNo=261016124912721295&pcsTodoBtnMnpltTp=approve&path=%2FrtgMgt%2FcpctRtg%2FnewCpctRtg%2FgrdSocExamPosAprvCpctRtg%2FFS00005854DeptPnpAdtRtgAply&v=1792380544616",
+  "fields": [],
+  "components": [],
+  "buttons": [
+    {
+      "label": "审批",
+      "disabled": false
+    },
+    {
+      "label": "返回",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

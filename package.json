@@ -1,0 +1,16 @@
+{
+  "name": "ui-recorder-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI automation script recording with Playwright",
+  "scripts": {
+    "record": "playwright codegen",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

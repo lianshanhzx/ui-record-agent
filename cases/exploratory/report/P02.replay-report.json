@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-09-24T03:00:46.989Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-总集团客户管理",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 62756,
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "P02-总集团客户管理-搜索查看删除新增",
+      "transaction": "P02-总集团客户管理-搜索查看删除新增",
+      "pageId": "p02totgrp",
+      "status": "pass",
+      "startedAt": 1790218784609,
+      "durationMs": 62309,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "总集团客户管理-列表",
+          "action": "click",
+          "ms": 11886,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/totGrpcstMgt/totGrpcstMgtPg",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_01_总集团客户管理-列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "总集团名称输入框",
+          "action": "input",
+          "ms": 579,
+          "status": "ok",
+          "detail": "输入「总集团名称输入框」= ICT集团",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_02_总集团名称输入框.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询按钮",
+          "action": "click",
+          "ms": 2616,
+          "status": "ok",
+          "detail": "点击「查询按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_03_查询按钮.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "重置按钮",
+          "action": "click",
+          "ms": 2592,
+          "status": "ok",
+          "detail": "点击「重置按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_04_重置按钮.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查询按钮-重置后恢复列表",
+          "action": "click",
+          "ms": 2608,
+          "status": "ok",
+          "detail": "点击「查询按钮-重置后恢复列表」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_05_查询按钮-重置后恢复列表.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "更多查询展开按钮",
+          "action": "click",
+          "ms": 2632,
+          "status": "ok",
+          "detail": "点击「更多查询展开按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_06_更多查询展开按钮.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "成员客户名称输入框",
+          "action": "input",
+          "ms": 572,
+          "status": "ok",
+          "detail": "输入「成员客户名称输入框」= 南方证券",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_07_成员客户名称输入框.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查询按钮-按成员客户名称",
+          "action": "click",
+          "ms": 2596,
+          "status": "ok",
+          "detail": "点击「查询按钮-按成员客户名称」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_08_查询按钮-按成员客户名称.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "重置按钮-清成员条件",
+          "action": "click",
+          "ms": 2595,
+          "status": "ok",
+          "detail": "点击「重置按钮-清成员条件」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_09_重置按钮-清成员条件.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "查询按钮-恢复列表",
+          "action": "click",
+          "ms": 2606,
+          "status": "ok",
+          "detail": "点击「查询按钮-恢复列表」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_10_查询按钮-恢复列表.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "总集团名称输入框-定位ICT",
+          "action": "input",
+          "ms": 568,
+          "status": "ok",
+          "detail": "输入「总集团名称输入框-定位ICT」= ICT集团",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_11_总集团名称输入框-定位ICT.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "查询按钮-定位ICT集团",
+          "action": "click",
+          "ms": 2590,
+          "status": "ok",
+          "detail": "点击「查询按钮-定位ICT集团」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_12_查询按钮-定位ICT集团.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "表格行单选-ICT集团",
+          "action": "click",
+          "ms": 1089,
+          "status": "ok",
+          "detail": "选中行「表格行单选-ICT集团」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_13_表格行单选-ICT集团.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "查看按钮",
+          "action": "click",
+          "ms": 2598,
+          "status": "ok",
+          "detail": "点击「查看按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_14_查看按钮.png"
+        },
+        {
+          "id": "15",
+          "type": "page",
+          "name": "总集团客户详情-查看模式",
+          "action": "click",
+          "ms": 552,
+          "status": "ok",
+          "detail": "进入页面 总集团客户详情-查看模式 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/grpcstMgt/mdfGrpcstInf/hostCstmgrMdfGrpcstInf/FS00004664HostCstmgrMdfGrpcstInf?newtag=false&needupdate=yes&newTag=true&id=2100108742632284160&totGrpNo=26091614251703488&totGrpNm=ICT%E9%9B%86%E5%9B%A2&mbrNum=2&createUser=NN0004&crtPsnNm=%E9%A9%AC%E8%B6%8A%E5%9B%9B&createTime=2026-09-16%2014%3A25%3A17&createInst=1906&updateUser=NN0004&updateTime=2026-09-16%2014%3A25%3A17&updateInst=1906&hdlUser=NN0004&hdlTime=2026-09-16%2014%3A25%3A17&hdlInst=1906&delInd=0&version=0&tenantId=1900&tsRowIndex=0&viewType=look&avyEcd=UML00066115&fcnScnEcd=FS00004664&v=1790218821201",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_15_总集团客户详情-查看模式.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "成员客户编号输入框-成员搜索",
+          "action": "input",
+          "ms": 566,
+          "status": "ok",
+          "detail": "输入「成员客户编号输入框-成员搜索」= 26091609425525279",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_16_成员客户编号输入框-成员搜索.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "成员信息查询按钮",
+          "action": "click",
+          "ms": 2601,
+          "status": "ok",
+          "detail": "点击「成员信息查询按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_17_成员信息查询按钮.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "成员表行单选-南方证券",
+          "action": "click",
+          "ms": 1080,
+          "status": "ok",
+          "detail": "选中行「成员表行单选-南方证券」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_18_成员表行单选-南方证券.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "查看关系按钮",
+          "action": "click",
+          "ms": 2636,
+          "status": "ok",
+          "detail": "点击「查看关系按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_19_查看关系按钮.png"
+        },
+        {
+          "id": "20",
+          "type": "popup",
+          "name": "查看关系-弹窗",
+          "action": "click",
+          "ms": 365,
+          "status": "ok",
+          "detail": "弹窗可见：查看关系-弹窗",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_20_查看关系-弹窗.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "查看关系-关闭",
+          "action": "click",
+          "ms": 2595,
+          "status": "ok",
+          "detail": "点击「查看关系-关闭」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_21_查看关系-关闭.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "返回按钮",
+          "action": "click",
+          "ms": 2631,
+          "status": "ok",
+          "detail": "点击「返回按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_22_返回按钮.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "删除按钮",
+          "action": "click",
+          "ms": 2621,
+          "status": "ok",
+          "detail": "点击「删除按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_23_删除按钮.png"
+        },
+        {
+          "id": "24",
+          "type": "popup",
+          "name": "删除确认-消息框",
+          "action": "click",
+          "ms": 366,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认-消息框",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_24_删除确认-消息框.png"
+        },
+        {
+          "id": "25",
+          "type": "ele",
+          "name": "删除确认-取消",
+          "action": "click",
+          "ms": 2605,
+          "status": "ok",
+          "detail": "点击「删除确认-取消」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_25_删除确认-取消.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "新增按钮",
+          "action": "click",
+          "ms": 2618,
+          "status": "ok",
+          "detail": "点击「新增按钮」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_26_新增按钮.png"
+        },
+        {
+          "id": "27",
+          "type": "popup",
+          "name": "新增总集团-抽屉",
+          "action": "click",
+          "ms": 343,
+          "status": "ok",
+          "detail": "弹窗可见：新增总集团-抽屉",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_27_新增总集团-抽屉.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "新增总集团-取消",
+          "action": "click",
+          "ms": 2601,
+          "status": "ok",
+          "detail": "点击「新增总集团-取消」",
+          "screenshot": "P02-总集团客户管理-搜索查看删除新增_28_新增总集团-取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

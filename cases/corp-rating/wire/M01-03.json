@@ -1,0 +1,46 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00070599",
+      "transcationName": "更多查询条件展开",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对公客户评级",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M01-03-001-对公客户评级.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "展开更多查询条件",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//button[.//i[contains(@class,'el-icon-caret-bottom')]]",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "展开更多查询条件",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.8583333333333333,\"y1\":0.23576388888888888,\"x2\":0.8958333333333334,\"y2\":0.27131944444444445}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+ "tenantOptions": [
+  "横州市农村信用合作联社",
+  "南宁市武鸣区农村信用合作联社",
+  "柳州市区农村信用合作联社",
+  "南宁武鸣漓江村镇银行有限责任公司",
+  "广西灌阳农村商业银行股份有限公司",
+  "XX农村商业银行有限公司",
+  "某某联合银行股份有限公司"
+ ],
+ "pwdTypeAfterEye": "text",
+ "eyeErr": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.el-input--password .el-input__suffix, .el-input--password i, input[type=password] ~ * i, .el-icon-view').first()\u001b[22m\n",
+ "transferEls": [
+  "INPUT:请选择法人",
+  "INPUT:请输入您的用户名",
+  "INPUT:请输入您的密码",
+  "INPUT:请输入图形中的字符",
+  "INPUT:请输入手机验证码",
+  "BUTTON:发送验证码",
+  "INPUT:用户转授权编码",
+  "BUTTON:登 录",
+  "BUTTON:账户登录",
+  "BUTTON:灰度版本"
+ ]
+}

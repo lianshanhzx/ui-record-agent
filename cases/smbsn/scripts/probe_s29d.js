@@ -1,0 +1,55 @@
+const { chromium } = require('playwright');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..', '..');
+const CUST='260924144929974126';
+const X_NO="//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input";
+const X_TAB="//div[contains(@class,'el-tabs__item')][normalize-space(.)='影像资料']";
+const X_TREE="//div[contains(@class,'el-tree-node__content')][normalize-space(.)='客户管理']";
+const X_HCB="//div[contains(@class,'el-tab-pane')]//div[contains(@class,'el-table__header-wrapper')]//label[contains(@class,'el-checkbox')]";
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: path.join(ROOT,'auth.json'), viewport:{width:1440,height:900} });
+  const page = await ctx.newPage();
+  await page.goto('http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg',{waitUntil:'domcontentloaded'});
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr',{timeout:60000});
+  await page.waitForTimeout(2000);
+  await page.locator('xpath='+X_NO).first().fill(CUST);
+  await page.getByRole('button').filter({hasText:/查\s*询/}).first().click();
+  await page.waitForResponse(r=>r.url().includes('findCustTradeList')&&r.request().method()==='POST',{timeout:30000});
+  await page.waitForTimeout(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type=radio]').first().evaluate(el=>el.click());
+  const gcP = page.waitForResponse(r=>r.url().includes('getCustTrade')&&r.request().method()==='POST',{timeout:60000}).catch(()=>null);
+  await page.getByRole('button').filter({hasText:/修\s*改/}).first().click();
+  await page.waitForURL(/mdfSmbsnCst/,{timeout:30000});
+  await page.waitForSelector('.el-form-item:visible',{timeout:60000});
+  if(gcP) await gcP.catch(()=>{});
+  await page.waitForTimeout(4000);
+  await page.locator('xpath='+X_TAB).first().click();
+  await page.waitForTimeout(2500);
+  await page.locator('xpath='+X_TREE).first().click();
+  await page.waitForTimeout(2500);
+  // 所有「装订成册」按钮
+  const binds = await page.evaluate(()=>[...document.querySelectorAll('button')].filter(b=>/装订成册/.test(b.textContent)&&b.getBoundingClientRect().width>0).map(b=>{const r=b.getBoundingClientRect();return {t:b.textContent.trim(), x:Math.round(r.x), y:Math.round(r.y), w:Math.round(r.width), dis:b.disabled, cls:b.className, disabledAttr:b.getAttribute('disabled')};}));
+  console.log('BIND_BTNS='+JSON.stringify(binds));
+  await page.locator('xpath='+X_HCB).first().click({timeout:8000});
+  await page.waitForTimeout(1000);
+  // 点击并检测 :active / 事件
+  const bind = page.locator('xpath=//button[normalize-space()=\'装订成册\']').first();
+  const box = await bind.boundingBox();
+  console.log('BIND_BOX='+JSON.stringify(box));
+  // 用 mouse 点击中心，检测 active 态
+  await page.mouse.move(box.x+box.width/2, box.y+box.height/2);
+  await page.waitForTimeout(300);
+  await page.mouse.down();
+  await page.waitForTimeout(100);
+  const activeNow = await bind.evaluate(b=>b.className);
+  await page.mouse.up();
+  await page.waitForTimeout(300);
+  console.log('CLASS_AFTER_DOWN='+activeNow);
+  await page.waitForTimeout(3000);
+  const toast = await page.evaluate(()=>[...document.querySelectorAll('.el-message,.el-notification')].map(m=>m.textContent.trim()).filter(Boolean));
+  console.log('TOAST='+JSON.stringify(toast));
+  const dlg = await page.evaluate(()=>[...document.querySelectorAll('.el-dialog,.el-message-box')].filter(d=>d.getBoundingClientRect().width>0).length);
+  console.log('DIALOG_COUNT='+dlg);
+  await browser.close();
+})().catch(e=>{console.error('ERR '+(e.message||e).toString().slice(0,500));process.exit(1);});

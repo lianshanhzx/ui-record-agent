@@ -1,0 +1,61 @@
+{
+  "$schema": "https://opencode.ai/schema.json",
+  "model": "opencode-go/deepseek-v4.1-flash",
+  "name": "legacy-analysis-template",
+  "version": "1.0.0",
+  "description": "旧代码分析与需求提取模板 - 用于分析遗留系统代码并生成完整需求文档",
+  "skills": {
+    "enabled": true,
+    "auto_load": true
+  },
+  "provider": {
+    "local-qwen": {
+      "name": "Local Qwen",
+      "options": {
+        "apiKey": "<YOUR_QWEN_API_KEY>",
+        "baseURL": "<YOUR_QWEN_BASE_URL>"
+      },
+      "models": {
+        "Qwen3.8-27B": {
+          "id": "Qwen3.8-27B",
+          "name": "Qwen3.8-27B (Local)",
+          "family": "qwen",
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true,
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 128000,
+            "output": 8192
+          }
+        },
+        "GLM-5": {
+          "id": "GLM-5",
+          "name": "GLM-5 (Local)",
+          "family": "glm",
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true,
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 128000,
+            "output": 8192
+          }
+        }
+      }
+    }
+  },
+  "agents": {
+    "default": {
+      "model": "local-qwen/Qwen3.8-27B"
+    }
+  }
+}

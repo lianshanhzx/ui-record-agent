@@ -1,0 +1,1073 @@
+{
+  "id": "f252b9c6-a4ea-48a8-b0c1-8852cf096e90",
+  "name": "collect",
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379511061",
+  "sessionId": "74b22141-f477-4f7f-b1c7-b6058fc1b9aa",
+  "extensionVersion": "1.1",
+  "mode": "collect",
+  "result": "pass",
+  "startedAt": 1792379494537,
+  "endedAt": 1792379657802,
+  "targetTab": {
+    "tabId": 18600609,
+    "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379511061",
+    "title": "对公客户评级 - 天阳宏业"
+  },
+  "transcationProperties": [
+    {
+      "propertiesID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "评级管理-对公客户评级-对公客户评级",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FrtgMgt%2FcpctRtg%2FcpctRtgAplyMgtPg",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&goBack=goBack&newtag=false&needupdate=yes",
+      "tianyuanPageConfig": {
+        "活动名称": "选择同业客户(ZJJK00109101),选择集团客户(ZJJK00109101),客户经理发起对公客户评级(ZJJK00109175),选择对公客户(ZJJK00109101)",
+        "页面名称": "对公客户评级申请管理页",
+        "页面路径": "/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+        "组件编号": "ZJJK00070599"
+      },
+      "pagetagName": "对公客户评级"
+    },
+    {
+      "clientId": "62c43891-c05e-4831-8695-9ae3ea44c9db",
+      "timestamp": 1792379498214,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//div[contains(concat(' ', normalize-space(@class), ' '), ' oper-btn-group ')]/span[contains(concat(' ', normalize-space(@class), ' '), ' tsscBtn ')][3]/label/button[contains(concat(' ', normalize-space(@class), ' '), ' disableBtn ')]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "",
+      "realLabel": "",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary is-plain"
+      },
+      "frameId": 0,
+      "seq": 1,
+      "networkCalls": [],
+      "propertiesID": "fcdbbf8a-1648-44eb-add7-fa32e1f668e0",
+      "propertiesPID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "type": "ele"
+    },
+    {
+      "clientId": "b6aa207f-8cd6-45eb-8849-d03c6158953d",
+      "timestamp": 1792379499417,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='审批状态']/parent::*//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "审批状态",
+      "realLabel": "审批状态",
+      "objectValue": "待发起",
+      "options": [
+        "待发起",
+        "审批中",
+        "已撤销",
+        "退回",
+        "通过",
+        "否决"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 2,
+      "networkCalls": [],
+      "propertiesID": "3a8ca3e1-aca0-4c89-bb18-22ad23e69fc1",
+      "propertiesPID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "type": "ele"
+    },
+    {
+      "clientId": "35978dae-173d-454a-84fc-6549e04d46cd",
+      "timestamp": 1792379502337,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 3,
+      "networkCalls": [
+        {
+          "requestId": "2682",
+          "timestamp": 1792379502423.022,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "cf8f5e06-4c6a-44bb-9ca6-0f08771e93b1",
+      "propertiesPID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "type": "ele"
+    },
+    {
+      "clientId": "b4d67bff-e56c-450a-8e89-f4c6108ca6ec",
+      "timestamp": 1792379509023,
+      "eventTypeValue": "radio",
+      "eventTypeName": "单选",
+      "xpath": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-table__fixed-body-wrapper ')]/table/tbody/tr[contains(concat(' ', normalize-space(@class), ' '), ' el-table__row ')][1]/td[contains(concat(' ', normalize-space(@class), ' '), ' el-table_19_column_161 ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' cell ')]/label[contains(concat(' ', normalize-space(@class), ' '), ' el-radio ')]/span[1]/input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "单选",
+      "realLabel": "",
+      "objectValue": true,
+      "options": [],
+      "attributes": {
+        "type": "radio",
+        "class": "el-radio__original",
+        "value": "[object Object]"
+      },
+      "frameId": 0,
+      "seq": 4,
+      "networkCalls": [],
+      "propertiesID": "01dcde9b-f08a-4c47-bccd-4d87f34e7e74",
+      "propertiesPID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "type": "ele"
+    },
+    {
+      "clientId": "6f8aa8a6-7416-4490-9d1b-5a7e9024fdbe",
+      "timestamp": 1792379510525,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='修改']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "修改",
+      "realLabel": "修改",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 5,
+      "networkCalls": [
+        {
+          "requestId": "2689",
+          "timestamp": 1792379511060.653,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-ipc/ipcFcnScnInf/hit",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        },
+        {
+          "requestId": "2692",
+          "timestamp": 1792379511385.169,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/getBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        },
+        {
+          "requestId": "2691",
+          "timestamp": 1792379511450.284,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/get",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "4720f75d-ec1d-4eda-9ce1-e39423b65313",
+      "propertiesPID": "5d669d8e-f491-4d35-87b4-86e0b2e2c3a0",
+      "type": "ele"
+    },
+    {
+      "propertiesID": "0bb13b30-7acc-408f-b6a6-18c6fe47d14b",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "主页面",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FrtgMgt%2FcpctRtg%2FnewCpctRtg%2FcstmgrIttCpctRtg%2FFS00005854HostCstmgrIttCpctRtgAply",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?part=rtgMgtcpctRtgcpctRtgAplyMgtPg&newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379511061",
+      "tianyuanPageConfig": {
+        "活动名称": "新增对公客户评级",
+        "页面名称": "新增对公客户评级-主办客户经理发起对公客户评级申请页面",
+        "页面路径": "/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply",
+        "场景名称": "新增对公客户评级",
+        "场景编号": "FS00005854",
+        "任务名称": "客户经理发起对公客户评级",
+        "任务编号": "UML00130188PDCP",
+        "组件编号": "新增对公客户评级-主办客户经理发起对公客户评级申请组件(ZJJK00109206),征信信息(ZJJK00109992),公共影像组件源码(ZJJK00100615),风险拦截(ZJJK00067996),系统评级结论(ZJJK00068480),客户综合评价(ZJJK00104507),历年评级情况(ZJJK00106487),评级基本情况(ZJJK00066862),新基本面信息(ZJJK00095525),提交流程(ZJJK00090562)"
+      },
+      "pagetagName": "对公客户评级"
+    },
+    {
+      "clientId": "0ddcd9a7-505a-4547-9812-02d39befe9f6",
+      "timestamp": 1792379529315,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//li[contains(concat(' ', normalize-space(@class), ' '), ' plugin-nav-outer ')][3]/div[contains(concat(' ', normalize-space(@class), ' '), ' plugin-nav-list ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' nav-content ')]/span",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "span",
+      "propertiesName": "3评级等级测算",
+      "realLabel": "3. 评级等级测算",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f86e0e60": ""
+      },
+      "frameId": 0,
+      "seq": 6,
+      "networkCalls": [],
+      "propertiesID": "140d3d44-3c55-4ea0-ad9c-9e151d394001",
+      "propertiesPID": "0bb13b30-7acc-408f-b6a6-18c6fe47d14b",
+      "type": "ele"
+    },
+    {
+      "propertiesID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "propertiesPID": "0bb13b30-7acc-408f-b6a6-18c6fe47d14b",
+      "type": "collapse",
+      "propertiesName": "评级等级测算",
+      "key": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-collapse-item ')][3]",
+      "url": ""
+    },
+    {
+      "clientId": "db311515-21c5-44e5-ad44-be202c064bd0",
+      "timestamp": 1792379541982,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-collapse-item ')][.//*[normalize-space(.)='评级等级测算']]//tr[contains(concat(' ', normalize-space(@class), ' '), ' current-row ')]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "tr",
+      "propertiesName": "",
+      "realLabel": "",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "class": "el-table__row current-row"
+      },
+      "frameId": 0,
+      "seq": 7,
+      "networkCalls": [],
+      "propertiesID": "d032eda6-1126-40f5-874e-4b1ff04849db",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "735853c0-dea4-4ec8-87d4-fcf6ef1ffdc6",
+      "timestamp": 1792379542577,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='资产负债率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "资产负债率",
+      "realLabel": "资产负债率",
+      "objectValue": "30",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 8,
+      "networkCalls": [],
+      "propertiesID": "a627cbc3-2609-4eec-9df8-3cce4ce8c06c",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "e41a3c8a-1d83-49db-b2f4-98dae585cfda",
+      "timestamp": 1792379543022,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//tr[normalize-space(.)='资产负债率']/following-sibling::tr[1]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "tr",
+      "propertiesName": "",
+      "realLabel": "",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "class": "el-table__row"
+      },
+      "frameId": 0,
+      "seq": 9,
+      "networkCalls": [],
+      "propertiesID": "ef342cf4-2849-4260-9466-ef5ca416d0d4",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "820d4e8d-c41f-4e2f-9648-6e9bfd2a6b6f",
+      "timestamp": 1792379544124,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='自主收入占比']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "自主收入占比",
+      "realLabel": "自主收入占比",
+      "objectValue": "30",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 10,
+      "networkCalls": [],
+      "propertiesID": "07f9244b-5239-4628-8c29-132d6451de21",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "441c9d17-c127-478c-ae82-926d0523e74f",
+      "timestamp": 1792379547825,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='或有负债率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "或有负债率",
+      "realLabel": "或有负债率",
+      "objectValue": "30",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 11,
+      "networkCalls": [],
+      "propertiesID": "4cbcc385-1146-4bd8-97f1-cf8221685828",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "37619937-86d5-4d22-8d07-74f31abb90d8",
+      "timestamp": 1792379547942,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='业务往来及使用']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "业务往来及使用",
+      "realLabel": "业务往来及使用",
+      "objectValue": "与我社保持长期较好的业务往来关系_使用我社部分金融产品和服务",
+      "options": [
+        "与我社关系一般或暂无业务往来",
+        "与我社业务合作关系不良",
+        "与我社保持长期较好的业务往来关系_使用我社部分金融产品和服务"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 12,
+      "networkCalls": [],
+      "propertiesID": "57524531-8dc6-4bea-8898-1a94d2d70f84",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "05150b07-dd9c-45ff-b453-b0583b216068",
+      "timestamp": 1792379550600,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='资金归社行情况']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "资金归社行情况",
+      "realLabel": "资金归社行情况",
+      "objectValue": "大部分资金在我行结算归集",
+      "options": [
+        "结算量和留存资金比较少",
+        "大部分资金在我行结算归集",
+        "结算量和留存资金很少或没有"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 13,
+      "networkCalls": [],
+      "propertiesID": "d747dc7b-4346-46fb-a5c2-90fa4924935f",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "44ea8a59-5fc8-42f0-be06-d4f8ea1d6988",
+      "timestamp": 1792379552379,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='发展前景']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "发展前景",
+      "realLabel": "发展前景",
+      "objectValue": "发展前景好",
+      "options": [
+        "发展前景较差",
+        "发展前景差",
+        "发展前景较好",
+        "发展前景一般",
+        "发展前景好"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 14,
+      "networkCalls": [],
+      "propertiesID": "87d7ac3a-97ee-4f7a-8e60-47cdcdfdd65f",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "81370db9-49ac-4a31-b6c8-e7de08fae05d",
+      "timestamp": 1792379554806,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='到期信用偿还记录']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "到期信用偿还记录",
+      "realLabel": "到期信用偿还记录",
+      "objectValue": "按期还本",
+      "options": [
+        "存在逾期3个月以上的贷款记录",
+        "按期还本",
+        "存在逾期1个月含以内的贷款记录_但超过2次以上",
+        "存在逾期1－3个月含或保全资产类_借新还旧贷款",
+        "报告期内无记录",
+        "存在逾期1个月含以内的贷款记录_但不超过2次_含"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 15,
+      "networkCalls": [],
+      "propertiesID": "66549195-60bb-432c-8e4c-a4843cf71fa1",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "8b2c6f14-b974-4d71-90b2-7f01551ee525",
+      "timestamp": 1792379559439,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='经费自给率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "经费自给率",
+      "realLabel": "经费自给率",
+      "objectValue": "28",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 16,
+      "networkCalls": [],
+      "propertiesID": "37d3f403-8086-4473-85e9-f19f7c4c6820",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "97d66689-fbdd-4f30-85c7-047669857af2",
+      "timestamp": 1792379559594,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='政府支持力度']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "政府支持力度",
+      "realLabel": "政府支持力度",
+      "objectValue": "支持力度强,支持力度一般",
+      "options": [
+        "支持力度低",
+        "支持力度强",
+        "支持力度一般",
+        "支持力度较强",
+        "支持力度较低"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 17,
+      "networkCalls": [],
+      "propertiesID": "9f84972d-b9df-43d1-9d9a-4ad58452b8a8",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "e7a4bcb7-eaa0-46a8-b682-046b304a0aaf",
+      "timestamp": 1792379576838,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='收支盈余率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "收支盈余率",
+      "realLabel": "收支盈余率",
+      "objectValue": "70",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 18,
+      "networkCalls": [],
+      "propertiesID": "9ea36c5d-3afb-42c9-8726-2fcadecfa65f",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "ff13b38e-0260-4f1c-9bdc-79cd36441cbc",
+      "timestamp": 1792379576932,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='利息偿还记录']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "利息偿还记录",
+      "realLabel": "利息偿还记录",
+      "objectValue": "报告期按期付息",
+      "options": [
+        "报告期按期付息",
+        "报告期内存在拖欠利息1个月以内记录且不超过2次含",
+        "存在结欠息_但不超过1个月含",
+        "报告期内存在拖欠利息1个月以上记录含_但超过2次",
+        "报告期内存在拖欠利息1个月以内记录但超过2次以上或存在拖欠利息1个月含以上记录但不超过2次含",
+        "报告期内存在拖欠利息3个月以上记录含",
+        "存在结欠息超过1个月",
+        "报告期内无记录"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 19,
+      "networkCalls": [],
+      "propertiesID": "f101181d-2a02-42a3-b66c-4de5a6f1faaa",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "1af99a7c-2c75-4738-b1db-7d8828d16517",
+      "timestamp": 1792379578682,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='领导者素质信誉和还款意愿']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "领导者素质信誉和还款意愿",
+      "realLabel": "领导者素质信誉和还款意愿",
+      "objectValue": "好",
+      "options": [
+        "好",
+        "较差",
+        "一般",
+        "较好"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 20,
+      "networkCalls": [],
+      "propertiesID": "6eaf6e3e-df22-47fb-95bb-c35910c8b102",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "4c5bc371-2688-49fc-9c6f-9aa1e236d74d",
+      "timestamp": 1792379580319,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='领导者素质文化水平或技术职称']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "领导者素质文化水平或技术职称",
+      "realLabel": "领导者素质文化水平或技术职称",
+      "objectValue": "文化程度高中/中专(含)以上或技术职称初级以上",
+      "options": [
+        "文化程度高中/中专(含)以上或技术职称初级以上",
+        "文化程度初中(含)以下且无技术职称"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 21,
+      "networkCalls": [],
+      "propertiesID": "9f82fec6-9cf5-498b-995d-9c0dc28c3f01",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "12e303b8-a985-42c4-b70b-14be807bed73",
+      "timestamp": 1792379583781,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='领导者素质经营管理能力']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "领导者素质经营管理能力",
+      "realLabel": "领导者素质经营管理能力",
+      "objectValue": "强",
+      "options": [
+        "较强",
+        "一般",
+        "较差",
+        "强"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 22,
+      "networkCalls": [],
+      "propertiesID": "d770f492-f73e-4d6a-9c44-21aa2e443f92",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "2a5cee8f-d7ea-4131-87f9-b6105320c493",
+      "timestamp": 1792379591427,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='领导者素质从事本行业年限']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "领导者素质从事本行业年限",
+      "realLabel": "领导者素质从事本行业年限",
+      "objectValue": "3年(含)以上",
+      "options": [
+        "3年以下",
+        "3年(含)以上"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 23,
+      "networkCalls": [],
+      "propertiesID": "920f5d4d-27d5-437f-8923-43ae2576aa65",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "d372abba-8667-44f7-92c7-a64363c5c345",
+      "timestamp": 1792379593413,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='贷款资产形态']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "贷款资产形态",
+      "realLabel": "贷款资产形态",
+      "objectValue": "只有正常类贷款",
+      "options": [
+        "有次级、可疑及损失贷款",
+        "只有正常类贷款",
+        "有关注类贷款",
+        "无贷款余额"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 24,
+      "networkCalls": [],
+      "propertiesID": "f932132b-eaf2-41ae-959a-619b76f52f9f",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "ac0f8756-a503-4260-917d-4f3a2855f96f",
+      "timestamp": 1792379595400,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='管理者素质财务制度']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "管理者素质财务制度",
+      "realLabel": "管理者素质财务制度",
+      "objectValue": "财务制度是否健全_财务信息是否可信_满足两项",
+      "options": [
+        "财务制度是否健全_财务信息是否可信_满足两项",
+        "财务制度是否健全_财务信息是否可信_满足其中一项",
+        "财务制度是否健全_财务信息是否可信_两项都不满足"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 25,
+      "networkCalls": [],
+      "propertiesID": "0123e8a7-5eac-49af-a12d-09b5d50e227a",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "eac931ad-0f7a-43ac-b322-2fd17e835c2c",
+      "timestamp": 1792379596725,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='管理者素质商誉']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "管理者素质商誉",
+      "realLabel": "管理者素质商誉",
+      "objectValue": "好",
+      "options": [
+        "较差",
+        "较好",
+        "好",
+        "一般"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 26,
+      "networkCalls": [],
+      "propertiesID": "9012fd38-7b5e-4c67-bffb-f056a0d6cf29",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "df27d45b-ab31-4464-a941-28fc3b236f46",
+      "timestamp": 1792379600246,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='管理者素质管理制度']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "管理者素质管理制度",
+      "realLabel": "管理者素质管理制度",
+      "objectValue": "管理制度是否规范健全，是否能有效实施。满足两项",
+      "options": [
+        "管理制度是否规范健全，是否能有效实施。两项都不满足",
+        "管理制度是否规范健全，是否能有效实施。满足两项",
+        "管理制度是否规范健全，是否能有效实施。满足其中一项"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 27,
+      "networkCalls": [],
+      "propertiesID": "34db240c-2b55-4afb-bb97-46b6e8ba3ee0",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "f949a80c-7a4d-44b7-9e40-8408a9e1b1c3",
+      "timestamp": 1792379601964,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='管理者素质产权组织结构']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "管理者素质产权组织结构",
+      "realLabel": "管理者素质产权组织结构",
+      "objectValue": "产权结构是否明晰，组织结构是否规范健全。满足两项",
+      "options": [
+        "产权结构是否明晰，组织结构是否规范健全。满足其中一项",
+        "产权结构是否明晰，组织结构是否规范健全。满足两项",
+        "产权结构是否明晰，组织结构是否规范健全。两项都不满足"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 28,
+      "networkCalls": [],
+      "propertiesID": "28c50ed3-2083-493c-833d-546a8d2b1ddd",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "cea34afc-ab59-473c-8202-49ab1f8171c6",
+      "timestamp": 1792379610302,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='净资产增长率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "净资产增长率",
+      "realLabel": "净资产增长率",
+      "objectValue": "61",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 29,
+      "networkCalls": [],
+      "propertiesID": "696135f4-58f3-4c97-8d58-48b897e58c45",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "b837974f-5435-47de-aedb-dce163a96f3d",
+      "timestamp": 1792379610415,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='开户情况']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "开户情况",
+      "realLabel": "开户情况",
+      "objectValue": "在我社开立基本账户或一般结算户_开立时间2年以上",
+      "options": [
+        "在我社开立基本账户或一般结算户_开立时间2年以上",
+        "在我社无开立基本账户或一般结算户_或开立时间1年内",
+        "在我社开立基本账户或一般结算户_开立时间1-2年"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 30,
+      "networkCalls": [],
+      "propertiesID": "2edaaa21-29be-462b-917d-58dbf2efebb5",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "72eb714e-4b0a-4f97-8d3d-8b0d12040cfa",
+      "timestamp": 1792379612873,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='其他信用记录']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "其他信用记录",
+      "realLabel": "其他信用记录",
+      "objectValue": "良好",
+      "options": [
+        "一般",
+        "良好",
+        "较差"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 31,
+      "networkCalls": [],
+      "propertiesID": "e3dbf58b-b698-47c9-b931-c6456cc48d3a",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "c858c3e2-cc79-42c6-8c22-2a40afc699d6",
+      "timestamp": 1792379619026,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='总收入增长率']/following-sibling::td[1]//input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "总收入增长率",
+      "realLabel": "总收入增长率",
+      "objectValue": "42",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 32,
+      "networkCalls": [],
+      "propertiesID": "0da8d6d2-60a8-4d56-bebb-a77576f8cdfd",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "0e528635-e843-43f5-8bd5-956e02b09278",
+      "timestamp": 1792379619112,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='税费缴纳情况']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "税费缴纳情况",
+      "realLabel": "税费缴纳情况",
+      "objectValue": "正常缴纳",
+      "options": [
+        "正常缴纳",
+        "近三年被税务机关或有关部门罚款(不包括滞纳金)，且不超过2次数",
+        "近三年被税务机关或有关部门罚款超过4次以上(不包括滞纳金)或存在拖欠税款超过1年、偷税及抗税行为等",
+        "报告期内被税务机关或有关部门罚款3次(不包括滞纳金)"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 33,
+      "networkCalls": [],
+      "propertiesID": "37746036-2dae-4039-9d09-5808a5fc9ce7",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "e7c1bba8-5120-4967-bfc6-5438aa0d8ef0",
+      "timestamp": 1792379621246,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//td[normalize-space(translate(., '：:*', ''))='其他信用记录']/following-sibling::td[1]//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "其他信用记录",
+      "realLabel": "其他信用记录",
+      "objectValue": "良好",
+      "options": [
+        "一般",
+        "良好",
+        "较差"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 34,
+      "networkCalls": [],
+      "propertiesID": "00b3b18b-4386-43d5-a09b-dcd795998304",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    },
+    {
+      "clientId": "ea88e18b-414a-4c48-91d4-85006f678a51",
+      "timestamp": 1792379626749,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='测算']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "测算",
+      "realLabel": "测算",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-62142aaa": "",
+        "type": "button",
+        "class": "el-button el-button--primary el-button--small"
+      },
+      "frameId": 0,
+      "seq": 35,
+      "networkCalls": [
+        {
+          "requestId": "2745",
+          "timestamp": 1792379627463.866,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/saveScor",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "8cf7742e-2460-46ef-9159-3c473d6e1fe1",
+      "propertiesPID": "16742f3c-5a6e-49fd-9e86-115f7fdbad35",
+      "type": "ele"
+    }
+  ]
+}

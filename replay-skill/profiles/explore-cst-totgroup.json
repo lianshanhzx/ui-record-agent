@@ -1,0 +1,35 @@
+{
+  "platform": "tansun-credit",
+  "name": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-总集团客户管理",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/csinfMnt/totGrpcstMgt/totGrpcstMgtPg",
+  "viewport": { "width": 1440, "height": 900 },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    { "match": ["总集团客户管理"], "urlPattern": "totGrpcstMgtPg", "route": "/#/cstMgt/csinfMnt/totGrpcstMgt/totGrpcstMgtPg", "readySelector": "//button[normalize-space()='查询']" },
+    { "match": ["总集团客户详情"], "urlPattern": "mdfGrpcstInf", "route": "/#/cstMgt/csinfMntSubDmn/grpcstMgt/mdfGrpcstInf/hostCstmgrMdfGrpcstInf/FS00004664HostCstmgrMdfGrpcstInf?newtag=false&needupdate=yes&newTag=true&id=2100108742632284160&totGrpNo=26091614251703488&totGrpNm=ICT%E9%9B%86%E5%9B%A2&mbrNum=2&createUser=NN0004&crtPsnNm=%E9%A9%AC%E8%B6%8A%E5%9B%9B&createTime=2026-09-16%2014%3A25%3A17&createInst=1906&updateUser=NN0004&updateTime=2026-09-16%2014%3A25%3A17&updateInst=1906&hdlUser=NN0004&hdlTime=2026-09-16%2014%3A25%3A17&hdlInst=1906&delInd=0&version=0&tenantId=1900&tsRowIndex=0&viewType=look&avyEcd=UML00066115&fcnScnEcd=FS00004664", "readySelector": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='成员客户编号']]//input" }
+  ],
+  "popups": [
+    { "match": ["删除确认"], "selector": ".el-message-box" },
+    { "match": ["查看关系"], "selector": ".el-dialog" },
+    { "match": ["新增总集团"], "selector": ".el-drawer" }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": "//button[normalize-space()='查询']",
+  "settleAfterClickMs": 2500,
+  "settleAfterInputMs": 500
+}

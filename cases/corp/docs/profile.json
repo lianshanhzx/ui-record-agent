@@ -1,0 +1,112 @@
+{
+  "platform": "tansun-corp-rerecord-20261012",
+  "name": "对公客户管理全新录制 2026-10-12",
+  "baseUrl": "http://test.creditv5p2.tansun.com.cn",
+  "homeRoute": "/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "login": {
+    "username": "701994",
+    "password": "1",
+    "usernameSelector": "input[name='username']",
+    "passwordSelector": "input[name='password']",
+    "captchaSelector": "input[placeholder*='图形']",
+    "captchaValue": "1234",
+    "legalPersonSelector": "input[placeholder*='法人']",
+    "loginButtonText": "登录",
+    "loggedInUrlShouldNotContain": "/login"
+  },
+  "pages": [
+    {
+      "match": [
+        "对公客户管理列表"
+      ],
+      "urlPattern": "cpctMgtPg",
+      "route": "/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+      "readySelector": "//button[normalize-space()='查询']"
+    },
+    {
+      "match": [
+        "维护对公客户概况"
+      ],
+      "urlPattern": "crtCpctInf",
+      "readySelector": ".el-form-item"
+    },
+    {
+      "match": [
+        "财报OCR上传页面"
+      ],
+      "urlPattern": "ifr/report/upload",
+      "readySelector": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='财报名称']]//input"
+    }
+  ],
+  "popups": [
+    {
+      "match": [
+        "新增对私潜客抽屉"
+      ],
+      "selector": ".el-drawer"
+    },
+    {
+      "match": [
+        "财报指标保存校验确认"
+      ],
+      "selector": ".el-message-box"
+    },
+    {
+      "match": [
+        "新增客户校验"
+      ],
+      "selector": ".el-drawer"
+    },
+    {
+      "match": [
+        "日期选择器"
+      ],
+      "selector": ".el-date-picker"
+    },
+    {
+      "match": [
+        "行业代码"
+      ],
+      "selector": ".tree-popover"
+    },
+    {
+      "match": [
+        "删除确认",
+        "核查确认"
+      ],
+      "selector": ".el-message-box"
+    },
+    {
+      "match": [
+        "放大镜",
+        "地址",
+        "影像",
+        "法院",
+        "OCR",
+        "弹窗"
+      ],
+      "selector": ".el-dialog"
+    }
+  ],
+  "popupFallbackSelector": ".el-dialog, .el-message-box",
+  "backButtonText": "返回",
+  "tableRowSelector": ".el-table__body-wrapper .el-table__body tbody tr",
+  "selectDropdownItemSelector": ".el-select-dropdown__item",
+  "errorToastSelector": ".el-message--error, .el-notification--error",
+  "tableReadySelector": ".el-table__header",
+  "settleAfterClickMs": 500,
+  "settleAfterInputMs": 200,
+  "downloadTriggers": [
+    "下载本轮测试影像",
+    "批量下载本轮测试影像",
+    "确认财报模板下载",
+    "导出本客户关系图"
+  ],
+  "downloads": {
+    "knownEmptyFiles": []
+  }
+}

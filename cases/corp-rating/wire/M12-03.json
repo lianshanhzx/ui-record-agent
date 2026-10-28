@@ -1,0 +1,122 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "ZJJK00070599",
+      "transcationName": "流程跟踪状态及耗时展示",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "对公客户评级",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M12-03-001-对公客户评级.png"
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "业务编号",
+          "eventTypeName": "文本框输入",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='业务编号']]//input",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "PJ20260907016009",
+          "realLabel": "业务编号",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.019444444444444445,\"y1\":0.23576388888888888,\"x2\":0.24722222222222223,\"y2\":0.27131944444444445}"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "精确查询评级记录",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//button[translate(normalize-space(.),' ','')='查询']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "精确查询评级记录",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.7444444444444445,\"y1\":0.23576388888888888,\"x2\":0.7916666666666666,\"y2\":0.27131944444444445}"
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "选择评级记录",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-table__fixed-body-wrapper')]//tbody/tr[1]//label[contains(@class,'el-radio')]",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "选择评级记录",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.021527777777777778,\"y1\":0.39243055555555556,\"x2\":0.03819444444444445,\"y2\":0.4104513888888889}"
+        },
+        {
+          "propertiesID": "5",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查看审批耗时",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//button[translate(normalize-space(.),' ','')='流程轨迹']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "查看审批耗时",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.2974392361111111,\"y1\":0.29354166666666665,\"x2\":0.37799479166666666,\"y2\":0.3290972222222222}"
+        },
+        {
+          "propertiesID": "6",
+          "propertiesPID": "5",
+          "type": "popup",
+          "propertiesName": "流程轨迹",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.25,\"y1\":0.15,\"x2\":0.75,\"y2\":0.85}",
+          "screenCapture": "C:/Users/longpeng/Documents/tansun/ui-agent1/work/corp-rating-full-20261019/shots/M12-03-006-流程轨迹.png"
+        },
+        {
+          "propertiesID": "7",
+          "propertiesPID": "6",
+          "type": "ele",
+          "propertiesName": "关闭流程跟踪",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "elementType": "//div[@role='dialog' and @aria-label='流程轨迹']//button[translate(normalize-space(.),' ','')='取消']",
+          "mothed": "By.XPATH",
+          "options": "",
+          "objectValue": "",
+          "realLabel": "关闭流程跟踪",
+          "transcationType": "playwright",
+          "rect": "{\"x1\":0.6791666666666667,\"y1\":0.8566666666666667,\"x2\":0.7263888888888889,\"y2\":0.8922222222222222}"
+        }
+      ]
+    }
+  ]
+}

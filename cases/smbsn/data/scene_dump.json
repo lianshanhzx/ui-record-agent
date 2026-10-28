@@ -1,0 +1,1187 @@
+{
+ "secs": [
+  {
+   "name": "基本信息",
+   "expanded": "true",
+   "top": 215
+  },
+  {
+   "name": "法定代表人信息",
+   "expanded": "true",
+   "top": 801
+  },
+  {
+   "name": "组织机构信息",
+   "expanded": "true",
+   "top": 1077
+  },
+  {
+   "name": "经营信息",
+   "expanded": "true",
+   "top": 1447
+  },
+  {
+   "name": "财务信息",
+   "expanded": "true",
+   "top": 1993
+  }
+ ],
+ "items": [
+  {
+   "label": "客户编号",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "260924140815083115",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 357,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "客户名称",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "AT_SMB_20260924060756",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 357,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "证件类型",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "营业执照",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 357,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "证件号码",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "444RK406MW5GDEDJQU",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 357,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "客户类别",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "同业",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 429,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "客户简称",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 429,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "登记注册日期",
+   "type": "date",
+   "ph": "Select",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 429,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "所在地区行政区划",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 429,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "同业客户类型",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 501,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "机构类别",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 501,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "是否为XXX法人行",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 501,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "组织形式",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 501,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "平均资产总额",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 573,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "企业规模",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 573,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "总行客户编号",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 573,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "调查机构",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [
+    "引入"
+   ],
+   "rect": {
+    "x": 950,
+    "y": 573,
+    "w": 192,
+    "h": 32
+   }
+  },
+  {
+   "label": "调查机构地址",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 645,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "机构电话号码",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 645,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "机构统一社会信用代码",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 645,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "中征码",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 645,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "中征码状态",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "中征码年检到期日期",
+   "type": "date",
+   "ph": "Select",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "法定代表人/负责人姓名",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [
+    "引入"
+   ],
+   "rect": {
+    "x": 61,
+    "y": 943,
+    "w": 192,
+    "h": 32
+   }
+  },
+  {
+   "label": "法定代表人客户编号",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 943,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "法定代表人名称",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 943,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "法定代表人证件号码",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 943,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "金融许可证号",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1219,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "地税登记证号码",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 1219,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "国税登记证号码",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 1219,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "营业执照",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 1219,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "注册资本金额",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1291,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "登记注册地址",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [
+    "引入"
+   ],
+   "rect": {
+    "x": 357,
+    "y": 1291,
+    "w": 489,
+    "h": 32
+   }
+  },
+  {
+   "label": "经营范围",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 1291,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "主营范围",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1363,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "登记注册有效期",
+   "type": "date",
+   "ph": "Select",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 1363,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "成立日期",
+   "type": "date",
+   "ph": "Select",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 1363,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "上市公司标志",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1589,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "联系人姓名",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 1589,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "联系电话",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 1589,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "认定等级",
+   "type": "select",
+   "ph": "",
+   "dis": true,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "认定评分",
+   "type": "input",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 1717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "评级认定日期",
+   "type": "date",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 1717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "评级到期日期",
+   "type": "date",
+   "ph": "",
+   "dis": true,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 1717,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "评级等级（外部）",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 1893,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "评级申请日期（外部）",
+   "type": "date",
+   "ph": "Select",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 1893,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "评定机构（外部）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 1893,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "控股经济成分类型",
+   "type": "select",
+   "ph": "Select",
+   "dis": false,
+   "ro": true,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2135,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "投资总额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2135,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "负债总额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2135,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "所有者权益（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2135,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "加权风险资产总额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2207,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "资本充足率（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2207,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "风险资产比率（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2207,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "不良资产比率（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2207,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "贷款损失准备比率",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2279,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "贷款增长率（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2279,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "贷款总额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2279,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "存款总额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2279,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "流动资产（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2351,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "流动负债合计金额",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2351,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "同业借款（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2351,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "税后利润（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2351,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "平均所有者权益（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2423,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "平均总资产金额",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2423,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "营业费用（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2423,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "营业收入（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2423,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "资产回报率（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2495,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "存货比例（%）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 357,
+    "y": 2495,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "成本（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 654,
+    "y": 2495,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "流动性资金比例",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 950,
+    "y": 2495,
+    "w": 272,
+    "h": 32
+   }
+  },
+  {
+   "label": "实收资本金额（元）",
+   "type": "input",
+   "ph": "Input",
+   "dis": false,
+   "ro": false,
+   "val": "",
+   "req": false,
+   "btns": [],
+   "rect": {
+    "x": 61,
+    "y": 2567,
+    "w": 272,
+    "h": 32
+   }
+  }
+ ],
+ "tabs": [
+  "基本信息",
+  "股东信息",
+  "关联人信息",
+  "影像资料",
+  "业务信息",
+  "其他信息"
+ ],
+ "pageBtns": [
+  "引入",
+  "保存",
+  "暂存",
+  "返回"
+ ]
+}

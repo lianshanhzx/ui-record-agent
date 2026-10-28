@@ -1,0 +1,336 @@
+{
+  "generatedAt": "2026-09-24T03:02:01.581Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-集团客户管理",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 74236,
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "P03-集团客户管理-搜索查看删除新增",
+      "transaction": "P03-集团客户管理-搜索查看删除新增",
+      "pageId": "p03grp",
+      "status": "pass",
+      "startedAt": 1790218847711,
+      "durationMs": 73791,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "集团客户管理-列表",
+          "action": "click",
+          "ms": 12413,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/grpcstMgt/grpcstMgtPg",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_01_集团客户管理-列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "集团名称输入框",
+          "action": "input",
+          "ms": 580,
+          "status": "ok",
+          "detail": "输入「集团名称输入框」= 数字集团",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_02_集团名称输入框.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询按钮",
+          "action": "click",
+          "ms": 2617,
+          "status": "ok",
+          "detail": "点击「查询按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_03_查询按钮.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "重置按钮",
+          "action": "click",
+          "ms": 2597,
+          "status": "ok",
+          "detail": "点击「重置按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_04_重置按钮.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "查询按钮-重置后恢复列表",
+          "action": "click",
+          "ms": 2604,
+          "status": "ok",
+          "detail": "点击「查询按钮-重置后恢复列表」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_05_查询按钮-重置后恢复列表.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "更多查询展开按钮",
+          "action": "click",
+          "ms": 2631,
+          "status": "ok",
+          "detail": "点击「更多查询展开按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_06_更多查询展开按钮.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "成员客户名称输入框",
+          "action": "input",
+          "ms": 573,
+          "status": "ok",
+          "detail": "输入「成员客户名称输入框」= 机器视觉科技有限公司",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_07_成员客户名称输入框.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "查询按钮-按成员客户名称",
+          "action": "click",
+          "ms": 2595,
+          "status": "ok",
+          "detail": "点击「查询按钮-按成员客户名称」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_08_查询按钮-按成员客户名称.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "重置按钮-清成员条件",
+          "action": "click",
+          "ms": 2606,
+          "status": "ok",
+          "detail": "点击「重置按钮-清成员条件」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_09_重置按钮-清成员条件.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "查询按钮-恢复列表",
+          "action": "click",
+          "ms": 2602,
+          "status": "ok",
+          "detail": "点击「查询按钮-恢复列表」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_10_查询按钮-恢复列表.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "管户机构树选择-打开",
+          "action": "click",
+          "ms": 2598,
+          "status": "ok",
+          "detail": "点击「管户机构树选择-打开」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_11_管户机构树选择-打开.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "管户机构树-选择机构节点",
+          "action": "click",
+          "ms": 2648,
+          "status": "ok",
+          "detail": "点击「管户机构树-选择机构节点」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_12_管户机构树-选择机构节点.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "查询按钮-按管户机构",
+          "action": "click",
+          "ms": 2629,
+          "status": "ok",
+          "detail": "点击「查询按钮-按管户机构」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_13_查询按钮-按管户机构.png"
+        },
+        {
+          "id": "14",
+          "type": "ele",
+          "name": "重置按钮-清机构条件",
+          "action": "click",
+          "ms": 2597,
+          "status": "ok",
+          "detail": "点击「重置按钮-清机构条件」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_14_重置按钮-清机构条件.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "查询按钮-恢复列表2",
+          "action": "click",
+          "ms": 2624,
+          "status": "ok",
+          "detail": "点击「查询按钮-恢复列表2」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_15_查询按钮-恢复列表2.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "集团名称输入框-定位数字集团",
+          "action": "input",
+          "ms": 583,
+          "status": "ok",
+          "detail": "输入「集团名称输入框-定位数字集团」= 数字集团",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_16_集团名称输入框-定位数字集团.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "查询按钮-定位数字集团",
+          "action": "click",
+          "ms": 2623,
+          "status": "ok",
+          "detail": "点击「查询按钮-定位数字集团」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_17_查询按钮-定位数字集团.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "表格行单选-数字集团",
+          "action": "click",
+          "ms": 1098,
+          "status": "ok",
+          "detail": "选中行「表格行单选-数字集团」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_18_表格行单选-数字集团.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "查看按钮",
+          "action": "click",
+          "ms": 2931,
+          "status": "ok",
+          "detail": "点击「查看按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_19_查看按钮.png"
+        },
+        {
+          "id": "20",
+          "type": "page",
+          "name": "集团客户详情-查看模式",
+          "action": "click",
+          "ms": 575,
+          "status": "ok",
+          "detail": "进入页面 集团客户详情-查看模式 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/grpcstMgt/enqrGrpcstInf/hpermUsrEnqrGrpcstInf/FS00003077HpermUsrEnqrGrpcstInf?newtag=false&needupdate=yes&newTag=true&id=2100121978857463808&totGrpNo=26091614251703488&grpNo=26091615175279589&grpNm=%E6%95%B0%E5%AD%97%E9%9B%86%E5%9B%A2&acEntyCstNo=&acEntyCstNm=%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&acEntyCstCrdtTp=20111&acEntyCstCrdtNo=91110228887439996K&primOprIdyTp=I&grpRptClbrTp=0&grpParcoCstNo=26091416425983768&mbrNum=1&createUser=NN0001&createTime=2026-09-16%2015%3A17%3A53&createInst=1913&updateUser=NN0001&updateTime=2026-09-17%2017%3A59%3A32&updateInst=1913&hdlUser=NN0001&hdlTime=2026-09-16%2015%3A17%3A53&hdlInst=1913&hdlInstNm=%E5%8D%97%E5%AE%81%E5%B8%82%E6%AD%A6%E9%B8%A3%E5%8C%BA%E5%86%9C%E6%9D%91%E4%BF%A1%E7%94%A8%E5%90%88%E4%BD%9C%E8%81%94%E7%A4%BE%E9%A9%AC%E5%A4%B4%E4%BF%A1%E7%94%A8%E7%A4%BE&delInd=0&version=0&tenantId=1900&agncUser=NN0001&rspbpsnNm=%E9%A9%AC%E8%B6%8A%E4%B8%80&crtPsnNm=%E9%A9%AC%E8%B6%8A%E4%B8%80&crtInstNm=%E5%8D%97%E5%AE%81%E5%B8%82%E6%AD%A6%E9%B8%A3%E5%8C%BA%E5%86%9C%E6%9D%91%E4%BF%A1%E7%94%A8%E5%90%88%E4%BD%9C%E8%81%94%E7%A4%BE%E9%A9%AC%E5%A4%B4%E4%BF%A1%E7%94%A8%E7%A4%BE&tsRowIndex=0&viewType=look&avyEcd=UML00005720&fcnScnEcd=FS00003077&v=1790218898298",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_20_集团客户详情-查看模式.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "客户名称输入框-成员搜索",
+          "action": "input",
+          "ms": 590,
+          "status": "ok",
+          "detail": "输入「客户名称输入框-成员搜索」= 机器视觉科技有限公司",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_21_客户名称输入框-成员搜索.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "成员信息查询按钮",
+          "action": "click",
+          "ms": 2596,
+          "status": "ok",
+          "detail": "点击「成员信息查询按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_22_成员信息查询按钮.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "成员表行单选-机器视觉科技",
+          "action": "click",
+          "ms": 1099,
+          "status": "ok",
+          "detail": "选中行「成员表行单选-机器视觉科技」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_23_成员表行单选-机器视觉科技.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "查看关系按钮",
+          "action": "click",
+          "ms": 2700,
+          "status": "ok",
+          "detail": "点击「查看关系按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_24_查看关系按钮.png"
+        },
+        {
+          "id": "25",
+          "type": "popup",
+          "name": "查看关系-弹窗",
+          "action": "click",
+          "ms": 369,
+          "status": "ok",
+          "detail": "弹窗可见：查看关系-弹窗",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_25_查看关系-弹窗.png"
+        },
+        {
+          "id": "26",
+          "type": "ele",
+          "name": "查看关系-关闭",
+          "action": "click",
+          "ms": 2652,
+          "status": "ok",
+          "detail": "点击「查看关系-关闭」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_26_查看关系-关闭.png"
+        },
+        {
+          "id": "27",
+          "type": "ele",
+          "name": "返回按钮",
+          "action": "click",
+          "ms": 2861,
+          "status": "ok",
+          "detail": "点击「返回按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_27_返回按钮.png"
+        },
+        {
+          "id": "28",
+          "type": "ele",
+          "name": "删除按钮（无确认弹窗-页面缺陷）",
+          "action": "click",
+          "ms": 2597,
+          "status": "ok",
+          "detail": "点击「删除按钮（无确认弹窗-页面缺陷）」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_28_删除按钮（无确认弹窗-页面缺陷）.png"
+        },
+        {
+          "id": "29",
+          "type": "ele",
+          "name": "新增按钮",
+          "action": "click",
+          "ms": 2627,
+          "status": "ok",
+          "detail": "点击「新增按钮」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_29_新增按钮.png"
+        },
+        {
+          "id": "30",
+          "type": "popup",
+          "name": "新增集团-抽屉",
+          "action": "click",
+          "ms": 356,
+          "status": "ok",
+          "detail": "弹窗可见：新增集团-抽屉",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_30_新增集团-抽屉.png"
+        },
+        {
+          "id": "31",
+          "type": "ele",
+          "name": "新增集团-取消",
+          "action": "click",
+          "ms": 2619,
+          "status": "ok",
+          "detail": "点击「新增集团-取消」",
+          "screenshot": "P03-集团客户管理-搜索查看删除新增_31_新增集团-取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

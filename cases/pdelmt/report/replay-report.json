@@ -1,0 +1,820 @@
+{
+  "generatedAt": "2026-10-26T14:48:27.890Z",
+  "profile": "天阳信贷一站式门户 - 产品要素库（产品管理 > 产品要素管理）",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 162310,
+  "summary": {
+    "total": 8,
+    "pass": 8,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "L1-elmt-query",
+      "transaction": "L1 产品要素查询",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793025946077,
+      "durationMs": 17502,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 7613,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L1-elmt-query_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 674,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L1-elmt-query_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2098,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L1-elmt-query_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2216,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L1-elmt-query_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2117,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L1-elmt-query_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "输入组件要素编码",
+          "action": "input",
+          "ms": 666,
+          "status": "ok",
+          "detail": "输入「输入组件要素编码」= intgStm",
+          "screenshot": "L1-elmt-query_06_输入组件要素编码.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "点击查询",
+          "action": "click",
+          "ms": 2116,
+          "status": "ok",
+          "detail": "点击「点击查询」",
+          "screenshot": "L1-elmt-query_07_点击查询.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L2-elmt-reset",
+      "transaction": "L2 产品要素重置查询",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793025963655,
+      "durationMs": 20960,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 6899,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L2-elmt-reset_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 672,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L2-elmt-reset_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2096,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L2-elmt-reset_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2192,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L2-elmt-reset_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2130,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L2-elmt-reset_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "输入组件要素编码",
+          "action": "input",
+          "ms": 670,
+          "status": "ok",
+          "detail": "输入「输入组件要素编码」= intgStm",
+          "screenshot": "L2-elmt-reset_06_输入组件要素编码.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "点击查询",
+          "action": "click",
+          "ms": 2096,
+          "status": "ok",
+          "detail": "点击「点击查询」",
+          "screenshot": "L2-elmt-reset_07_点击查询.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "点击重置",
+          "action": "click",
+          "ms": 2106,
+          "status": "ok",
+          "detail": "点击「点击重置」",
+          "screenshot": "L2-elmt-reset_08_点击重置.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "点击查询（步骤2）",
+          "action": "click",
+          "ms": 2099,
+          "status": "ok",
+          "detail": "点击「点击查询（步骤2）」",
+          "screenshot": "L2-elmt-reset_09_点击查询（步骤2）.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L3-elmt-add",
+      "transaction": "L3 产品要素新增",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793025984700,
+      "durationMs": 24123,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 6919,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L3-elmt-add_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 677,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L3-elmt-add_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2112,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L3-elmt-add_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2137,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L3-elmt-add_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2119,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L3-elmt-add_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "点击新增",
+          "action": "click",
+          "ms": 2163,
+          "status": "ok",
+          "detail": "点击「点击新增」",
+          "screenshot": "L3-elmt-add_06_点击新增.png"
+        },
+        {
+          "id": "7",
+          "type": "popup",
+          "name": "选择要素弹窗",
+          "action": "click",
+          "ms": 365,
+          "status": "ok",
+          "detail": "弹窗可见：选择要素弹窗",
+          "screenshot": "L3-elmt-add_07_选择要素弹窗.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "点击要素名称",
+          "action": "click",
+          "ms": 2151,
+          "status": "ok",
+          "detail": "点击「点击要素名称」",
+          "screenshot": "L3-elmt-add_08_点击要素名称.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "选择数据项",
+          "action": "click",
+          "ms": 2115,
+          "status": "ok",
+          "detail": "点击「选择数据项」",
+          "screenshot": "L3-elmt-add_09_选择数据项.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "选择要素类型",
+          "action": "select:click",
+          "ms": 1230,
+          "status": "ok",
+          "detail": "下拉选择「选择要素类型」= 文本",
+          "screenshot": "L3-elmt-add_10_选择要素类型.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "点击确定",
+          "action": "click",
+          "ms": 2134,
+          "status": "ok",
+          "detail": "点击「点击确定」",
+          "screenshot": "L3-elmt-add_11_点击确定.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L4-elmt-modify",
+      "transaction": "L4 产品要素修改",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793026008904,
+      "durationMs": 23783,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 6958,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L4-elmt-modify_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 677,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L4-elmt-modify_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2092,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L4-elmt-modify_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2176,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L4-elmt-modify_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2118,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L4-elmt-modify_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "输入组件要素编码",
+          "action": "input",
+          "ms": 679,
+          "status": "ok",
+          "detail": "输入「输入组件要素编码」= lendRepyCardno",
+          "screenshot": "L4-elmt-modify_06_输入组件要素编码.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "点击查询",
+          "action": "click",
+          "ms": 2104,
+          "status": "ok",
+          "detail": "点击「点击查询」",
+          "screenshot": "L4-elmt-modify_07_点击查询.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选择行",
+          "action": "click",
+          "ms": 1077,
+          "status": "ok",
+          "detail": "选中行「选择行」",
+          "screenshot": "L4-elmt-modify_08_选择行.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "点击修改",
+          "action": "click",
+          "ms": 2186,
+          "status": "ok",
+          "detail": "点击「点击修改」",
+          "screenshot": "L4-elmt-modify_09_点击修改.png"
+        },
+        {
+          "id": "10",
+          "type": "popup",
+          "name": "选择要素弹窗",
+          "action": "click",
+          "ms": 379,
+          "status": "ok",
+          "detail": "弹窗可见：选择要素弹窗",
+          "screenshot": "L4-elmt-modify_10_选择要素弹窗.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "选择要素类型",
+          "action": "select:click",
+          "ms": 1204,
+          "status": "ok",
+          "detail": "下拉选择「选择要素类型」= 区间",
+          "screenshot": "L4-elmt-modify_11_选择要素类型.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "点击确定",
+          "action": "click",
+          "ms": 2132,
+          "status": "ok",
+          "detail": "点击「点击确定」",
+          "screenshot": "L4-elmt-modify_12_点击确定.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L5-elmt-delete",
+      "transaction": "L5 产品要素删除",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793026032771,
+      "durationMs": 22980,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 7407,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L5-elmt-delete_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 670,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L5-elmt-delete_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2115,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L5-elmt-delete_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2175,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L5-elmt-delete_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2116,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L5-elmt-delete_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "输入组件要素编码",
+          "action": "input",
+          "ms": 665,
+          "status": "ok",
+          "detail": "输入「输入组件要素编码」= lendRepyCardno",
+          "screenshot": "L5-elmt-delete_06_输入组件要素编码.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "点击查询",
+          "action": "click",
+          "ms": 2129,
+          "status": "ok",
+          "detail": "点击「点击查询」",
+          "screenshot": "L5-elmt-delete_07_点击查询.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选择行",
+          "action": "click",
+          "ms": 1137,
+          "status": "ok",
+          "detail": "选中行「选择行」",
+          "screenshot": "L5-elmt-delete_08_选择行.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "点击删除",
+          "action": "click",
+          "ms": 2115,
+          "status": "ok",
+          "detail": "点击「点击删除」",
+          "screenshot": "L5-elmt-delete_09_点击删除.png"
+        },
+        {
+          "id": "10",
+          "type": "popup",
+          "name": "删除确认弹窗",
+          "action": "click",
+          "ms": 348,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认弹窗",
+          "screenshot": "L5-elmt-delete_10_删除确认弹窗.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "确认删除",
+          "action": "click",
+          "ms": 2100,
+          "status": "ok",
+          "detail": "点击「确认删除」",
+          "screenshot": "L5-elmt-delete_11_确认删除.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L6-elmt-delete-blocked",
+      "transaction": "L6 产品要素删除引用拦截",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793026055830,
+      "durationMs": 20091,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 7017,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L6-elmt-delete-blocked_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 674,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L6-elmt-delete-blocked_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2100,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L6-elmt-delete-blocked_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2181,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L6-elmt-delete-blocked_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2132,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L6-elmt-delete-blocked_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "输入组件要素编码",
+          "action": "input",
+          "ms": 672,
+          "status": "ok",
+          "detail": "输入「输入组件要素编码」= intgStm",
+          "screenshot": "L6-elmt-delete-blocked_06_输入组件要素编码.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "点击查询",
+          "action": "click",
+          "ms": 2095,
+          "status": "ok",
+          "detail": "点击「点击查询」",
+          "screenshot": "L6-elmt-delete-blocked_07_点击查询.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "选择行",
+          "action": "click",
+          "ms": 1102,
+          "status": "ok",
+          "detail": "选中行「选择行」",
+          "screenshot": "L6-elmt-delete-blocked_08_选择行.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "点击删除",
+          "action": "click",
+          "ms": 2118,
+          "status": "ok",
+          "detail": "点击「点击删除」",
+          "screenshot": "L6-elmt-delete-blocked_09_点击删除.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L7-elmt-delete-norow",
+      "transaction": "L7 产品要素删除未选行",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793026076003,
+      "durationMs": 16330,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 7137,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L7-elmt-delete-norow_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 679,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L7-elmt-delete-norow_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2094,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L7-elmt-delete-norow_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2157,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L7-elmt-delete-norow_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2145,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L7-elmt-delete-norow_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "点击删除",
+          "action": "click",
+          "ms": 2117,
+          "status": "ok",
+          "detail": "点击「点击删除」",
+          "screenshot": "L7-elmt-delete-norow_06_点击删除.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "L8-elmt-modify-norow",
+      "transaction": "L8 产品要素修改未选行",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1793026092414,
+      "durationMs": 15434,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "产品要素库",
+          "action": "click",
+          "ms": 6303,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/pdMgt/pdElmtMgt/elmtgroupOfIndex",
+          "screenshot": "L8-elmt-modify-norow_01_产品要素库.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "输入树搜索关键字",
+          "action": "input",
+          "ms": 685,
+          "status": "ok",
+          "detail": "输入「输入树搜索关键字」= 渠道",
+          "screenshot": "L8-elmt-modify-norow_02_输入树搜索关键字.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "点击树搜索",
+          "action": "click",
+          "ms": 2091,
+          "status": "ok",
+          "detail": "点击「点击树搜索」",
+          "screenshot": "L8-elmt-modify-norow_03_点击树搜索.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "选中树节点",
+          "action": "click",
+          "ms": 2157,
+          "status": "ok",
+          "detail": "点击「选中树节点」",
+          "screenshot": "L8-elmt-modify-norow_04_选中树节点.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "切换产品要素页签",
+          "action": "click",
+          "ms": 2119,
+          "status": "ok",
+          "detail": "点击「切换产品要素页签」",
+          "screenshot": "L8-elmt-modify-norow_05_切换产品要素页签.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "点击修改",
+          "action": "click",
+          "ms": 2078,
+          "status": "ok",
+          "detail": "点击「点击修改」",
+          "screenshot": "L8-elmt-modify-norow_06_点击修改.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

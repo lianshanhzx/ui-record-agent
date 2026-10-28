@@ -1,0 +1,205 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S18 同业客户管理-联网核查信息查看(选行→联网核查信息→核查结果筛选查询→重置→取消)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='联网核查信息']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "联网核查信息",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "联网核查信息",
+          "rect": {
+            "x1": 0.2028,
+            "y1": 0.2536,
+            "x2": 0.3028,
+            "y2": 0.2891
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "联网核查信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='核查结果']]//div[contains(@class,'tssc-multi-select')]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "核查通过",
+          "propertiesName": "核查结果",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "核查结果",
+          "rect": {
+            "x1": 0.3819,
+            "y1": 0.23,
+            "x2": 0.4889,
+            "y2": 0.2656
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.4972,
+            "y1": 0.23,
+            "x2": 0.5583,
+            "y2": 0.2656
+          },
+          "propertiesID": "8"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//button[normalize-space()='重置']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "重置",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "重置",
+          "rect": {
+            "x1": 0.5681,
+            "y1": 0.23,
+            "x2": 0.6292,
+            "y2": 0.2656
+          },
+          "propertiesID": "9"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//button[normalize-space()='发起实时核查']]//button[normalize-space()='取消']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "取消",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "取消",
+          "rect": {
+            "x1": 0.6222,
+            "y1": 0.8567,
+            "x2": 0.6694,
+            "y2": 0.8922
+          },
+          "propertiesID": "10"
+        }
+      ]
+    }
+  ]
+}

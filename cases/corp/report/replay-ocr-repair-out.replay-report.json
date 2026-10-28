@@ -1,0 +1,583 @@
+{
+  "generatedAt": "2026-10-13T01:35:53.591Z",
+  "profile": "对公客户管理全新录制 2026-10-12",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 55437,
+  "summary": {
+    "total": 3,
+    "pass": 2,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "R100",
+      "transaction": "R100 对公客户管理-财务信息新增入口",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791855298489,
+      "durationMs": 24382,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6874,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R100_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 602,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R100_02_重置查询.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "测试客户名称",
+          "action": "input",
+          "ms": 274,
+          "status": "ok",
+          "detail": "输入「测试客户名称」= RP_20261012_担保_1791788189442",
+          "screenshot": "R100_03_测试客户名称.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "查询测试客户",
+          "action": "click",
+          "ms": 601,
+          "status": "ok",
+          "detail": "点击「查询测试客户」",
+          "screenshot": "R100_04_查询测试客户.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "选择本轮测试客户",
+          "action": "click",
+          "ms": 1066,
+          "status": "ok",
+          "detail": "选中行「选择本轮测试客户」",
+          "screenshot": "R100_05_选择本轮测试客户.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 574,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "R100_06_修改.png"
+        },
+        {
+          "id": "7",
+          "type": "page",
+          "name": "维护对公客户概况-担保-修改",
+          "action": "click",
+          "ms": 1485,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况-担保-修改 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&crdtNo=91350R0JBKYF488GCD&uscc=91350R0JBKYF488GCD&idyCd=J6610&cstNm=RP_20261012_%E6%8B%85%E4%BF%9D_1791788189442&cstCgy=60&idyNm=%E4%B8%AD%E5%A4%AE%E9%93%B6%E8%A1%8C%E6%9C%8D%E5%8A%A1&cstNo=261012145859030225&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109539308121313280&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=0&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791855308818",
+          "screenshot": "R100_07_维护对公客户概况-担保-修改.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "财务信息",
+          "action": "click",
+          "ms": 953,
+          "status": "ok",
+          "detail": "点击「财务信息」",
+          "screenshot": "R100_08_财务信息.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "新增财务报表",
+          "action": "click",
+          "ms": 610,
+          "status": "ok",
+          "detail": "点击「新增财务报表」",
+          "screenshot": "R100_09_新增财务报表.png"
+        },
+        {
+          "id": "10",
+          "type": "popup",
+          "name": "财务报表新增弹窗",
+          "action": "click",
+          "ms": 358,
+          "status": "ok",
+          "detail": "弹窗可见：财务报表新增弹窗",
+          "screenshot": "R100_10_财务报表新增弹窗.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "报表类型",
+          "action": "click",
+          "ms": 584,
+          "status": "ok",
+          "detail": "点击「报表类型」",
+          "screenshot": "R100_11_报表类型.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "担保公司财报模板",
+          "action": "click",
+          "ms": 583,
+          "status": "ok",
+          "detail": "点击「担保公司财报模板」",
+          "screenshot": "R100_12_担保公司财报模板.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "报表截止日期打开日历",
+          "action": "click",
+          "ms": 585,
+          "status": "ok",
+          "detail": "点击「报表截止日期打开日历」",
+          "screenshot": "R100_13_报表截止日期打开日历.png"
+        },
+        {
+          "id": "14",
+          "type": "popup",
+          "name": "日期选择器-报表截止日期",
+          "action": "click",
+          "ms": 368,
+          "status": "ok",
+          "detail": "弹窗可见：日期选择器-报表截止日期",
+          "screenshot": "R100_14_日期选择器-报表截止日期.png"
+        },
+        {
+          "id": "15",
+          "type": "ele",
+          "name": "选择年份",
+          "action": "click",
+          "ms": 582,
+          "status": "ok",
+          "detail": "点击「选择年份」",
+          "screenshot": "R100_15_选择年份.png"
+        },
+        {
+          "id": "16",
+          "type": "ele",
+          "name": "年份2025",
+          "action": "click",
+          "ms": 599,
+          "status": "ok",
+          "detail": "点击「年份2025」",
+          "screenshot": "R100_16_年份2025.png"
+        },
+        {
+          "id": "17",
+          "type": "ele",
+          "name": "月份12",
+          "action": "click",
+          "ms": 600,
+          "status": "ok",
+          "detail": "点击「月份12」",
+          "screenshot": "R100_17_月份12.png"
+        },
+        {
+          "id": "18",
+          "type": "ele",
+          "name": "日期31",
+          "action": "click",
+          "ms": 600,
+          "status": "ok",
+          "detail": "点击「日期31」",
+          "screenshot": "R100_18_日期31.png"
+        },
+        {
+          "id": "19",
+          "type": "ele",
+          "name": "报表口径",
+          "action": "select:click",
+          "ms": 1249,
+          "status": "ok",
+          "detail": "下拉选择「报表口径」= 本部报表",
+          "screenshot": "R100_19_报表口径.png"
+        },
+        {
+          "id": "20",
+          "type": "ele",
+          "name": "报表周期",
+          "action": "select:click",
+          "ms": 1137,
+          "status": "ok",
+          "detail": "下拉选择「报表周期」= 月度",
+          "screenshot": "R100_20_报表周期.png"
+        },
+        {
+          "id": "21",
+          "type": "ele",
+          "name": "报表币种",
+          "action": "select:click",
+          "ms": 1144,
+          "status": "ok",
+          "detail": "下拉选择「报表币种」= 阿联酋迪拉姆UAE Dirham",
+          "screenshot": "R100_21_报表币种.png"
+        },
+        {
+          "id": "22",
+          "type": "ele",
+          "name": "是否经过审计",
+          "action": "select:click",
+          "ms": 1144,
+          "status": "ok",
+          "detail": "下拉选择「是否经过审计」= 否",
+          "screenshot": "R100_22_是否经过审计.png"
+        },
+        {
+          "id": "23",
+          "type": "ele",
+          "name": "保存财务报表",
+          "action": "click",
+          "ms": 642,
+          "status": "ok",
+          "detail": "点击「保存财务报表」",
+          "screenshot": "R100_23_保存财务报表.png"
+        },
+        {
+          "id": "24",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 615,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R100_24_返回列表.png"
+        },
+        {
+          "id": "25",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 550,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg?part=cstMgtcsinfMntcpctMgtcpctMgtPg",
+          "screenshot": "R100_25_对公客户管理列表.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "file": "R106",
+      "transaction": "R106 对公客户管理-财报OCR入口与取消",
+      "pageId": "TBD",
+      "status": "warn",
+      "startedAt": 1791855322912,
+      "durationMs": 16393,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6489,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R106_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 597,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R106_02_重置查询.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "测试客户名称",
+          "action": "input",
+          "ms": 264,
+          "status": "ok",
+          "detail": "输入「测试客户名称」= RP_20261012_担保_1791788189442",
+          "screenshot": "R106_03_测试客户名称.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "查询测试客户",
+          "action": "click",
+          "ms": 594,
+          "status": "ok",
+          "detail": "点击「查询测试客户」",
+          "screenshot": "R106_04_查询测试客户.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "选择本轮测试客户",
+          "action": "click",
+          "ms": 1075,
+          "status": "ok",
+          "detail": "选中行「选择本轮测试客户」",
+          "screenshot": "R106_05_选择本轮测试客户.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 1328,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "R106_06_修改.png"
+        },
+        {
+          "id": "7",
+          "type": "page",
+          "name": "维护对公客户概况-担保-修改",
+          "action": "click",
+          "ms": 622,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况-担保-修改 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&crdtNo=91350R0JBKYF488GCD&uscc=91350R0JBKYF488GCD&idyCd=J6610&cstNm=RP_20261012_%E6%8B%85%E4%BF%9D_1791788189442&cstCgy=60&idyNm=%E4%B8%AD%E5%A4%AE%E9%93%B6%E8%A1%8C%E6%9C%8D%E5%8A%A1&cstNo=261012145859030225&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109539308121313280&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=0&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791855332436",
+          "screenshot": "R106_07_维护对公客户概况-担保-修改.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "财务信息",
+          "action": "click",
+          "ms": 603,
+          "status": "ok",
+          "detail": "点击「财务信息」",
+          "screenshot": "R106_08_财务信息.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "财报OCR识别入口",
+          "action": "click",
+          "ms": 663,
+          "status": "ok",
+          "detail": "点击「财报OCR识别入口」",
+          "screenshot": "R106_09_财报OCR识别入口.png"
+        },
+        {
+          "id": "10",
+          "type": "page",
+          "name": "财报OCR上传页面",
+          "action": "click",
+          "ms": 1410,
+          "status": "ok",
+          "detail": "进入页面 财报OCR上传页面 → http://test.creditv5p2.tansun.com.cn/#/ifr/report/upload?newtag=false&needupdate=yes&tagName=%E8%B4%A2%E6%8A%A5OCR%E8%AF%86%E5%88%AB&bsnId=2109820240191492096&fnrptStmCl=1872924938185314304&indataInstm=2025-12&cstNumb=261012145859030225&v=1791855334513",
+          "screenshot": "R106_10_财报OCR上传页面.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "空财报OCR必填校验",
+          "action": "click",
+          "ms": 580,
+          "status": "ok",
+          "detail": "点击「空财报OCR必填校验」",
+          "screenshot": "R106_11_空财报OCR必填校验.png",
+          "warnings": [
+            "请选择需要识别的内容"
+          ]
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "返回财报OCR",
+          "action": "click",
+          "ms": 958,
+          "status": "ok",
+          "detail": "点击「返回财报OCR」",
+          "screenshot": "R106_12_返回财报OCR.png",
+          "warnings": [
+            "请选择需要识别的内容"
+          ]
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 661,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R106_13_返回列表.png",
+          "warnings": [
+            "请选择需要识别的内容"
+          ]
+        },
+        {
+          "id": "14",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 548,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg?part=cstMgtcsinfMntcpctMgtcpctMgtPg",
+          "screenshot": "R106_14_对公客户管理列表.png"
+        }
+      ],
+      "warnings": [
+        "步骤(11) 空财报OCR必填校验 出现错误提示: 请选择需要识别的内容",
+        "步骤(12) 返回财报OCR 出现错误提示: 请选择需要识别的内容",
+        "步骤(13) 返回列表 出现错误提示: 请选择需要识别的内容"
+      ],
+      "errors": []
+    },
+    {
+      "file": "R109",
+      "transaction": "R109 对公客户管理-删除本轮财务报表",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1791855339350,
+      "durationMs": 14204,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 6569,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg",
+          "screenshot": "R109_01_对公客户管理列表.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "重置查询",
+          "action": "click",
+          "ms": 594,
+          "status": "ok",
+          "detail": "点击「重置查询」",
+          "screenshot": "R109_02_重置查询.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "测试客户名称",
+          "action": "input",
+          "ms": 267,
+          "status": "ok",
+          "detail": "输入「测试客户名称」= RP_20261012_担保_1791788189442",
+          "screenshot": "R109_03_测试客户名称.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "查询测试客户",
+          "action": "click",
+          "ms": 607,
+          "status": "ok",
+          "detail": "点击「查询测试客户」",
+          "screenshot": "R109_04_查询测试客户.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "选择本轮测试客户",
+          "action": "click",
+          "ms": 1066,
+          "status": "ok",
+          "detail": "选中行「选择本轮测试客户」",
+          "screenshot": "R109_05_选择本轮测试客户.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 611,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "R109_06_修改.png"
+        },
+        {
+          "id": "7",
+          "type": "page",
+          "name": "维护对公客户概况-担保-修改",
+          "action": "click",
+          "ms": 922,
+          "status": "ok",
+          "detail": "进入页面 维护对公客户概况-担保-修改 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/cpctMgt/crtCpctInf/hostCstmgrCrtCpctInf/FS00005510HostCstmgrCrtCpctInf?newtag=false&needupdate=yes&newTag=true&crdtNo=91350R0JBKYF488GCD&uscc=91350R0JBKYF488GCD&idyCd=J6610&cstNm=RP_20261012_%E6%8B%85%E4%BF%9D_1791788189442&cstCgy=60&idyNm=%E4%B8%AD%E5%A4%AE%E9%93%B6%E8%A1%8C%E6%9C%8D%E5%8A%A1&cstNo=261012145859030225&cstSt=6&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&cpctTp=607&usrNo=701994&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&id=2109539308121313280&rgulztnInd=1&crdtTp=20111&createInst=9881&tsRowIndex=0&operoratFlag=add&qryType=0&showFlg=1&viewType=edit&avyEcd=UML00005557&fcnScnEcd=FS00005510&v=1791855348973",
+          "screenshot": "R109_07_维护对公客户概况-担保-修改.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "财务信息",
+          "action": "click",
+          "ms": 901,
+          "status": "ok",
+          "detail": "点击「财务信息」",
+          "screenshot": "R109_08_财务信息.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "删除本轮财报",
+          "action": "click",
+          "ms": 592,
+          "status": "ok",
+          "detail": "点击「删除本轮财报」",
+          "screenshot": "R109_09_删除本轮财报.png"
+        },
+        {
+          "id": "10",
+          "type": "popup",
+          "name": "删除确认",
+          "action": "click",
+          "ms": 343,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认",
+          "screenshot": "R109_10_删除确认.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "确认删除本轮财报",
+          "action": "click",
+          "ms": 567,
+          "status": "ok",
+          "detail": "点击「确认删除本轮财报」",
+          "screenshot": "R109_11_确认删除本轮财报.png"
+        },
+        {
+          "id": "12",
+          "type": "ele",
+          "name": "返回列表",
+          "action": "click",
+          "ms": 614,
+          "status": "ok",
+          "detail": "点击「返回列表」",
+          "screenshot": "R109_12_返回列表.png"
+        },
+        {
+          "id": "13",
+          "type": "page",
+          "name": "对公客户管理列表",
+          "action": "click",
+          "ms": 551,
+          "status": "ok",
+          "detail": "进入页面 对公客户管理列表 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/cpctMgt/cpctMgtPg?part=cstMgtcsinfMntcpctMgtcpctMgtPg",
+          "screenshot": "R109_13_对公客户管理列表.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

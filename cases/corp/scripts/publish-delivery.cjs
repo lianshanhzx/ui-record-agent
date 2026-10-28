@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path'),{execFileSync}=require('node:child_process');
+const run=__dirname,root=path.resolve(run,'../..'),active=path.join(root,'partner-wire/corp');
+execFileSync(process.execPath,[path.join(run,'prepare-replay.cjs'),'--delivery'],{stdio:'inherit'});
+const prepared=path.join(run,'delivery-input');
+const files=fs.readdirSync(prepared).filter(x=>/^R\d+\.json$/.test(x));
+for(const file of files)fs.copyFileSync(path.join(prepared,file),path.join(active,file));
+fs.copyFileSync(path.join(prepared,'data-refresh.json'),path.join(active,'data-refresh.json'));
+fs.writeFileSync(path.join(active,'README.md'),'# 对公客户管理重新录制\n\n本目录仅含本轮 R 系列活动报文，已生成未消费的新测试参数批次。原始录制、旧记录归档、回放结果及阻塞项见 [验收说明](../../work/corp-rerecord-20261012/README.md)。\n\n按文件名自然数字顺序串行执行。重复回放前运行 prepare-replay.cjs --delivery，生成新的 delivery-input；该脚本始终从原始 recording.json 读取值，保留截图和原始录制不变。修改、查看、删除交易依赖对应新增交易。R106 是预期的空财报 OCR 校验提示，不进行真实识别。\n');
+fs.writeFileSync(path.join(run,'delivery-manifest.json'),JSON.stringify({generatedAt:new Date().toISOString(),unconsumed:true,files,parameters:path.join(active,'data-refresh.json'),rawSource:'Rnn-recording.json',note:'最终活动报文仅刷新一次性测试参数；已验证行为与源步骤保持一致。此未消费批次不计入验收运行次数。'},null,2));
+console.log(JSON.stringify({published:files.length,unconsumed:true}));

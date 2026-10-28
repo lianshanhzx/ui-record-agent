@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-09-24T01:23:42.144Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/任务事项-待办任务",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 31481,
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "W02-待办任务-主键搜索跟踪转交",
+      "transaction": "待办任务-业务主键搜索+流程跟踪+树过滤+转交",
+      "pageId": "wfPendTask",
+      "status": "pass",
+      "startedAt": 1790212991040,
+      "durationMs": 31035,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "待办任务",
+          "action": "",
+          "ms": 5774,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/portal/wfPendTask",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_01_待办任务.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "搜索-业务主键",
+          "action": "input",
+          "ms": 1049,
+          "status": "ok",
+          "detail": "输入「搜索-业务主键」= PJ20260921016027",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_02_搜索-业务主键.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "搜索-查询",
+          "action": "click",
+          "ms": 2607,
+          "status": "ok",
+          "detail": "点击「搜索-查询」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_03_搜索-查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "行1-流程跟踪",
+          "action": "click",
+          "ms": 2613,
+          "status": "ok",
+          "detail": "点击「行1-流程跟踪」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_04_行1-流程跟踪.png"
+        },
+        {
+          "id": "5",
+          "type": "popup",
+          "name": "审批历史弹窗",
+          "action": "",
+          "ms": 367,
+          "status": "ok",
+          "detail": "弹窗可见：审批历史弹窗",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_05_审批历史弹窗.png"
+        },
+        {
+          "id": "6",
+          "type": "ele",
+          "name": "审批历史-关闭",
+          "action": "click",
+          "ms": 2602,
+          "status": "ok",
+          "detail": "点击「审批历史-关闭」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_06_审批历史-关闭.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "搜索-重置",
+          "action": "click",
+          "ms": 2599,
+          "status": "ok",
+          "detail": "点击「搜索-重置」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_07_搜索-重置.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "搜索-查询还原全量",
+          "action": "click",
+          "ms": 2604,
+          "status": "ok",
+          "detail": "点击「搜索-查询还原全量」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_08_搜索-查询还原全量.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "树-额度管理",
+          "action": "click",
+          "ms": 2612,
+          "status": "ok",
+          "detail": "点击「树-额度管理」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_09_树-额度管理.png"
+        },
+        {
+          "id": "10",
+          "type": "ele",
+          "name": "树-额度冻结",
+          "action": "click",
+          "ms": 2609,
+          "status": "ok",
+          "detail": "点击「树-额度冻结」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_10_树-额度冻结.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "行1-转交",
+          "action": "click",
+          "ms": 2612,
+          "status": "ok",
+          "detail": "点击「行1-转交」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_11_行1-转交.png"
+        },
+        {
+          "id": "12",
+          "type": "popup",
+          "name": "选择用户弹窗",
+          "action": "",
+          "ms": 371,
+          "status": "ok",
+          "detail": "弹窗可见：选择用户弹窗",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_12_选择用户弹窗.png"
+        },
+        {
+          "id": "13",
+          "type": "ele",
+          "name": "选择用户-取消",
+          "action": "click",
+          "ms": 2613,
+          "status": "ok",
+          "detail": "点击「选择用户-取消」",
+          "screenshot": "W02-待办任务-主键搜索跟踪转交_13_选择用户-取消.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

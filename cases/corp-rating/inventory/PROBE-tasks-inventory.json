@@ -1,0 +1,53 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/portal/wfPendTask",
+  "fields": [
+    {
+      "label": "业务主键",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    },
+    {
+      "label": "任务创建时间",
+      "controls": [
+        {
+          "type": "INPUT",
+          "disabled": false,
+          "readOnly": false,
+          "value": ""
+        }
+      ],
+      "options": []
+    }
+  ],
+  "components": [],
+  "buttons": [
+    {
+      "label": "批量操作",
+      "disabled": false
+    },
+    {
+      "label": "查询",
+      "disabled": false
+    },
+    {
+      "label": "重置",
+      "disabled": false
+    },
+    {
+      "label": "",
+      "disabled": true
+    },
+    {
+      "label": "",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

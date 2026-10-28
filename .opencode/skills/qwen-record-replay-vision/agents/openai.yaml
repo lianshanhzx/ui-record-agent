@@ -1,0 +1,3 @@
+interface:
+  display_name: "Qwen 录制回放读图"
+  short_description: "录制与回放需要查看截图、界面原型和失败图片时，统一调用配置中的 Qwen3.8-27B"

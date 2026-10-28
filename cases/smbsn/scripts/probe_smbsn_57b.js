@@ -1,0 +1,56 @@
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const CUST_NO = '260924144929974126';
+const BASE = 'http://test.creditv5p2.tansun.com.cn';
+const LIST_ROUTE = '/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const auth = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', '..', 'auth.json'), 'utf8'));
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ storageState: auth, viewport: { width: 1440, height: 900 } });
+  const page = await ctx.newPage();
+  const apis = [];
+  page.on('response', async (r) => {
+    const u = r.url();
+    if (r.request().method() !== 'POST' || !/tansun/i.test(u)) return;
+    let body = ''; try { body = (r.request().postData() || '').slice(0, 300); } catch {}
+    apis.push('POST ' + u.split('/').filter(Boolean).slice(-2).join('/') + ' body=' + body);
+  });
+  await page.goto(BASE + LIST_ROUTE, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.waitForSelector('.el-table__body-wrapper .el-table__body tbody tr', { timeout: 90000 });
+  await sleep(2000);
+  await page.locator('.el-form-item').filter({ has: page.locator('label', { hasText: '客户编号' }) }).first().locator('input').first().fill(CUST_NO);
+  const q = page.waitForResponse((r) => r.url().includes('findCustTradeList') && r.request().method() === 'POST', { timeout: 30000 });
+  await page.getByRole('button').filter({ hasText: /查\s*询/ }).first().click();
+  await q; await sleep(1500);
+  await page.locator('.el-table__body-wrapper .el-table__body tbody tr').first().locator('input[type="radio"]').first().evaluate((el) => el.click());
+  await sleep(800);
+  await page.getByRole('button').filter({ hasText: /修\s*改/ }).first().click();
+  await page.waitForURL(/mdfSmbsnCst/, { timeout: 30000 });
+  await page.waitForSelector('.el-form-item:visible', { timeout: 60000 });
+  await sleep(4000);
+  await page.locator('.el-tabs__item').filter({ hasText: /关联人/ }).first().click();
+  await sleep(3000);
+  const pane = page.locator('.el-tab-pane:visible').last();
+  await pane.getByRole('button').filter({ hasText: /新\s*增/ }).first().click();
+  await sleep(2500);
+  const dlg = page.locator('.el-dialog:visible').last();
+  const fi = (lb) => dlg.locator('.el-form-item').filter({ hasText: lb }).first();
+  await fi('关联客户名称').locator('button').filter({ hasText: /引\s*入/ }).first().click();
+  await sleep(3000);
+  const apisBefore = apis.length;
+  const imp = page.locator('.el-dialog:visible').last();
+  const anyQ = page.waitForResponse((r) => r.request().method() === 'POST' && /tansun/i.test(r.url()) && apis.length === apisBefore, { timeout: 30000 }).catch(() => null);
+  await imp.getByRole('button').filter({ hasText: /查\s*询/ }).first().click();
+  await anyQ;
+  await sleep(4000);
+  console.log('P57B_APIS_AFTER_IMPORT=' + JSON.stringify(apis.slice(apisBefore), null, 1));
+  const st = await imp.evaluate((el) => {
+    const rows = el.querySelectorAll('.el-table__body-wrapper .el-table__body tbody tr');
+    const empty = (el.querySelector('.el-table__empty-block') || {}).innerText || '';
+    return { rowCount: rows.length, empty, firstRow: rows[0] ? Array.from(rows[0].querySelectorAll('td .cell')).map((c) => (c.innerText || '').trim()).join('|') : '' };
+  });
+  console.log('P57B_IMP_TABLE=' + JSON.stringify(st));
+  await browser.close();
+})().catch((e) => { console.error('P57B_ERROR', e.message); process.exit(1); });

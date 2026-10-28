@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-09-30T06:43:03.161Z",
+  "profile": "天阳信贷一站式门户（test.creditv5p2）- 探索/客户管理-同业客户管理",
+  "base": "http://test.creditv5p2.tansun.com.cn",
+  "durationMs": 36984,
+  "summary": {
+    "total": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "file": "S11-related-party-delete",
+      "transaction": "S11 同业客户管理-关联人信息删除(列表查询→修改→关联人信息tab→选行→删除→确认OK→行-1)",
+      "pageId": "TBD",
+      "status": "pass",
+      "startedAt": 1790750546785,
+      "durationMs": 36293,
+      "steps": [
+        {
+          "id": "1",
+          "type": "page",
+          "name": "同业客户管理列表 - 天阳宏业",
+          "action": "click",
+          "ms": 18919,
+          "status": "ok",
+          "detail": "进入根页面 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMntSubDmn/smbsnCstMgt/smbsnCstMgtPg",
+          "screenshot": "S11-related-party-delete_01_同业客户管理列表 - 天阳宏业.png"
+        },
+        {
+          "id": "2",
+          "type": "ele",
+          "name": "客户编号",
+          "action": "input",
+          "ms": 1321,
+          "status": "ok",
+          "detail": "输入「客户编号」= 260924144929974126",
+          "screenshot": "S11-related-party-delete_02_客户编号.png"
+        },
+        {
+          "id": "3",
+          "type": "ele",
+          "name": "查询",
+          "action": "click",
+          "ms": 2605,
+          "status": "ok",
+          "detail": "点击「查询」",
+          "screenshot": "S11-related-party-delete_03_查询.png"
+        },
+        {
+          "id": "4",
+          "type": "ele",
+          "name": "首行记录单选",
+          "action": "click",
+          "ms": 1069,
+          "status": "ok",
+          "detail": "选中行「首行记录单选」",
+          "screenshot": "S11-related-party-delete_04_首行记录单选.png"
+        },
+        {
+          "id": "5",
+          "type": "ele",
+          "name": "修改",
+          "action": "click",
+          "ms": 2603,
+          "status": "ok",
+          "detail": "点击「修改」",
+          "screenshot": "S11-related-party-delete_05_修改.png"
+        },
+        {
+          "id": "6",
+          "type": "page",
+          "name": "同业客户详情-修改客户场景-关联人信息",
+          "action": "click",
+          "ms": 568,
+          "status": "ok",
+          "detail": "进入页面 同业客户详情-修改客户场景-关联人信息 → http://test.creditv5p2.tansun.com.cn/#/cstMgt/csinfMnt/smbsnCstMgt/mdfSmbsnCst/hostCstmgrMdfSmbsnCsinf/FS00001388HostCstmgrMdfSmbsnCsinf?newtag=false&needupdate=yes&newTag=true&id=2103013941302743040&cstNo=260924144929974126&cstShrtnm=AT_S28%E6%9A%82%E5%AD%98&cstCgy=80&rgstRgdt=2025-06-18%2000%3A00%3A00&wbtrgonAdivcd=451400000000000&smbsnCstTp=802&instCgy=F01&orgFormId=2&avrgAstTamt=5&entpSzTp=01&hqCstNo=&survyInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&survyInstAdr=%E6%94%B9%E6%94%B9&instTelno=%E6%94%B9%E6%94%B9&fncLcnsNo=B0001H450000001234%E6%94%B9%E6%94%B9%E6%94%B9%E6%94%B9&landTaxRgsctfNo=4501001234567894&natTaxRgsctfNo=4501001234567894&bsnlcnsNo=91450100F17X0KGD0C&rgstCaptlfundAmt=1000000000&rgstAdr=%E5%B9%BF%E8%A5%BF%E5%A3%AE%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%B4%87%E5%B7%A6%E5%B8%82%E5%87%AD%E7%A5%A5%E5%B8%82%E6%9F%90%E6%9F%90%E5%87%AD%E7%A5%A5%E7%BB%BC%E5%90%88%E4%BF%9D%E7%A8%8E%E5%8C%BAAT%E5%BC%95%E5%85%A5%E6%B5%8B%E8%AF%95%E8%B7%AF1%E5%8F%B7&oprtScop=AT%E5%90%8C%E4%B8%9A%E6%B5%8B%E8%AF%95%E7%BB%8F%E8%90%A5%E8%8C%83%E5%9B%B4%EF%BC%9A%E5%90%B8%E6%94%B6%E5%AD%98%E6%AC%BE%E3%80%81%E5%8F%91%E6%94%BE%E8%B4%B7%E6%AC%BE%E3%80%81%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E6%94%B9%E6%94%B9%E6%94%B9%E6%94%B9&primOprScopCmnt=AT%E5%90%8C%E4%B8%9A%E6%B5%8B%E8%AF%95%E4%B8%BB%E8%90%A5%EF%BC%9A%E5%AF%B9%E5%85%AC%E5%AD%98%E6%AC%BE%E3%80%81%E5%AF%B9%E5%85%AC%E8%B4%B7%E6%AC%BE%E3%80%81%E5%90%8C%E4%B8%9A%E4%B8%9A%E5%8A%A1%E6%94%B9%E6%94%B9%E6%94%B9%E6%94%B9&rgsRgstExpdt=2039-12-31%2000%3A00%3A00&fdDt=2000-08-22%2000%3A00%3A00&instUscc=914501007GQUCDYNM0&cncredCd=1098810100012350&cncredCdSt=2&cncredCdAnulinsptnExdt=2032-12-31%2000%3A00%3A00&cstNm=AT_SMB_20260924144917&crdtTp=20111&crdtNo=914501005QBUAEFCJ8&cstSt=6&bnkBrno=&createUser=701994&createInst=9881&createTime=2026-09-30%2014%3A41%3A20&updateUser=701994&updateInst=9881&updateTime=2026-09-30%2014%3A41%3A20&hdlUser=701994&hdlInst=9881&hdlTime=2026-09-30%2014%3A41%3A20&delInd=0&tenantId=9881&usrNm=%E9%BB%84%E6%9F%90%E6%9F%90&rgsInstNo=9881&rgsInstNm=9881%2a%2a%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&usrNo=701994&tsRowIndex=0&cstTpcd=05&tblBlId=260924144929974126&viewType=edit&avyEcd=UML00005754&fcnScnEcd=FS00001388&v=1790750572487",
+          "screenshot": "S11-related-party-delete_06_同业客户详情-修改客户场景-关联人信息.png"
+        },
+        {
+          "id": "7",
+          "type": "ele",
+          "name": "关联人信息tab",
+          "action": "click",
+          "ms": 2608,
+          "status": "ok",
+          "detail": "点击「关联人信息tab」",
+          "screenshot": "S11-related-party-delete_07_关联人信息tab.png"
+        },
+        {
+          "id": "8",
+          "type": "ele",
+          "name": "关联人表首行单选",
+          "action": "click",
+          "ms": 1067,
+          "status": "ok",
+          "detail": "选中行「关联人表首行单选」",
+          "screenshot": "S11-related-party-delete_08_关联人表首行单选.png"
+        },
+        {
+          "id": "9",
+          "type": "ele",
+          "name": "删除",
+          "action": "click",
+          "ms": 2603,
+          "status": "ok",
+          "detail": "点击「删除」",
+          "screenshot": "S11-related-party-delete_09_删除.png"
+        },
+        {
+          "id": "10",
+          "type": "popup",
+          "name": "删除确认",
+          "action": "click",
+          "ms": 347,
+          "status": "ok",
+          "detail": "弹窗可见：删除确认",
+          "screenshot": "S11-related-party-delete_10_删除确认.png"
+        },
+        {
+          "id": "11",
+          "type": "ele",
+          "name": "OK",
+          "action": "click",
+          "ms": 2581,
+          "status": "ok",
+          "detail": "点击「OK」",
+          "screenshot": "S11-related-party-delete_11_OK.png"
+        }
+      ],
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "platform":"tansun-credit",
+ "name":"天阳信贷-对公客户评级查询",
+ "baseUrl":"http://test.creditv5p2.tansun.com.cn",
+ "homeRoute":"/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+ "viewport":{"width":1440,"height":900},
+ "login":{"username":"701994","password":"1","usernameSelector":"input[name='username']","passwordSelector":"input[name='password']","loginButtonText":"登录","loggedInUrlShouldNotContain":"/login"},
+ "pages":[{"match":["对公客户评级"],"urlPattern":"cpctRtgAplyMgtPg","route":"/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg","readySelector":"//button[normalize-space()='评级申请']"}],
+ "popups":[{"match":["客户选择"],"selector":".el-dialog[aria-label='客户选择']"}],
+ "popupFallbackSelector":".el-dialog[aria-label='客户选择']",
+ "backButtonText":"返回",
+ "tableRowSelector":".el-table__body-wrapper .el-table__body tbody tr",
+ "tableReadySelector":"//button[normalize-space()='评级申请']",
+ "selectDropdownItemSelector":".el-select-dropdown__item",
+ "errorToastSelector":".el-message--error, .el-notification--error",
+ "settleAfterClickMs":700,
+ "settleAfterInputMs":350
+}

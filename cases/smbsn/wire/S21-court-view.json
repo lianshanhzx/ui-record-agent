@@ -1,0 +1,205 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcId": "TBD",
+      "pageId": "TBD",
+      "transcationName": "S21 同业客户管理-法院信息查看(选行→法院信息→法院信息类型筛选查询→重置→取消)",
+      "systemId": "TBD",
+      "projectId": "TBD",
+      "transcationType": "web",
+      "testFrame": "playwright",
+      "transcationProperties": [
+        {
+          "propertiesName": "同业客户管理列表 - 天阳宏业",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "page",
+          "propertiesPID": "0",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "1"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户编号']]//input",
+          "eventTypeName": "输入",
+          "eventTypeValue": "input",
+          "transcationType": "playwright",
+          "objectValue": "260924144929974126",
+          "propertiesName": "客户编号",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "客户编号",
+          "rect": {
+            "x1": 0.0194,
+            "y1": 0.1958,
+            "x2": 0.2472,
+            "y2": 0.2313
+          },
+          "propertiesID": "2"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.744,
+            "y1": 0.236,
+            "x2": 0.806,
+            "y2": 0.271
+          },
+          "propertiesID": "3"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-table__body')]//label[contains(@class,'el-radio')]",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "首行记录单选",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "首行记录单选",
+          "rect": {
+            "x1": 0.022,
+            "y1": 0.396,
+            "x2": 0.031,
+            "y2": 0.414
+          },
+          "propertiesID": "4"
+        },
+        {
+          "options": "",
+          "elementType": "//button[normalize-space()='法院信息']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "法院信息",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "1",
+          "realLabel": "法院信息",
+          "rect": {
+            "x1": 0.3056,
+            "y1": 0.2536,
+            "x2": 0.3861,
+            "y2": 0.2891
+          },
+          "propertiesID": "5"
+        },
+        {
+          "propertiesName": "法院信息",
+          "eventTypeValue": "click",
+          "eventTypeName": "点击",
+          "elementType": "",
+          "mothed": "",
+          "options": "",
+          "objectValue": "",
+          "transcationType": "playwright",
+          "type": "popup",
+          "propertiesPID": "5",
+          "realLabel": "",
+          "rect": "",
+          "propertiesID": "6"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='法院信息类型']]//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='法院信息类型']]//div[contains(@class,'el-select')]",
+          "eventTypeName": "下拉选择",
+          "eventTypeValue": "select:click",
+          "transcationType": "playwright",
+          "objectValue": "涉诉",
+          "propertiesName": "法院信息类型",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "法院信息类型",
+          "rect": {
+            "x1": 0.2583,
+            "y1": 0.23,
+            "x2": 0.3653,
+            "y2": 0.2656
+          },
+          "propertiesID": "7"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='法院信息类型']]//button[normalize-space()='查询']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "查询",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "查询",
+          "rect": {
+            "x1": 0.4917,
+            "y1": 0.23,
+            "x2": 0.5528,
+            "y2": 0.2656
+          },
+          "propertiesID": "8"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='法院信息类型']]//button[normalize-space()='重置']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "重置",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "重置",
+          "rect": {
+            "x1": 0.5625,
+            "y1": 0.23,
+            "x2": 0.6236,
+            "y2": 0.2656
+          },
+          "propertiesID": "9"
+        },
+        {
+          "options": "",
+          "elementType": "//div[contains(@class,'el-dialog')][.//label[normalize-space()='法院信息类型']]//button[normalize-space()='取消']",
+          "eventTypeName": "点击",
+          "eventTypeValue": "click",
+          "transcationType": "playwright",
+          "objectValue": "",
+          "propertiesName": "取消",
+          "mothed": "By.XPATH",
+          "type": "ele",
+          "propertiesPID": "6",
+          "realLabel": "取消",
+          "rect": {
+            "x1": 0.6792,
+            "y1": 0.8567,
+            "x2": 0.7264,
+            "y2": 0.8922
+          },
+          "propertiesID": "10"
+        }
+      ]
+    }
+  ]
+}

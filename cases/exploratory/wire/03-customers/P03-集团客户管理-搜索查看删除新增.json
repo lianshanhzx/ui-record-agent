@@ -1,0 +1,320 @@
+{
+  "transcationEventTypeList": [
+    {
+      "transcationName": "P03-集团客户管理-搜索查看删除新增",
+      "pageId": "p03grp",
+      "transcationProperties": [
+        {
+          "propertiesID": "1",
+          "propertiesPID": "0",
+          "type": "page",
+          "propertiesName": "集团客户管理-列表",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "2",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "集团名称输入框",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='集团名称']]//input",
+          "objectValue": "数字集团"
+        },
+        {
+          "propertiesID": "3",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "4",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "重置按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='重置']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "5",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-重置后恢复列表",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "6",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "更多查询展开按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'is-plain')][.//i[contains(@class,'el-icon-caret-bottom')]]",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "7",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "成员客户名称输入框",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='成员客户名称']]//input",
+          "objectValue": "机器视觉科技有限公司"
+        },
+        {
+          "propertiesID": "8",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-按成员客户名称",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "9",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "重置按钮-清成员条件",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='重置']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "10",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-恢复列表",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "11",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "管户机构树选择-打开",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='管户机构']]//input[@placeholder='请选择']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "12",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "管户机构树-选择机构节点",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'tree-popover')]//span[contains(@class,'el-tooltip') and contains(@class,'item')]",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "13",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-按管户机构",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "14",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "重置按钮-清机构条件",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='重置']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "15",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-恢复列表2",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "16",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "集团名称输入框-定位数字集团",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='集团名称']]//input",
+          "objectValue": "数字集团"
+        },
+        {
+          "propertiesID": "17",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查询按钮-定位数字集团",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[contains(@class,'disableBtn')][normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "18",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "表格行单选-数字集团",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-table__fixed')]//label[contains(@class,'el-radio')]",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "19",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "查看按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='查看']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "20",
+          "propertiesPID": "19",
+          "type": "page",
+          "propertiesName": "集团客户详情-查看模式",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "21",
+          "propertiesPID": "20",
+          "type": "ele",
+          "propertiesName": "客户名称输入框-成员搜索",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "input",
+          "elementType": "//div[contains(@class,'el-form-item')][.//label[normalize-space(.)='客户名称']]//input",
+          "objectValue": "机器视觉科技有限公司"
+        },
+        {
+          "propertiesID": "22",
+          "propertiesPID": "20",
+          "type": "ele",
+          "propertiesName": "成员信息查询按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='查询']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "23",
+          "propertiesPID": "20",
+          "type": "ele",
+          "propertiesName": "成员表行单选-机器视觉科技",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-table__fixed')]//label[contains(@class,'el-radio')]",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "24",
+          "propertiesPID": "20",
+          "type": "ele",
+          "propertiesName": "查看关系按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='查看关系']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "25",
+          "propertiesPID": "24",
+          "type": "popup",
+          "propertiesName": "查看关系-弹窗",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "26",
+          "propertiesPID": "25",
+          "type": "ele",
+          "propertiesName": "查看关系-关闭",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-dialog')][.//div[contains(@class,'dialog-header')][contains(.,'关联关系')]]//button[contains(@class,'el-dialog__headerbtn')]",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "27",
+          "propertiesPID": "20",
+          "type": "ele",
+          "propertiesName": "返回按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='返回']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "28",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "删除按钮（无确认弹窗-页面缺陷）",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='删除']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "29",
+          "propertiesPID": "1",
+          "type": "ele",
+          "propertiesName": "新增按钮",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//button[normalize-space()='新增']",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "30",
+          "propertiesPID": "29",
+          "type": "popup",
+          "propertiesName": "新增集团-抽屉",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "",
+          "objectValue": ""
+        },
+        {
+          "propertiesID": "31",
+          "propertiesPID": "30",
+          "type": "ele",
+          "propertiesName": "新增集团-取消",
+          "eventType": "By.XPATH",
+          "eventTypeValue": "click",
+          "elementType": "//div[contains(@class,'el-drawer')]//button[normalize-space()='取消']",
+          "objectValue": ""
+        }
+      ]
+    }
+  ]
+}

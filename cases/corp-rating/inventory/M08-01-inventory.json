@@ -1,0 +1,56 @@
+{
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/newCpctRtg/cstmgrIttCpctRtg/FS00005854HostCstmgrIttCpctRtgAply?newtag=false&needupdate=yes&newTag=true&viewType=modify&bsnPk=PJ20261019020143&bsnNo=PJ20261019020143&cstNo=261016124912721295&avyEcd=UML00130183PDCP&fcnScnEcd=FS00005854&flowCode=wf_rating_003&v=1792379337149",
+  "fields": [],
+  "components": [],
+  "buttons": [
+    {
+      "label": "搜索",
+      "disabled": false
+    },
+    {
+      "label": "上传",
+      "disabled": false
+    },
+    {
+      "label": "电子验印",
+      "disabled": false
+    },
+    {
+      "label": "扫描仪",
+      "disabled": false
+    },
+    {
+      "label": "高拍仪",
+      "disabled": false
+    },
+    {
+      "label": "批量下载",
+      "disabled": false
+    },
+    {
+      "label": "装订成册",
+      "disabled": false
+    },
+    {
+      "label": "图册查看",
+      "disabled": false
+    },
+    {
+      "label": "搜索",
+      "disabled": false
+    },
+    {
+      "label": "上一步",
+      "disabled": false
+    },
+    {
+      "label": "下一步",
+      "disabled": false
+    },
+    {
+      "label": "返回",
+      "disabled": false
+    }
+  ],
+  "notifications": []
+}

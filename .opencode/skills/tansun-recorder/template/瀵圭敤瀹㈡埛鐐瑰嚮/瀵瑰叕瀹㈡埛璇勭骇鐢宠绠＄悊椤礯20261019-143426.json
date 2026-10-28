@@ -1,0 +1,695 @@
+{
+  "id": "bc0048f1-2ebb-4a71-a193-e45933b5fde2",
+  "name": "collect",
+  "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg?needupdate=yes&part=rtgMgtcpctRtgcpctRtgAplyMgtPg",
+  "sessionId": "4f04f7d7-d9c9-4004-9b92-6e3a4b2f42b0",
+  "extensionVersion": "1.1",
+  "mode": "collect",
+  "result": "fail",
+  "startedAt": 1792391584235,
+  "endedAt": 1792391666675,
+  "targetTab": {
+    "tabId": 18600609,
+    "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg?needupdate=yes&part=rtgMgtcpctRtgcpctRtgAplyMgtPg",
+    "title": "对公客户评级 - 天阳宏业"
+  },
+  "transcationProperties": [
+    {
+      "propertiesID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "propertiesPID": null,
+      "type": "page",
+      "propertiesName": "评级管理-对公客户评级-对公客户评级",
+      "key": "__page__:http%3A%2F%2Ftest.creditv5p2.tansun.com.cn%2F%23%2FrtgMgt%2FcpctRtg%2FcpctRtgAplyMgtPg",
+      "url": "http://test.creditv5p2.tansun.com.cn/#/rtgMgt/cpctRtg/cpctRtgAplyMgtPg?needupdate=yes&part=rtgMgtcpctRtgcpctRtgAplyMgtPg",
+      "tianyuanPageConfig": {
+        "活动名称": "选择同业客户(ZJJK00109101),选择集团客户(ZJJK00109101),客户经理发起对公客户评级(ZJJK00109175),选择对公客户(ZJJK00109101)",
+        "页面名称": "对公客户评级申请管理页",
+        "页面路径": "/rtgMgt/cpctRtg/cpctRtgAplyMgtPg",
+        "组件编号": "ZJJK00070599"
+      },
+      "pagetagName": "对公客户评级"
+    },
+    {
+      "clientId": "a2a3ce72-0d09-46b3-b31b-d38e78954e49",
+      "timestamp": 1792391592626,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='业务编号']/parent::*//input[@placeholder='请输入']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "业务编号",
+      "realLabel": "业务编号",
+      "objectValue": "26",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请输入",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 1,
+      "networkCalls": [],
+      "propertiesID": "93f81dd9-6657-4c8d-b609-ea4f1aba80ae",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "d303e0e0-6f54-4c1d-9de3-8a0eb769c306",
+      "timestamp": 1792391592748,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='选择客户']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "客户名称_选择客户",
+      "realLabel": "客户名称",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-77234d66": "",
+        "type": "button",
+        "class": "el-button el-button--primary is-plain"
+      },
+      "frameId": 0,
+      "seq": 2,
+      "networkCalls": [],
+      "propertiesID": "5ac5171e-723e-4589-ad35-a34e12eb3551",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "propertiesID": "9515a81a-ebe4-43c5-beaa-96f28b1a27e5",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "dialog",
+      "propertiesName": "客户选择",
+      "key": "//div[@id='tsscMutilDialog']//div[@aria-label='客户选择']",
+      "url": ""
+    },
+    {
+      "clientId": "89ed448a-6a1f-43da-aab7-5e6b58d02224",
+      "timestamp": 1792391601053,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='客户名称']/parent::*//input[@placeholder='请输入']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "客户名称",
+      "realLabel": "客户名称",
+      "objectValue": "测试",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请输入",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 3,
+      "networkCalls": [
+        {
+          "requestId": "6131",
+          "timestamp": 1792391601291.198,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-cst/custCorporat/queryCustMagnifierList",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "dfe2d6c3-7a6f-4025-8ae4-a69a3e9bcaac",
+      "propertiesPID": "9515a81a-ebe4-43c5-beaa-96f28b1a27e5",
+      "type": "ele"
+    },
+    {
+      "clientId": "e34938b4-fb1d-4b7c-8770-a132c33715aa",
+      "timestamp": 1792391601195,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//div[@aria-label='客户选择']//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 4,
+      "networkCalls": [
+        {
+          "requestId": "6131",
+          "timestamp": 1792391601291.198,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-cst/custCorporat/queryCustMagnifierList",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "7c821f49-c2c6-4e09-bd4e-8f0baa20d00a",
+      "propertiesPID": "9515a81a-ebe4-43c5-beaa-96f28b1a27e5",
+      "type": "ele"
+    },
+    {
+      "clientId": "3b5a3d45-d536-4900-bb6f-220ca19634c3",
+      "timestamp": 1792391603926,
+      "eventTypeValue": "radio",
+      "eventTypeName": "单选",
+      "xpath": "//div[contains(concat(' ', normalize-space(@class), ' '), ' el-table__fixed-body-wrapper ')]/table/tbody/tr[contains(concat(' ', normalize-space(@class), ' '), ' el-table__row ')][3]/td[contains(concat(' ', normalize-space(@class), ' '), ' el-table_34_column_275 ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' cell ')]/label[contains(concat(' ', normalize-space(@class), ' '), ' el-radio ')]/span[1]/input",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "单选",
+      "realLabel": "",
+      "objectValue": true,
+      "options": [],
+      "attributes": {
+        "type": "radio",
+        "class": "el-radio__original",
+        "value": "[object Object]"
+      },
+      "frameId": 0,
+      "seq": 5,
+      "networkCalls": [],
+      "propertiesID": "29175b58-561c-4a81-a19d-2bb7a873ace1",
+      "propertiesPID": "9515a81a-ebe4-43c5-beaa-96f28b1a27e5",
+      "type": "ele"
+    },
+    {
+      "clientId": "0986ffca-bf35-4000-9f34-ba8570e60a0e",
+      "timestamp": 1792391605544,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='确认']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "确认",
+      "realLabel": "确认",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--default el-button--small"
+      },
+      "frameId": 0,
+      "seq": 6,
+      "networkCalls": [],
+      "propertiesID": "fb465cae-aa30-45e2-b6fa-794b79efca04",
+      "propertiesPID": "9515a81a-ebe4-43c5-beaa-96f28b1a27e5",
+      "type": "ele"
+    },
+    {
+      "clientId": "1809fabb-4dc1-4ab8-86d0-7ace35ac6697",
+      "timestamp": 1792391608351,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//div[contains(concat(' ', normalize-space(@class), ' '), ' oper-btn-group ')]/span[contains(concat(' ', normalize-space(@class), ' '), ' tsscBtn ')][3]/label/button[contains(concat(' ', normalize-space(@class), ' '), ' disableBtn ')]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "",
+      "realLabel": "",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary is-plain"
+      },
+      "frameId": 0,
+      "seq": 7,
+      "networkCalls": [],
+      "propertiesID": "d3e60817-2452-4fd4-ada2-a316d5bb653d",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "ebfa9656-6638-4df7-a610-b0ad1bcbf390",
+      "timestamp": 1792391609192,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='审批状态']/parent::*//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "审批状态",
+      "realLabel": "审批状态",
+      "objectValue": "待发起",
+      "options": [
+        "待发起",
+        "审批中",
+        "已撤销",
+        "退回",
+        "通过",
+        "否决"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 8,
+      "networkCalls": [],
+      "propertiesID": "6ce2872e-dc1b-4525-a07f-7c3669e45384",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "9a4f336f-80d4-4a0e-a38f-743c9d5bbca8",
+      "timestamp": 1792391610547,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='评级发生类型']/parent::*//label",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "label",
+      "propertiesName": "评级发生类型",
+      "realLabel": "评级发生类型",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "class": "el-form-item__label"
+      },
+      "frameId": 0,
+      "seq": 9,
+      "networkCalls": [],
+      "propertiesID": "68d803f3-cceb-4eae-8d3f-8afdebd8f0a3",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "e08cff03-5181-4bd0-abd1-9f4c0f58dab8",
+      "timestamp": 1792391611204,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='评级发生类型']/parent::*//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "评级发生类型",
+      "realLabel": "评级发生类型",
+      "objectValue": "新增",
+      "options": [
+        "新增",
+        "重新评级",
+        "自动评级"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 10,
+      "networkCalls": [],
+      "propertiesID": "efb28400-c907-413d-b2b1-7c624db4139f",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "ec21d49d-33d6-476e-a3fa-58dc53c41c38",
+      "timestamp": 1792391612577,
+      "eventTypeValue": "date",
+      "eventTypeName": "日期选择",
+      "xpath": "//div[8]/div[contains(concat(' ', normalize-space(@class), ' '), ' tssc-form-item ')]/div/div[contains(concat(' ', normalize-space(@class), ' '), ' tsscdatepicker ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' el-date-editor ')]/input[contains(concat(' ', normalize-space(@class), ' '), ' el-range-input ')][1]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "申请日期",
+      "realLabel": "申请日期",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "placeholder": "请选择",
+        "name": "",
+        "class": "el-range-input"
+      },
+      "frameId": 0,
+      "seq": 11,
+      "networkCalls": [],
+      "propertiesID": "21754228-7d6c-4807-8d66-c5d2ccfa2b9d",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "16450346-8585-49c6-8ed1-eb9be8a8b844",
+      "timestamp": 1792391616608,
+      "eventTypeValue": "date",
+      "eventTypeName": "日期选择",
+      "xpath": "//div[8]/div[contains(concat(' ', normalize-space(@class), ' '), ' tssc-form-item ')]/div/div[contains(concat(' ', normalize-space(@class), ' '), ' tsscdatepicker ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' el-date-editor ')]/input[contains(concat(' ', normalize-space(@class), ' '), ' el-range-input ')][1]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "申请日期",
+      "realLabel": "申请日期",
+      "objectValue": "2026-10-01",
+      "options": [],
+      "attributes": {
+        "placeholder": "请选择",
+        "name": "",
+        "class": "el-range-input"
+      },
+      "frameId": 0,
+      "seq": 12,
+      "networkCalls": [],
+      "propertiesID": "9297a6fd-a7d9-42aa-aaa3-907254e8b8f0",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "f50906c1-1944-4c81-9053-e3d2ac36d341",
+      "timestamp": 1792391622670,
+      "eventTypeValue": "date",
+      "eventTypeName": "日期选择",
+      "xpath": "//div[9]/div[contains(concat(' ', normalize-space(@class), ' '), ' tssc-form-item ')]/div/div[contains(concat(' ', normalize-space(@class), ' '), ' tsscdatepicker ')]/div[contains(concat(' ', normalize-space(@class), ' '), ' el-date-editor ')]/input[contains(concat(' ', normalize-space(@class), ' '), ' el-range-input ')][1]",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "评级到期日期",
+      "realLabel": "评级到期日期",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "placeholder": "请选择",
+        "name": "",
+        "class": "el-range-input"
+      },
+      "frameId": 0,
+      "seq": 13,
+      "networkCalls": [],
+      "propertiesID": "047a574d-2191-4f73-ac45-68fa7d095e2f",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "89a11554-ca1d-4db3-a32f-997a4c8d9ad7",
+      "timestamp": 1792391631511,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 14,
+      "networkCalls": [
+        {
+          "requestId": "6147",
+          "timestamp": 1792391631572.228,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "fa8be16d-d12e-4538-8cc8-0a535545ac66",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "354d9e32-813e-42d0-bb8e-e32358877dcc",
+      "timestamp": 1792391639385,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='重置']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "重置",
+      "realLabel": "重置",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 15,
+      "networkCalls": [],
+      "propertiesID": "0c60da06-00fd-4645-b090-8185f82ad326",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "19ad5e8e-2dd1-40dd-b32f-479a3c856348",
+      "timestamp": 1792391644988,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='业务编号']/parent::*//input[@placeholder='请输入']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "业务编号",
+      "realLabel": "业务编号",
+      "objectValue": "26",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请输入",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 16,
+      "networkCalls": [],
+      "propertiesID": "4ccfafbf-552c-4b08-9d15-3505b9f18206",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "3d30aee4-d654-45b7-8831-4e64e250d61a",
+      "timestamp": 1792391645069,
+      "eventTypeValue": "select",
+      "eventTypeName": "下拉框xpath选择",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='审批状态']/parent::*//input[@placeholder='请选择']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "审批状态",
+      "realLabel": "审批状态",
+      "objectValue": "待发起",
+      "options": [
+        "待发起",
+        "审批中",
+        "已撤销",
+        "退回",
+        "通过",
+        "否决"
+      ],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请选择",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 17,
+      "networkCalls": [],
+      "propertiesID": "a9a48902-05b9-4062-adfe-3022d78e3b7b",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "289d211d-b16e-4067-8e12-06f6f42f8806",
+      "timestamp": 1792391647466,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 18,
+      "networkCalls": [
+        {
+          "requestId": "6157",
+          "timestamp": 1792391647520.958,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "f4b5f16e-9069-47c1-a6dd-f5125f5fe884",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "0af45a8a-dafa-4bdb-a6cf-6622c0977ce5",
+      "timestamp": 1792391650006,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 19,
+      "networkCalls": [
+        {
+          "requestId": "6158",
+          "timestamp": 1792391650078.707,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "82d8e888-c0a5-4d3f-8f87-e4caf9784a48",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "deb16c97-c019-4c9e-87c3-7d060477b87a",
+      "timestamp": 1792391651432,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 20,
+      "networkCalls": [
+        {
+          "requestId": "6159",
+          "timestamp": 1792391651486.887,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "11f00b7b-3a54-41fa-8d18-99102fc7bc5d",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "a7855362-79be-43f7-bb56-018f56f68943",
+      "timestamp": 1792391654922,
+      "eventTypeValue": "input",
+      "eventTypeName": "输入",
+      "xpath": "//label[normalize-space(translate(., '：:*', ''))='业务编号']/parent::*//input[@placeholder='请输入']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "input",
+      "propertiesName": "业务编号",
+      "realLabel": "业务编号",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "type": "text",
+        "placeholder": "请输入",
+        "class": "el-input__inner"
+      },
+      "frameId": 0,
+      "seq": 21,
+      "networkCalls": [
+        {
+          "requestId": "6160",
+          "timestamp": 1792391655141.235,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "f2bd8ad0-8c8b-481b-8a96-79d1325ddb68",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    },
+    {
+      "clientId": "c7ca08d6-2135-481f-af4d-025aae35efc0",
+      "timestamp": 1792391655042,
+      "eventTypeValue": "click",
+      "eventTypeName": "点击",
+      "xpath": "//button[normalize-space(.)='查询']",
+      "mothed": "By.XPATH",
+      "transcationType": "playwright",
+      "tagName": "button",
+      "propertiesName": "查询",
+      "realLabel": "查询",
+      "objectValue": "",
+      "options": [],
+      "attributes": {
+        "data-v-f1484920": "",
+        "type": "button",
+        "class": "el-button disableBtn el-button--primary"
+      },
+      "frameId": 0,
+      "seq": 22,
+      "networkCalls": [
+        {
+          "requestId": "6160",
+          "timestamp": 1792391655141.235,
+          "frameId": 0,
+          "method": "POST",
+          "url": "http://test.creditv5p2.tansun.com.cn/prod-api/tansun-tcp-app-pc/tansun-tcp-rtg/IRtgAplyBsnInfApi/pageBsnInf",
+          "statusCode": 200,
+          "type": "xmlhttprequest",
+          "fromCache": false
+        }
+      ],
+      "propertiesID": "c5ce3a87-82b3-40e9-a83a-988d6712b8ff",
+      "propertiesPID": "6457ae84-a2df-4229-a1c7-04f6b36b079e",
+      "type": "ele"
+    }
+  ]
+}

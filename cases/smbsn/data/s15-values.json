@@ -1,0 +1,10 @@
+{
+  "custNo": "260924144929974126",
+  "keyword": "营业执照",
+  "listNoRect": "{\"x1\":0.0194,\"y1\":0.1958,\"x2\":0.2472,\"y2\":0.2313}",
+  "imgTabRect": "{\"x1\":0.2181,\"y1\":0.1689,\"x2\":0.2847,\"y2\":0.2222}",
+  "searchInput": "//div[contains(@class,\"leftContent\")]//input[@placeholder=\"请输入\"]",
+  "searchInputRect": "{\"x1\":0.0111,\"y1\":0.285,\"x2\":0.1938,\"y2\":0.3206}",
+  "fullTreeCount": 15,
+  "filteredTreeCount": 2
+}

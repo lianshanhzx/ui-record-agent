@@ -1,0 +1,20 @@
+{
+  "name": "ui-agent1-page-scanner-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "page-scanner.js 的测试与验证工具。运行时脚本不在本目录，位于 ../.opencode/skills/playwright-ui-recorder/scripts/page-scanner.js（单真源，按路径引用）",
+  "scripts": {
+    "test": "node test/selftest.js",
+    "test:report": "node test/selftest.js --report ../../work/_selftest.txt",
+    "verify": "node bin/scan-verify.js",
+    "probe": "node bin/probe-template.js"
+  },
+  "bin": {
+    "scan-verify": "bin/scan-verify.js",
+    "scan-probe": "bin/probe-template.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
