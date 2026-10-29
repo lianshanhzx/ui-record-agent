@@ -68,6 +68,9 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 ## 已知依赖与限制
 
 - `tests/` 中的 case 通过 `replay-skill/replay.mjs` 执行，依赖 **本地录制产物**（`work/`、`partner-wire/`）作为输入，仓库不含这些数据，直接 `npx playwright test` 需要先自备对应批次。
+- **源码与批次分离**：`tests/corp-rating` 引用的流程代码在 `cases/corp-rating/scripts/flows/`（入库），批次数据仍在 `work/corp-rating-full-20261019/`（不入库）；删 `work/` 只影响可执行性，不再丢代码。
+- 批次目录可用环境变量改指向：`CORP_RUN_DIR`、`CORP_WIRE_DIR`、`RATING_OUT`、`RATING_WIRES`。
+- `tests/_smoke/` 是不依赖登录态的自检用例（显式忽略全局 `storageState`），可单独执行：`npx playwright test tests/_smoke`。
 - `tests/corp/rerecordCase.ts` 内的 `PLAYWRIGHT_BROWSERS_PATH` 与工作目录仍是本机实测路径，换机器请用环境变量覆盖。
 - `docs/platform/`、`tests/`、`tansun-recorder/samples/` 内含测试环境业务数据，仓库须为**私有**。
 

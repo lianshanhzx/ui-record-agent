@@ -1,14 +1,15 @@
 import {test} from '@playwright/test';
-import * as list from '../../work/corp-rating-full-20261019/flows-list-apply.mjs';
-import * as metrics from '../../work/corp-rating-full-20261019/flows-basic-metrics.mjs';
-import * as conclusion from '../../work/corp-rating-full-20261019/flows-conclusion.mjs';
-import * as credit from '../../work/corp-rating-full-20261019/flows-credit.mjs';
-import * as images from '../../work/corp-rating-full-20261019/flows-images-risk.mjs';
-import * as workflow from '../../work/corp-rating-full-20261019/flows-workflow.mjs';
-import * as rerate from '../../work/corp-rating-full-20261019/flows-rerate.mjs';
-import * as reports from '../../work/corp-rating-full-20261019/flows-report-retry.mjs';
-import * as results from '../../work/corp-rating-full-20261019/flows-results.mjs';
-import * as branches from '../../work/corp-rating-full-20261019/flows-branches.mjs';
+// 流程源码在 cases/corp-rating/scripts/flows/（入库）；OUT 指向 work/ 下的录制批次产物（不入库）
+import * as list from '../../cases/corp-rating/scripts/flows/flows-list-apply.mjs';
+import * as metrics from '../../cases/corp-rating/scripts/flows/flows-basic-metrics.mjs';
+import * as conclusion from '../../cases/corp-rating/scripts/flows/flows-conclusion.mjs';
+import * as credit from '../../cases/corp-rating/scripts/flows/flows-credit.mjs';
+import * as images from '../../cases/corp-rating/scripts/flows/flows-images-risk.mjs';
+import * as workflow from '../../cases/corp-rating/scripts/flows/flows-workflow.mjs';
+import * as rerate from '../../cases/corp-rating/scripts/flows/flows-rerate.mjs';
+import * as reports from '../../cases/corp-rating/scripts/flows/flows-report-retry.mjs';
+import * as results from '../../cases/corp-rating/scripts/flows/flows-results.mjs';
+import * as branches from '../../cases/corp-rating/scripts/flows/flows-branches.mjs';
 for(const [name,flow]of Object.entries({
  'P01 M01-01 列表展示':list.list,'P01 M01-02 查询客户引入':list.customerQuery,'P01 M01-03 更多条件':list.more,'P01 M01-04 全字段查询':list.allQuery,'P01 M01-05 查询重置':list.reset,
  'P02 M02-01 向导控制':list.wizard,'P02 M02-02 客户选择':list.customerApply,'P02 M02-03 模型匹配':list.model,'P02 M02-04 准入校验':list.admission,'P02 M02-05 创建评级':list.apply,

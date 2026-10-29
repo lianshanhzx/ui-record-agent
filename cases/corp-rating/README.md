@@ -5,8 +5,9 @@
 | 来源 | `partner-wire/corp-rating-full-20261019` + `work/corp-rating-full-20261019`（2026-10-19） |
 | wire | 72 笔（M01–M28 等） |
 | 脚本 | `scripts/*.js`（探路/生成）+ `scripts/probes/PROBE-{approval,submit,tasks}.json` |
+| 流程源码 | `scripts/flows/*.mjs`（10 个 `flows-*.mjs` + `common/engine/role-switch`，被 `tests/corp-rating/record.spec.ts` 引用，**已入库**） |
 | 盘点基线 | `inventory/` 60 个 `*-inventory.json` |
-| 文档 | `docs/README.md`、`docs/plan.md`、`docs/coverage.md`、`docs/credit-wire-guard.md`、`docs/revoke-wire-guard.md`、`docs/profile.json` |
+| 文档 | `docs/README.md`、`docs/plan.md`、`docs/coverage.md`、`docs/credit-wire-guard.md`、`docs/revoke-wire-guard.md`、`docs/profile.json`、`docs/人工确认交易清单.md` |
 
 ## 验收基线（`report/`，**全绿**）
 
@@ -40,4 +41,6 @@ node replay-skill/replay.mjs cases/corp-rating/wire/M01-01.json \
 ## 已知边界
 
 - `work/` 下的 `replay-*/shots`、`atp-project13-system1026`（ATP 平台交付包）未入库
+- `scripts/flows/` 里的流程代码依赖 `work/corp-rating-full-20261019/` 中的 `profile.json`、`fixture-*.json`（批次数据，不入库）；缺批次时只能读代码，不能直接跑 `tests/corp-rating/record.spec.ts`
+- 批次目录可用环境变量改指向：`RATING_OUT` / `RATING_WIRES`
 - `grpRtg`（集团评级）与 `cpctRtg` L01–L10 的探路资产（`scan-lib.js`、`probe_*`）在本工作副本中**已不存在**，无法随仓库提供

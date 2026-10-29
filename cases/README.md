@@ -49,6 +49,11 @@ done
 - **Chrome profile / auth.json**：登录态，绝不入库
 - **原始录制文件**（`R##-recording.json`、`filllog`）：体积大且可由 `scripts/` 重新生成
 
+## scripts/ 是脚本的唯一版本
+
+同一批生成/探路脚本在 `work/` 下可能留有运行副本（历史批次产物，不入库）。
+**改动只改 `cases/<module>/scripts/`**，不要改 `work/` 里的副本；两者内容不一致时以 `cases/` 为准。
+
 ## 前置数据提醒
 
 这个平台的用例对**前置数据状态**敏感，不是"脚本跑起来就行"：

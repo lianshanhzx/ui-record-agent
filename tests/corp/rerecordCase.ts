@@ -8,7 +8,9 @@ import path from 'node:path';
 // Prepare a fresh batch once, then execute all specs with one worker in numeric order.
 export async function replayRecordedCase(id: string) {
   const root = process.cwd();
-  const run = path.join(root, 'work/corp-rerecord-20261012');
+  // 录制批次产物不入库。默认沿用历史批次目录，可用 CORP_RUN_DIR 指向新批次
+  // （例如迁移到 runs/corp/rerecord-20261012），批次由 cases/corp/scripts 生成。
+  const run = process.env.CORP_RUN_DIR || path.join(root, 'work/corp-rerecord-20261012');
   const input = process.env.CORP_WIRE_DIR || path.join(run, 'delivery-input');
   const out = path.join(run, 'spec-replay-out', id);
   const wire = path.join(input, `${id}.json`);
