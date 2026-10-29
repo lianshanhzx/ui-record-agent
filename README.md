@@ -20,7 +20,7 @@
   atp-v3-push/                ATP 平台 V3 报文推送（token 走环境变量）
 replay-skill/                 回放引擎（wire 解析 / 动作执行 / 登录态 / 报告）
 tools/page-scanner/           扫描器的离线自测、真实页面校验、探路采集 CLI
-tests/                        Playwright spec（每个原子交易一个 case）
+tests/                        Playwright spec（每个原子交易一个 case；`_smoke/` 为免登录自检）
 cases/                        **可复现材料包**：wire 报文 + 验收报告 + 生成/清理脚本 + 字段盘点基线
 docs/                         人读文档：平台知识、伙伴平台契约与样例报文
 ```
@@ -61,10 +61,10 @@ cp opencode.example.json opencode.json      # 填入自己的 apiKey / baseURL
 # 2) 生成登录态（storageState，约 50 分钟过期，过期需重新生成）
 npx playwright codegen --save-storage=auth.json http://<your-test-host>
 
-# 3) 回放一个 wire 报文
+# 3) 回放一个 wire 报文（产物写进 runs/，该目录已被忽略）
 node replay-skill/replay.mjs <path-to-wire.json> \
   --profile replay-skill/profiles/<profile>.json \
-  --auth auth.json --out ./replay-out
+  --auth auth.json --out runs/replay-out
 ```
 
 ## 已知依赖与限制

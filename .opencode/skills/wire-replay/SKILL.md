@@ -20,7 +20,7 @@ node <engine_dir>/replay.mjs <wire.json 或 目录> [选项]
 | 选项 | 说明 |
 |---|---|
 | `--profile <json>` | 平台配置（默认 `<engine_dir>/profiles/tansun-credit.json`） |
-| `--auth <auth.json>` | 登录态 storageState（默认 `runs/.auth/auth.json`，其次当前目录 `auth.json`；都没有则自动登录并刷新） |
+| `--auth <auth.json>` | 登录态 storageState（默认当前目录 `auth.json`；没有则自动登录并刷新。登录态统一放仓库根，后续 `runs/.auth/` 由 P5 迁移接管） |
 | `--base <url>` | 覆盖平台地址 |
 | `--headed` | 有头浏览器（默认 headless） |
 | `--out <dir>` | 输出目录（默认 `<报文目录>/replay-out`） |

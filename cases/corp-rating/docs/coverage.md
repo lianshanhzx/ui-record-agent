@@ -10,68 +10,68 @@
 
 | 功能点 | 名称 | 当前状态 | 本轮新交易 | 差异或限制 |
 |---|---|---|---|---|
-| M01-01 | 评级业务列表展示 | 已新录制 已独立回放 | [M01-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-01.json) |  |
-| M01-02 | 查询客户引入 | 已新录制 已独立回放 | [M01-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-02.json) |  |
-| M01-03 | 更多查询条件展开 | 已新录制 已独立回放 | [M01-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-03.json) |  |
-| M01-04 | 评级业务条件查询 | 已新录制 已独立回放 | [M01-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-04.json) |  |
-| M01-05 | 查询条件重置 | 已新录制 已独立回放 | [M01-05](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-05.json) |  |
-| M01-06 | 修改评级申请 | 已新录制 已独立回放 | [M01-06](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-06.json) |  |
-| M01-07 | 删除评级申请 | 已新录制 已独立回放 | [M01-07](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-07.json) |  |
-| M01-08 | 查看评级详情 | 已新录制 已独立回放 | [M01-08](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M01-08.json) |  |
-| M02-01 | 新增评级向导控制 | 已新录制 已独立回放 | [M02-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-01.json) |  |
-| M02-02 | 评级客户选择 | 已新录制 已独立回放 | [M02-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-02.json) |  |
-| M02-03 | 评级模型自动匹配 | 已新录制 已独立回放 | [M02-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-03.json) |  |
-| M02-04 | 评级申请准入校验 | 已新录制 已独立回放 | [M02-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-04.json)、[M02-05](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-05.json) |  |
-| M02-05 | 创建评级业务与启动流程 | 已新录制 已独立回放 | [M02-05](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M02-05.json) |  |
-| M03-01 | 评级基本信息展示 | 已新录制 已独立回放 | [M03-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M03-01.json) |  |
-| M03-02 | 查看客户360视图 | 已新录制 已独立回放 | [M03-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M03-02.json) |  |
-| M03-03 | 客户经理任务步骤导航 | 已新录制 已独立回放 | [M03-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M03-03.json) |  |
-| M04-01 | 征信查询对象列表 | 已新录制 已独立回放 | [M04-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-01.json) |  |
-| M04-02 | 一键添加征信查询对象 | 已新录制 已独立回放 | [M04-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-02.json) |  |
-| M04-03 | 手动新增征信查询客户 | 已新录制 已独立回放 | [M04-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-03.json) |  |
-| M04-04 | 授权日期与首次查询截止日处理 | 已新录制 存在差异或待补分支 | [M04-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-04.json) | 本环境新增征信客户页面未展示该字段，已记录授权日期变更调用 |
-| M04-05 | 征信授权书文件上传 | 已新录制 已独立回放 | [M04-05](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-05.json) |  |
-| M04-06 | 征信授权信息保存 | 已新录制 已独立回放 | [M04-06](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-06.json) |  |
-| M04-07 | 获取最新征信报告 | 已新录制 存在差异或待补分支 | [M04-07](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-07.json) | 已上传用户提供授权书，真实调用updateLtstCrRpt返回HTTP200/status200/data.st=0；等待90秒未出现对象刷新及报告日期、文件；后续查看提示还未获取征信报告完成。 |
-| M04-08 | 征信报告复用与重新查询 | 已新录制 存在差异或待补分支 | [M04-08](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-08.json) | {"reportDate":null,"reportFile":null,"apiResult":{"status":200,"description":"操作成功","data":{"st":"0"},"errorCode":"000000000000"},"limitation":"已授权并重复发起真实请求，但当前未生成报告文件，无法执行报告复用及PDF成功预览"} |
-| M04-09 | 征信异步获取结果反馈 | 已新录制 存在差异或待补分支 | [M04-07](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-07.json)、[M04-08](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-08.json) | 已上传用户提供授权书，真实调用updateLtstCrRpt返回HTTP200/status200/data.st=0；等待90秒未出现对象刷新及报告日期、文件；后续查看提示还未获取征信报告完成。；{"reportDate":null,"reportFile":null,"apiResult":{"status":200,"description":"操作成功","data":{"st":"0"},"errorCode":"000000000000"},"limitation":"已授权并重复发起真实请求，但当前未生成报告文件，无法执行报告复用及PDF成功预览"} |
-| M04-10 | 查看征信报告 | 已新录制 存在差异或待补分支 | [M04-10](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-10.json) | 当前未获取到报告，已新录制实际拦截提示“还未获取征信报告完成，请点击【获取最新征信报告】成功获取报告后再查看”；未打开PDF，不能标为成功预览。 |
-| M04-11 | 删除征信查询对象 | 已新录制 已独立回放 | [M04-11](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M04-11.json) |  |
-| M05-01 | 动态加载评级指标 | 已新录制 已独立回放 | [M05-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-01.json) |  |
-| M05-02 | 评级指标值维护 | 已新录制 已独立回放 | [M05-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-02.json) |  |
-| M05-03 | 模型变更识别与数据刷新 | 已新录制 存在差异或待补分支 | [M05-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-03.json) | 当前环境模型未变更，只能录制正常检查入口；变更分支需规则引擎测试版本 |
-| M05-04 | 指标数据暂存 | 已新录制 已独立回放 | [M05-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-04.json)、[M10-BR-M05-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M05-04.json) |  |
-| M05-05 | 测算前指标校验 | 已新录制 已独立回放 | [M05-05](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-05.json) |  |
-| M05-06 | 执行评分测算与结果更新 | 已新录制 已独立回放 | [M05-06](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M05-06.json)、[M10-BR-M05-06](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M05-06.json) |  |
-| M06-01 | 评级结论初始化与回显 | 已新录制 已独立回放 | [M06-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M06-01.json) |  |
-| M06-02 | 建议等级与理由联动 | 已新录制 已独立回放 | [M06-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M06-02.json) |  |
-| M06-03 | 评级结论保存校验 | 已新录制 已独立回放 | [M06-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M06-03.json) |  |
-| M06-04 | 评级结论保存与业务同步 | 已新录制 已独立回放 | [M06-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M06-04.json)、[M10-BR-M06-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M06-04.json) |  |
-| M07-01 | 实际控制人与股东信息展示 | 已新录制 已独立回放 | [M07-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M07-01.json) |  |
-| M07-02 | 多维度综合评价维护 | 已新录制 存在差异或待补分支 | [M07-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M07-02.json) | ["综合评价"] |
-| M07-03 | 综合评价校验与保存 | 已新录制 已独立回放 | [M07-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M07-03.json)、[M10-BR-M07-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M07-03.json) |  |
-| M08-01 | 加载业务影像目录与文件 | 已新录制 已独立回放 | [M08-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M08-01.json) |  |
-| M08-02 | 上传评级影像资料 | 已新录制 已独立回放 | [M08-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M08-02.json) |  |
-| M08-03 | 查看评级影像资料 | 已新录制 已独立回放 | [M08-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M08-03.json) |  |
-| M08-04 | 删除评级影像资料 | 已新录制 已独立回放 | [M08-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M08-04.json) |  |
-| M09-01 | 发起风险阻断校验 | 已新录制 已独立回放 | [M09-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M09-01.json) |  |
-| M09-02 | 展示规则明细与总结果 | 已新录制 已独立回放 | [M09-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M09-02.json) |  |
-| M09-03 | 风险校验超时重试 | 已新录制 存在差异或待补分支 | [M09-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M09-03.json) | 当前风控成功返回，已新录刷新及重试；未通过伪造延迟触发超时 |
-| M10-01 | 审查岗任务页面 | 已新录制 已独立回放 | [M10-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-01.json) |  |
-| M10-02 | 审查评级材料 | 已新录制 已独立回放 | [M10-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-02.json) |  |
-| M10-03 | 审批操作与意见处理 | 已新录制 已独立回放 | [M10-03-approve](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-03-approve.json)、[M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-03-submit.json)、[M10-BR-M10-03-deny](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-deny.json)、[M10-BR-M10-03-return](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-return.json)、[M10-BR-M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-submit.json)、[M10-BR2-M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR2-M10-03-submit.json) |  |
-| M10-04 | 提交及同意前完整性校验 | 已新录制 已独立回放 | [M10-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-04.json) |  |
-| M10-05 | 流程状态更新 | 已新录制 已独立回放 | [M10-03-approve](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-03-approve.json)、[M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-03-submit.json)、[M10-BR-M10-03-deny](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-deny.json)、[M10-BR-M10-03-return](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-return.json)、[M10-BR-M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M10-03-submit.json)、[M10-BR2-M10-03-submit](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR2-M10-03-submit.json)、[M10-RV-M10-05-revoke](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-RV-M10-05-revoke.json) |  |
-| M11-01 | 审批通过结果落库与新旧切换 | 已新录制 已独立回放 | [M11-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M11-01.json) |  |
-| M11-02 | 评级有效截止日期计算 | 已新录制 已独立回放 | [M11-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M11-02.json) |  |
-| M11-03 | 多法人有效评级隔离 | 已新录制 存在差异或待补分支 | [M11-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M11-03.json) | 当前账号此次业务位于法人9881；已核对本法人唯一生效。第二法人客户及独立评级场景尚未提供，跨法人分支不冒充已验证。 |
-| M12-01 | 查看历年评级情况 | 已新录制 已独立回放 | [M12-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M12-01.json) |  |
-| M12-02 | 查看流程轨迹及审批意见 | 已新录制 已独立回放 | [M12-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M12-02.json) |  |
-| M12-03 | 流程跟踪状态与耗时计算 | 已新录制 已独立回放 | [M12-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M12-03.json) |  |
-| M13-01 | 重评资格校验 | 已新录制 已独立回放 | [M13-01](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M13-01.json) |  |
-| M13-02 | 重评向导与客户信息带入 | 已新录制 已独立回放 | [M13-02](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M13-02.json) |  |
-| M13-03 | 重评模型重新匹配 | 已新录制 已独立回放 | [M13-03](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M13-03.json) |  |
-| M13-04 | 创建重评业务并复用评级流程 | 已新录制 已独立回放 | [M10-BR-M13-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-BR-M13-04.json)、[M10-RV-M13-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M10-RV-M13-04.json)、[M13-04](C:/Users/longpeng/Documents/tansun/ui-agent1/partner-wire/corp-rating-full-20261019/M13-04.json) |  |
+| M01-01 | 评级业务列表展示 | 已新录制 已独立回放 | [M01-01](../wire/M01-01.json) |  |
+| M01-02 | 查询客户引入 | 已新录制 已独立回放 | [M01-02](../wire/M01-02.json) |  |
+| M01-03 | 更多查询条件展开 | 已新录制 已独立回放 | [M01-03](../wire/M01-03.json) |  |
+| M01-04 | 评级业务条件查询 | 已新录制 已独立回放 | [M01-04](../wire/M01-04.json) |  |
+| M01-05 | 查询条件重置 | 已新录制 已独立回放 | [M01-05](../wire/M01-05.json) |  |
+| M01-06 | 修改评级申请 | 已新录制 已独立回放 | [M01-06](../wire/M01-06.json) |  |
+| M01-07 | 删除评级申请 | 已新录制 已独立回放 | [M01-07](../wire/M01-07.json) |  |
+| M01-08 | 查看评级详情 | 已新录制 已独立回放 | [M01-08](../wire/M01-08.json) |  |
+| M02-01 | 新增评级向导控制 | 已新录制 已独立回放 | [M02-01](../wire/M02-01.json) |  |
+| M02-02 | 评级客户选择 | 已新录制 已独立回放 | [M02-02](../wire/M02-02.json) |  |
+| M02-03 | 评级模型自动匹配 | 已新录制 已独立回放 | [M02-03](../wire/M02-03.json) |  |
+| M02-04 | 评级申请准入校验 | 已新录制 已独立回放 | [M02-04](../wire/M02-04.json)、[M02-05](../wire/M02-05.json) |  |
+| M02-05 | 创建评级业务与启动流程 | 已新录制 已独立回放 | [M02-05](../wire/M02-05.json) |  |
+| M03-01 | 评级基本信息展示 | 已新录制 已独立回放 | [M03-01](../wire/M03-01.json) |  |
+| M03-02 | 查看客户360视图 | 已新录制 已独立回放 | [M03-02](../wire/M03-02.json) |  |
+| M03-03 | 客户经理任务步骤导航 | 已新录制 已独立回放 | [M03-03](../wire/M03-03.json) |  |
+| M04-01 | 征信查询对象列表 | 已新录制 已独立回放 | [M04-01](../wire/M04-01.json) |  |
+| M04-02 | 一键添加征信查询对象 | 已新录制 已独立回放 | [M04-02](../wire/M04-02.json) |  |
+| M04-03 | 手动新增征信查询客户 | 已新录制 已独立回放 | [M04-03](../wire/M04-03.json) |  |
+| M04-04 | 授权日期与首次查询截止日处理 | 已新录制 存在差异或待补分支 | [M04-04](../wire/M04-04.json) | 本环境新增征信客户页面未展示该字段，已记录授权日期变更调用 |
+| M04-05 | 征信授权书文件上传 | 已新录制 已独立回放 | [M04-05](../wire/M04-05.json) |  |
+| M04-06 | 征信授权信息保存 | 已新录制 已独立回放 | [M04-06](../wire/M04-06.json) |  |
+| M04-07 | 获取最新征信报告 | 已新录制 存在差异或待补分支 | [M04-07](../wire/M04-07.json) | 已上传用户提供授权书，真实调用updateLtstCrRpt返回HTTP200/status200/data.st=0；等待90秒未出现对象刷新及报告日期、文件；后续查看提示还未获取征信报告完成。 |
+| M04-08 | 征信报告复用与重新查询 | 已新录制 存在差异或待补分支 | [M04-08](../wire/M04-08.json) | {"reportDate":null,"reportFile":null,"apiResult":{"status":200,"description":"操作成功","data":{"st":"0"},"errorCode":"000000000000"},"limitation":"已授权并重复发起真实请求，但当前未生成报告文件，无法执行报告复用及PDF成功预览"} |
+| M04-09 | 征信异步获取结果反馈 | 已新录制 存在差异或待补分支 | [M04-07](../wire/M04-07.json)、[M04-08](../wire/M04-08.json) | 已上传用户提供授权书，真实调用updateLtstCrRpt返回HTTP200/status200/data.st=0；等待90秒未出现对象刷新及报告日期、文件；后续查看提示还未获取征信报告完成。；{"reportDate":null,"reportFile":null,"apiResult":{"status":200,"description":"操作成功","data":{"st":"0"},"errorCode":"000000000000"},"limitation":"已授权并重复发起真实请求，但当前未生成报告文件，无法执行报告复用及PDF成功预览"} |
+| M04-10 | 查看征信报告 | 已新录制 存在差异或待补分支 | [M04-10](../wire/M04-10.json) | 当前未获取到报告，已新录制实际拦截提示“还未获取征信报告完成，请点击【获取最新征信报告】成功获取报告后再查看”；未打开PDF，不能标为成功预览。 |
+| M04-11 | 删除征信查询对象 | 已新录制 已独立回放 | [M04-11](../wire/M04-11.json) |  |
+| M05-01 | 动态加载评级指标 | 已新录制 已独立回放 | [M05-01](../wire/M05-01.json) |  |
+| M05-02 | 评级指标值维护 | 已新录制 已独立回放 | [M05-02](../wire/M05-02.json) |  |
+| M05-03 | 模型变更识别与数据刷新 | 已新录制 存在差异或待补分支 | [M05-03](../wire/M05-03.json) | 当前环境模型未变更，只能录制正常检查入口；变更分支需规则引擎测试版本 |
+| M05-04 | 指标数据暂存 | 已新录制 已独立回放 | [M05-04](../wire/M05-04.json)、[M10-BR-M05-04](../wire/M10-BR-M05-04.json) |  |
+| M05-05 | 测算前指标校验 | 已新录制 已独立回放 | [M05-05](../wire/M05-05.json) |  |
+| M05-06 | 执行评分测算与结果更新 | 已新录制 已独立回放 | [M05-06](../wire/M05-06.json)、[M10-BR-M05-06](../wire/M10-BR-M05-06.json) |  |
+| M06-01 | 评级结论初始化与回显 | 已新录制 已独立回放 | [M06-01](../wire/M06-01.json) |  |
+| M06-02 | 建议等级与理由联动 | 已新录制 已独立回放 | [M06-02](../wire/M06-02.json) |  |
+| M06-03 | 评级结论保存校验 | 已新录制 已独立回放 | [M06-03](../wire/M06-03.json) |  |
+| M06-04 | 评级结论保存与业务同步 | 已新录制 已独立回放 | [M06-04](../wire/M06-04.json)、[M10-BR-M06-04](../wire/M10-BR-M06-04.json) |  |
+| M07-01 | 实际控制人与股东信息展示 | 已新录制 已独立回放 | [M07-01](../wire/M07-01.json) |  |
+| M07-02 | 多维度综合评价维护 | 已新录制 存在差异或待补分支 | [M07-02](../wire/M07-02.json) | ["综合评价"] |
+| M07-03 | 综合评价校验与保存 | 已新录制 已独立回放 | [M07-03](../wire/M07-03.json)、[M10-BR-M07-03](../wire/M10-BR-M07-03.json) |  |
+| M08-01 | 加载业务影像目录与文件 | 已新录制 已独立回放 | [M08-01](../wire/M08-01.json) |  |
+| M08-02 | 上传评级影像资料 | 已新录制 已独立回放 | [M08-02](../wire/M08-02.json) |  |
+| M08-03 | 查看评级影像资料 | 已新录制 已独立回放 | [M08-03](../wire/M08-03.json) |  |
+| M08-04 | 删除评级影像资料 | 已新录制 已独立回放 | [M08-04](../wire/M08-04.json) |  |
+| M09-01 | 发起风险阻断校验 | 已新录制 已独立回放 | [M09-01](../wire/M09-01.json) |  |
+| M09-02 | 展示规则明细与总结果 | 已新录制 已独立回放 | [M09-02](../wire/M09-02.json) |  |
+| M09-03 | 风险校验超时重试 | 已新录制 存在差异或待补分支 | [M09-03](../wire/M09-03.json) | 当前风控成功返回，已新录刷新及重试；未通过伪造延迟触发超时 |
+| M10-01 | 审查岗任务页面 | 已新录制 已独立回放 | [M10-01](../wire/M10-01.json) |  |
+| M10-02 | 审查评级材料 | 已新录制 已独立回放 | [M10-02](../wire/M10-02.json) |  |
+| M10-03 | 审批操作与意见处理 | 已新录制 已独立回放 | [M10-03-approve](../wire/M10-03-approve.json)、[M10-03-submit](../wire/M10-03-submit.json)、[M10-BR-M10-03-deny](../wire/M10-BR-M10-03-deny.json)、[M10-BR-M10-03-return](../wire/M10-BR-M10-03-return.json)、[M10-BR-M10-03-submit](../wire/M10-BR-M10-03-submit.json)、[M10-BR2-M10-03-submit](../wire/M10-BR2-M10-03-submit.json) |  |
+| M10-04 | 提交及同意前完整性校验 | 已新录制 已独立回放 | [M10-04](../wire/M10-04.json) |  |
+| M10-05 | 流程状态更新 | 已新录制 已独立回放 | [M10-03-approve](../wire/M10-03-approve.json)、[M10-03-submit](../wire/M10-03-submit.json)、[M10-BR-M10-03-deny](../wire/M10-BR-M10-03-deny.json)、[M10-BR-M10-03-return](../wire/M10-BR-M10-03-return.json)、[M10-BR-M10-03-submit](../wire/M10-BR-M10-03-submit.json)、[M10-BR2-M10-03-submit](../wire/M10-BR2-M10-03-submit.json)、[M10-RV-M10-05-revoke](../wire/M10-RV-M10-05-revoke.json) |  |
+| M11-01 | 审批通过结果落库与新旧切换 | 已新录制 已独立回放 | [M11-01](../wire/M11-01.json) |  |
+| M11-02 | 评级有效截止日期计算 | 已新录制 已独立回放 | [M11-02](../wire/M11-02.json) |  |
+| M11-03 | 多法人有效评级隔离 | 已新录制 存在差异或待补分支 | [M11-03](../wire/M11-03.json) | 当前账号此次业务位于法人9881；已核对本法人唯一生效。第二法人客户及独立评级场景尚未提供，跨法人分支不冒充已验证。 |
+| M12-01 | 查看历年评级情况 | 已新录制 已独立回放 | [M12-01](../wire/M12-01.json) |  |
+| M12-02 | 查看流程轨迹及审批意见 | 已新录制 已独立回放 | [M12-02](../wire/M12-02.json) |  |
+| M12-03 | 流程跟踪状态与耗时计算 | 已新录制 已独立回放 | [M12-03](../wire/M12-03.json) |  |
+| M13-01 | 重评资格校验 | 已新录制 已独立回放 | [M13-01](../wire/M13-01.json) |  |
+| M13-02 | 重评向导与客户信息带入 | 已新录制 已独立回放 | [M13-02](../wire/M13-02.json) |  |
+| M13-03 | 重评模型重新匹配 | 已新录制 已独立回放 | [M13-03](../wire/M13-03.json) |  |
+| M13-04 | 创建重评业务并复用评级流程 | 已新录制 已独立回放 | [M10-BR-M13-04](../wire/M10-BR-M13-04.json)、[M10-RV-M13-04](../wire/M10-RV-M13-04.json)、[M13-04](../wire/M13-04.json) |  |
 
 原始证据包括逐功能点Playwright结果、filllog、API请求及响应、字段盘点、截图与独立回放报告。报文目录为partner-wire/corp-rating-full-20261019。
 

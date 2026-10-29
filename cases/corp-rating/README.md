@@ -4,8 +4,7 @@
 |---|---|
 | 来源 | `partner-wire/corp-rating-full-20261019` + `work/corp-rating-full-20261019`（2026-10-19） |
 | wire | 72 笔（M01–M28 等） |
-| 脚本 | `scripts/*.js`（探路/生成）+ `scripts/probes/PROBE-{approval,submit,tasks}.json` |
-| 流程源码 | `scripts/flows/*.mjs`（10 个 `flows-*.mjs` + `common/engine/role-switch`，被 `tests/corp-rating/record.spec.ts` 引用，**已入库**） |
+| 脚本 | `scripts/flows/*.mjs`（10 个 `flows-*.mjs` + `common/engine/role-switch`，被 `tests/corp-rating/record.spec.ts` 引用，**已入库**）；探路盘点见 `inventory/PROBE-*-inventory.json` |
 | 盘点基线 | `inventory/` 60 个 `*-inventory.json` |
 | 文档 | `docs/README.md`、`docs/plan.md`、`docs/coverage.md`、`docs/credit-wire-guard.md`、`docs/revoke-wire-guard.md`、`docs/profile.json`、`docs/人工确认交易清单.md` |
 

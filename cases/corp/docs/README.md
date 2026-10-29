@@ -51,6 +51,6 @@ node replay-skill/replay.mjs work/corp-rerecord-20261012/delivery-input --profil
 npx playwright test 'corp[\\/]R[0-9]{3}-rerecord\.spec\.ts' --workers=1
 ```
 
-每次选择一种执行方式，避免重复消费同一批新增编号。录制 profile 支持会话过期后重新登录。用户后续已授权将120笔PASS交易同步到ATP项目13、目录110；[同步结果与平台字段差异](atp-project13-system110-20261013/README.md)单独记录，未启动平台执行计划。
+每次选择一种执行方式，避免重复消费同一批新增编号。录制 profile 支持会话过期后重新登录。用户后续已授权将120笔PASS交易同步到ATP项目13、目录110；同步结果与平台字段差异单独记录（交付包 `atp-project13-system110-20261013`，体积大且不入库，需向录制者索取），未启动平台执行计划。
 
 R106 的回放 WARN 是预期的空财报 OCR 提交校验：“请选择需要识别的内容”。保留引擎原始警告，并在对应 spec 中断言提示；没有删除校验步骤或修改引擎。

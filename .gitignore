@@ -16,13 +16,17 @@ work/**/profile/
 # ============================================================
 # 录制 / 回放生成物（体积大，且含单个 226MB 的 api-audit.json）
 # 这些目录可随时用 replay-skill / playwright 重新生成
+# runs/ 是目标位置；work/、partner-wire/ 为历史批次目录，P5 迁移后移除
+# out/、replay-out/ 是文档示例里的默认输出名，一并兜底
 # ============================================================
 work/
 partner-wire/
+runs/
+out/
+replay-out/
 playwright-report/
 blob-report/
 test-results/
-runs/
 
 # ============================================================
 # 依赖

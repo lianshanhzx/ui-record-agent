@@ -67,7 +67,7 @@ node replay.mjs <wire.json|目录> [--profile x] [--auth x] [--base url]
 
 ## 平台 profile 字段
 
-见 SKILL.md「平台 profile 字段」。核心：`pages[{match,urlPattern,readySelector?,route?}]`
+见 `.opencode/skills/wire-replay/SKILL.md`「平台 profile 字段」。核心：`pages[{match,urlPattern,readySelector?,route?}]`
 （页面节点名关键字 → URL 校验正则；`route` 有值时未自然跳转可自愈直达；`readySelector` 是表单挂载完成信号，解决微前端 URL 先到、内容后到）。
 
 ## 已知设计决策
