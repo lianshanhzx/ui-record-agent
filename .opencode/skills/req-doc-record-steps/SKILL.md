@@ -21,7 +21,7 @@ description: 依据需求文档生成原子交易录制步骤表（两列：交�
 
 | 类型 ID | 识别特征 | 本工作区文档 | 规则文件 |
 |---------|---------|-------------|---------|
-| `tansun-credit` | 文件名 `A##/B##天阳信贷管理系统-*需求分册*.docx`；章节骨架=功能描述/操作权限/操作步骤/界面原型/业务要素/[按钮名]按钮规则/[页面初始化]规则；章节标题带 `RQM_META` 标记；图片抽到 `assets/` | A01 公共功能 / A02 对公客户管理 / A03 集团集群管理 / B01 评级管理 | `doc-types/tansun-credit/DOC-TYPE.md` |
+| `tansun-credit` | 文件名 `A##/B##天阳信贷管理系统-*需求分册*.docx`，位于 `materials/requirements/`；章节骨架=功能描述/操作权限/操作步骤/界面原型/业务要素/[按钮名]按钮规则/[页面初始化]规则；章节标题带 `RQM_META` 标记；图片抽到 `materials/screenshots/` | A01 公共功能 / A02 对公客户管理 / A03 集团集群管理 / B01 评级管理 | `doc-types/tansun-credit/DOC-TYPE.md` |
 
 **遇到新类型文档**（识别特征不匹配任何注册行）：
 1. 与用户确认新类型名称与章节骨架；
@@ -34,14 +34,14 @@ description: 依据需求文档生成原子交易录制步骤表（两列：交�
 
 | 参数 | 说明 |
 |------|------|
-| 文档路径 | 工作区内的 docx（缺了用 glob 找 `*.docx` 列给用户选） |
+| 文档路径 | `materials/requirements/` 下的 docx（缺了用 glob 找 `materials/requirements/*.docx` 列给用户选） |
 | 录制范围 | 章节号（如 3.2）或「整篇」；默认问 |
 | 不录项 | 用户指示跳过的功能（如外部依赖 OCR/联网核查）；默认问，可先按「外部依赖不录」预填待确认 |
 | 输出路径 | 默认 `work/<任务目录>/transactions-<模块名>.md` |
 
 ## 阶段 1：解析文档
 
-1. **目录解析**（复用 `document-catalog-parse` skill 的脚本，图片自动抽到 `assets/`）：
+1. **目录解析**（复用 `document-catalog-parse` skill 的脚本，图片自动抽到 `materials/screenshots/`）：
    ```
    python E:\智能平台\autotest-line\llm-tools\skills\document-catalog-parse\scripts\parse_docx_catalog.py <docx> -o work/<任务目录>/catalog.json
    ```
@@ -49,9 +49,9 @@ description: 依据需求文档生成原子交易录制步骤表（两列：交�
    ```
    python .opencode/skills/req-doc-record-steps/scripts/make_section_digest.py work/<任务目录>/catalog.json <章节号> -o work/<任务目录>/
    ```
-   产物：`section-<n>.json`（原始子树）/ `digest-<n>.txt`（`### 章节号 标题` + 正文 + `[TABLE]` + `[IMAGE assets/xxx.jpg]`）/ `imglist-<n>.md`（章节号→图片绝对路径）。
+   产物：`section-<n>.json`（原始子树）/ `digest-<n>.txt`（`### 章节号 标题` + 正文 + `[TABLE]` + `[IMAGE materials/screenshots/xxx.jpg]`）/ `imglist-<n>.md`（章节号→图片绝对路径）。
 3. **通读 digest**：按章节顺序建立「页面/按钮/场景」结构认知；`操作权限` 表的按钮清单 = 交易完整性基准。
-4. **解析界面原型（必做，不可跳过）**：对 digest 中每个 `[IMAGE assets/xxx.jpg]`（界面原型小节），
+4. **解析界面原型（必做，不可跳过）**：对 digest 中每个 `[IMAGE materials/screenshots/xxx.jpg]`（界面原型小节），
    用 **Read 工具直接读图片**（多模态），写结构化描述到 `work/<任务目录>/prototypes/<章节号>-<序号>.md`：
    - 页面类型：列表页 / 表单主页 / 抽屉 / 对话框 / 浮层；
    - 查询区：字段名 + 控件形态（文本框/下拉/日期），是否有【更多】折叠区；

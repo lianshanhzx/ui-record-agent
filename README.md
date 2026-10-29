@@ -33,6 +33,8 @@ docs/partner/                 伙伴平台对接契约（接口说明、V3 接�
 docs/partner/samples/         样例报文（V3 可用报文、traj 828 实际推送报文）
 ```
 
+客户资料（需求分册、文档截图、压缩包）**不入库**，统一放 `materials/`，见 [`docs/materials.md`](docs/materials.md)。
+
 ## cases/ 解决什么问题
 
 **A 在这里录制成功，B 拿同样的材料也能成功。** 每个模块一包 wire + report + scripts + inventory，
@@ -81,11 +83,13 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 | 类别 | 文件 |
 |---|---|
 | 登录态 / 凭据 | `auth.json`、`opencode.json`（含真实 apiKey）、`work/**/profile/` |
-| 生成物 | `work/`、`partner-wire/`、`playwright-report/`、`test-results/` |
-| 重复/派生的文档包 | `*.docx`（需求分册）、`*.zip`（与 docx 重复的打包版）、`assets/`（文档截图）、`work_catalog_*.json`（docx 解析中间产物） |
+| 生成物 | `work/`、`partner-wire/`、`playwright-report/`、`test-results/`、`runs/` |
+| 客户资料 | `materials/`（需求分册 docx、文档截图、解析产物、压缩包，见 [`docs/materials.md`](docs/materials.md)） |
 | 依赖 / 垃圾 | `node_modules/`、`.DS_Store`、`*.log` |
 
-> 需求分册 docx 当前阶段不入库（体积 + 客户机密）。`req-doc-record-steps` 需要时由使用者自备文档，`doc-types/tansun-credit/DOC-TYPE.md` 已写明识别规则与章节骨架。
+> 需求分册 docx 当前阶段不入库（体积 + 客户机密）。使用时放在 `materials/requirements/`，`req-doc-record-steps` 需要时由使用者自备文档，`doc-types/tansun-credit/DOC-TYPE.md` 已写明识别规则与章节骨架。
+>
+> 根目录只保留代码、配置与用例；客户资料统一进 `materials/`，生成物统一进 `work/`（后续 `runs/`）。
 
 ## 说明
 
