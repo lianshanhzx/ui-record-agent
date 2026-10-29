@@ -27,4 +27,4 @@ node replay-skill/replay.mjs cases/blacklist/wire/T1-query.json \
 ## 注意
 
 - 新增类 case（T2 系列）每跑一次会**新增一条黑名单记录**，重复回放需先处理上一轮数据；删除类 case 用的是当轮新增的记录
-- 平台路由与接口见 `knowledge/notes.md`、`knowledge/apis.md`
+- 平台路由与接口见 `docs/platform/notes.md`、`docs/platform/apis.md`

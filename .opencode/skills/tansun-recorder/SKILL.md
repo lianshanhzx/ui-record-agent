@@ -432,7 +432,7 @@ description: 天阳信贷 V5P2（test.creditv5p2.tansun.com.cn）平台交易录
   TOK=<jwt> node work/pdlib/atp-import.js --push          # 推送 17 笔
   TOK=<jwt> node work/pdlib/atp-verify.js                 # 校验: 节点 1018 下 产品库管理-* 应 >=17
   ```
-- **⚠ API base 坑**：`伙伴平台接口说明.md` 里写的默认 `http://172.20.101.162:11001/api` **已连不上（connection refused，主机在线但端口关）**；必须走 web 同源 `PARTNER_API_BASE=http://test.atp.tansun.com.cn/api`（import 脚本默认值仍写死旧 IP，**跑前先 export/传这个 env**，或改脚本默认）。
+- **⚠ API base 坑**：`docs/partner/伙伴平台接口说明.md` 里写的默认 `http://172.20.101.162:11001/api` **已连不上（connection refused，主机在线但端口关）**；必须走 web 同源 `PARTNER_API_BASE=http://test.atp.tansun.com.cn/api`（import 脚本默认值仍写死旧 IP，**跑前先 export/传这个 env**，或改脚本默认）。
 - **接口**：`POST /system/systemproject/list`（取 projectId）→ `GET /system/system/lazySystemTree?projectId&menuType=1&from=0[&parentId]`（BFS 取 systemId）→ `POST /demand/demandtranscation/importDemand`（推送，body=`transcationEventTypeList`）。
 - **校验接口**：`POST /demand/demandtranscation/list?...&orderMenuType=1`，body `{"systemId":"1018","projectId":"13","nodeType":0}`（**按选中项目/节点作用域，不是 URL 过滤**；节点下既有 9 笔存量，+17 笔本模块 = 26）。
 - **wire 格式已对齐**：`work/pdlib/gen-wires.js` 直出伙伴 V3 字段（`eventTypeValue`/`eventTypeName`/`mothed`/`propertiesPID`/`realLabel`），`atp-import.js` 的 `buildV3` 直接读 `eventTypeValue`，无需转换（与 pdstg `atp-import.js` 同源）。

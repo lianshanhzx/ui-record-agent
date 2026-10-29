@@ -19,7 +19,15 @@ skills/atp-v3-push/           ATP 平台 V3 报文推送（token 走环境变量
 tools/page-scanner/           扫描器的离线自测、真实页面校验、探路采集 CLI
 tests/                        Playwright spec（每个原子交易一个 case）
 cases/                        **可复现材料包**：wire 报文 + 验收报告 + 生成/清理脚本 + 字段盘点基线
-knowledge/                    平台接口与操作笔记
+docs/                         人读文档：平台知识、伙伴平台契约与样例报文
+```
+
+`docs/` 下的分工：
+
+```
+docs/platform/                平台接口与操作笔记（apis.md / notes.md / 测试数据）
+docs/partner/                 伙伴平台对接契约（接口说明、V3 接口参数）
+docs/partner/samples/         样例报文（V3 可用报文、traj 828 实际推送报文）
 ```
 
 ## cases/ 解决什么问题
@@ -58,7 +66,7 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 
 - `tests/` 中的 case 通过 `replay-skill/replay.mjs` 执行，依赖 **本地录制产物**（`work/`、`partner-wire/`）作为输入，仓库不含这些数据，直接 `npx playwright test` 需要先自备对应批次。
 - `tests/corp/rerecordCase.ts` 内的 `PLAYWRIGHT_BROWSERS_PATH` 与工作目录仍是本机实测路径，换机器请用环境变量覆盖。
-- `knowledge/`、`tests/`、`tansun-recorder/template/` 内含测试环境业务数据，仓库须为**私有**。
+- `docs/platform/`、`tests/`、`tansun-recorder/template/` 内含测试环境业务数据，仓库须为**私有**。
 
 ## 数据策略
 
