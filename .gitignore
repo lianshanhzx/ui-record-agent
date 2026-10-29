@@ -11,21 +11,25 @@ opencode.json
 !.env.example
 *.pem
 *.key
-work/**/profile/
 
 # ============================================================
-# 录制 / 回放生成物（体积大，且含单个 226MB 的 api-audit.json）
-# 按「目录结构」忽略，不用一刀切的整目录规则：
-#   work/<批次>/、partner-wire/<模块>/、runs/<模块>/、out/<批次>/
-# 结构外的散文件会以未跟踪状态暴露出来，提醒归位；
-# 提交前另有 scripts/check-layout.mjs 兜底拦截。
-# work/*.* 与 partner-wire/*.json 只覆盖历史批次遗留在根层的散文件，
-# P5 迁移到 runs/ 时一并清理，之后这两条应删除。
+# 客户资料 —— 按固定文件夹忽略（见 README「数据策略与目录规则」）
+# 只忽略这四个文件夹；资料放到别处会显示为未跟踪，提醒归位。
+# 新增资料类别：建文件夹 + 在此加一行 + README 表格补一行。
+# ============================================================
+materials/requirements/
+materials/screenshots/
+materials/catalog/
+materials/archive/
+
+# ============================================================
+# 录制 / 回放生成物 —— 同样按固定文件夹忽略
+#   work/<批次>/、partner-wire/<模块>/ 为历史批次目录，P5 迁移 runs/ 后删除
+#   runs/<模块>/<批次>/ 为生成物目标目录
+# 根层散文件会以未跟踪状态暴露，提交前另有 scripts/check-layout.mjs 拦截
 # ============================================================
 work/*/
-work/*.*
 partner-wire/*/
-partner-wire/*.json
 runs/*/
 out/*/
 replay-out/*/
@@ -40,29 +44,11 @@ node_modules/
 **/node_modules/
 
 # ============================================================
-# 客户资料（二进制大文件，不进版本库）
-# 按「约定结构」逐项忽略，不做 materials/ 整目录忽略：
-#   放进规定子目录的自动忽略；放到别处会显示为未跟踪，提醒归位，
-#   避免有人随手丢文件后整个目录被静默吞掉。
-# 结构说明见 docs/materials.md，校验见 scripts/check-layout.mjs
-# ============================================================
-materials/requirements/*.docx
-materials/screenshots/*.png
-materials/screenshots/*.jpg
-materials/screenshots/*.jpeg
-materials/screenshots/*.gif
-materials/catalog/*.json
-materials/archive/*.zip
-materials/archive/*.rar
-materials/archive/*.7z
-materials/archive/*.pdf
-~$*
-
-# ============================================================
 # 系统 / 编辑器垃圾
 # ============================================================
 .DS_Store
 Thumbs.db
+~$*
 *.log
 True
 .idea/

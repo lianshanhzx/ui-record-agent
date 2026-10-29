@@ -1,6 +1,6 @@
 # 文档类型规则：tansun-credit（天阳信贷管理系统需求分册）
 
-本工作区现有文档（均在 `materials/requirements/` 下，见 `docs/materials.md`）：
+本工作区现有文档（均在 `materials/requirements/` 下，见 README「数据策略与目录规则」）：
 
 | 文档 | 范围 |
 |------|------|

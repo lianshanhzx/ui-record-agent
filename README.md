@@ -23,7 +23,7 @@ tools/page-scanner/           扫描器的离线自测、真实页面校验、�
 tests/                        Playwright spec（每个原子交易一个 case；`_smoke/` 为免登录自检）
 cases/                        **可复现材料包**：wire 报文 + 验收报告 + 生成/清理脚本 + 字段盘点基线
 docs/                         人读文档：平台知识、伙伴平台契约与样例报文
-materials/                    客户资料（docx / 抽图 / 解析产物 / 压缩包，按结构忽略，见 docs/materials.md）
+materials/                    客户资料（docx / 抽图 / 解析产物 / 压缩包，按固定文件夹忽略，见「数据策略与目录规则」）
 scripts/                      仓库维护脚本（check-layout.mjs：目录结构守卫）
 .githooks/pre-commit          提交前结构校验（拦截资料与生成物入库）
 ```
@@ -36,7 +36,7 @@ docs/partner/                 伙伴平台对接契约（接口说明、V3 接�
 docs/partner/samples/         样例报文（V3 可用报文、traj 828 实际推送报文）
 ```
 
-客户资料（需求分册、文档截图、压缩包）**不入库**，统一放 `materials/`，见 [`docs/materials.md`](docs/materials.md)。
+客户资料（需求分册、文档截图、压缩包）**不入库**，统一放 `materials/`，规则见下文[「数据策略与目录规则」](#数据策略与目录规则)。
 
 ## cases/ 解决什么问题
 
@@ -79,24 +79,40 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 - `tests/corp/rerecordCase.ts` 内的 `PLAYWRIGHT_BROWSERS_PATH` 与工作目录仍是本机实测路径，换机器请用环境变量覆盖。
 - `docs/platform/`、`tests/`、`tansun-recorder/samples/` 内含测试环境业务数据，仓库须为**私有**。
 
-## 数据策略
+## 数据策略与目录规则
 
-以下内容**永不入库**（见 `.gitignore`）：
+根目录只放**代码、配置、用例**。客户资料与生成物按**固定文件夹**存放，`.gitignore` 只忽略这些文件夹，不写 `*.docx` 这类全局后缀规则。
 
-| 类别 | 文件 |
-|---|---|
-| 登录态 / 凭据 | `auth.json`、`opencode.json`（含真实 apiKey）、`work/**/profile/` |
-| 生成物 | `work/<批次>/`、`partner-wire/<模块>/`、`runs/<模块>/`、`out/<批次>/`、`playwright-report/`、`test-results/` |
-| 客户资料 | `materials/` 下的规定子目录，**按结构逐项忽略**（`requirements/*.docx`、`screenshots/*.{png,jpg,jpeg,gif}`、`catalog/*.json`、`archive/*.{zip,rar,7z,pdf}`），见 [`docs/materials.md`](docs/materials.md) |
-| 依赖 / 垃圾 | `node_modules/`、`.DS_Store`、`*.log` |
+### 固定文件夹
 
-> **忽略规则按结构写，不做整目录一刀切**：放进 `materials/requirements/`、`work/<批次>/`、`runs/<模块>/` 等约定位置的文件自动忽略；放到别处会以**未跟踪**状态露出来，提醒归位。新增资料类别时先加目录 + 对应忽略规则 + 更新 `docs/materials.md`，不要改回整目录忽略。
+| 文件夹 | 放什么 | 入库 |
+|---|---|---|
+| `materials/requirements/` | 需求分册 docx（`req-doc-record-steps` 的输入，文件名 `<编号>天阳信贷管理系统-<模块>需求分册.docx`） | 否 |
+| `materials/screenshots/` | 从 docx 抽出的界面原型图（`img_000N.png/jpg`） | 否 |
+| `materials/catalog/` | docx 解析产物（章节树 + 图片映射） | 否 |
+| `materials/archive/` | 压缩包 / 原件（与 docx 重复的打包版只留一份） | 否 |
+| `work/<批次>/` | 历史录制批次产物；`work/_legacy/` 存历史散文件（P5 迁 `runs/`） | 否 |
+| `partner-wire/<模块>/` | 历史 wire 报文（P5 迁 `runs/`） | 否 |
+| `runs/<模块>/<批次>/` | 生成物目标目录（报告 / 截图 / 下载） | 否 |
+| `out/`、`replay-out/` | 文档示例里的默认输出目录 | 否 |
+| `docs/platform/`、`docs/partner/` | 平台接口笔记、伙伴契约与样例报文 | 是 |
+| `cases/<模块>/` | 可复现材料包：`wire/ report/ scripts/ inventory/ values/ docs/` | 是 |
 
-> 提交前校验：`npm run check:layout`（`.githooks/pre-commit` 自动执行，`npm install` 会自动安装钩子）。它会拦截资料类文件入库、生成物目录入库、`materials/` 乱放、以及单文件超 5MB。
+### 规则
 
-> 需求分册 docx 当前阶段不入库（体积 + 客户机密）。使用时放在 `materials/requirements/`，`req-doc-record-steps` 需要时由使用者自备文档，`doc-types/tansun-credit/DOC-TYPE.md` 已写明识别规则与章节骨架。
->
-> 根目录只保留代码、配置与用例；客户资料统一进 `materials/`，生成物统一进 `work/`（后续 `runs/`）。
+1. **只按固定文件夹忽略**：放对文件夹的文件自动忽略；放到别处会以**未跟踪**状态出现在 `git status`，提醒归位——避免有人随手丢文件后整个目录被静默吞掉。
+2. **新增资料类别**：建文件夹 → `.gitignore` 加一行文件夹规则 → 本表补一行 → 再放文件。
+3. **凭据与垃圾**走跨目录规则：`auth.json`、`opencode.json`、`.env*`、`*.pem`、`*.key`、`node_modules/`、`*.log`、`~$*`。
+4. 需求分册 docx 不入库（体积 + 客户机密），`req-doc-record-steps` 需要时由使用者自备放到 `materials/requirements/`，识别规则见 `doc-types/tansun-credit/DOC-TYPE.md`。
+
+### 提交前校验
+
+```bash
+npm run check:layout
+```
+
+`npm install` 会自动执行 `prepare`（`git config core.hooksPath .githooks`），此后每次提交都跑同一份校验；手动安装亦可，绕过不建议（`git commit --no-verify`）。
+校验四项：`materials/` 下文件是否都在固定文件夹内、资料类文件是否入库、生成物目录是否入库、单文件是否超 5MB。
 
 ## 说明
 

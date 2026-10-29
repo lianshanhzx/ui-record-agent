@@ -56,7 +56,7 @@
 - **服务端缺陷**：`static/files/blackTemplate.xlsx` 与 `grayTemplate.xlsx` 均缺失（downloadTemplate 200 但 0 字节；直连 9527 源站也是 SPA index.html）。导入解析的期望列格式无从获得：6 种布局变体（9列/7列表头、标题行、无表头、Sheet 名、.xls BIFF8）+ 已存在客户诊断 → 全部 `CstListsBlackServiceImpl.impr:484 "导入的文件数据为空！"`
 - 菜单接口：`POST /prod-api/tansun-tcp-app-pc/tansun-tcp-sys/menu`，树节点字段 `text/url/id/menuList`；潜在风险客户名单管理 = `/cstMgt/nmlstMgt/greyMgt/ptntlRskCslsMgtPg`
 - 失败时：异常信息走 `.el-notification`（可点"展开"看异常栈），导入弹窗保持打开；成功时弹 `#tsscMutilDialog` 结果框
-- T7 断言策略同 T6：UI 契约（弹窗→选文件→确认→importData 200）+ 对已知环境缺陷做记录不硬失败；拿到真实模板后改 `work/make_import_xlsx.js` 的 HEADERS/ROW 重新生成 import_test.xlsx，同一脚本自动走成功路径（列表 1 行）
+- T7 断言策略同 T6：UI 契约（弹窗→选文件→确认→importData 200）+ 对已知环境缺陷做记录不硬失败；拿到真实模板后改 `work/_legacy/make_import_xlsx.js` 的 HEADERS/ROW 重新生成 import_test.xlsx，同一脚本自动走成功路径（列表 1 行）
 
 ## 待办
 - [x] T1 查询录制（tests/blacklist/T1-query.spec.ts 已通过；2026-09-21 全量回归 8/8 通过。曾修：重置后查询带旧条件→等 1s 并断言查询体 cstNm 为空；全量行数用下界+轮询断言）
