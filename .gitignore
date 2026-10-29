@@ -15,15 +15,20 @@ work/**/profile/
 
 # ============================================================
 # 录制 / 回放生成物（体积大，且含单个 226MB 的 api-audit.json）
-# 这些目录可随时用 replay-skill / playwright 重新生成
-# runs/ 是目标位置；work/、partner-wire/ 为历史批次目录，P5 迁移后移除
-# out/、replay-out/ 是文档示例里的默认输出名，一并兜底
+# 按「目录结构」忽略，不用一刀切的整目录规则：
+#   work/<批次>/、partner-wire/<模块>/、runs/<模块>/、out/<批次>/
+# 结构外的散文件会以未跟踪状态暴露出来，提醒归位；
+# 提交前另有 scripts/check-layout.mjs 兜底拦截。
+# work/*.* 与 partner-wire/*.json 只覆盖历史批次遗留在根层的散文件，
+# P5 迁移到 runs/ 时一并清理，之后这两条应删除。
 # ============================================================
-work/
-partner-wire/
-runs/
-out/
-replay-out/
+work/*/
+work/*.*
+partner-wire/*/
+partner-wire/*.json
+runs/*/
+out/*/
+replay-out/*/
 playwright-report/
 blob-report/
 test-results/
@@ -35,18 +40,23 @@ node_modules/
 **/node_modules/
 
 # ============================================================
-# 需求文档 / 客户资料（二进制大文件，不进版本库）
-# 统一存放于 materials/（见 docs/materials.md）：
-#   requirements/ 需求分册 docx | screenshots/ 文档抽图
-#   catalog/ docx 解析产物     | archive/ 压缩包
-# 下面几条为历史路径兜底（老批次脚本可能仍往这些位置写）
+# 客户资料（二进制大文件，不进版本库）
+# 按「约定结构」逐项忽略，不做 materials/ 整目录忽略：
+#   放进规定子目录的自动忽略；放到别处会显示为未跟踪，提醒归位，
+#   避免有人随手丢文件后整个目录被静默吞掉。
+# 结构说明见 docs/materials.md，校验见 scripts/check-layout.mjs
 # ============================================================
-materials/
-*.docx
+materials/requirements/*.docx
+materials/screenshots/*.png
+materials/screenshots/*.jpg
+materials/screenshots/*.jpeg
+materials/screenshots/*.gif
+materials/catalog/*.json
+materials/archive/*.zip
+materials/archive/*.rar
+materials/archive/*.7z
+materials/archive/*.pdf
 ~$*
-*.zip
-assets/
-work_catalog_*.json
 
 # ============================================================
 # 系统 / 编辑器垃圾

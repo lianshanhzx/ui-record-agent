@@ -23,6 +23,9 @@ tools/page-scanner/           扫描器的离线自测、真实页面校验、�
 tests/                        Playwright spec（每个原子交易一个 case；`_smoke/` 为免登录自检）
 cases/                        **可复现材料包**：wire 报文 + 验收报告 + 生成/清理脚本 + 字段盘点基线
 docs/                         人读文档：平台知识、伙伴平台契约与样例报文
+materials/                    客户资料（docx / 抽图 / 解析产物 / 压缩包，按结构忽略，见 docs/materials.md）
+scripts/                      仓库维护脚本（check-layout.mjs：目录结构守卫）
+.githooks/pre-commit          提交前结构校验（拦截资料与生成物入库）
 ```
 
 `docs/` 下的分工：
@@ -83,9 +86,13 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 | 类别 | 文件 |
 |---|---|
 | 登录态 / 凭据 | `auth.json`、`opencode.json`（含真实 apiKey）、`work/**/profile/` |
-| 生成物 | `work/`、`partner-wire/`、`playwright-report/`、`test-results/`、`runs/` |
-| 客户资料 | `materials/`（需求分册 docx、文档截图、解析产物、压缩包，见 [`docs/materials.md`](docs/materials.md)） |
+| 生成物 | `work/<批次>/`、`partner-wire/<模块>/`、`runs/<模块>/`、`out/<批次>/`、`playwright-report/`、`test-results/` |
+| 客户资料 | `materials/` 下的规定子目录，**按结构逐项忽略**（`requirements/*.docx`、`screenshots/*.{png,jpg,jpeg,gif}`、`catalog/*.json`、`archive/*.{zip,rar,7z,pdf}`），见 [`docs/materials.md`](docs/materials.md) |
 | 依赖 / 垃圾 | `node_modules/`、`.DS_Store`、`*.log` |
+
+> **忽略规则按结构写，不做整目录一刀切**：放进 `materials/requirements/`、`work/<批次>/`、`runs/<模块>/` 等约定位置的文件自动忽略；放到别处会以**未跟踪**状态露出来，提醒归位。新增资料类别时先加目录 + 对应忽略规则 + 更新 `docs/materials.md`，不要改回整目录忽略。
+
+> 提交前校验：`npm run check:layout`（`.githooks/pre-commit` 自动执行，`npm install` 会自动安装钩子）。它会拦截资料类文件入库、生成物目录入库、`materials/` 乱放、以及单文件超 5MB。
 
 > 需求分册 docx 当前阶段不入库（体积 + 客户机密）。使用时放在 `materials/requirements/`，`req-doc-record-steps` 需要时由使用者自备文档，`doc-types/tansun-credit/DOC-TYPE.md` 已写明识别规则与章节骨架。
 >

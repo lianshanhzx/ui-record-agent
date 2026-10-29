@@ -1,0 +1,16 @@
+#!/bin/sh
+# =====================================================================
+# pre-commit — 提交前目录结构校验
+#
+# 拦截：客户资料/办公文件入库、生成物目录入库、material 放错位置、单文件超 5MB
+# 规则：docs/materials.md、.gitignore
+# 绕过（不建议）：git commit --no-verify
+#
+# 安装：npm install 会自动执行 prepare（git config core.hooksPath .githooks）
+# 手动：git config core.hooksPath .githooks
+# =====================================================================
+node scripts/check-layout.mjs || {
+  echo ""
+  echo "提交被拦截：请按提示把文件移到约定位置后再提交。"
+  exit 1
+}

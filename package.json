@@ -5,7 +5,9 @@
   "description": "UI automation script recording with Playwright",
   "scripts": {
     "record": "playwright codegen",
-    "test": "playwright test"
+    "test": "playwright test",
+    "check:layout": "node scripts/check-layout.mjs",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0"
