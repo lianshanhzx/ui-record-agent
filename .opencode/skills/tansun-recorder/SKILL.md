@@ -8,6 +8,16 @@ description: 天阳信贷 V5P2（test.creditv5p2.tansun.com.cn）平台交易录
 > 本 skill 由 `tansun-cst-recorder`（smbsn 同业客户管理，S1-S29）、`tansun-pdlib-recorder`（pdlib 产品库管理，P01-P17）、grpRtg 集团客户评级（G01-G16）与 cpctRtg 对公客户评级（L01-L10）合并而成；四模块同属天阳信贷 V5P2 平台（`test.creditv5p2.tansun.com.cn`），共用登录态/视口/组件约定（见各模块「1. 平台与环境」）。grpRtg 与 cpctRtg 同属「评级管理」，任务页结构同构（bsnTp 3=集团/1=对公），差异见模块四。
 >
 > **通用流程、wire schema、定位原则不在此重复** → 见 `playwright-ui-recorder` skill（含 `reference/wire-schema.md`、`reference/robust-locators.md`、`reference/pitfalls.md`）。本文件只记**平台实测事实**，与通用规则冲突时以本文件为准（本平台实测）。
+
+**本 skill 目录**：
+
+```
+SKILL.md                      平台实测知识（本文件）
+reference/                    通用元素操作参考（element-operations.md：点击/输入/下拉/树/单选/日期等）
+samples/                      原始录制报文样例（插件 collect 输出，含测试环境客户数据，仓库须私有）
+  └─ 对公客户页面录制样例/     对公客户评级、对公客户管理页面共 15 份录制 JSON
+```
+
 ## 模块一：smbsn 同业客户管理（S1-S29）
 
 基于 S1（新增客户）/ S2（修改客户，两段式 + 干净单次版）/ S3（股东新增）/ S4（股东修改，暂停）/ S5（股东删除）/ S6（股东查看，只读） / S7（获取股东信息，只读） / S8（关联人新增）/ S9（关联人修改） / S10（关联人查看）/ S11（关联人删除）/ S12（影像资料上传）/ S13（影像资料查看，只读）/ S14（影像资料删除，消耗型）/ S15（影像目录检索，只读）/ S16（其他信息-查看历史修改记录，只读）/ S17（列表查看，只读）/ S18（联网核查-查看，只读）/ S19（联网核查-查看详情，只读）/ S20（发起实时核查，数据增长型）/ S21（法院信息-查看，只读）/ S22（高级查询，只读幂等）二十一笔录制沉淀。

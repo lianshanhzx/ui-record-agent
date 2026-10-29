@@ -7,15 +7,18 @@
 ## 组成
 
 ```
-.opencode/skills/
+.opencode/skills/                    所有 skill 的唯一位置（可被自动发现）
   playwright-ui-recorder/     通用录制流程：需求拆分 → 页面探路 → spec → wire → 回放验证
     scripts/page-scanner.js     页面盘点扫描器（自包含，产出 ui-agent1.scan-inventory）
     scripts/probe_template.js   多状态探路模板
   tansun-recorder/            天阳信贷 V5P2 平台专属知识库（模块级实测结论）
+    reference/                  通用元素操作参考
+    samples/                    原始录制报文样例（对公客户评级/管理页）
   req-doc-record-steps/       需求文档 → 原子交易录制步骤表
   qwen-record-replay-vision/  图片理解统一走 Qwen3.8-27B（禁止主模型视觉兜底）
+  wire-replay/                wire 报文回放用法（引擎实现见 replay-skill/）
+  atp-v3-push/                ATP 平台 V3 报文推送（token 走环境变量）
 replay-skill/                 回放引擎（wire 解析 / 动作执行 / 登录态 / 报告）
-skills/atp-v3-push/           ATP 平台 V3 报文推送（token 走环境变量）
 tools/page-scanner/           扫描器的离线自测、真实页面校验、探路采集 CLI
 tests/                        Playwright spec（每个原子交易一个 case）
 cases/                        **可复现材料包**：wire 报文 + 验收报告 + 生成/清理脚本 + 字段盘点基线
@@ -66,7 +69,7 @@ node replay-skill/replay.mjs <path-to-wire.json> \
 
 - `tests/` 中的 case 通过 `replay-skill/replay.mjs` 执行，依赖 **本地录制产物**（`work/`、`partner-wire/`）作为输入，仓库不含这些数据，直接 `npx playwright test` 需要先自备对应批次。
 - `tests/corp/rerecordCase.ts` 内的 `PLAYWRIGHT_BROWSERS_PATH` 与工作目录仍是本机实测路径，换机器请用环境变量覆盖。
-- `docs/platform/`、`tests/`、`tansun-recorder/template/` 内含测试环境业务数据，仓库须为**私有**。
+- `docs/platform/`、`tests/`、`tansun-recorder/samples/` 内含测试环境业务数据，仓库须为**私有**。
 
 ## 数据策略
 

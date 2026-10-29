@@ -1,24 +1,26 @@
 ---
 name: wire-replay
-description: 根据录制的伙伴报文（wire JSON，transcationEventTypeList 格式）一键确定性回放 UI 交易。Use when 用户说"回放/一键回放/replay/跑一下报文/按报文回放/用插件回放"并提供 wire JSON 文件（如 partner-wire/*.json）或目录。纯脚本执行（Playwright），不重写任何业务脚本，产出逐步报告+截图。
+description: 根据录制的伙伴报文（wire JSON，transcationEventTypeList 格式）一键确定性回放 UI 交易。Use when 用户说"回放/一键回放/replay/跑一下报文/按报文回放/用插件回放"并提供 wire JSON 文件（如 cases/*/wire/*.json、docs/partner/samples/*.json）或目录。纯脚本执行（Playwright），不重写任何业务脚本，产出逐步报告+截图。
 ---
 
 # Wire 回放（wire-replay）
 
-**图片查看统一规则**：需要理解回放截图、失败截图或对比图片时，所有主模型必须使用 [qwen-record-replay-vision](../.opencode/skills/qwen-record-replay-vision/SKILL.md)，调用项目 `opencode.json` 中的 `Qwen3.8-27B` 获取文字分析；调用失败时报告，不自行看图或切换模型。纯脚本回放无需额外逐步读图，回放引擎逻辑保持只读。
+**图片查看统一规则**：需要理解回放截图、失败截图或对比图片时，所有主模型必须使用 [qwen-record-replay-vision](../qwen-record-replay-vision/SKILL.md)，调用项目 `opencode.json` 中的 `Qwen3.8-27B` 获取文字分析；调用失败时报告，不自行看图或切换模型。纯脚本回放无需额外逐步读图，回放引擎逻辑保持只读。
 
 按录制的报文从头到尾确定性回放。引擎是纯脚本（无模型参与逻辑），模型只负责**一条命令调用 + 结果汇报**，禁止重写/改写回放逻辑。
+
+> 本 skill 只描述用法；回放引擎实现位于仓库根目录 `replay-skill/`（下文记作 `<engine_dir>`），本目录不放引擎代码。
 
 ## 用法
 
 ```
-node <skill_dir>/replay.mjs <wire.json 或 目录> [选项]
+node <engine_dir>/replay.mjs <wire.json 或 目录> [选项]
 ```
 
 | 选项 | 说明 |
 |---|---|
-| `--profile <json>` | 平台配置（默认 `<skill_dir>/profiles/tansun-credit.json`） |
-| `--auth <auth.json>` | 登录态 storageState（默认当前目录 auth.json；没有则自动登录并刷新） |
+| `--profile <json>` | 平台配置（默认 `<engine_dir>/profiles/tansun-credit.json`） |
+| `--auth <auth.json>` | 登录态 storageState（默认 `runs/.auth/auth.json`，其次当前目录 `auth.json`；都没有则自动登录并刷新） |
 | `--base <url>` | 覆盖平台地址 |
 | `--headed` | 有头浏览器（默认 headless） |
 | `--out <dir>` | 输出目录（默认 `<报文目录>/replay-out`） |
@@ -30,7 +32,7 @@ node <skill_dir>/replay.mjs <wire.json 或 目录> [选项]
 ## 首次使用（换机器时）
 
 ```
-cd <skill_dir> && npm run setup
+cd <engine_dir> && npm run setup
 # = npm i playwright && npx playwright install chromium
 ```
 
